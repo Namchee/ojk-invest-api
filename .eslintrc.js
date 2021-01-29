@@ -6,19 +6,21 @@ module.exports = {
   'extends': [
     'google',
   ],
-  'parser': '@typescript-eslint/parser',
   'parserOptions': {
     'ecmaVersion': 12,
     'sourceType': 'module',
   },
-  'plugins': [
-    '@typescript-eslint',
-  ],
   'rules': {
-    'require-jsdoc': 'off',
     'object-curly-spacing': [
       'error',
       'always',
+    ],
+    'indent': [
+      'error',
+      2,
+      {
+        'SwitchCase': 1,
+      },
     ],
   },
 };
