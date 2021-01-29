@@ -4,6 +4,8 @@ const puppeteer = require('puppeteer');
 const url = 'https://sikapiuangmu.ojk.go.id/FrontEnd/AlertPortal/Negative';
 // row selector
 const rowSelector = 'tr.dxgvDataRow_Moderno';
+const nextSelector = '.dxp-button';
+const pageSelector = '.dxp-num';
 
 /**
  * Scrap the current page from OJK's investment list.
@@ -39,18 +41,21 @@ async function scrapPage(page) {
       );
     };
 
+    const processString = (str) => str.replace('-', '').trim();
+
     const rowData = investmentRows.map((row) => {
       const childNodes = Array.from(row.children);
       const contactInformation = childNodes[2].textContent.split('Tel :');
 
       return JSON.stringify({
         name: childNodes[1].textContent.trim(),
-        address: contactInformation[0].trim(),
-        number: contactInformation[1].trim(),
-        url: childNodes[3].textContent.trim(),
-        type: childNodes[4].textContent.trim(),
+        address: processString(contactInformation[0]),
+        number: processString(contactInformation[1]),
+        url: processString(childNodes[3].textContent),
+        type: processString(childNodes[4].textContent),
         inputDate: dateParser(childNodes[5].textContent.trim())
           .toLocaleDateString('en-id'),
+        details: processString(childNodes[6].textContent),
       });
     });
 
@@ -67,11 +72,34 @@ async function scrapPage(page) {
   });
 
   const page = await browser.newPage();
-  await page.goto(url, { waitUntil: 'load', timeout: 0 });
+  await page.goto(url, { waitUntil: 'networkidle0', timeout: 0 });
+  await page.waitForSelector(nextSelector);
+  await page.waitForSelector(pageSelector);
 
-  const investments = await scrapPage(page);
+  const lastPage = await page.$$eval(pageSelector, (pages) => {
+    return pages.pop().textContent;
+  });
 
-  console.log(investments);
+  const investments = [];
+  let count = 0;
+
+  while (count < Number(lastPage)) {
+    const pageInvestment = await scrapPage(page);
+
+    investments.push(...pageInvestment);
+
+    await page.$$eval(nextSelector, async (buttons) => {
+      await buttons[1].click();
+    });
+
+    await page.waitForResponse((res) => {
+      return res.url() === url && res.request().method() === 'POST';
+    }, { timeout: 0 });
+
+    count++;
+  }
 
   await browser.close();
+
+  // console.log(investments);
 })();
