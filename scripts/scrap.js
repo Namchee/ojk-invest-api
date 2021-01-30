@@ -1,6 +1,7 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
+const performance = require('perf_hooks').performance;
 
 // base url
 const url = 'https://sikapiuangmu.ojk.go.id/FrontEnd/AlertPortal/Negative';
@@ -74,6 +75,8 @@ async function scrapPage(page) {
 }
 
 (async () => {
+  const start = performance.now();
+
   const browser = await puppeteer.launch({
     headless: true,
     ignoreHTTPSErrors: true,
@@ -128,9 +131,11 @@ async function scrapPage(page) {
   // remove the identifier
   investments.forEach(investment => delete investment.id);
 
+  const end = performance.now();
+
   const data = {
     investments,
-    lastUpdated: new Date().toISOString(),
+    version: new Date().toLocaleDateString('en-id'),
   };
 
   // write to file
@@ -138,4 +143,6 @@ async function scrapPage(page) {
     path.resolve(process.cwd(), 'investments.json'),
     JSON.stringify(data, null, 2),
   );
+
+  console.log(`Finished scrapping OJK's data in: ${((end - start) / 1000).toFixed(3)} ms`);
 })();
