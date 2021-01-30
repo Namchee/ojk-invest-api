@@ -22,5 +22,12 @@ module.exports = {
         'SwitchCase': 1,
       },
     ],
+    'arrow-parens': [
+      'error',
+      'always',
+      {
+        'requireForBlockyBody': false,
+      },
+    ]
   },
 };

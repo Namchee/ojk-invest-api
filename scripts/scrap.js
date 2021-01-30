@@ -1,10 +1,14 @@
 const puppeteer = require('puppeteer');
+const fs = require('fs');
+const path = require('path');
 
 // base url
 const url = 'https://sikapiuangmu.ojk.go.id/FrontEnd/AlertPortal/Negative';
 // row selector
 const rowSelector = 'tr.dxgvDataRow_Moderno';
+// table navigation selector
 const nextSelector = '.dxp-button';
+// table page number selector
 const pageSelector = '.dxp-num';
 
 /**
@@ -15,7 +19,10 @@ async function scrapPage(page) {
   await page.waitForSelector(rowSelector);
 
   const rows = await page.$$eval(rowSelector, (rows) => {
-    const investmentRows = rows.filter((row) => row.childElementCount > 1);
+    // get all information rows
+    const investmentRows = rows.filter(row => row.childElementCount > 1);
+
+    // parser function
     const dateParser = (dateString) => {
       const monthMap = {
         'Jan': 0,
@@ -48,6 +55,7 @@ async function scrapPage(page) {
       const contactInformation = childNodes[2].textContent.split('Tel :');
 
       return JSON.stringify({
+        id: Number(childNodes[0].textContent.trim()),
         name: childNodes[1].textContent.trim(),
         address: processString(contactInformation[0]),
         number: processString(contactInformation[1]),
@@ -72,34 +80,62 @@ async function scrapPage(page) {
   });
 
   const page = await browser.newPage();
+
+  // make sure that the network is 100% idle
   await page.goto(url, { waitUntil: 'networkidle0', timeout: 0 });
+
+  await page.setBypassCSP(true);
   await page.waitForSelector(nextSelector);
   await page.waitForSelector(pageSelector);
 
-  const lastPage = await page.$$eval(pageSelector, (pages) => {
-    return pages.pop().textContent;
-  });
-
   const investments = [];
-  let count = 0;
 
-  while (count < Number(lastPage)) {
-    const pageInvestment = await scrapPage(page);
+  while (true) {
+    const pageInvestment = (await scrapPage(page))
+      .map(investment => JSON.parse(investment));
 
-    investments.push(...pageInvestment);
+    const lastPageInvestment = pageInvestment[pageInvestment.length - 1];
+    const lastScrapedInvestment = investments[investments.length - 1];
 
-    await page.$$eval(nextSelector, async (buttons) => {
-      await buttons[1].click();
-    });
+    // prevent re-scrapping when DOM hasn't finished updating
+    if (investments.length === 0 ||
+      lastPageInvestment.id !== lastScrapedInvestment.id) {
+      investments.push(...pageInvestment);
+  
+      const last = await page.$$eval(nextSelector, async (buttons) => {
+        const isDisabled = buttons[1].classList.contains('dxp-disabledButton');
 
-    await page.waitForResponse((res) => {
-      return res.url() === url && res.request().method() === 'POST';
-    }, { timeout: 0 });
+        if (!isDisabled) { // click when the page isn't the last page
+          await buttons[1].click();
+        }
 
-    count++;
+        return isDisabled;
+      });
+
+      if (last) { 
+        break;
+      }
+
+      await page.waitForResponse((res) => {
+        return res.url() === url && res.request().method() === 'POST';
+      }, { timeout: 0 });
+    }
   }
 
+  // close the browser
   await browser.close();
 
-  // console.log(investments);
+  // remove the identifier
+  investments.forEach(investment => delete investment.id);
+
+  const data = {
+    investments,
+    lastUpdated: new Date().toISOString(),
+  };
+
+  // write to file
+  fs.writeFileSync(
+    path.resolve(process.cwd(), 'investments.json'),
+    JSON.stringify(data, null, 2),
+  );
 })();
