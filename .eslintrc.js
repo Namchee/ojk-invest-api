@@ -23,5 +23,10 @@ module.exports = {
       'error',
       2,
     ],
+    'arrow-parens': [
+      'error',
+      'as-needed',
+      { 'requireForBlockBody': true },
+    ],
   },
 };

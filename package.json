@@ -7,7 +7,7 @@
     "scrap": "node scripts/scrap.js",
     "scrap:dev": "ts-node scripts/scrap.ts",
     "scripts:build": "tsc",
-    "lint": "eslint ./scripts ./api"
+    "lint": "eslint ./scripts/*.ts ./api/*.ts"
   },
   "keywords": [
     "api",
