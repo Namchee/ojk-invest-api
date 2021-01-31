@@ -1,8 +1,5 @@
 {
   "cleanUrls": true,
-  "engines": {
-    "node": "12.x"
-  },
   "headers": [
     {
       "source": "/api/(.*)",
@@ -13,7 +10,7 @@
         },
         {
           "key": "Content-Type",
-          "value": "application/json"
+          "value": "application/json; charset=UTF-8"
         },
         {
           "key": "Access-Control-Allow-Origin",

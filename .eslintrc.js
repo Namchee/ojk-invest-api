@@ -6,10 +6,14 @@ module.exports = {
   'extends': [
     'google',
   ],
+  'parser': '@typescript-eslint/parser',
   'parserOptions': {
     'ecmaVersion': 12,
     'sourceType': 'module',
   },
+  'plugins': [
+    '@typescript-eslint',
+  ],
   'rules': {
     'object-curly-spacing': [
       'error',
@@ -18,16 +22,6 @@ module.exports = {
     'indent': [
       'error',
       2,
-      {
-        'SwitchCase': 1,
-      },
     ],
-    'arrow-parens': [
-      'error',
-      'always',
-      {
-        'requireForBlockyBody': false,
-      },
-    ]
   },
 };

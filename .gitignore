@@ -1,2 +1,4 @@
 node_modules
 investments.json
+**/*.js
+.vercel
