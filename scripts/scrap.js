@@ -1,7 +1,7 @@
-const puppeteer = require('puppeteer');
-const fs = require('fs');
-const path = require('path');
-const performance = require('perf_hooks').performance;
+import puppeteer from 'puppeteer';
+import * as fs from 'fs';
+import * as path from 'path';
+import * as perfHooks from 'perf_hooks';
 
 // base url
 const url = 'https://sikapiuangmu.ojk.go.id/FrontEnd/AlertPortal/Negative';
@@ -75,7 +75,7 @@ async function scrapPage(page) {
 }
 
 (async () => {
-  const start = performance.now();
+  const start = perfHooks.performance.now();
 
   const browser = await puppeteer.launch({
     headless: true,
@@ -131,7 +131,7 @@ async function scrapPage(page) {
   // remove the identifier
   investments.forEach(investment => delete investment.id);
 
-  const end = performance.now();
+  const end = perfHooks.performance.now();
 
   const data = {
     investments,
