@@ -12,6 +12,8 @@ import { resolve } from 'path';
 export default function(req: NowRequest, res: NowResponse): NowResponse {
   const { query } = req;
   const namePattern = query.name as string;
+  const limit = Number(query.limit);
+  const offset = Number(query.start) - 1;
 
   const dataPath = resolve(process.cwd(), 'data', 'investments.json');
 
@@ -27,7 +29,7 @@ export default function(req: NowRequest, res: NowResponse): NowResponse {
   const rawData = readFileSync(dataPath);
   const source = JSON.parse(rawData.toString('utf-8'));
 
-  let investments = source.data;
+  let investments: Record<string, unknown>[] = source.data;
   const version = source.version;
 
   if (namePattern) {
@@ -36,6 +38,14 @@ export default function(req: NowRequest, res: NowResponse): NowResponse {
     investments = investments.filter((investment: Record<string, unknown>) => {
       return pattern.test(investment.name as string);
     });
+  }
+
+  if (!isNaN(offset)) {
+    investments = investments.slice(offset);
+  }
+
+  if (!isNaN(limit)) {
+    investments = investments.slice(0, limit);
   }
 
   return res.status(200)
