@@ -147,7 +147,7 @@ export class IlegalScrapper extends Scrapper {
     investments.forEach(investment => delete investment.id);
 
     const result = {
-      investments,
+      data: investments,
       version: new Date(),
     };
 
