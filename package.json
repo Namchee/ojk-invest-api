@@ -2,10 +2,10 @@
   "name": "ojk-invest-api",
   "version": "0.0.1",
   "description": "Public API for OJK's investment data",
-  "main": "",
+  "main": "build/index.js",
   "scripts": {
-    "scrap": "node scripts/scrap.js",
-    "scrap:dev": "ts-node scripts/scrap.ts",
+    "scrap": "node build/index.js",
+    "scrap:dev": "ts-node index.ts",
     "scripts:build": "tsc",
     "lint": "eslint ./scripts/*.ts ./api/*.ts"
   },
@@ -20,11 +20,11 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@types/puppeteer": "^5.4.2",
     "@vercel/node": "^1.9.0",
     "puppeteer": "^5.5.0"
   },
   "devDependencies": {
+    "@types/puppeteer": "^5.4.2",
     "@typescript-eslint/eslint-plugin": "^4.14.1",
     "@typescript-eslint/parser": "^4.14.1",
     "eslint": "^7.19.0",

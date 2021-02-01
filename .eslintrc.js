@@ -28,5 +28,6 @@ module.exports = {
       'as-needed',
       { 'requireForBlockBody': true },
     ],
+    'new-cap': 'off',
   },
 };

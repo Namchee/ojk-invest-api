@@ -1,5 +1,8 @@
 {
   "cleanUrls": true,
+  "github": {
+    "enabled": false
+  },
   "headers": [
     {
       "source": "/api/(.*)",

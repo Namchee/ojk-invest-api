@@ -13,7 +13,7 @@ export default function(req: NowRequest, res: NowResponse): NowResponse {
   const { query } = req;
   const namePattern = query.name as string;
 
-  const dataPath = resolve(process.cwd(), 'investments.json');
+  const dataPath = resolve(process.cwd(), 'data', 'investments.json');
 
   const isDataFetched = existsSync(dataPath);
 
@@ -25,10 +25,10 @@ export default function(req: NowRequest, res: NowResponse): NowResponse {
   }
 
   const rawData = readFileSync(dataPath);
-  const data = JSON.parse(rawData.toString('utf-8'));
+  const source = JSON.parse(rawData.toString('utf-8'));
 
-  let investments = data.investments;
-  const version = data.version;
+  let investments = source.data;
+  const version = source.version;
 
   if (namePattern) {
     const pattern = new RegExp(namePattern, 'ig');
