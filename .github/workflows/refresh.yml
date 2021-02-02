@@ -16,7 +16,7 @@ jobs:
       - name: Install all required dependencies
         run: npm ci
       - name: Build the files
-        run: npm run scripts:Build
+        run: npm run build
       - name: Scrap and re-new the data
         run: npm run Scrap
       - name: Deploy to Vercel Now
