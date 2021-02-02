@@ -46,7 +46,11 @@ export abstract class Scrapper {
 
     dataCopy.version = data.version.toLocaleString('en-id');
 
-    writeFileSync(target, JSON.stringify(data, null, 2), { encoding: 'utf-8' });
+    writeFileSync(
+      target,
+      JSON.stringify(dataCopy, null, 2),
+      { encoding: 'utf-8' },
+    );
   }
 
   /**

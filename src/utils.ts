@@ -42,7 +42,7 @@ export function Benchmark(
 
       console.log(
         // eslint-disable-next-line max-len
-        `${fnName} of class ${Object.getPrototypeOf(target)} was executed in ${diff.toFixed(precision)} ${metric}`,
+        `${fnName} from class ${target.constructor.name} was executed in ${diff.toFixed(precision)} ${metric}`,
       );
 
       return result;

@@ -2,11 +2,11 @@
   "name": "ojk-invest-api",
   "version": "0.0.1",
   "description": "Public API for OJK's investment data",
-  "main": "build/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "scrap": "node build/index.js",
+    "scrap": "node dist/index.js",
     "scrap:dev": "ts-node index.ts",
-    "scripts:build": "tsc",
+    "build": "tsc",
     "lint": "eslint ./scripts/*.ts ./api/*.ts"
   },
   "keywords": [
