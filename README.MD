@@ -44,8 +44,8 @@ Nama | Tipe | Deskripsi
 ---- | ---- | ---------
 `name` | `string` | Nama produk investasi
 `address` | `string` | Alamat pihak penyedia produk investasi
-`number` | `string` | Nomor telepon pihak penyedia produk investasi
-`url` | `string` | Halaman web pihak penyedia produk investasi
+`number` | `string[]` | Daftar nomor telepon pihak penyedia produk investasi
+`url` | `string[]` | Daftar halaman web pihak penyedia produk investasi
 `type` | `string` | Jenis produk investasi
 `inputDate` | `string` | Tanggal _input_ produk investasi, ditulis dalam format `MM/DD/YYYY`
 `details` | `string` | Surat putusan OJK tentang legalitas dari produk investasi yang bersangkutan

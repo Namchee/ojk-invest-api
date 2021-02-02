@@ -74,12 +74,26 @@ export class IlegalScrapper extends Scrapper {
           const contactInformation = (childNodes[2].textContent as string)
             .split('Tel :');
 
+          const numbers = stringCleaner(contactInformation[1]).split(/[;,]+/)
+            .map(str => str.trim());
+          const urls = stringCleaner(childNodes[3].textContent as string)
+            .replace(/\bdan\b/g, '')
+            .split(/[;\s]+/).map(str => str.trim());
+
+          if (numbers.length === 1 && numbers[0].length === 0) {
+            numbers.pop();
+          }
+
+          if (urls.length === 1 && urls[0].length === 0) {
+            urls.pop();
+          }
+
           return JSON.stringify({
             id: Number((childNodes[0].textContent as string).trim()),
             name: (childNodes[1].textContent as string).trim(),
             address: stringCleaner(contactInformation[0]),
-            number: stringCleaner(contactInformation[1]),
-            url: stringCleaner(childNodes[3].textContent as string),
+            number: numbers,
+            url: urls,
             type: stringCleaner(childNodes[4].textContent as string),
             inputDate: dateParser((childNodes[5].textContent as string).trim())
               .toLocaleDateString('en-id'),
