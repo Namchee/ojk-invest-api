@@ -2,6 +2,7 @@ import { performance } from 'perf_hooks';
 import { launch } from 'puppeteer';
 import { Scrapper } from './src/scrapper/base';
 import { IlegalScrapper } from './src/scrapper/ilegal';
+import { AppScrapper } from './src/scrapper/app';
 
 (async () => {
   const start = performance.now();
@@ -13,6 +14,7 @@ import { IlegalScrapper } from './src/scrapper/ilegal';
 
   const scrappers: Scrapper[] = [
     new IlegalScrapper(browser),
+    new AppScrapper(browser),
   ];
 
   await Promise.all(scrappers.map(scrapper => scrapper.scrapInfo()));

@@ -9,7 +9,7 @@ import { performance } from 'perf_hooks';
  * log. Passing `undefined` will log abruptly long string
  * @return {Function}
  */
-export function Benchmark(
+export function benchmark(
   metric: 's' | 'ms' | 'ns' = 'ms',
   precision?: number,
 ): Function {

@@ -1,6 +1,6 @@
 import { Browser, Page } from 'puppeteer';
-import { Benchmark } from '../utils';
-import { Scrapper } from './base';
+import { benchmark } from '../utils';
+import { PAGE_OPTIONS, Scrapper } from './base';
 
 /**
  * Scrapper script to extract ilegal investments data
@@ -27,12 +27,12 @@ export class IlegalScrapper extends Scrapper {
   }
 
   /**
-   * Extract investment data from the current page
-   * @param {Page} page - current page
-   * @return {Promise<Record<string, unknown>[]>} - list of ilegal investments
-   * from the current page
+   * Scrap all ilegal investment data from the current page state
+   * @param {Page} page - Puppeteer page instance
+   * @return {Promise<Record<string, unknown>[]>} - array of ilegal
+   * investments data
    */
-  private async scrapPage(
+  protected async scrapPage(
     page: Page,
   ): Promise<Record<string, unknown>[]> {
     await page.waitForSelector(IlegalScrapper.rowSelector);
@@ -65,11 +65,11 @@ export class IlegalScrapper extends Scrapper {
           );
         };
         // get all information rows
-        const investmentRows = rows.filter(row => row.childElementCount > 1);
+        const dataRows = rows.filter(row => row.childElementCount > 1);
 
         const stringCleaner = (str: string) => str.replace('-', '').trim();
 
-        const rowData = investmentRows.map((row) => {
+        const rowData = dataRows.map((row) => {
           const childNodes = Array.from(row.children);
           const contactInformation = (childNodes[2].textContent as string)
             .split('Tel :');
@@ -94,15 +94,16 @@ export class IlegalScrapper extends Scrapper {
   }
 
   /**
-   * Scrap ilegal investments from OJK's investment page
+   * Scrap ilegal investment data from the supplied webpage
+   * and write the result to a JSON file
+   * @return {Promise<void>}
    */
-  @Benchmark('ms', 3)
+  @benchmark('s', 3)
   public async scrapInfo(): Promise<void> {
     const page = await this.browser.newPage();
-    await page.goto(this.url, Scrapper.PAGE_OPTIONS);
+    await page.goto(this.url, PAGE_OPTIONS);
 
     await page.setBypassCSP(true);
-    await page.waitForSelector(IlegalScrapper.nextSelector);
     await page.waitForSelector(IlegalScrapper.pageSelector);
 
     const investments = [];

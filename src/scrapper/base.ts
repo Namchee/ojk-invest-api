@@ -1,24 +1,24 @@
 import { writeFileSync } from 'fs';
 import { resolve } from 'path';
-import { Browser, DirectNavigationOptions } from 'puppeteer';
+import { Browser, DirectNavigationOptions, Page } from 'puppeteer';
 
 /**
  * Scrapping result from a scrapping script
  */
 export interface ScrappingResult {
   data: Record<string, unknown>[];
-  version: Date | string; // `Date` object or locale Date string
+  version: Date;
 }
+
+export const PAGE_OPTIONS: DirectNavigationOptions = {
+  waitUntil: 'networkidle0',
+  timeout: 0,
+};
 
 /**
  * Base scrapping script
  */
 export abstract class Scrapper {
-  public static readonly PAGE_OPTIONS: DirectNavigationOptions = {
-    waitUntil: 'networkidle0',
-    timeout: 0,
-  };
-
   /**
    * Constructor for basic scrapper
    * @param {Browser} browser Puppeteeer browser instance
@@ -44,7 +44,7 @@ export abstract class Scrapper {
     // preserve immutability to the data
     const dataCopy = JSON.parse(JSON.stringify(data));
 
-    dataCopy.version = data.version.toLocaleString('en-id');
+    dataCopy.version = data.version.toLocaleDateString('en-id');
 
     writeFileSync(
       target,
@@ -54,7 +54,16 @@ export abstract class Scrapper {
   }
 
   /**
-   * Scrap relevant information from the designated URL
+   * Scrap all relevant information from the current page state
+   * @param {Page} page - Puppeteer page instance
+   * @return {Promise<Record<string, unknown>[]>} - array of relevant
+   * information
+   */
+  protected abstract scrapPage(page: Page): Promise<Record<string, unknown>[]>;
+
+  /**
+   * Scrap all relevant information from the supplied URL
+   * and write the result to a JSON file
    */
   public abstract scrapInfo(): Promise<void>;
 }
