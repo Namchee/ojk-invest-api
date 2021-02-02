@@ -50,6 +50,33 @@ Nama | Tipe | Deskripsi
 `inputDate` | `string` | Tanggal _input_ produk investasi, ditulis dalam format `MM/DD/YYYY`
 `details` | `string` | Surat putusan OJK tentang legalitas dari produk investasi yang bersangkutan
 
+### `GET /api/apps`
+
+Cari seluruh aplikasi manajemen investasi atau portal transaksi investasi yang telah dinyatakan legal oleh OJK.
+
+### Parameter
+
+Nama | Tipe | Deskripsi
+---- | ---- | ---------
+`name` | `string` | Pola _string_ yang ingin dicari dari nama aplikasi
+`limit` | `int` | Jumlah data yang diminta
+`start` | `int` | Indeks pertama dari data yang diminta. Dimulai dari 1.
+
+### Status HTTP
+
+Status | Deskripsi
+------ | ---------
+`200` | Respon berhasil dikembalikan
+`500` | Data tidak tersedia
+
+### Data Kembalian
+
+Nama | Tipe | Deskripsi
+---- | ---- | ---------
+`name` | `string` | Nama aplikasi
+`url` | `string` | Halaman web pihak penyedia aplikasi
+`owner` | `string` | Perusahaan pemilik aplikasi
+
 ## Kontributor
 
 1. Cristopher 'Namchee' — [GitHub](https://github.com/Namchee)
