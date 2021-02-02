@@ -36,6 +36,7 @@ Nama | Tipe | Deskripsi
 Status | Deskripsi
 ------ | ---------
 `200` | Respon berhasil dikembalikan
+`422` | Terdapat parameter yang salah atau memiliki nilai yang ilegal
 `500` | Data tidak tersedia
 
 ### Data Kembalian
@@ -67,6 +68,7 @@ Nama | Tipe | Deskripsi
 Status | Deskripsi
 ------ | ---------
 `200` | Respon berhasil dikembalikan
+`422` | Terdapat parameter yang salah atau memiliki nilai yang ilegal
 `500` | Data tidak tersedia
 
 ### Data Kembalian

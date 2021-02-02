@@ -15,6 +15,20 @@ export default function(req: NowRequest, res: NowResponse): NowResponse {
   const limit = Number(query.limit);
   const offset = Number(query.start) - 1;
 
+  if (limit < 0) {
+    return res.status(422)
+      .json({
+        error: 'Nilai `limit` tidak boleh negatif',
+      });
+  }
+
+  if (offset < 0) {
+    return res.status(422)
+      .json({
+        error: 'Nilai `start` tidak boleh lebih kecil dari satu',
+      });
+  }
+
   const dataPath = resolve(process.cwd(), 'data', 'apps.json');
 
   const isDataFetched = existsSync(dataPath);
