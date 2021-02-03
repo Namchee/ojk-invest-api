@@ -3,7 +3,7 @@ name: Refresh investments data and re-deploy on daily basis
 on:
   push:
     branches:
-      - main
+      - master
   schedule:
     - cron: '0 17 * * *'
 
