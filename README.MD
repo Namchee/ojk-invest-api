@@ -10,7 +10,7 @@ API publik yang menyediakan data-data mengenai investasi yang dikelola oleh [Oto
 
 ## _Endpoint_
 
-Silahkan membaca [dokumentasi API](./docs/README.MD) untuk mengetahui detil untuk API dan masing-masing _endpoint_ yang tersedia.
+Silahkan membaca [dokumentasi API](./docs) untuk mengetahui detil untuk API dan masing-masing _endpoint_ yang tersedia.
 
 ## Kontributor
 
