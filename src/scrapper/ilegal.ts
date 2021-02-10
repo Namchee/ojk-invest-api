@@ -1,5 +1,5 @@
 import { Browser, Page } from 'puppeteer';
-import { benchmark } from '../utils';
+import { benchmark } from '@namchee/decora';
 import { PAGE_OPTIONS, Scrapper } from './base';
 
 /**
@@ -28,6 +28,7 @@ export class IlegalScrapper extends Scrapper {
 
   /**
    * Scrap all ilegal investment data from the current page state
+   *
    * @param {Page} page - Puppeteer page instance
    * @return {Promise<Record<string, unknown>[]>} - array of ilegal
    * investments data
@@ -108,8 +109,9 @@ export class IlegalScrapper extends Scrapper {
   }
 
   /**
-   * Scrap ilegal investment data from the supplied webpage
-   * and write the result to a JSON file
+   * Scrap ilegal investment data from the supplied URL
+   * and write the result to a JSON file.
+   *
    * @return {Promise<void>}
    */
   @benchmark('s', 3)
@@ -126,11 +128,11 @@ export class IlegalScrapper extends Scrapper {
       const pageInvestments = await this.scrapPage(page);
 
       const lastPageInvestment = pageInvestments[pageInvestments.length - 1];
-      const lastScrappedInvestment = investments[investments.length - 1];
+      const lastInvestment = investments[investments.length - 1];
 
       // prevent re-scrapping when DOM hasn't finished updating
       if (investments.length === 0 ||
-        lastPageInvestment.id !== lastScrappedInvestment.id) {
+        lastPageInvestment.id !== lastInvestment.id) {
         investments.push(...pageInvestments);
 
         const isLastPage = await page.$$eval(

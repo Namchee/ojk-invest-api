@@ -1,5 +1,5 @@
 import { Browser, Page } from 'puppeteer';
-import { benchmark } from '../utils';
+import { benchmark } from '@namchee/decora';
 import { PAGE_OPTIONS, Scrapper } from './base';
 
 /**
@@ -26,6 +26,7 @@ export class AppScrapper extends Scrapper {
 
   /**
    * Scrap all legal investment app information from the current page state
+   *
    * @param {Page} page - Puppeteer page instance
    * @return {Promise<Record<string, unknown>[]>} - array of legal investment
    * application
@@ -56,8 +57,9 @@ export class AppScrapper extends Scrapper {
   }
 
   /**
-   * Scrap legal investment application data from the supplied webpage
-   * and write the result to a JSON file
+   * Scrap legal investment application data from the supplied URL
+   * and write the result to a JSON file.
+   *
    * @return {Promise<void>}
    */
   @benchmark('s', 3)
@@ -74,9 +76,9 @@ export class AppScrapper extends Scrapper {
       const pageApps = await this.scrapPage(page);
 
       const lastPageApp = pageApps[pageApps.length - 1];
-      const lastScrappedApp = apps[apps.length - 1];
+      const lastApp = apps[apps.length - 1];
 
-      if (apps.length === 0 || lastPageApp.id !== lastScrappedApp.id) {
+      if (apps.length === 0 || lastPageApp.id !== lastApp.id) {
         apps.push(...pageApps);
 
         const isLastPage = await page.$$eval(

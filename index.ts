@@ -4,7 +4,7 @@ import { resolve } from 'path';
 import { launch } from 'puppeteer';
 import { Scrapper } from './src/scrapper/base';
 import { IlegalScrapper } from './src/scrapper/ilegal';
-import { AppScrapper } from './src/scrapper/app';
+import { AppScrapper } from './src/scrapper/apps';
 
 (async () => {
   const dirPath = resolve(process.cwd(), 'data');
