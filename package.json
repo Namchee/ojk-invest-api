@@ -20,6 +20,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@namchee/decora": "^1.0.1",
     "@vercel/node": "^1.9.0",
     "puppeteer": "^5.5.0"
   },
