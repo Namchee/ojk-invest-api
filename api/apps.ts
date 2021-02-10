@@ -36,7 +36,7 @@ export default function(req: NowRequest, res: NowResponse): NowResponse {
   if (!isDataFetched) {
     return res.status(500)
       .json({
-        error: 'Apps data doesn\'t exist',
+        error: 'Data aplikasi inventasi legal tidak tersedia.',
       });
   }
 
@@ -49,8 +49,8 @@ export default function(req: NowRequest, res: NowResponse): NowResponse {
   if (namePattern) {
     const pattern = new RegExp(namePattern, 'ig');
 
-    apps = apps.filter((investment: Record<string, unknown>) => {
-      return pattern.test(investment.name as string);
+    apps = apps.filter((app: Record<string, unknown>) => {
+      return pattern.test(app.name as string);
     });
   }
 
