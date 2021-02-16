@@ -83,12 +83,12 @@ export class AppScrapper extends Scrapper {
 
         const isLastPage = await page.$$eval(
           AppScrapper.nextSelector,
-          async (buttons, selector) => {
+          (buttons, selector) => {
             const nextBtn = buttons[1] as HTMLButtonElement;
             const isDisabled = nextBtn.classList.contains(selector);
 
             if (!isDisabled) {
-              await nextBtn.click();
+              nextBtn.click();
             }
 
             return isDisabled;

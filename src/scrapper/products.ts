@@ -82,12 +82,12 @@ export class ProductScrapper extends Scrapper {
 
         const isLastPage = await page.$$eval(
           ProductScrapper.nextSelector,
-          async (buttons, selector) => {
+          (buttons, selector) => {
             const nextButton = buttons[1] as HTMLButtonElement;
             const isDisabled = nextButton.classList.contains(selector);
 
             if (!isDisabled) {
-              await nextButton.click();
+              nextButton.click();
             }
 
             return isDisabled;
