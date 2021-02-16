@@ -15,7 +15,7 @@ Cari seluruh produk reksa dana yang telah dinyatakan legal oleh OJK.
 **Status** | **Deskripsi**
 ------ | ---------
 `200` | Permintaan berhasil diproses
-`422` | Terdapat parameter yang salah atau memiliki nilai yang ilegal
+`400` | Terdapat parameter yang salah atau memiliki nilai yang ilegal
 `500` | Data tidak tersedia
 
 ## Struktur Data
