@@ -1,6 +1,7 @@
 import { NowRequest, NowResponse } from '@vercel/node';
 import { existsSync, readFileSync } from 'fs';
 import { resolve } from 'path';
+import { HTTPCodes } from '../src/const';
 
 /**
  * Search for legal investments application from OJK's data
@@ -16,14 +17,14 @@ export default function(req: NowRequest, res: NowResponse): NowResponse {
   const offset = Number(query.start) - 1;
 
   if (limit < 0) {
-    return res.status(422)
+    return res.status(HTTPCodes.INVALID_PARAMS)
       .json({
         error: 'Nilai `limit` tidak boleh negatif',
       });
   }
 
   if (offset < 0) {
-    return res.status(422)
+    return res.status(HTTPCodes.INVALID_PARAMS)
       .json({
         error: 'Nilai `start` tidak boleh lebih kecil dari satu',
       });
@@ -34,7 +35,7 @@ export default function(req: NowRequest, res: NowResponse): NowResponse {
   const isDataFetched = existsSync(dataPath);
 
   if (!isDataFetched) {
-    return res.status(500)
+    return res.status(HTTPCodes.SERVER_ERROR)
       .json({
         error: 'Data produk reksa dana legal tidak tersedia.',
       });
@@ -62,7 +63,7 @@ export default function(req: NowRequest, res: NowResponse): NowResponse {
     products = products.slice(0, limit);
   }
 
-  return res.status(200)
+  return res.status(HTTPCodes.SUCCESS)
     .json({
       data: products,
       version,

@@ -28,5 +28,7 @@ module.exports = {
       'as-needed',
       { 'requireForBlockBody': true },
     ],
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': 'error',
   },
 };
