@@ -37,7 +37,7 @@ export default function(req: NowRequest, res: NowResponse): NowResponse {
   if (!isDataFetched) {
     return res.status(HTTPCodes.SERVER_ERROR)
       .json({
-        error: 'Data aplikasi inventasi legal tidak tersedia.',
+        error: 'Terdapat kesalahan pada sistem.',
       });
   }
 

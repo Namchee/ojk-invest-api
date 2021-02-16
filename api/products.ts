@@ -37,7 +37,7 @@ export default function(req: NowRequest, res: NowResponse): NowResponse {
   if (!isDataFetched) {
     return res.status(HTTPCodes.SERVER_ERROR)
       .json({
-        error: 'Data produk reksa dana legal tidak tersedia.',
+        error: 'Terdapat kesalahan pada sistem.',
       });
   }
 
