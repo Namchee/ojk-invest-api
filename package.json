@@ -7,7 +7,7 @@
     "scrap": "node dist/index.js",
     "scrap:dev": "ts-node index.ts",
     "build": "tsc",
-    "lint": "eslint ./scripts/*.ts ./api/*.ts"
+    "lint": "eslint ./src/**/*.ts ./api/*.ts"
   },
   "keywords": [
     "api",
