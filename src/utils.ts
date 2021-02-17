@@ -1,51 +1,48 @@
-import { performance } from 'perf_hooks';
+import { NodeClient } from '@sentry/node';
 
 /**
- * Benchmark decorator to apply simple benchmarking to
- * a method, which will logged to `console`.
- * @param {'s' | 'ms' | 'ms'} metric - time metric to be used.
- * Defaults to `ms`
- * @param {number?} precision - time precision to be shown on
- * log. Passing `undefined` will log abruptly long string
- * @return {Function}
+ * Sentry logger, is a singleton.
  */
-export function benchmark(
-  metric: 's' | 'ms' | 'ns' = 'ms',
-  precision?: number,
-): Function {
-  return function(
-    target: any,
-    fnName: string,
-    descriptor: PropertyDescriptor,
-  ): void {
-    if (!(descriptor.value instanceof Function)) {
-      throw new Error(
-        '@Benchmark decorator can only be used in method declarations',
-      );
-    }
+export class Logger {
+  // singleton instance
+  private static instance: Logger;
 
-    const fn: Function = descriptor.value;
+  // Sentry client
+  private client: NodeClient;
 
-    descriptor.value = async function(...args: any[]) {
-      const start = performance.now();
+  /**
+   * Construct a new Sentry instance of Sentry logger
+   * @param {string} dsn - DSN a.k.a client keys.
+   */
+  private constructor(dsn: string) {
+    this.client = new NodeClient({
+      dsn,
+    });
+  }
 
-      const result = await fn.apply(this, args);
-
-      const end = performance.now();
-      let diff = end - start;
-
-      if (metric !== 'ms') {
-        diff = metric === 's' ?
-          diff / 1000 :
-          diff * 1000;
+  /**
+   * Get the current Sentry logger instance.
+   * @return {Logger} - logger instance.
+   */
+  public static getInstance(): Logger {
+    if (Logger.instance === undefined) {
+      if (!process.env.OJK_DSN) {
+        throw new Error('Secrets for logger does not exist!');
       }
 
-      console.log(
-        // eslint-disable-next-line max-len
-        `${fnName} from class ${target.constructor.name} was executed in ${diff.toFixed(precision)} ${metric}`,
-      );
+      Logger.instance = new Logger(process.env.OJK_DSN);
+    }
 
-      return result;
-    };
-  };
+    return Logger.instance;
+  }
+
+  /**
+   * Send an error log to Sentry.
+   * @param {string} message - error message.
+   */
+  public async logError(message: string): Promise<boolean> {
+    this.client.captureException(new Error(message));
+
+    return this.client.flush(2000);
+  }
 }

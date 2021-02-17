@@ -2,6 +2,7 @@ import { NowRequest, NowResponse } from '@vercel/node';
 import { existsSync, readFileSync } from 'fs';
 import { resolve } from 'path';
 import { HTTPCodes } from './../src/const';
+import { Logger } from './../src/utils';
 
 /**
  * Search for legal investments application from OJK's data
@@ -10,7 +11,10 @@ import { HTTPCodes } from './../src/const';
  * @param {NowResponse} res - response object
  * @return {NowResponse} - response object, packed with data
  */
-export default function(req: NowRequest, res: NowResponse): NowResponse {
+export default async function(
+  req: NowRequest,
+  res: NowResponse,
+): Promise<NowResponse> {
   const { query } = req;
   const namePattern = query.name as string;
   const limit = Number(query.limit);
@@ -35,6 +39,10 @@ export default function(req: NowRequest, res: NowResponse): NowResponse {
   const isDataFetched = existsSync(dataPath);
 
   if (!isDataFetched) {
+    await Logger.getInstance().logError(
+      'JSON data for `apss` endpoint does not exist',
+    );
+
     return res.status(HTTPCodes.SERVER_ERROR)
       .json({
         error: 'Terdapat kesalahan pada sistem.',
