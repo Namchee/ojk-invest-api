@@ -3,3 +3,4 @@ data
 dist
 **/*.js
 .vercel
+.env
