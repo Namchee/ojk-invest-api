@@ -70,7 +70,11 @@ export class IlegalScrapper extends Scrapper {
         const dataRows = rows.filter(row => row.childElementCount > 1);
 
         const stringCleaner = (str: string) => {
-          return str.replace(/[-\\"]/g, '');
+          if (str == '-') {
+            return '';
+          }
+
+          return str.replace(/\\"/g, '');
         };
 
         const rowData = dataRows.map((row) => {
