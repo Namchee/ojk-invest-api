@@ -1,6 +1,7 @@
 import { Browser, Page } from 'puppeteer';
 import { benchmark } from '@namchee/decora';
 import { PAGE_OPTIONS, Scrapper } from './base';
+import { capitalize } from './../utils';
 
 /**
  * Scrapper script to extract ilegal investments data
@@ -40,7 +41,7 @@ export class IlegalScrapper extends Scrapper {
 
     const rows = await page.$$eval(
       IlegalScrapper.rowSelector,
-      (rows) => {
+      (rows, capitalize) => {
         const dateParser = (dateString: string): Date => {
           const monthMap: Record<string, number> = {
             'Jan': 0,
@@ -68,7 +69,9 @@ export class IlegalScrapper extends Scrapper {
         // get all information rows
         const dataRows = rows.filter(row => row.childElementCount > 1);
 
-        const stringCleaner = (str: string) => str.replace('-', '').trim();
+        const stringCleaner = (str: string) => {
+          return str.replace(/[-\\"]/g, '');
+        };
 
         const rowData = dataRows.map((row) => {
           const childNodes = Array.from(row.children);
@@ -95,7 +98,9 @@ export class IlegalScrapper extends Scrapper {
             address: stringCleaner(contactInformation[0]),
             number: numbers,
             url: urls,
-            type: stringCleaner(childNodes[4].textContent as string),
+            type: capitalize(
+              stringCleaner(childNodes[4].textContent as string),
+            ),
             inputDate: dateParser((childNodes[5].textContent as string).trim())
               .toLocaleDateString('en-id'),
             details: stringCleaner(childNodes[6].textContent as string),
@@ -103,7 +108,7 @@ export class IlegalScrapper extends Scrapper {
         });
 
         return rowData;
-      });
+      }, capitalize);
 
     return rows.map(row => JSON.parse(row));
   }
@@ -168,6 +173,6 @@ export class IlegalScrapper extends Scrapper {
       version: new Date(),
     };
 
-    this.writeResultToFile(result, 'investments');
+    this.writeResultToFile(result, 'ilegal');
   }
 }
