@@ -82,10 +82,10 @@ export class IlegalScrapper extends Scrapper {
           const contactInformation = (childNodes[2].textContent as string)
             .split('Tel :');
 
-          const numbers = stringCleaner(contactInformation[1]).split(/[;,]+/)
+          const numbers = stringCleaner(contactInformation[1]).split(/[;,/]+/)
             .map(str => str.trim());
           const urls = stringCleaner(childNodes[3].textContent as string)
-            .replace(/\bdan\b/g, '')
+            .replace(/\b(dan|dll)\b/g, '')
             .split(/[;\s]+/).map(str => str.trim());
 
           if (numbers.length === 1 && numbers[0].length === 0) {
