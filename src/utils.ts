@@ -46,23 +46,3 @@ export class Logger {
     return this.client.flush(2000);
   }
 }
-
-/**
- * Capitalize all words in a string.
- *
- * @param {string} str - string to be capitalized. Will not produce
- * side effects.
- * @return {string} - a new string, which will be the capitalized
- * version of the original string
- */
-export function capitalize(str: string): string {
-  return str
-    .split(/\s+/)
-    .map((s: string): string => {
-      const chars = s.split('');
-      chars[0] = chars[0].toUpperCase();
-
-      return chars.join('');
-    })
-    .join(' ');
-}

@@ -1,7 +1,6 @@
 import { Browser, Page } from 'puppeteer';
 import { benchmark } from '@namchee/decora';
 import { PAGE_OPTIONS, Scrapper } from './base';
-import { capitalize } from './../utils';
 
 /**
  * Scrapper script to extract ilegal investments data
@@ -41,7 +40,7 @@ export class IlegalScrapper extends Scrapper {
 
     const rows = await page.$$eval(
       IlegalScrapper.rowSelector,
-      (rows, capitalize) => {
+      (rows) => {
         const dateParser = (dateString: string): Date => {
           const monthMap: Record<string, number> = {
             'Jan': 0,
@@ -70,6 +69,8 @@ export class IlegalScrapper extends Scrapper {
         const dataRows = rows.filter(row => row.childElementCount > 1);
 
         const stringCleaner = (str: string) => {
+          str = str.trim();
+
           if (str == '-') {
             return '';
           }
@@ -77,13 +78,45 @@ export class IlegalScrapper extends Scrapper {
           return str.replace(/\\"/g, '');
         };
 
+        const capitalize = (str: string) => {
+          return str
+            .split(/\s+/)
+            .map((s: string): string => {
+              if (s === 'dan' || s === 'atau') {
+                return s;
+              }
+
+              const chars = s.split('');
+
+              if (!chars[0]) {
+                return '';
+              }
+
+              chars[0] = chars[0].toUpperCase();
+
+              return chars.join('');
+            })
+            .join(' ');
+        };
+
         const rowData = dataRows.map((row) => {
           const childNodes = Array.from(row.children);
           const contactInformation = (childNodes[2].textContent as string)
             .split('Tel :');
 
-          const numbers = stringCleaner(contactInformation[1]).split(/[;,/]+/)
-            .map(str => str.trim());
+          // eslint-disable-next-line
+          const numberPattern = /\+?(\(\s?[\d\-]+\s?\)\s?)?[\d]+\s?\-?\s?\d{0,}\s?\-?\s?\d{0,}\/?\d{0,}/;
+
+          const numbers = stringCleaner(contactInformation[1])
+            .split(/([,;](?= )|(?<= )\/(?= ))/)
+            .map((str: string): string => {
+              str = str.replace(/\s+/g, '');
+              const matchArr = (str.match(numberPattern) as RegExpMatchArray);
+
+              return matchArr && matchArr[0].length >= 7 ? matchArr[0] : '';
+            })
+            .filter(str => str !== '');
+
           const urls = stringCleaner(childNodes[3].textContent as string)
             .replace(/\b(dan|dll)\b/g, '')
             .split(/[;\s]+/).map(str => str.trim());
@@ -112,7 +145,7 @@ export class IlegalScrapper extends Scrapper {
         });
 
         return rowData;
-      }, capitalize);
+      });
 
     return rows.map(row => JSON.parse(row));
   }
