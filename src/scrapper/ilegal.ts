@@ -107,8 +107,10 @@ export class IlegalScrapper extends Scrapper {
           // eslint-disable-next-line
           const numberPattern = /\+?(\(\s?[\d\-]+\s?\)\s?)?[\d]+\s?\-?\s?\d{0,}\s?\-?\s?\d{0,}\/?\d{0,}/;
 
-          const numbers = stringCleaner(contactInformation[1])
-            .split(/([,;](?= )|(?<= )\/(?= ))/)
+          const phoneAndMail = stringCleaner(contactInformation[1]);
+
+          const numbers = phoneAndMail
+            .split(/([,;](?= )|(?<= )\/(?= )|(?<= )\-(?= ))/)
             .map((str: string): string => {
               str = str.replace(/\s+/g, '');
               const matchArr = (str.match(numberPattern) as RegExpMatchArray);
@@ -117,25 +119,28 @@ export class IlegalScrapper extends Scrapper {
             })
             .filter(str => str !== '');
 
+          const emails: string[] = [];
+
+          const emailMatch = phoneAndMail
+            /* eslint-disable-next-line */
+            .match(/[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/);
+
+          if (emailMatch) {
+            emailMatch.forEach(match => emails.push(match));
+          }
+
           const urls = stringCleaner(childNodes[3].textContent as string)
             .replace(/\b(dan|dll)\b/g, '')
             .split(/[;\s]+/)
             .map(str => str.trim())
             .filter(str => str !== '');
 
-          if (numbers.length === 1 && numbers[0].length === 0) {
-            numbers.pop();
-          }
-
-          if (urls.length === 1 && urls[0].length === 0) {
-            urls.pop();
-          }
-
           return JSON.stringify({
             id: Number((childNodes[0].textContent as string).trim()),
             name: (childNodes[1].textContent as string).trim(),
             address: stringCleaner(contactInformation[0]),
             number: numbers,
+            email: emails,
             url: urls,
             type: capitalize(
               stringCleaner(childNodes[4].textContent as string),
