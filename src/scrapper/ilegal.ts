@@ -68,34 +68,83 @@ export class IlegalScrapper extends Scrapper {
         // get all information rows
         const dataRows = rows.filter(row => row.childElementCount > 1);
 
-        const stringCleaner = (str: string) => str.replace('-', '').trim();
+        const stringCleaner = (str: string) => {
+          str = str.trim();
+
+          if (str == '-') {
+            return '';
+          }
+
+          return str.replace(/\\"/g, '');
+        };
+
+        const capitalize = (str: string) => {
+          return str
+            .split(/\s+/)
+            .map((s: string): string => {
+              if (s === 'dan' || s === 'atau') {
+                return s;
+              }
+
+              const chars = s.split('');
+
+              if (!chars[0]) {
+                return '';
+              }
+
+              chars[0] = chars[0].toUpperCase();
+
+              return chars.join('');
+            })
+            .join(' ');
+        };
 
         const rowData = dataRows.map((row) => {
           const childNodes = Array.from(row.children);
           const contactInformation = (childNodes[2].textContent as string)
             .split('Tel :');
 
-          const numbers = stringCleaner(contactInformation[1]).split(/[;,]+/)
-            .map(str => str.trim());
+          // eslint-disable-next-line
+          const numberPattern = /\+?(\(\s?[\d\-]+\s?\)\s?)?[\d]+\s?\-?\s?\d{0,}\s?\-?\s?\d{0,}\/?\d{0,}/;
+
+          const phoneAndMail = stringCleaner(contactInformation[1]);
+
+          const numbers = phoneAndMail
+            .split(/([,;](?= )|(?<= )\/(?= )|(?<= )\-(?= ))/)
+            .map((str: string): string => {
+              str = str.replace(/\s+/g, '');
+              const matchArr = (str.match(numberPattern) as RegExpMatchArray);
+
+              return matchArr && matchArr[0].length >= 7 ? matchArr[0] : '';
+            })
+            .filter(str => str !== '');
+
+          const emails: string[] = [];
+
+          const emailMatch = phoneAndMail
+            /* eslint-disable-next-line */
+            .match(/[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/);
+
+          if (emailMatch) {
+            emailMatch.forEach(match => emails.push(match));
+          }
+
           const urls = stringCleaner(childNodes[3].textContent as string)
-            .replace(/\bdan\b/g, '')
-            .split(/[;\s]+/).map(str => str.trim());
-
-          if (numbers.length === 1 && numbers[0].length === 0) {
-            numbers.pop();
-          }
-
-          if (urls.length === 1 && urls[0].length === 0) {
-            urls.pop();
-          }
+            .replace(/\b(dan|dll)\b/g, '')
+            .split(/[;\s]+/)
+            .map(str => str.trim())
+            .filter(str => str !== '');
 
           return JSON.stringify({
             id: Number((childNodes[0].textContent as string).trim()),
             name: (childNodes[1].textContent as string).trim(),
             address: stringCleaner(contactInformation[0]),
             number: numbers,
+            email: emails,
             url: urls,
-            type: stringCleaner(childNodes[4].textContent as string),
+            type: capitalize(
+              stringCleaner(childNodes[4].textContent as string),
+            ),
             inputDate: dateParser((childNodes[5].textContent as string).trim())
               .toLocaleDateString('en-id'),
             details: stringCleaner(childNodes[6].textContent as string),
@@ -168,6 +217,6 @@ export class IlegalScrapper extends Scrapper {
       version: new Date(),
     };
 
-    this.writeResultToFile(result, 'investments');
+    this.writeResultToFile(result, 'ilegal');
   }
 }

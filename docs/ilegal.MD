@@ -25,6 +25,7 @@ Cari seluruh produk investasi yang telah dinyatakan ilegal oleh OJK.
 `name` | `string` | Nama produk investasi
 `address` | `string` | Alamat pihak penyedia produk investasi
 `number` | `string[]` | Daftar nomor telepon pihak penyedia produk investasi
+`email` | `string[]` | Daftar alamat _email_ pihak penyedia produk investasi
 `url` | `string[]` | Daftar halaman web pihak penyedia produk investasi
 `type` | `string` | Jenis produk investasi
 `inputDate` | `string` | Tanggal _input_ produk investasi, ditulis dalam format `MM/DD/YYYY`
