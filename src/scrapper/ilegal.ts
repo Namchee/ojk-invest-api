@@ -119,7 +119,9 @@ export class IlegalScrapper extends Scrapper {
 
           const urls = stringCleaner(childNodes[3].textContent as string)
             .replace(/\b(dan|dll)\b/g, '')
-            .split(/[;\s]+/).map(str => str.trim());
+            .split(/[;\s]+/)
+            .map(str => str.trim())
+            .filter(str => str !== '');
 
           if (numbers.length === 1 && numbers[0].length === 0) {
             numbers.pop();
