@@ -40,7 +40,7 @@ export default async function(
 
   if (!isDataFetched) {
     await Logger.getInstance().logError(
-      'JSON data for `apss` endpoint does not exist',
+      'JSON data for `apps` endpoint does not exist',
     );
 
     return res.status(HTTPCodes.SERVER_ERROR)
