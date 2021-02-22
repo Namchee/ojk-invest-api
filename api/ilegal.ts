@@ -34,7 +34,7 @@ export default async function(
       });
   }
 
-  const dataPath = resolve(process.cwd(), 'data', 'investments.json');
+  const dataPath = resolve(process.cwd(), 'data', 'ilegal.json');
 
   const isDataFetched = existsSync(dataPath);
 
