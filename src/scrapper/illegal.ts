@@ -3,6 +3,7 @@ import { benchmark } from '@namchee/decora';
 import { PAGE_OPTIONS, Scrapper } from './base';
 import { Standard, tryFormat } from '@namchee/telepon';
 import { capitalize, normalize } from '../utils';
+import getUrls from 'get-urls';
 
 export interface IllegalInvestment {
   id: number;
@@ -79,12 +80,7 @@ export class IllegalScrapper extends Scrapper<IllegalInvestment> {
       const id = Number(rawProduct.id);
       const name = rawProduct.name;
 
-      const urls = normalize(rawProduct.urls)
-        .replace(/\b(dan|dll)\b/g, '')
-        .replace(/\\"/g, '') // unescape
-        .split(/[;\s]+/)
-        .map(str => str.trim())
-        .filter(str => str !== '');
+      const urls = [...getUrls(rawProduct.urls)];
 
       const contactInfo = rawProduct.contacts
         .split('Tel :');
@@ -125,7 +121,7 @@ export class IllegalScrapper extends Scrapper<IllegalInvestment> {
 
           try {
             return tryFormat(num, Standard.LOCAL);
-          } catch (_) {
+          } catch (err) {
             num = num.replace(/\s/g, '');
 
             // eslint-disable-next-line
