@@ -21,12 +21,14 @@
   "license": "MIT",
   "dependencies": {
     "@namchee/decora": "^1.0.1",
+    "@namchee/telepon": "^1.0.5",
     "@sentry/node": "^6.1.0",
     "@sentry/tracing": "^6.1.0",
     "@vercel/node": "^1.9.0",
     "puppeteer": "^5.5.0"
   },
   "devDependencies": {
+    "@sentry/types": "^6.2.3",
     "@types/puppeteer": "^5.4.2",
     "@typescript-eslint/eslint-plugin": "^4.14.1",
     "@typescript-eslint/parser": "^4.14.1",

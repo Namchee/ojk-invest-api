@@ -1,11 +1,20 @@
 import { Browser, Page } from 'puppeteer';
 import { benchmark } from '@namchee/decora';
 import { PAGE_OPTIONS, Scrapper } from './base';
+import { capitalize } from '../utils';
+
+export interface InvestmentProduct {
+  id: number;
+  name: string;
+  management: string;
+  custodian: string;
+  type: string;
+}
 
 /**
  * Scrapper script to extract legal mutual funds products
  */
-export class ProductScrapper extends Scrapper {
+export class ProductScrapper extends Scrapper<InvestmentProduct> {
   // row selector
   private static readonly rowSelector = '.dxgvDataRow_Youthful';
   // next button selector
@@ -28,31 +37,39 @@ export class ProductScrapper extends Scrapper {
    * Scrap all legal mutual funds product from the current page state
    *
    * @param {Page} page - puppeteer page instance
-   * @return {Promise<Record<string, unknown>[]>} - list of legal mutual funds
+   * @return {Promise<InvestmentProduct[]>} - list of legal mutual funds
    * investment.
    */
-  protected async scrapPage(page: Page): Promise<Record<string, unknown>[]> {
+  protected async scrapPage(page: Page): Promise<InvestmentProduct[]> {
     await page.waitForSelector(ProductScrapper.rowSelector);
 
-    const rows = await page.$$eval(ProductScrapper.rowSelector, (rows) => {
-      const dataRows = rows.filter(row => row.childElementCount > 1);
+    const rawProducts = await page.$$eval(
+      ProductScrapper.rowSelector,
+      (rows) => {
+        const dataRows = rows.filter(row => row.childElementCount > 1);
 
-      const rowData = dataRows.map((row) => {
-        const children = Array.from(row.children);
+        const rowData = dataRows.map((row) => {
+          const children = Array.from(row.children);
 
-        return JSON.stringify({
-          id: children[0].textContent,
-          name: children[1].textContent,
-          management: children[2].textContent,
-          custodian: children[3].textContent,
-          type: children[4].textContent,
+          return JSON.stringify({
+            id: children[0].textContent?.trim(),
+            name: children[1].textContent?.trim(),
+            management: children[2].textContent?.trim(),
+            custodian: children[3].textContent?.trim(),
+            type: children[4].textContent?.trim(),
+          });
         });
+
+        return rowData;
       });
 
-      return rowData;
-    });
+    return rawProducts.map((product: string) => {
+      const prod = JSON.parse(product);
+      prod.id = Number(prod.id);
+      prod.type = capitalize(prod.type);
 
-    return rows.map(row => JSON.parse(row));
+      return prod;
+    });
   }
 
   /**
@@ -69,7 +86,7 @@ export class ProductScrapper extends Scrapper {
     await page.setBypassCSP(true);
     await page.waitForSelector(ProductScrapper.nextSelector);
 
-    const products = [];
+    const products: InvestmentProduct[] = [];
 
     while (true) {
       const pageProducts = await this.scrapPage(page);
@@ -104,8 +121,6 @@ export class ProductScrapper extends Scrapper {
         });
       }
     }
-
-    products.forEach(product => delete product.id);
 
     const result = {
       data: products,
