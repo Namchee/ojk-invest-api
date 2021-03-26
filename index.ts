@@ -2,8 +2,7 @@ import { performance } from 'perf_hooks';
 import { existsSync, mkdirSync } from 'fs';
 import { resolve } from 'path';
 import { launch } from 'puppeteer';
-import { Scrapper } from './src/scrapper/base';
-import { IlegalScrapper } from './src/scrapper/ilegal';
+import { IllegalScrapper } from './src/scrapper/illegal';
 import { AppScrapper } from './src/scrapper/apps';
 import { ProductScrapper } from './src/scrapper/products';
 
@@ -22,8 +21,8 @@ import { ProductScrapper } from './src/scrapper/products';
   });
 
   try {
-    const scrappers: Scrapper[] = [
-      new IlegalScrapper(browser),
+    const scrappers = [
+      new IllegalScrapper(browser),
       new AppScrapper(browser),
       new ProductScrapper(browser),
     ];

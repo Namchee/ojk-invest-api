@@ -2,10 +2,17 @@ import { Browser, Page } from 'puppeteer';
 import { benchmark } from '@namchee/decora';
 import { PAGE_OPTIONS, Scrapper } from './base';
 
+export interface Apps {
+  id: number;
+  name: string;
+  url: string;
+  owner: string;
+}
+
 /**
  * Scrapping script for legal investment applications
  */
-export class AppScrapper extends Scrapper {
+export class AppScrapper extends Scrapper<Apps> {
   // row selector
   private static readonly rowSelector = '.dxgvDataRow_Youthful';
   // next button selector
@@ -28,13 +35,13 @@ export class AppScrapper extends Scrapper {
    * Scrap all legal investment app information from the current page state
    *
    * @param {Page} page - Puppeteer page instance
-   * @return {Promise<Record<string, unknown>[]>} - array of legal investment
+   * @return {Promise<Apps[]>} - array of legal investment
    * application
    */
-  protected async scrapPage(page: Page): Promise<Record<string, unknown>[]> {
+  protected async scrapPage(page: Page): Promise<Apps[]> {
     await page.waitForSelector(AppScrapper.rowSelector);
 
-    const rows = await page.$$eval(AppScrapper.rowSelector, (rows) => {
+    const rawApps = await page.$$eval(AppScrapper.rowSelector, (rows) => {
       const dataRows = rows.filter(row => row.childElementCount > 1);
 
       const rowData = dataRows.map((row) => {
@@ -43,17 +50,22 @@ export class AppScrapper extends Scrapper {
           .replace(/\s+/g, '');
 
         return JSON.stringify({
-          id: children[0].textContent,
-          name: children[1].textContent,
+          id: children[0].textContent?.trim(),
+          name: children[1].textContent?.trim(),
           url: cleanUrl,
-          owner: children[3].textContent,
+          owner: children[3].textContent?.trim(),
         });
       });
 
       return rowData;
     });
 
-    return rows.map(row => JSON.parse(row));
+    return rawApps.map((stringifiedApp: string) => {
+      const app = JSON.parse(stringifiedApp);
+      app.id = Number(app.id);
+
+      return app;
+    });
   }
 
   /**
@@ -70,7 +82,7 @@ export class AppScrapper extends Scrapper {
     await page.setBypassCSP(true);
     await page.waitForSelector(AppScrapper.nextSelector);
 
-    const apps: Record<string, unknown>[] = [];
+    const apps: Apps[] = [];
 
     while (true) {
       const pageApps = await this.scrapPage(page);
@@ -105,8 +117,6 @@ export class AppScrapper extends Scrapper {
         });
       }
     }
-
-    apps.forEach(app => delete app.id);
 
     const result = {
       data: apps,

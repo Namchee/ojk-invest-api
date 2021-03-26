@@ -5,8 +5,8 @@ import { Browser, DirectNavigationOptions, Page } from 'puppeteer';
 /**
  * Scrapping result from a scrapping script
  */
-export interface ScrappingResult {
-  data: Record<string, unknown>[];
+export interface ScrappingResult<T> {
+  data: T[];
   version: Date;
 }
 
@@ -18,7 +18,7 @@ export const PAGE_OPTIONS: DirectNavigationOptions = {
 /**
  * Base scrapping script
  */
-export abstract class Scrapper {
+export abstract class Scrapper<T> {
   /**
    * Constructor for basic scrapper
    * @param {Browser} browser Puppeteeer browser instance
@@ -32,12 +32,12 @@ export abstract class Scrapper {
   /**
    * Write scrapping result to the `data` directory
    *
-   * @param {ScrappingResult} data - scrapping result and
+   * @param {ScrappingResult<T>} data - scrapping result and
    * data version
    * @param {string} filename - name for the file
    */
   protected writeResultToFile(
-    data: ScrappingResult,
+    data: ScrappingResult<T>,
     filename: string,
   ): void {
     const target = resolve(process.cwd(), 'data', `${filename}.json`);
@@ -56,10 +56,10 @@ export abstract class Scrapper {
   /**
    * Scrap all relevant information from the current page state
    * @param {Page} page - Puppeteer page instance
-   * @return {Promise<Record<string, unknown>[]>} - array of relevant
+   * @return {Promise<T>[]>} - array of relevant
    * information
    */
-  protected abstract scrapPage(page: Page): Promise<Record<string, unknown>[]>;
+  protected abstract scrapPage(page: Page): Promise<T[]>;
 
   /**
    * Scrap all relevant information from the supplied URL
