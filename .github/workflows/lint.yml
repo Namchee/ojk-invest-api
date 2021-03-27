@@ -15,6 +15,6 @@ jobs:
       - name: Connect workflow to repository
         uses: actions/checkout@v2
       - name: Install all required dependencies
-        run: npm ci
+        run: yarn install --frozen-lockfile
       - name: Lint the files
-        run: npm run lint
+        run: yarn lint
