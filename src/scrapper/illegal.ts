@@ -219,7 +219,7 @@ export class IllegalScrapper extends Scrapper<IllegalInvestment> {
       version: new Date(),
     };
 
-    this.writeResultToFile(result, 'ilegal');
+    this.writeResultToFile(result, 'illegal');
   }
 
   /**

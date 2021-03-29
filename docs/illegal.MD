@@ -1,6 +1,6 @@
-# GET - `/api/ilegal`
+# GET - `/api/illegal`
 
-Cari seluruh produk investasi yang telah dinyatakan ilegal oleh OJK.
+Cari seluruh produk investasi yang telah dinyatakan illegal oleh OJK.
 
 ## Parameter
 
