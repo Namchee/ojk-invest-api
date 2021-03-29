@@ -1,8 +1,8 @@
 import { NowRequest, NowResponse } from '@vercel/node';
 import { existsSync, readFileSync } from 'fs';
 import { resolve } from 'path';
-import { HTTPCodes } from './../src/const';
-import { Logger } from './../src/utils';
+import { HTTPCodes } from '../src/const';
+import { Logger } from '../src/utils';
 
 /**
  * Search for ilegal investments from OJK's data
@@ -34,13 +34,13 @@ export default async function(
       });
   }
 
-  const dataPath = resolve(process.cwd(), 'data', 'ilegal.json');
+  const dataPath = resolve(process.cwd(), 'data', 'illegal.json');
 
   const isDataFetched = existsSync(dataPath);
 
   if (!isDataFetched) {
     await Logger.getInstance().logError(
-      'JSON data for `ilegal` endpoint does not exist',
+      'JSON data for `illegal` endpoint does not exist',
     );
 
     return res.status(HTTPCodes.SERVER_ERROR)
