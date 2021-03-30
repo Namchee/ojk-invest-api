@@ -1,4 +1,4 @@
-import { NowRequest, NowResponse } from '@vercel/node';
+import { VercelRequest, VercelResponse } from '@vercel/node';
 import { existsSync, readFileSync } from 'fs';
 import { resolve } from 'path';
 import { HTTPCodes } from './../src/const';
@@ -8,13 +8,13 @@ import { Logger } from './../src/utils';
  * Search for legal investments application from OJK's data
  *
  * @param {NowRequest} req - request object
- * @param {NowResponse} res - response object
- * @return {NowResponse} - response object, packed with data
+ * @param {VercelResponse} res - response object
+ * @return {VercelResponse} - response object, packed with data
  */
 export default async function(
-  req: NowRequest,
-  res: NowResponse,
-): Promise<NowResponse> {
+  req: VercelRequest,
+  res: VercelResponse,
+): Promise<VercelResponse> {
   const { query } = req;
   const namePattern = query.name as string;
   const limit = Number(query.limit);

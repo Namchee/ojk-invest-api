@@ -11,8 +11,6 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - name: Connect workflow to repository
-        uses: actions/checkout@v2
       - name: Setup NodeJS
         uses: actions/setup-node@v2
         with:
@@ -21,8 +19,16 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: Build the files
         run: yarn build
-      - name: Scrap and re-new the data
+      - name: Scrap and renew the data
         run: yarn scrap
+      - name: Recommit the data
+        uses: actions/checkout@v2
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add data/*
+          git commit -m "chore(ci): Refresh investments data"
+          git push
       - name: Deploy to Vercel Now
         uses: amondnet/vercel-action@v20.0.0
         with:
