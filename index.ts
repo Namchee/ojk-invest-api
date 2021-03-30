@@ -29,7 +29,9 @@ import { ProductScrapper } from './src/scrapper/products';
 
     const start = performance.now();
 
-    await Promise.all(scrappers.map(scrapper => scrapper.scrapInfo()));
+    await Promise.allSettled(
+      scrappers.map(scrapper => scrapper.scrapInfo()),
+    );
 
     const end = performance.now();
 
