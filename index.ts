@@ -29,8 +29,20 @@ import { ProductScrapper } from './src/scrapper/products';
 
     const start = performance.now();
 
-    await Promise.allSettled(
+    const scrappingResult = await Promise.allSettled(
       scrappers.map(scrapper => scrapper.scrapInfo()),
+    );
+
+    scrappingResult.forEach(
+      (result: PromiseSettledResult<void>, idx: number) => {
+        if (result.status === 'fulfilled') {
+          // eslint-disable-next-line max-len
+          console.log(`✔️  ${scrappers[idx].constructor.name} has successfully scrapped`);
+        } else {
+          // eslint-disable-next-line max-len
+          console.log(`❌ ${scrappers[idx].constructor.name} has failed`);
+        }
+      },
     );
 
     const end = performance.now();
