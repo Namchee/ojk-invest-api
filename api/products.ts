@@ -1,13 +1,12 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
-import { existsSync, readFileSync } from 'fs';
-import { resolve } from 'path';
-import { HTTPCodes } from './../src/const';
-import { Logger } from './../src/utils';
+
+import { HTTPCodes } from './const';
+import { getAuthorizedProducts } from './../src/services/api/product';
 
 /**
- * Search for legal investments application from OJK's data
+ * Search for legal shared funds from OJK's data
  *
- * @param {VercelRequest} req - request object
+ * @param {NowRequest} req - request object
  * @param {VercelResponse} res - response object
  * @return {VercelResponse} - response object, packed with data
  */
@@ -16,9 +15,15 @@ export default async function(
   res: VercelResponse,
 ): Promise<VercelResponse> {
   const { query } = req;
-  const namePattern = query.name as string;
   const limit = Number(query.limit);
   const offset = Number(query.start) - 1;
+
+  if (Array.isArray(query.name)) {
+    return res.status(HTTPCodes.INVALID_PARAMS)
+      .json({
+        error: 'Nilai `name` hanya boleh ada satu',
+      });
+  }
 
   if (limit < 0) {
     return res.status(HTTPCodes.INVALID_PARAMS)
@@ -34,46 +39,21 @@ export default async function(
       });
   }
 
-  const dataPath = resolve(process.cwd(), 'data', 'products.json');
+  try {
+    const restQuery = {
+      name: query.name,
+      limit,
+      offset,
+    };
 
-  const isDataFetched = existsSync(dataPath);
+    const products = await getAuthorizedProducts(restQuery);
 
-  if (!isDataFetched) {
-    await Logger.getInstance().logError(
-      'JSON data for `products` endpoint does not exist',
-    );
-
+    return res.status(HTTPCodes.SUCCESS)
+      .json(products);
+  } catch (err) {
     return res.status(HTTPCodes.SERVER_ERROR)
       .json({
-        error: 'Terdapat kesalahan pada sistem.',
+        error: err.message,
       });
   }
-
-  const rawData = readFileSync(dataPath);
-  const source = JSON.parse(rawData.toString('utf-8'));
-
-  let products: Record<string, unknown>[] = source.data;
-  const version = source.version;
-
-  if (namePattern) {
-    const pattern = new RegExp(namePattern, 'ig');
-
-    products = products.filter((product: Record<string, unknown>) => {
-      return pattern.test(product.name as string);
-    });
-  }
-
-  if (!isNaN(offset)) {
-    products = products.slice(offset);
-  }
-
-  if (!isNaN(limit)) {
-    products = products.slice(0, limit);
-  }
-
-  return res.status(HTTPCodes.SUCCESS)
-    .json({
-      data: products,
-      version,
-    });
 }

@@ -1,19 +1,13 @@
 import { performance } from 'perf_hooks';
-import { existsSync, mkdirSync } from 'fs';
-import { resolve } from 'path';
 import { launch } from 'puppeteer';
-import { IllegalScrapper } from './src/scrapper/illegal';
-import { AppScrapper } from './src/scrapper/apps';
-import { ProductScrapper } from './src/scrapper/products';
+
+import { IllegalsScrapper } from './src/services/scrapper/illegal';
+import { AppsScrapper } from './src/services/scrapper/app';
+import { ProductsScrapper } from './src/services/scrapper/product';
+import { bootstrapOutput } from './src/services/writer';
 
 (async () => {
-  const dirPath = resolve(process.cwd(), 'data');
-
-  const dirExist = existsSync(dirPath);
-
-  if (!dirExist) {
-    mkdirSync(dirPath);
-  }
+  bootstrapOutput();
 
   const browser = await launch({
     headless: true,
@@ -22,9 +16,9 @@ import { ProductScrapper } from './src/scrapper/products';
 
   try {
     const scrappers = [
-      new IllegalScrapper(browser),
-      new AppScrapper(browser),
-      new ProductScrapper(browser),
+      new IllegalsScrapper(browser),
+      new AppsScrapper(browser),
+      new ProductsScrapper(browser),
     ];
 
     const start = performance.now();
@@ -37,7 +31,7 @@ import { ProductScrapper } from './src/scrapper/products';
       (result: PromiseSettledResult<void>, idx: number) => {
         if (result.status === 'fulfilled') {
           // eslint-disable-next-line max-len
-          console.log(`✔️  ${scrappers[idx].constructor.name} has successfully scrapped`);
+          console.log(`✔️ ${scrappers[idx].constructor.name} has successfully scrapped`);
         } else {
           // eslint-disable-next-line max-len
           console.log(`❌ ${scrappers[idx].constructor.name} has failed`);

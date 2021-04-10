@@ -1,8 +1,7 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
-import { existsSync, readFileSync } from 'fs';
-import { resolve } from 'path';
-import { HTTPCodes } from './../src/const';
-import { Logger } from './../src/utils';
+
+import { HTTPCodes } from './const';
+import { getAuthorizedApps } from './../src/services/api/app';
 
 /**
  * Search for legal investments application from OJK's data
@@ -16,9 +15,15 @@ export default async function(
   res: VercelResponse,
 ): Promise<VercelResponse> {
   const { query } = req;
-  const namePattern = query.name as string;
   const limit = Number(query.limit);
   const offset = Number(query.start) - 1;
+
+  if (Array.isArray(query.name)) {
+    return res.status(HTTPCodes.INVALID_PARAMS)
+      .json({
+        error: 'Nilai `name` hanya boleh ada satu',
+      });
+  }
 
   if (limit < 0) {
     return res.status(HTTPCodes.INVALID_PARAMS)
@@ -34,46 +39,21 @@ export default async function(
       });
   }
 
-  const dataPath = resolve(process.cwd(), 'data', 'apps.json');
+  try {
+    const restQuery = {
+      name: query.name,
+      limit,
+      offset,
+    };
 
-  const isDataFetched = existsSync(dataPath);
+    const apps = await getAuthorizedApps(restQuery);
 
-  if (!isDataFetched) {
-    await Logger.getInstance().logError(
-      'JSON data for `apps` endpoint does not exist',
-    );
-
+    return res.status(HTTPCodes.SUCCESS)
+      .json(apps);
+  } catch (err) {
     return res.status(HTTPCodes.SERVER_ERROR)
       .json({
-        error: 'Terdapat kesalahan pada sistem.',
+        error: err.message,
       });
   }
-
-  const rawData = readFileSync(dataPath);
-  const source = JSON.parse(rawData.toString('utf-8'));
-
-  let apps: Record<string, unknown>[] = source.data;
-  const version = source.version;
-
-  if (namePattern) {
-    const pattern = new RegExp(namePattern, 'ig');
-
-    apps = apps.filter((app: Record<string, unknown>) => {
-      return pattern.test(app.name as string);
-    });
-  }
-
-  if (!isNaN(offset)) {
-    apps = apps.slice(offset);
-  }
-
-  if (!isNaN(limit)) {
-    apps = apps.slice(0, limit);
-  }
-
-  return res.status(HTTPCodes.SUCCESS)
-    .json({
-      data: apps,
-      version,
-    });
 }
