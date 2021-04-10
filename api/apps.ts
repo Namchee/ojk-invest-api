@@ -1,6 +1,6 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
 
-import { HTTPCodes } from './const';
+import { HTTPCodes } from '../src/services/api/api';
 import { getAuthorizedApps } from './../src/services/api/app';
 
 /**
@@ -14,6 +14,10 @@ export default async function(
   req: VercelRequest,
   res: VercelResponse,
 ): Promise<VercelResponse> {
+  if (req.method !== 'GET') {
+    return res.status(405).json(undefined);
+  }
+
   const { query } = req;
   const limit = Number(query.limit);
   const offset = Number(query.start) - 1;
