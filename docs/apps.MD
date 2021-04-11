@@ -22,6 +22,7 @@ Cari seluruh aplikasi manajemen investasi atau portal transaksi investasi yang t
 
 **Nama** | **Tipe Data** | **Deskripsi**
 ---- | ---- | ---------
+`id` | `number` | Nomor ID aplikasi
 `name` | `string` | Nama aplikasi
 `url` | `string` | Halaman web pihak penyedia aplikasi
 `owner` | `string` | Perusahaan pemilik aplikasi

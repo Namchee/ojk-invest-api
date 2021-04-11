@@ -2,12 +2,12 @@ import { VercelRequest, VercelResponse } from '@vercel/node';
 import { ValidationError } from '../src/exceptions/validation';
 
 import { HTTPCodes, validateAndTransform } from '../src/services/api/api';
-import { getAuthorizedProducts } from './../src/services/api/product';
+import { getIllegalInvestments } from '../src/services/api/illegal';
 
 /**
- * Search for legal shared funds from OJK's data
+ * Search for ilegal investments from OJK's data
  *
- * @param {NowRequest} req - request object
+ * @param {VercelRequest} req - request object
  * @param {VercelResponse} res - response object
  * @return {VercelResponse} - response object, packed with data
  */
@@ -29,10 +29,10 @@ export default async function(
   try {
     const query = validateAndTransform(req.query);
 
-    const products = await getAuthorizedProducts(query);
+    const illegals = await getIllegalInvestments(query);
 
     return res.status(HTTPCodes.SUCCESS)
-      .json(products);
+      .json(illegals);
   } catch (err) {
     let status = HTTPCodes.SERVER_ERROR;
 

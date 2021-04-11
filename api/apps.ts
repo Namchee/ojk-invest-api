@@ -1,8 +1,8 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
-import { existsSync, readFileSync } from 'fs';
-import { resolve } from 'path';
-import { HTTPCodes } from './../src/const';
-import { Logger } from './../src/utils';
+import { ValidationError } from '../src/exceptions/validation';
+
+import { HTTPCodes, validateAndTransform } from '../src/services/api/api';
+import { getAuthorizedApps } from './../src/services/api/app';
 
 /**
  * Search for legal investments application from OJK's data
@@ -15,65 +15,34 @@ export default async function(
   req: VercelRequest,
   res: VercelResponse,
 ): Promise<VercelResponse> {
-  const { query } = req;
-  const namePattern = query.name as string;
-  const limit = Number(query.limit);
-  const offset = Number(query.start) - 1;
+  if (req.method !== 'GET') {
+    return res.status(405).json(undefined);
+  }
 
-  if (limit < 0) {
+  if (Array.isArray(req.query.name)) {
     return res.status(HTTPCodes.INVALID_PARAMS)
       .json({
-        error: 'Nilai `limit` tidak boleh negatif',
+        error: 'Nilai `name` hanya boleh ada satu',
       });
   }
 
-  if (offset < 0) {
-    return res.status(HTTPCodes.INVALID_PARAMS)
+  try {
+    const query = validateAndTransform(req.query);
+
+    const apps = await getAuthorizedApps(query);
+
+    return res.status(HTTPCodes.SUCCESS)
+      .json(apps);
+  } catch (err) {
+    let status = HTTPCodes.SERVER_ERROR;
+
+    if (err instanceof ValidationError) {
+      status = HTTPCodes.INVALID_PARAMS;
+    }
+
+    return res.status(status)
       .json({
-        error: 'Nilai `start` tidak boleh lebih kecil dari satu',
+        error: err.message,
       });
   }
-
-  const dataPath = resolve(process.cwd(), 'data', 'apps.json');
-
-  const isDataFetched = existsSync(dataPath);
-
-  if (!isDataFetched) {
-    await Logger.getInstance().logError(
-      'JSON data for `apps` endpoint does not exist',
-    );
-
-    return res.status(HTTPCodes.SERVER_ERROR)
-      .json({
-        error: 'Terdapat kesalahan pada sistem.',
-      });
-  }
-
-  const rawData = readFileSync(dataPath);
-  const source = JSON.parse(rawData.toString('utf-8'));
-
-  let apps: Record<string, unknown>[] = source.data;
-  const version = source.version;
-
-  if (namePattern) {
-    const pattern = new RegExp(namePattern, 'ig');
-
-    apps = apps.filter((app: Record<string, unknown>) => {
-      return pattern.test(app.name as string);
-    });
-  }
-
-  if (!isNaN(offset)) {
-    apps = apps.slice(offset);
-  }
-
-  if (!isNaN(limit)) {
-    apps = apps.slice(0, limit);
-  }
-
-  return res.status(HTTPCodes.SUCCESS)
-    .json({
-      data: apps,
-      version,
-    });
 }
