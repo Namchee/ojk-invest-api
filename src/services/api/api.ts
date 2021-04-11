@@ -1,3 +1,5 @@
+import { ValidationError } from "../../exceptions/validation";
+
 /**
  * GET query definition
  */
@@ -5,6 +7,36 @@ export interface Query {
   name?: string;
   limit?: number;
   offset?: number;
+}
+
+/**
+ * Validate user inputs and transform them into Query
+ *
+ * @param {any} query - user input object
+ * @return {Query} validated and formatted user input
+ */
+export function validateAndTransform(query: any): Query {
+  let limit = Number(query.limit);
+  let offset = Number(query.start) - 1;
+
+  if (limit < 0) {
+    throw new ValidationError('Nilai `limit` tidak boleh negatif');
+  }
+
+  if (offset < 0) {
+    throw new ValidationError(
+      'Nilai `offset` tidak boleh lebih kecil dari satu',
+    );
+  }
+
+  limit = limit ?? 0;
+  offset = offset ?? 0;
+
+  return {
+    name: query.name,
+    limit,
+    offset,
+  };
 }
 
 /**

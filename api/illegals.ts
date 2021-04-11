@@ -1,6 +1,7 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
+import { ValidationError } from '../src/exceptions/validation';
 
-import { HTTPCodes } from '../src/services/api/api';
+import { HTTPCodes, validateAndTransform } from '../src/services/api/api';
 import { getIllegalInvestments } from '../src/services/api/illegal';
 
 /**
@@ -18,44 +19,28 @@ export default async function(
     return res.status(405).json(undefined);
   }
 
-  const { query } = req;
-  const limit = Number(query.limit);
-  const offset = Number(query.start) - 1;
-
-  if (Array.isArray(query.name)) {
+  if (Array.isArray(req.query.name)) {
     return res.status(HTTPCodes.INVALID_PARAMS)
       .json({
         error: 'Nilai `name` hanya boleh ada satu',
       });
   }
 
-  if (limit < 0) {
-    return res.status(HTTPCodes.INVALID_PARAMS)
-      .json({
-        error: 'Nilai `limit` tidak boleh negatif',
-      });
-  }
-
-  if (offset < 0) {
-    return res.status(HTTPCodes.INVALID_PARAMS)
-      .json({
-        error: 'Nilai `start` tidak boleh lebih kecil dari satu',
-      });
-  }
-
   try {
-    const restQuery = {
-      name: query.name,
-      limit,
-      offset,
-    };
+    const query = validateAndTransform(req.query);
 
-    const illegals = await getIllegalInvestments(restQuery);
+    const illegals = await getIllegalInvestments(query);
 
     return res.status(HTTPCodes.SUCCESS)
       .json(illegals);
   } catch (err) {
-    return res.status(HTTPCodes.SERVER_ERROR)
+    let status = HTTPCodes.SERVER_ERROR;
+
+    if (err instanceof ValidationError) {
+      status = HTTPCodes.INVALID_PARAMS;
+    }
+
+    return res.status(status)
       .json({
         error: err.message,
       });

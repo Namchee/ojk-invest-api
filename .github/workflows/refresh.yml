@@ -20,7 +20,7 @@ jobs:
       - name: Install all required dependencies
         run: yarn install --frozen-lockfile
       - name: Build the files
-        run: yarn build
+        run: yarn scrap:build
       - name: Scrap and renew the data
         run: yarn scrap
       - name: Recommit the data

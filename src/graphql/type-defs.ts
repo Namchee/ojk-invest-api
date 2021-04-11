@@ -1,6 +1,5 @@
-import { gql } from 'apollo-server-lambda';
-
-const typeDefs = gql`
+export const typeDefs = `
+  # Illegal investment product
   type IllegalInvestment {
     id: ID!
     name: String!
@@ -13,6 +12,7 @@ const typeDefs = gql`
     details: String!
   }
 
+  # Legal and authorized shared fund products
   type Product {
     id: ID!
     name: String!
@@ -21,6 +21,7 @@ const typeDefs = gql`
     type: String!
   }
 
+  # Legal and authorized shared funds manager application
   type App {
     id: ID!
     name: String!
@@ -29,10 +30,12 @@ const typeDefs = gql`
   }
 
   type Query {
-    getIllegalInvestments: [IllegalInvestment!]!
-    getAuthorizedProducts: [Product!]!
-    getAuthorizedApps: [App!]!
+    illegalInvestments(
+      name: String,
+      limit: Int,
+      offset: Int
+    ): [IllegalInvestment!]!
+    products(name: String, limit: Int, offset: Int): [Product!]!
+    apps(name: String, limit: Int, offset: Int): [App!]!
   }
 `;
-
-export default typeDefs;

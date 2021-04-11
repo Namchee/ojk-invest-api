@@ -22,6 +22,7 @@ Cari seluruh produk reksa dana yang telah dinyatakan legal oleh OJK.
 
 **Nama** | **Tipe Data** | **Deskripsi**
 ---- | ---- | ---------
+`id` | `number` | Nomor ID produk reksa dana
 `name` | `string` | Nama produk reksa dana
 `management` | `string` | Pihak pengelola produk reksa dana
 `custodian` | `string` | [Bank kustodian](https://id.wikipedia.org/wiki/Bank_kustodian) dari produk reksa dana
