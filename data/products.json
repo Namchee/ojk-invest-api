@@ -8593,7 +8593,7 @@
       "id": 1228,
       "name": "REKSA DANA SYAILENDRA MONEY MARKET FUND",
       "management": "Syailendra Capital, PT",
-      "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
+      "custodian": "PT KEB Hana Bank Indonesia",
       "type": "Money Market Fund"
     },
     {
@@ -16983,5 +16983,5 @@
       "type": "Equity Fund"
     }
   ],
-  "version": "4/12/2021"
+  "version": "4/13/2021"
 }
