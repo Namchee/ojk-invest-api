@@ -5,27 +5,6 @@
   },
   "headers": [
     {
-      "source": "/api/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=86400, stale-while-revalidate"
-        },
-        {
-          "key": "Content-Type",
-          "value": "application/json; charset=utf-8"
-        },
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "*"
-        },
-        {
-          "key": "Access-Control-Allow-Methods",
-          "value": "GET"
-        }
-      ]
-    },
-    {
       "source": "/api/graphql",
       "headers": [
         {
@@ -43,6 +22,27 @@
         {
           "key": "Access-Control-Allow-Methods",
           "value": "GET, POST"
+        }
+      ]
+    },
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, stale-while-revalidate"
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET"
         }
       ]
     }
