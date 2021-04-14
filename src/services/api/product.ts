@@ -39,7 +39,8 @@ export async function getAuthorizedProducts(
   const version = source.version;
 
   if (name) {
-    const pattern = new RegExp(name, 'ig');
+    const escapedName = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const pattern = new RegExp(escapedName, 'ig');
 
     products = products.filter((product: Product) => {
       return pattern.test(product.name);
