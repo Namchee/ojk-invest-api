@@ -39,7 +39,8 @@ export async function getAuthorizedApps(query: Query): Promise<OJKData<App> > {
   const version = source.version;
 
   if (name) {
-    const pattern = new RegExp(name, 'ig');
+    const escapedName = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const pattern = new RegExp(escapedName, 'ig');
 
     apps = apps.filter((app: App) => {
       return pattern.test(app.name);

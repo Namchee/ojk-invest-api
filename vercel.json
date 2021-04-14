@@ -22,6 +22,10 @@
         {
           "key": "Access-Control-Allow-Methods",
           "value": "GET"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Accept, Accept-Language, Content-Language, Content-Type"
         }
       ]
     },
@@ -43,6 +47,10 @@
         {
           "key": "Access-Control-Allow-Methods",
           "value": "GET, POST"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Accept, Accept-Language, Content-Language, Content-Type"
         }
       ]
     }

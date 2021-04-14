@@ -40,7 +40,8 @@ export async function getIllegalInvestments(
   const version = source.version;
 
   if (name) {
-    const pattern = new RegExp(name, 'ig');
+    const escapedName = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const pattern = new RegExp(escapedName, 'ig');
 
     investments = investments.filter((investment: IllegalInvestment) => {
       return pattern.test(investment.name);
