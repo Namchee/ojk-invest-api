@@ -1,11 +1,10 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
-import { ValidationError } from '../src/exceptions/validation';
-
-import { HTTPCodes, validateAndTransform } from '../src/services/api/api';
-import { getAuthorizedProducts } from './../src/services/api/product';
+import { ValidationError } from '../../src/exceptions/validation';
+import { HTTPCodes, validateParam } from '../../src/services/api/api';
+import { getOne } from '../../src/services/api/app';
 
 /**
- * Search for legal shared funds from OJK's data
+ * Search for a legal investments application from OJK's data
  *
  * @param {NowRequest} req - request object
  * @param {VercelResponse} res - response object
@@ -19,20 +18,26 @@ export default async function(
     return res.status(405).json(undefined);
   }
 
-  if (Array.isArray(req.query.name)) {
-    return res.status(HTTPCodes.INVALID_PARAMS)
-      .json({
-        error: 'Nilai `name` hanya boleh ada satu',
-      });
-  }
-
   try {
-    const query = validateAndTransform(req.query);
+    const params = validateParam(req.query);
+    const { data, version } = await getOne(params);
 
-    const products = await getAuthorizedProducts(query);
+    if (data === null) {
+      return res.status(HTTPCodes.NOT_FOUND)
+        .json({
+          data: null,
+          error: 'Aplikasi tidak ditemukan',
+        });
+    }
 
     return res.status(HTTPCodes.SUCCESS)
-      .json(products);
+      .json({
+        data: {
+          app: data,
+          version,
+        },
+        error: null,
+      });
   } catch (err) {
     let status = HTTPCodes.SERVER_ERROR;
 
@@ -42,6 +47,7 @@ export default async function(
 
     return res.status(status)
       .json({
+        data: null,
         error: err.message,
       });
   }

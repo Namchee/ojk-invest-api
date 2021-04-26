@@ -1,25 +1,21 @@
 import { resolve } from 'path';
 import { existsSync, readFileSync } from 'fs';
 
-import { OJKData, Query } from './api';
+import { OJKData, Params, Query } from './api';
 import { App } from '../../entity/app';
 import { Logger } from '../logger';
 
+interface AppsData {
+  data: App[];
+  version: string;
+}
+
 /**
- * Get all authorized shared funds application from OJK data that
- * satisfies the provided query
+ * Import authorized apps data from a JSON file
  *
- * @param {Query} query - query
- * @return {OJKData<App>} - list of all authorized shared funds
- * application.
+ * @return {Promise<AppsData>} authorized apps data
  */
-export async function getAuthorizedApps(query: Query): Promise<OJKData<App> > {
-  const { name } = query;
-  let { limit, offset } = query;
-
-  limit = limit ?? 0;
-  offset = offset ?? 0;
-
+async function importData(): Promise<AppsData> {
   const dataPath = resolve(process.cwd(), 'data', 'apps.json');
 
   const isDataFetched = existsSync(dataPath);
@@ -33,7 +29,25 @@ export async function getAuthorizedApps(query: Query): Promise<OJKData<App> > {
   }
 
   const rawData = readFileSync(dataPath);
-  const source = JSON.parse(rawData.toString('utf-8'));
+  return JSON.parse(rawData.toString('utf-8'));
+}
+
+/**
+ * Get all authorized shared funds application from OJK data that
+ * satisfies the provided query
+ *
+ * @param {Query} query - query
+ * @return {Promise<OJKData<App> >} - list of all authorized shared funds
+ * application.
+ */
+export async function getMany(query: Query): Promise<OJKData<App> > {
+  const { name } = query;
+  let { limit, offset } = query;
+
+  limit = limit ?? 0;
+  offset = offset ?? 0;
+
+  const source = await importData();
 
   let apps: App[] = source.data;
   const version = source.version;
@@ -58,5 +72,23 @@ export async function getAuthorizedApps(query: Query): Promise<OJKData<App> > {
   return {
     data: apps,
     version,
+  };
+}
+
+/**
+ * Get an authorized app by ID and return it
+ *
+ * @param {Params} param request parameter
+ * @return {Promise<OJKData<App> >} an authorized app
+ * with matching ID
+ */
+export async function getOne({ id }: Params): Promise<OJKData<App> > {
+  const source = await importData();
+
+  const app = source.data.find(datum => datum.id === id);
+
+  return {
+    data: app ?? null,
+    version: source.version,
   };
 }

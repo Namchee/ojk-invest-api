@@ -1,3 +1,3 @@
 # GET - `/api/graphql`
 
-Endpoint `graphql`. Playground **selalu** aktif, sehingga dapat dicoba sendiri.
+_Endpoint_ `graphql`. _Playground_ GraphQL **selalu** aktif, sehingga dokumentasi akan disajikan melalui _endpoint_ tersebut.

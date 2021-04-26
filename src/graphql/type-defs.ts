@@ -35,7 +35,10 @@ export const typeDefs = `
       limit: Int,
       offset: Int
     ): [IllegalInvestment!]!
+    illegalInvestment(id: ID): IllegalInvestment
     products(name: String, limit: Int, offset: Int): [Product!]!
+    product(id: ID): Product
     apps(name: String, limit: Int, offset: Int): [App!]!
+    app(id: ID): App
   }
 `;

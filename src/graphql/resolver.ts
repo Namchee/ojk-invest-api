@@ -1,15 +1,36 @@
-import { Query, validateAndTransform } from '../services/api/api';
-import { getAuthorizedApps } from '../services/api/app';
-import { getIllegalInvestments } from '../services/api/illegal';
-import { getAuthorizedProducts } from '../services/api/product';
+import { Query, validateParam, validateQuery } from '../services/api/api';
+
+import {
+  getMany as getManyApps,
+  getOne as getOneApp,
+} from '../services/api/app';
+import {
+  getMany as getManyIllegals,
+  getOne as getOneIllegal,
+} from '../services/api/illegal';
+import {
+  getMany as getManyProducts,
+  getOne as getOneProduct,
+} from '../services/api/product';
 
 export const resolvers = {
   Query: {
     illegalInvestments: async (_: any, args: any) => {
       try {
-        const query = validateAndTransform(args);
+        const query = validateQuery(args);
 
-        const { data } = await getIllegalInvestments(query);
+        const { data } = await getManyIllegals(query);
+
+        return data;
+      } catch (err) {
+        throw new Error(err.message);
+      }
+    },
+    illegalInvestment: async (_: any, args: any) => {
+      try {
+        const param = validateParam(args);
+
+        const { data } = await getOneIllegal(param);
 
         return data;
       } catch (err) {
@@ -18,9 +39,20 @@ export const resolvers = {
     },
     products: async (_: any, args: any) => {
       try {
-        const query: Query = validateAndTransform(args);
+        const query: Query = validateQuery(args);
 
-        const { data } = await getAuthorizedProducts(query);
+        const { data } = await getManyProducts(query);
+
+        return data;
+      } catch (err) {
+        throw new Error(err.message);
+      }
+    },
+    product: async (_: any, args: any) => {
+      try {
+        const param = validateParam(args);
+
+        const { data } = await getOneProduct(param);
 
         return data;
       } catch (err) {
@@ -29,9 +61,20 @@ export const resolvers = {
     },
     apps: async (_: any, args: any) => {
       try {
-        const query: Query = validateAndTransform(args);
+        const query: Query = validateQuery(args);
 
-        const { data } = await getAuthorizedApps(query);
+        const { data } = await getManyApps(query);
+
+        return data;
+      } catch (err) {
+        throw new Error(err.message);
+      }
+    },
+    app: async (_: any, args: any) => {
+      try {
+        const param = validateParam(args);
+
+        const { data } = await getOneApp(param);
 
         return data;
       } catch (err) {
