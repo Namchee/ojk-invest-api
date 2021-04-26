@@ -2,25 +2,20 @@ import { resolve } from 'path';
 import { existsSync, readFileSync } from 'fs';
 
 import { IllegalInvestment } from '../../entity/illegal';
-import { OJKData, Query } from './api';
+import { OJKData, Params, Query } from './api';
 import { Logger } from './../logger';
 
+interface IllegalInvestmentData {
+  data: IllegalInvestment[];
+  version: string;
+}
+
 /**
- * Get all illegal investments that satisfies the provided
- * query.
+ * Import illegal investment data from a JSON file
  *
- * @param {Query} query - GET query
- * @return {OJKData<IllegalInvestment>} - array of illegal investments
+ * @return {Promise<IllegalInvestmentData>} illegal investments data
  */
-export async function getIllegalInvestments(
-  query: Query,
-): Promise<OJKData<IllegalInvestment> > {
-  const { name } = query;
-  let { limit, offset } = query;
-
-  offset = offset ?? 0;
-  limit = limit ?? 0;
-
+async function importData(): Promise<IllegalInvestmentData> {
   const dataPath = resolve(process.cwd(), 'data', 'illegals.json');
 
   const isDataFetched = existsSync(dataPath);
@@ -34,7 +29,26 @@ export async function getIllegalInvestments(
   }
 
   const rawData = readFileSync(dataPath);
-  const source = JSON.parse(rawData.toString('utf-8'));
+  return JSON.parse(rawData.toString('utf-8'));
+}
+
+/**
+ * Get all illegal investments that satisfies the provided
+ * query.
+ *
+ * @param {Query} query - GET query
+ * @return {OJKData<IllegalInvestment>} - array of illegal investments
+ */
+export async function getMany(
+  query: Query,
+): Promise<OJKData<IllegalInvestment> > {
+  const { name } = query;
+  let { limit, offset } = query;
+
+  offset = offset ?? 0;
+  limit = limit ?? 0;
+
+  const source = await importData();
 
   let investments: IllegalInvestment[] = source.data;
   const version = source.version;
@@ -58,5 +72,25 @@ export async function getIllegalInvestments(
   return {
     data: investments,
     version,
+  };
+}
+
+/**
+ * Get an illegal investment by ID and return it
+ *
+ * @param {Params} param request parameter
+ * @return {Promise<OJKData<IllegalInvestment> >} an illegal investment
+ * with matching ID
+ */
+export async function getOne(
+  { id }: Params,
+): Promise<OJKData<IllegalInvestment> > {
+  const source = await importData();
+
+  const investment = source.data.find(datum => datum.id === id);
+
+  return {
+    data: investment ?? null,
+    version: source.version,
   };
 }

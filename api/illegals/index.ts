@@ -1,8 +1,8 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
-import { ValidationError } from '../src/exceptions/validation';
+import { ValidationError } from '../../src/exceptions/validation';
 
-import { HTTPCodes, validateAndTransform } from '../src/services/api/api';
-import { getIllegalInvestments } from '../src/services/api/illegal';
+import { HTTPCodes, validateQuery } from '../../src/services/api/api';
+import { getMany } from '../../src/services/api/illegal';
 
 /**
  * Search for ilegal investments from OJK's data
@@ -27,9 +27,9 @@ export default async function(
   }
 
   try {
-    const query = validateAndTransform(req.query);
+    const query = validateQuery(req.query);
 
-    const illegals = await getIllegalInvestments(query);
+    const illegals = await getMany(query);
 
     return res.status(HTTPCodes.SUCCESS)
       .json(illegals);

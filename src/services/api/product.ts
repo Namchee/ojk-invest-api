@@ -1,9 +1,36 @@
 import { resolve } from 'path';
 import { existsSync, readFileSync } from 'fs';
 
-import { OJKData, Query } from './api';
+import { OJKData, Params, Query } from './api';
 import { Product } from '../../entity/product';
 import { Logger } from './../logger';
+
+interface ProductData {
+  data: Product[];
+  version: string;
+}
+
+/**
+ * Import illegal investment data from a JSON file
+ *
+ * @return {Promise<ProductData>} illegal investments data
+ */
+async function importData(): Promise<ProductData> {
+  const dataPath = resolve(process.cwd(), 'data', 'products.json');
+
+  const isDataFetched = existsSync(dataPath);
+
+  if (!isDataFetched) {
+    await Logger.getInstance().logError(
+      'JSON data for `illegal` endpoint does not exist',
+    );
+
+    throw new Error('Terdapat kesalahan pada sistem.');
+  }
+
+  const rawData = readFileSync(dataPath);
+  return JSON.parse(rawData.toString('utf-8'));
+}
 
 /**
  * Get all authorized shared funds product from OJK data
@@ -11,7 +38,7 @@ import { Logger } from './../logger';
  *
  * @param {Query} query - GET query
  */
-export async function getAuthorizedProducts(
+export async function getMany(
   query: Query,
 ): Promise<OJKData<Product> > {
   const { name } = query;
@@ -57,5 +84,23 @@ export async function getAuthorizedProducts(
   return {
     data: products,
     version,
+  };
+}
+
+/**
+ * Get an authorized mutual funds product by ID and return it
+ *
+ * @param {Params} param request parameter
+ * @return {Promise<OJKData<Product> >} an authorized mutual funds
+ * product with matching ID
+ */
+export async function getOne({ id }: Params): Promise<OJKData<Product> > {
+  const source = await importData();
+
+  const product = source.data.find(datum => datum.id === id);
+
+  return {
+    data: product ?? null,
+    version: source.version,
   };
 }
