@@ -1,7 +1,8 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
 import { ValidationError } from '../../src/exceptions/validation';
 
-import { HTTPCodes, validateQuery } from '../../src/services/api/api';
+import { HTTPCodes } from '../../src/services/api/const';
+import { validateQuery } from './../../src/services/api/utils';
 import { getMany } from '../../src/services/api/illegal';
 
 /**

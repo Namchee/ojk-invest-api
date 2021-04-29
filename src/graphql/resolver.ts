@@ -1,4 +1,4 @@
-import { Query, validateParam, validateQuery } from '../services/api/api';
+import { Query, validateParam, validateQuery } from '../services/api/const';
 
 import {
   getMany as getManyApps,

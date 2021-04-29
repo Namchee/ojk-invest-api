@@ -1,7 +1,7 @@
 import { resolve } from 'path';
 import { existsSync, readFileSync } from 'fs';
 
-import { OJKData, Params, Query } from './api';
+import { GetManyResult, GetResult, Params, Query } from './const';
 import { App } from '../../entity/app';
 import { Logger } from '../logger';
 
@@ -37,10 +37,10 @@ async function importData(): Promise<AppsData> {
  * satisfies the provided query
  *
  * @param {Query} query - query
- * @return {Promise<OJKData<App> >} - list of all authorized shared funds
+ * @return {Promise<GetManyResult<App> >} - list of all authorized shared funds
  * application.
  */
-export async function getMany(query: Query): Promise<OJKData<App> > {
+export async function getMany(query: Query): Promise<GetManyResult<App> > {
   const { name } = query;
   let { limit, offset } = query;
 
@@ -61,6 +61,8 @@ export async function getMany(query: Query): Promise<OJKData<App> > {
     });
   }
 
+  const count = apps.length;
+
   if (!isNaN(offset)) {
     apps = apps.slice(offset);
   }
@@ -71,6 +73,7 @@ export async function getMany(query: Query): Promise<OJKData<App> > {
 
   return {
     data: apps,
+    count,
     version,
   };
 }
@@ -79,10 +82,10 @@ export async function getMany(query: Query): Promise<OJKData<App> > {
  * Get an authorized app by ID and return it
  *
  * @param {Params} param request parameter
- * @return {Promise<OJKData<App> >} an authorized app
+ * @return {Promise<GetResult<App> >} an authorized app
  * with matching ID
  */
-export async function getOne({ id }: Params): Promise<OJKData<App> > {
+export async function getOne({ id }: Params): Promise<GetResult<App> > {
   const source = await importData();
 
   const app = source.data.find(datum => datum.id === id);

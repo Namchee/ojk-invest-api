@@ -1,7 +1,7 @@
 import { resolve } from 'path';
 import { existsSync, readFileSync } from 'fs';
 
-import { OJKData, Params, Query } from './api';
+import { GetManyResult, GetResult, Params, Query } from './const';
 import { Product } from '../../entity/product';
 import { Logger } from './../logger';
 
@@ -37,10 +37,12 @@ async function importData(): Promise<ProductData> {
  * that satisfies the provided query
  *
  * @param {Query} query - GET query
+ * @return {Promise<GetManyResult<Product> >} - list of authorized
+ * mutual funds that satisfies the provided query
  */
 export async function getMany(
   query: Query,
-): Promise<OJKData<Product> > {
+): Promise<GetManyResult<Product> > {
   const { name } = query;
   let { limit, offset } = query;
 
@@ -74,6 +76,8 @@ export async function getMany(
     });
   }
 
+  const count = products.length;
+
   if (!isNaN(offset)) {
     products = products.slice(offset);
   }
@@ -84,6 +88,7 @@ export async function getMany(
 
   return {
     data: products,
+    count,
     version,
   };
 }
@@ -92,10 +97,10 @@ export async function getMany(
  * Get an authorized mutual funds product by ID and return it
  *
  * @param {Params} param request parameter
- * @return {Promise<OJKData<Product> >} an authorized mutual funds
+ * @return {Promise<GetResult<Product> >} an authorized mutual funds
  * product with matching ID
  */
-export async function getOne({ id }: Params): Promise<OJKData<Product> > {
+export async function getOne({ id }: Params): Promise<GetResult<Product> > {
   const source = await importData();
 
   const product = source.data.find(datum => datum.id === id);

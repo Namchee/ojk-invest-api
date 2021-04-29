@@ -2,7 +2,7 @@ import { resolve } from 'path';
 import { existsSync, readFileSync } from 'fs';
 
 import { IllegalInvestment } from '../../entity/illegal';
-import { OJKData, Params, Query } from './api';
+import { GetManyResult, GetResult, Params, Query } from './const';
 import { Logger } from './../logger';
 
 interface IllegalInvestmentData {
@@ -37,11 +37,12 @@ async function importData(): Promise<IllegalInvestmentData> {
  * query.
  *
  * @param {Query} query - GET query
- * @return {OJKData<IllegalInvestment>} - array of illegal investments
+ * @return {Promise<GetManyResult<IllegalInvestment> >} - array of
+ * illegal investments that satisfies the provided query.
  */
 export async function getMany(
   query: Query,
-): Promise<OJKData<IllegalInvestment> > {
+): Promise<GetManyResult<IllegalInvestment> > {
   const { name } = query;
   let { limit, offset } = query;
 
@@ -62,6 +63,8 @@ export async function getMany(
     });
   }
 
+  const count = investments.length;
+
   if (!isNaN(offset)) {
     investments = investments.slice(offset);
   }
@@ -72,6 +75,7 @@ export async function getMany(
 
   return {
     data: investments,
+    count,
     version,
   };
 }
@@ -80,12 +84,12 @@ export async function getMany(
  * Get an illegal investment by ID and return it
  *
  * @param {Params} param request parameter
- * @return {Promise<OJKData<IllegalInvestment> >} an illegal investment
+ * @return {Promise<GetResult<IllegalInvestment> >} an illegal investment
  * with matching ID
  */
 export async function getOne(
   { id }: Params,
-): Promise<OJKData<IllegalInvestment> > {
+): Promise<GetResult<IllegalInvestment> > {
   const source = await importData();
 
   const investment = source.data.find(datum => datum.id === id);
