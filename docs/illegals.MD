@@ -30,6 +30,7 @@ Cari seluruh produk investasi yang telah dinyatakan illegal oleh OJK.
 ---- | ---- | ---------
 `id` | `number` | Nomor ID produk investasi illegal
 `name` | `string` | Nama produk investasi illegal
+`alias` | `string[]` | Nama alternatif dari produk investasi illegal
 `address` | `string` | Alamat pihak penyedia produk investasi illegal
 `number` | `string[]` | Daftar nomor telepon pihak penyedia produk investasi illegal
 `email` | `string[]` | Daftar alamat _email_ pihak penyedia produk investasi illegal
@@ -62,6 +63,7 @@ Cari sebuah produk investasi yang telah dinyatakan ilegal oleh OJK yang memiliki
 ---- | ---- | ---------
 `id` | `number` | Nomor ID produk investasi illegal
 `name` | `string` | Nama produk investasi illegal
+`alias` | `string[]` | Nama alternatif dari produk investasi illegal
 `address` | `string` | Alamat pihak penyedia produk investasi illegal
 `number` | `string[]` | Daftar nomor telepon pihak penyedia produk investasi illegal
 `email` | `string[]` | Daftar alamat _email_ pihak penyedia produk investasi illegal
