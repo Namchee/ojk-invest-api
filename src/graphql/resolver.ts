@@ -1,4 +1,5 @@
-import { Query, validateParam, validateQuery } from '../services/api/const';
+import { Query } from '../services/api/const';
+import { validateQuery, validateParam } from './../services/api/utils';
 
 import {
   getMany as getManyApps,
@@ -19,9 +20,7 @@ export const resolvers = {
       try {
         const query = validateQuery(args);
 
-        const { data } = await getManyIllegals(query);
-
-        return data;
+        return getManyIllegals(query);
       } catch (err) {
         throw new Error(err.message);
       }
@@ -30,9 +29,7 @@ export const resolvers = {
       try {
         const param = validateParam(args);
 
-        const { data } = await getOneIllegal(param);
-
-        return data;
+        return getOneIllegal(param);
       } catch (err) {
         throw new Error(err.message);
       }
@@ -41,9 +38,7 @@ export const resolvers = {
       try {
         const query: Query = validateQuery(args);
 
-        const { data } = await getManyProducts(query);
-
-        return data;
+        return getManyProducts(query);
       } catch (err) {
         throw new Error(err.message);
       }
@@ -52,9 +47,7 @@ export const resolvers = {
       try {
         const param = validateParam(args);
 
-        const { data } = await getOneProduct(param);
-
-        return data;
+        return getOneProduct(param);
       } catch (err) {
         throw new Error(err.message);
       }
@@ -63,9 +56,7 @@ export const resolvers = {
       try {
         const query: Query = validateQuery(args);
 
-        const { data } = await getManyApps(query);
-
-        return data;
+        return getManyApps(query);
       } catch (err) {
         throw new Error(err.message);
       }
@@ -74,9 +65,7 @@ export const resolvers = {
       try {
         const param = validateParam(args);
 
-        const { data } = await getOneApp(param);
-
-        return data;
+        return getOneApp(param);
       } catch (err) {
         throw new Error(err.message);
       }

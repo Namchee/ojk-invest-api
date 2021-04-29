@@ -29,16 +29,49 @@ export const typeDefs = `
     owner: String!
   }
 
+  type IllegalsQueryResult {
+    data: [IllegalInvestment!]!
+    count: Int!
+    version: String!
+  }
+
+  type AppsQueryResult {
+    data: [App!]!
+    count: Int!
+    version: String!
+  }
+
+  type ProductsQueryResult {
+    data: [Product!]!
+    count: Int!
+    version: String!
+  }
+
+  type IllegalQueryResult {
+    data: IllegalInvestment
+    version: String!
+  }
+
+  type AppQueryResult {
+    data: App
+    version: String!
+  }
+
+  type ProductQueryResult {
+    data: Product
+    version: String!
+  }
+
   type Query {
     illegalInvestments(
       name: String,
       limit: Int,
       offset: Int
-    ): [IllegalInvestment!]!
-    illegalInvestment(id: ID): IllegalInvestment
-    products(name: String, limit: Int, offset: Int): [Product!]!
-    product(id: ID): Product
-    apps(name: String, limit: Int, offset: Int): [App!]!
-    app(id: ID): App
+    ): IllegalsQueryResult!
+    illegalInvestment(id: ID): IllegalQueryResult!
+    products(name: String, limit: Int, offset: Int): ProductsQueryResult!
+    product(id: ID): ProductQueryResult!
+    apps(name: String, limit: Int, offset: Int): AppsQueryResult!
+    app(id: ID): AppQueryResult!
   }
 `;
