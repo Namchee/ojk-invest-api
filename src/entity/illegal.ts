@@ -1,6 +1,7 @@
 export interface IllegalInvestment {
   id: number;
   name: string;
+  alias: string[];
   address: string;
   number: string[];
   email: string[];

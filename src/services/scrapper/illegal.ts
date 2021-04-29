@@ -69,7 +69,12 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
       const rawProduct = JSON.parse(illegal);
 
       const id = Number(rawProduct.id);
-      const name = rawProduct.name;
+      const names = rawProduct.name
+        .split(/[/\\]/g)
+        .map((str: string) => str.trim());
+
+      const name = names[0];
+      const alias = names.slice(1);
 
       const urls = [...getUrls(rawProduct.urls)];
 
@@ -141,6 +146,7 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
       return {
         id,
         name,
+        alias,
         address,
         number: phoneNumbers,
         email: emails,
@@ -148,7 +154,7 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
         type: capitalize(rawProduct.type),
         inputDate: this.parseDate(rawProduct.inputDate)
           .toLocaleDateString('en-id'),
-        details: rawProduct.details,
+        details: normalize(rawProduct.details),
       };
     });
   }
