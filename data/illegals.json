@@ -13,13 +13,15 @@
         "http://cakrapelitainvesta.com"
       ],
       "type": "Investasi Saham",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
       "id": 2,
-      "name": "PT East Cape Mining Corporation (ECMC)",
-      "alias": [],
+      "name": "PT East Cape Mining Corporation",
+      "alias": [
+        "ECMC"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -28,7 +30,7 @@
         "http://goldmillionaireprogram.blogspot.co.id/p/home.html"
       ],
       "type": "Investasi Emas",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -42,7 +44,7 @@
         "http://ptekapioneergroupindo.blogspot.co.id"
       ],
       "type": "Investasi Uang",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -58,7 +60,7 @@
         "http://exist-assetindo.co.id"
       ],
       "type": "",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -74,13 +76,15 @@
         "http://gloryoffline.weebly.com"
       ],
       "type": "Investasi Emas",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
       "id": 6,
-      "name": "PT Golden Bird (Index Golden Bird)",
-      "alias": [],
+      "name": "PT Golden Bird",
+      "alias": [
+        "Index Golden Bird"
+      ],
       "address": "Jakarta",
       "number": [
         "(021) 6884 4413"
@@ -90,7 +94,7 @@
         "http://sahamindexgbjaya.blogspot.co.id/2013/05/saham-index-golden-bird-asli-singapura.html"
       ],
       "type": "Investasi Emas",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -104,7 +108,7 @@
         "http://gtisyariahindoesia.blogspot.co.id"
       ],
       "type": "Investasi Emas",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -118,7 +122,7 @@
         "http://ctiventure.blogspot.co.id/2012/11/profil-perusahaan.html"
       ],
       "type": "Investasi Batubara",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -132,7 +136,7 @@
         "http://kaskus.co.id/thread/52843bac128b461914000000/ibc-indoboclub-scam-bisnis-online-asli-indonesia-yang-super-booming"
       ],
       "type": "Investasi Uang",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -146,7 +150,7 @@
         "http://kaskus.co.id/post/537108d07fcf17dd28000028#post537108d07fcf17dd28000028"
       ],
       "type": "Investasi Forex",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -162,7 +166,7 @@
         "http://mandiri-invest.blogspot.co.id"
       ],
       "type": "Investasi Uang",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -179,7 +183,7 @@
         "http://investasiemasvista.blogspot.co.id"
       ],
       "type": "Investasi Emas",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -193,7 +197,7 @@
         "https://semuabisnisonline.wordpress.com/aset-profit"
       ],
       "type": "Investasi Uang",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -207,7 +211,7 @@
         "http://zonainvestasibestlink.blogspot.co.id"
       ],
       "type": "Investasi Emas",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -221,7 +225,7 @@
         "http://investasibca.com"
       ],
       "type": "Investasi Uang",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -235,7 +239,7 @@
         "http://bjcity-indonesia.com/?id=admin&m="
       ],
       "type": "Investasi Uang",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -250,7 +254,7 @@
         "http://blakblakan.web.id"
       ],
       "type": "Investasi Uang",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -264,7 +268,7 @@
         "http://santosaelife.wix.com/pendaftaran-bma21"
       ],
       "type": "Investasi Uang",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -278,7 +282,7 @@
         "https://kebunemasindonesia.wordpress.com"
       ],
       "type": "Investasi Emas",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -292,13 +296,15 @@
         "http://exnessindo.com"
       ],
       "type": "Investasi Forex",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
       "id": 21,
-      "name": "Global Agro Bisnis (I-gist)",
-      "alias": [],
+      "name": "Global Agro Bisnis",
+      "alias": [
+        "I-gist"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -306,7 +312,7 @@
         "http://jabonkita.com"
       ],
       "type": "Investasi Jabon",
-      "inputDate": "8/22/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -320,7 +326,7 @@
         "http://goldunionasia.blogspot.co.id/p/contact.html"
       ],
       "type": "Investasi Emas",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -334,7 +340,7 @@
         "http://hkdfin.simplesite.com/421913591"
       ],
       "type": "Investasi Uang",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -351,7 +357,7 @@
         "http://meabisnis.com"
       ],
       "type": "",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -365,7 +371,7 @@
         "http://indofxexpress.blogspot.co.id"
       ],
       "type": "Investasi Forex",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -381,7 +387,7 @@
         "http://clashfxindonesia.com"
       ],
       "type": "Investasi Uang",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -409,7 +415,7 @@
         "https://facebook.com/Sukses-bersama-Global-Intergold-Team-Formosa-1410002615981909"
       ],
       "type": "Investasi Emas",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -423,13 +429,15 @@
         "http://bossventure.com"
       ],
       "type": "",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
       "id": 30,
-      "name": "Manusia Membantu Manusia (MMM)",
-      "alias": [],
+      "name": "Manusia Membantu Manusia",
+      "alias": [
+        "MMM"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -437,7 +445,7 @@
         "http://mmmglobal.org"
       ],
       "type": "Investasi Uang",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -451,7 +459,7 @@
         "http://awasd4f.web.id"
       ],
       "type": "Investasi Uang",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -465,13 +473,15 @@
         "http://presentasiwandermind.blogspot.co.id/2015/01/presentasi-bisnis-wandermindinc.html"
       ],
       "type": "Investasi Uang",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
       "id": 33,
-      "name": "Sama Sama Sejahtera (SSS)",
-      "alias": [],
+      "name": "Sama Sama Sejahtera",
+      "alias": [
+        "SSS"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -479,7 +489,7 @@
         "https://s3systems.wordpress.com/tag/sama-sama-sejahtera"
       ],
       "type": "Investasi Uang",
-      "inputDate": "8/18/2016",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -563,8 +573,10 @@
     },
     {
       "id": 39,
-      "name": "Bank Forex Cash (BFC)",
-      "alias": [],
+      "name": "Bank Forex Cash",
+      "alias": [
+        "BFC"
+      ],
       "address": "Jl. Gayo, Kecamatan Juli Kabupaten Bireuen, Provinsi Aceh 24251",
       "number": [],
       "email": [],
@@ -661,8 +673,10 @@
     },
     {
       "id": 46,
-      "name": "PT Buana Kemilau Persada (Mitragold)",
-      "alias": [],
+      "name": "PT Buana Kemilau Persada",
+      "alias": [
+        "Mitragold"
+      ],
       "address": "Ruko Niaga MTC blok H-15, Jl. Soekarno-Hatta, Bandung",
       "number": [
         "(022) 8730 3148"
@@ -707,8 +721,10 @@
     },
     {
       "id": 49,
-      "name": "PT Mitra Super Sejahtera Indonesia (MISSI)",
-      "alias": [],
+      "name": "PT Mitra Super Sejahtera Indonesia",
+      "alias": [
+        "MISSI"
+      ],
       "address": "Jln. Moh. Hatta Ampana kota Kab. Touna Sulawesi Tengah",
       "number": [
         "0852 9994 1923"
@@ -723,8 +739,10 @@
     },
     {
       "id": 50,
-      "name": "PT Peresseia Mazeaa Dwisapta Abadi (Primaz)",
-      "alias": [],
+      "name": "PT Peresseia Mazeaa Dwisapta Abadi",
+      "alias": [
+        "Primaz"
+      ],
       "address": "Ruko Mega Grosir ITC Cempaka Mas Blok F14, Jakarta Pusat",
       "number": [],
       "email": [],
@@ -946,8 +964,10 @@
     },
     {
       "id": 65,
-      "name": "Bina Usaha Mitra Sehat Sejahtera (BUMSS)",
-      "alias": [],
+      "name": "Bina Usaha Mitra Sehat Sejahtera",
+      "alias": [
+        "BUMSS"
+      ],
       "address": "Jl. Ngagel Jaya Indah C65 Lt.4, Surabaya",
       "number": [
         "0822 3022 5000",
@@ -1077,8 +1097,10 @@
     },
     {
       "id": 74,
-      "name": "PT Compact Sejahtera Group (Compact 500)",
-      "alias": [],
+      "name": "PT Compact Sejahtera Group",
+      "alias": [
+        "Compact 500"
+      ],
       "address": "Jalan Raya Mercedes Benz RT 001/003 No. 168 Cicadas, Gunung Putri, Bogor",
       "number": [],
       "email": [],
@@ -1105,8 +1127,10 @@
     },
     {
       "id": 76,
-      "name": "Koperasi Segitiga Bermuda (Profit Win 77)",
-      "alias": [],
+      "name": "Koperasi Segitiga Bermuda",
+      "alias": [
+        "Profit Win 77"
+      ],
       "address": "Ruko Citraland, Blok L/22 Gowa, Sulawesi Selatan",
       "number": [],
       "email": [],
@@ -1205,8 +1229,10 @@
     },
     {
       "id": 83,
-      "name": "Koperasi Serba Usaha Agro Cassava Nusantara (Agro Investy)",
-      "alias": [],
+      "name": "Koperasi Serba Usaha Agro Cassava Nusantara",
+      "alias": [
+        "Agro Investy"
+      ],
       "address": "Kampung Babakan Kencana, Desa Benda, Kecamatan Cicurug, Kabupaten Sukabumi - Jawa Barat.",
       "number": [
         "0822 3428 2546",
@@ -1241,7 +1267,7 @@
       "number": [],
       "email": [],
       "urls": [],
-      "type": "-",
+      "type": "",
       "inputDate": "3/31/2017",
       "details": "Siaran Pers OJK Nomor SP 29/DKNS/OJK/III/2017 tanggal 26 Maret 2017 tentang LINDUNGI MASYARAKAT, SATGAS WASPADA INVESTASI HENTIKAN ENAM KEGIATAN PENGHIMPUNAN DANA DAN PENGELOLAAN INVESTASI"
     },
@@ -1469,7 +1495,8 @@
       "id": 101,
       "name": "PT Miracle Bangun Indo",
       "alias": [
-        "Program Gotong Royong Bersama Kita Sukses (GBKS)"
+        "Program Gotong Royong Bersama Kita Sukses",
+        "GBKS"
       ],
       "address": "Jalan Tololiu Supit, Lorong X KUD Wenang, Kel. Tingkulu Lingkungan II, Kec. Wanea, Manado, Sulawesi Utara.",
       "number": [
@@ -1501,7 +1528,7 @@
         "http://ptakmalazrielbersaudara.com/;"
       ],
       "type": "Investasi Kredit Mobil",
-      "inputDate": "8/15/2017",
+      "inputDate": "Invalid Date",
       "details": "Siaran Pers OJK Nomor SP 88/DKNS/OJK/VII/2017 tanggal 21 Juli 2017 tentang “Penawaran Investasi Ilegal Mengkhawatirkan, Satgas Waspada Tutup 11 Entitas”"
     },
     {
@@ -1519,7 +1546,7 @@
         "http://konterkita.com"
       ],
       "type": "Investasi Pulsa",
-      "inputDate": "8/15/2017",
+      "inputDate": "Invalid Date",
       "details": "Siaran Pers OJK Nomor SP 88/DKNS/OJK/VII/2017 tanggal 21 Juli 2017 tentang “Penawaran Investasi Ilegal Mengkhawatirkan, Satgas Waspada Tutup 11 Entitas”"
     },
     {
@@ -1552,14 +1579,14 @@
         "http://global-mitra-group.com"
       ],
       "type": "Jasa Teknologi (IT) dan Ekspor - Impor",
-      "inputDate": "8/15/2017",
+      "inputDate": "Invalid Date",
       "details": "Siaran Pers OJK Nomor SP 88/DKNS/OJK/VII/2017 tanggal 21 Juli 2017 tentang “Penawaran Investasi Ilegal Mengkhawatirkan, Satgas Waspada Tutup 11 Entitas”"
     },
     {
       "id": 106,
       "name": "Car Club Indonesia",
       "alias": [
-        "PT Carklub Pratama Indonesia;"
+        "PT Carklub Pratama Indonesia"
       ],
       "address": "Jl. WR. Supratman B26, Ciputat, Tangerang Selatan.",
       "number": [
@@ -1571,19 +1598,19 @@
         "http://carclubindo.com"
       ],
       "type": "Kredit Mobil dan Produk Kesehatan",
-      "inputDate": "8/15/2017",
+      "inputDate": "Invalid Date",
       "details": "Siaran Pers OJK Nomor SP 88/DKNS/OJK/VII/2017 tanggal 21 Juli 2017 tentang “Penawaran Investasi Ilegal Mengkhawatirkan, Satgas Waspada Tutup 11 Entitas”"
     },
     {
       "id": 107,
-      "name": "Koperasi Budaya Karyawan Bank Bumi Daya Cabang Pekanbaru;",
+      "name": "Koperasi Budaya Karyawan Bank Bumi Daya Cabang Pekanbaru",
       "alias": [],
       "address": "Jalan Jend. Sudirman No. 452, Pekanbaru, Riau.",
       "number": [],
       "email": [],
       "urls": [],
       "type": "Commercial Papper",
-      "inputDate": "8/15/2017",
+      "inputDate": "Invalid Date",
       "details": "Siaran Pers OJK Nomor SP 88/DKNS/OJK/VII/2017 tanggal 21 Juli 2017 tentang “Penawaran Investasi Ilegal Mengkhawatirkan, Satgas Waspada Tutup 11 Entitas”"
     },
     {
@@ -1599,7 +1626,7 @@
       "email": [],
       "urls": [],
       "type": "Investasi Forex",
-      "inputDate": "8/15/2017",
+      "inputDate": "Invalid Date",
       "details": "Siaran Pers OJK Nomor SP 88/DKNS/OJK/VII/2017 tanggal 21 Juli 2017 tentang “Penawaran Investasi Ilegal Mengkhawatirkan, Satgas Waspada Tutup 11 Entitas”"
     },
     {
@@ -1611,13 +1638,14 @@
       "email": [],
       "urls": [],
       "type": "Investasi Uang",
-      "inputDate": "8/15/2017",
+      "inputDate": "Invalid Date",
       "details": "Siaran Pers OJK Nomor SP 88/DKNS/OJK/VII/2017 tanggal 21 Juli 2017 tentang “Penawaran Investasi Ilegal Mengkhawatirkan, Satgas Waspada Tutup 11 Entitas”"
     },
     {
       "id": 110,
-      "name": "Koperasi Karya Putra Alam Semesta (KPAS)",
+      "name": "Koperasi Karya Putra Alam Semesta",
       "alias": [
+        "KPAS",
         "Invesment Management Consortium"
       ],
       "address": "Gunung Putri Bogor",
@@ -1779,8 +1807,9 @@
     },
     {
       "id": 120,
-      "name": "Wujudkan Impian Bersama (WIB)",
+      "name": "Wujudkan Impian Bersama",
       "alias": [
+        "WIB",
         "PT Global Mitra Group"
       ],
       "address": "Blok A, Jalan KH. Ismail Malik No.27, Mayang Mangurai, Kota Baru, Kota Jambi",
@@ -1797,8 +1826,9 @@
     },
     {
       "id": 121,
-      "name": "Ahmad Zulkhairi Associates LLP (AZA)",
+      "name": "Ahmad Zulkhairi Associates LLP",
       "alias": [
+        "AZA",
         "Bank Aza"
       ],
       "address": "Jalan Simpang Kinol Padang, Sumatera Barat",
@@ -2288,8 +2318,10 @@
     },
     {
       "id": 151,
-      "name": "PT SKYWAY TECHNOLOGIES INDONESIA (Skyway Capital)",
-      "alias": [],
+      "name": "PT SKYWAY TECHNOLOGIES INDONESIA",
+      "alias": [
+        "Skyway Capital"
+      ],
       "address": "Menara BCA 50th floor , Jl. MH. Thamrin No.1, Jakarta Pusat 10310 Indonesia",
       "number": [
         "23585755"
@@ -2318,8 +2350,10 @@
     },
     {
       "id": 153,
-      "name": "Koperasi Syariah Pesantren Entrepereneur (Program Senja Investasi)",
-      "alias": [],
+      "name": "Koperasi Syariah Pesantren Entrepereneur",
+      "alias": [
+        "Program Senja Investasi"
+      ],
       "address": "Graha Pesantren Entrepreneur Emerald Commercial, Blok UF No. 08 Sumarecon Bekasi, Jawa Barat",
       "number": [
         "(021) 2962 0545"
@@ -2365,8 +2399,10 @@
     },
     {
       "id": 156,
-      "name": "PT Sumber Mulya Sentosa (Rejeki Marketing)",
-      "alias": [],
+      "name": "PT Sumber Mulya Sentosa",
+      "alias": [
+        "Rejeki Marketing"
+      ],
       "address": "Jl Tambora Selatan No 26, Mojosongo, Solo 57127",
       "number": [
         "0856339"
@@ -2432,8 +2468,10 @@
     },
     {
       "id": 160,
-      "name": "PT Eljhon Digital Finance (Zimple Pay)",
-      "alias": [],
+      "name": "PT Eljhon Digital Finance",
+      "alias": [
+        "Zimple Pay"
+      ],
       "address": "Perkantoran Plaza Pasifik A4-80 Jl. Boulevard Barat Raya, Kelapa Gading, RT.18/RW.8, Klp. Gading Bar., Klp. Gading, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14240",
       "number": [
         "(021) 4585 8666"
@@ -2448,8 +2486,10 @@
     },
     {
       "id": 161,
-      "name": "Black Tuma (Lektuma)",
-      "alias": [],
+      "name": "Black Tuma",
+      "alias": [
+        "Lektuma"
+      ],
       "address": "Semarang, Solo, Sragen",
       "number": [
         "0813 3437 7345"
@@ -2478,8 +2518,10 @@
     },
     {
       "id": 163,
-      "name": "Clicknshare (Clickandshare)",
-      "alias": [],
+      "name": "Clicknshare",
+      "alias": [
+        "Clickandshare"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -2492,8 +2534,10 @@
     },
     {
       "id": 164,
-      "name": "Markas Mavrodian Manado (MMM)",
-      "alias": [],
+      "name": "Markas Mavrodian Manado",
+      "alias": [
+        "MMM"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -2506,8 +2550,10 @@
     },
     {
       "id": 165,
-      "name": "Aladin Capital (Aladin Coin)",
-      "alias": [],
+      "name": "Aladin Capital",
+      "alias": [
+        "Aladin Coin"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -2576,8 +2622,10 @@
     },
     {
       "id": 170,
-      "name": "Near Plus Coin (NPC)",
-      "alias": [],
+      "name": "Near Plus Coin",
+      "alias": [
+        "NPC"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -2957,8 +3005,10 @@
     },
     {
       "id": 195,
-      "name": "KH Pulsa (Pulsa Center)",
-      "alias": [],
+      "name": "KH Pulsa",
+      "alias": [
+        "Pulsa Center"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -2990,8 +3040,9 @@
     },
     {
       "id": 197,
-      "name": "PT Sejahtera Mandiri Insani (SMI)",
+      "name": "PT Sejahtera Mandiri Insani",
       "alias": [
+        "SMI",
         "Bit Emass"
       ],
       "address": "Jalan Raya Pantura Pamanukan Subang Jawa Barat",
@@ -3171,8 +3222,10 @@
     },
     {
       "id": 209,
-      "name": "PT Medussa Multi Business Centre Tour & Travel (MMBC Tour & Travel)",
-      "alias": [],
+      "name": "PT Medussa Multi Business Centre Tour & Travel",
+      "alias": [
+        "MMBC Tour & Travel"
+      ],
       "address": "Gedung DPK BPJS Ketenagakerjaan Lantai 1 Ruang B No.3, Jalan Tangkas Baru No. 1, Gatot Subroto, RT 010/002, Karet, Semanggi, Jakarta Selatan 12930",
       "number": [
         "(021) 522 8525",
@@ -3237,7 +3290,7 @@
         "http://netklikshare.com"
       ],
       "type": "MLM Tanpa Izin",
-      "inputDate": "8/27/2018",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -3257,8 +3310,10 @@
     },
     {
       "id": 214,
-      "name": "PT Nusa Media Creative (NMC)",
-      "alias": [],
+      "name": "PT Nusa Media Creative",
+      "alias": [
+        "NMC"
+      ],
       "address": "Office Suite A529. Mall Epicentrum Walk Lantai 5, Rasuna Epicentrum CBD, Jalan HR. Rasuna Said, Jakarta Selatan 12940 Indonesia",
       "number": [
         "5682703"
@@ -3268,7 +3323,7 @@
         "http://officialnmc.com"
       ],
       "type": "MLM Ilegal",
-      "inputDate": "8/27/2018",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -3289,7 +3344,7 @@
         "https://indomedia.club"
       ],
       "type": "MLM Ilegal",
-      "inputDate": "8/27/2018",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -3304,7 +3359,7 @@
         "http://smartpaybisnis.com"
       ],
       "type": "MLM Ilegal",
-      "inputDate": "8/27/2018",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -3320,7 +3375,7 @@
         "http://satuanugrah.com/index.html"
       ],
       "type": "MLM Ilegal",
-      "inputDate": "8/27/2018",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -3334,7 +3389,7 @@
         "https://forgewinner.com"
       ],
       "type": "MLM Ilegal",
-      "inputDate": "8/27/2018",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -3348,7 +3403,7 @@
         "http://flashin.co.id"
       ],
       "type": "MLM Ilegal",
-      "inputDate": "8/27/2018",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -3364,7 +3419,7 @@
         "https://limau.co.id"
       ],
       "type": "MLM Ilegal",
-      "inputDate": "8/27/2018",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -3381,7 +3436,7 @@
         "http://g4nesh.co.id"
       ],
       "type": "MLM Ilegal",
-      "inputDate": "8/27/2018",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -3397,7 +3452,7 @@
         "http://bestwinner.id"
       ],
       "type": "MLM Ilegal",
-      "inputDate": "8/27/2018",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -3415,7 +3470,7 @@
         "https://keranmalang.wordpress.com"
       ],
       "type": "MLM Ilegal",
-      "inputDate": "8/27/2018",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -3431,7 +3486,7 @@
         "https://exo-coin.io"
       ],
       "type": "Cryptocurrency",
-      "inputDate": "8/27/2018",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -3447,7 +3502,7 @@
         "https://btcrush.io"
       ],
       "type": "Cryptocurrency",
-      "inputDate": "8/27/2018",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -3463,7 +3518,7 @@
         "http://btc-rush.com"
       ],
       "type": "Cryptocurrency",
-      "inputDate": "8/27/2018",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -3475,13 +3530,15 @@
       "email": [],
       "urls": [],
       "type": "Cryptocurrency",
-      "inputDate": "8/27/2018",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
       "id": 228,
-      "name": "Rahasia Cara Sukses Bisnis Online (RCSBO)",
-      "alias": [],
+      "name": "Rahasia Cara Sukses Bisnis Online",
+      "alias": [
+        "RCSBO"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -3489,7 +3546,7 @@
         "http://rcsbo.com"
       ],
       "type": "Investasi Software Penghasil Uang",
-      "inputDate": "8/27/2018",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -3505,7 +3562,7 @@
         "http://pt-danareksa.com"
       ],
       "type": "Perdagangan Forex",
-      "inputDate": "8/27/2018",
+      "inputDate": "Invalid Date",
       "details": "Sudah dicabut izin usaha oleh Bappebti pada tahun 2011."
     },
     {
@@ -3522,7 +3579,7 @@
         "http://admisinvestment.id"
       ],
       "type": "Manajer Investasi Tanpa Izin.",
-      "inputDate": "8/27/2018",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -3536,7 +3593,7 @@
       "email": [],
       "urls": [],
       "type": "Kegiatan Bank Perkreditan Rakyat Tanpa Izin",
-      "inputDate": "8/27/2018",
+      "inputDate": "Invalid Date",
       "details": ""
     },
     {
@@ -3613,8 +3670,10 @@
     },
     {
       "id": 238,
-      "name": "PT Dobel Network Internasional (Saverion)",
-      "alias": [],
+      "name": "PT Dobel Network Internasional",
+      "alias": [
+        "Saverion"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -3768,7 +3827,7 @@
       "number": [],
       "email": [],
       "urls": [],
-      "type": "-",
+      "type": "",
       "inputDate": "3/5/2020",
       "details": "Siaran Pers Satuan Tugas Waspada Investasi nomor SP-02/III/SWI/2019"
     },
@@ -4058,8 +4117,10 @@
     },
     {
       "id": 273,
-      "name": "Financial Brokerage Service (FBS)",
-      "alias": [],
+      "name": "Financial Brokerage Service",
+      "alias": [
+        "FBS"
+      ],
       "address": "Jakarta Barat",
       "number": [],
       "email": [],
@@ -4082,8 +4143,10 @@
     },
     {
       "id": 275,
-      "name": "PT Fortuna Cemerlang (FC33)",
-      "alias": [],
+      "name": "PT Fortuna Cemerlang",
+      "alias": [
+        "FC33"
+      ],
       "address": "Surabaya",
       "number": [],
       "email": [],
@@ -4122,8 +4185,10 @@
     },
     {
       "id": 278,
-      "name": "PT Pandu Prima Amanah (PPA Tour & Training) dan PT Panca Pola Anugerah (PPA Institute)",
-      "alias": [],
+      "name": "PT Pandu Prima Amanah",
+      "alias": [
+        "PPA Tour & Training"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -5034,8 +5099,10 @@
     },
     {
       "id": 344,
-      "name": "Forex Broker Pro (IB FXCM Indonesia)",
-      "alias": [],
+      "name": "Forex Broker Pro",
+      "alias": [
+        "IB FXCM Indonesia"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -5175,8 +5242,10 @@
     },
     {
       "id": 354,
-      "name": "Mitra Bisnis HIPO (Himpunan Pengusaha Online Internasional)",
-      "alias": [],
+      "name": "Mitra Bisnis HIPO",
+      "alias": [
+        "Himpunan Pengusaha Online Internasional"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -5905,7 +5974,8 @@
       "id": 403,
       "name": "PT Ezycloud Teknologi Indonesia",
       "alias": [
-        "PT Megah Visi Anugerah (EzyCloud)"
+        "PT Megah Visi Anugerah",
+        "EzyCloud"
       ],
       "address": "",
       "number": [],
@@ -5917,8 +5987,10 @@
     },
     {
       "id": 404,
-      "name": "CV Mitra Sukses Bersama (MSB)",
-      "alias": [],
+      "name": "CV Mitra Sukses Bersama",
+      "alias": [
+        "MSB"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -5953,8 +6025,10 @@
     },
     {
       "id": 407,
-      "name": "PT Kam and Kam (MeMiles)",
-      "alias": [],
+      "name": "PT Kam and Kam",
+      "alias": [
+        "MeMiles"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -6029,8 +6103,10 @@
     },
     {
       "id": 413,
-      "name": "Ketut Ardiasa, dkk. (Sosialisasi hutang lunas dengan SBKKN)",
-      "alias": [],
+      "name": "Ketut Ardiasa, dkk.",
+      "alias": [
+        "Sosialisasi hutang lunas dengan SBKKN"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -6065,8 +6141,10 @@
     },
     {
       "id": 416,
-      "name": "PT. Sejahtera Bersama Solusindo (Good Deal Poin)",
-      "alias": [],
+      "name": "PT. Sejahtera Bersama Solusindo",
+      "alias": [
+        "Good Deal Poin"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -6707,8 +6785,10 @@
     },
     {
       "id": 461,
-      "name": "Throne Legacy Capital (TLC)",
-      "alias": [],
+      "name": "Throne Legacy Capital",
+      "alias": [
+        "TLC"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -6819,8 +6899,10 @@
     },
     {
       "id": 470,
-      "name": "PT Bengkel Rohani (Travel Umroh)",
-      "alias": [],
+      "name": "PT Bengkel Rohani",
+      "alias": [
+        "Travel Umroh"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -6855,8 +6937,10 @@
     },
     {
       "id": 473,
-      "name": "Multi Digital Poin (MDP)",
-      "alias": [],
+      "name": "Multi Digital Poin",
+      "alias": [
+        "MDP"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -6915,8 +6999,10 @@
     },
     {
       "id": 478,
-      "name": "PT Garasi Indonesia Makmur (Garasindo)",
-      "alias": [],
+      "name": "PT Garasi Indonesia Makmur",
+      "alias": [
+        "Garasindo"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -6965,8 +7051,10 @@
     },
     {
       "id": 482,
-      "name": "PT Toek Biru Majapahit (PT TBM)",
-      "alias": [],
+      "name": "PT Toek Biru Majapahit",
+      "alias": [
+        "PT TBM"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -6977,8 +7065,10 @@
     },
     {
       "id": 483,
-      "name": "PT IDR Nusantara (IDRprofit)",
-      "alias": [],
+      "name": "PT IDR Nusantara",
+      "alias": [
+        "IDRprofit"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -7077,8 +7167,10 @@
     },
     {
       "id": 491,
-      "name": "PT Resva Nettiz Media International (NETTIZ)",
-      "alias": [],
+      "name": "PT Resva Nettiz Media International",
+      "alias": [
+        "NETTIZ"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -7129,8 +7221,10 @@
     },
     {
       "id": 495,
-      "name": "Perkumpulan Peduli Ummat Indonesia (PPUI) Agus Santoso",
-      "alias": [],
+      "name": "Perkumpulan Peduli Ummat Indonesia",
+      "alias": [
+        "PPUI"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -7141,8 +7235,10 @@
     },
     {
       "id": 496,
-      "name": "Tabungan Muzdahir Indonesia (TMI)",
-      "alias": [],
+      "name": "Tabungan Muzdahir Indonesia",
+      "alias": [
+        "TMI"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -7153,8 +7249,10 @@
     },
     {
       "id": 497,
-      "name": "PT Genusa Media Artha (GMA)",
-      "alias": [],
+      "name": "PT Genusa Media Artha",
+      "alias": [
+        "GMA"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -7733,8 +7831,10 @@
     },
     {
       "id": 545,
-      "name": "ZBorsa (Ziraat Yatirim Borsa)",
-      "alias": [],
+      "name": "ZBorsa",
+      "alias": [
+        "Ziraat Yatirim Borsa"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -8375,8 +8475,10 @@
     },
     {
       "id": 598,
-      "name": "Bullion Trading Center (BTC) aTrader",
-      "alias": [],
+      "name": "Bullion Trading Center",
+      "alias": [
+        "BTC"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -8701,8 +8803,10 @@
     },
     {
       "id": 625,
-      "name": "Forex & Crypto trading IQ Option - (unofficial)",
-      "alias": [],
+      "name": "Forex & Crypto trading IQ Option -",
+      "alias": [
+        "unofficial"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -9166,8 +9270,10 @@
     },
     {
       "id": 663,
-      "name": "Forexperia (Firewood dan Instaforex)",
-      "alias": [],
+      "name": "Forexperia",
+      "alias": [
+        "Firewood dan Instaforex"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -9178,8 +9284,10 @@
     },
     {
       "id": 664,
-      "name": "Grahafx (Instaforex)",
-      "alias": [],
+      "name": "Grahafx",
+      "alias": [
+        "Instaforex"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -9204,7 +9312,8 @@
       "id": 666,
       "name": "PT Akses Group Indonesia",
       "alias": [
-        "PT Intiga Ventura Bersama (Invezin)"
+        "PT Intiga Ventura Bersama",
+        "Invezin"
       ],
       "address": "",
       "number": [],
@@ -9232,8 +9341,10 @@
     },
     {
       "id": 668,
-      "name": "PT Brillian Nusantara Mandiri (Bliuntung)",
-      "alias": [],
+      "name": "PT Brillian Nusantara Mandiri",
+      "alias": [
+        "Bliuntung"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -9393,7 +9504,8 @@
       "alias": [
         "",
         "investasimajoris.com",
-        "(mengatasnamakan PT Majoris Asset Management)"
+        "",
+        "mengatasnamakan PT Majoris Asset Management"
       ],
       "address": "",
       "number": [],
@@ -9564,8 +9676,10 @@
     },
     {
       "id": 692,
-      "name": "Usahaku (Havis Madu Jaya dan Martini)",
-      "alias": [],
+      "name": "Usahaku",
+      "alias": [
+        "Havis Madu Jaya dan Martini"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -9630,8 +9744,10 @@
     },
     {
       "id": 697,
-      "name": "PT Media Bisnis Anda (Ramein)",
-      "alias": [],
+      "name": "PT Media Bisnis Anda",
+      "alias": [
+        "Ramein"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -9666,8 +9782,10 @@
     },
     {
       "id": 700,
-      "name": "PT Prospera Forex (pengguna nama PT Prospera Asset Management)",
-      "alias": [],
+      "name": "PT Prospera Forex",
+      "alias": [
+        "pengguna nama PT Prospera Asset Management"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -9719,8 +9837,10 @@
     },
     {
       "id": 704,
-      "name": "Forum Komunikasi Persaudaraan Nusantara (FKPN)",
-      "alias": [],
+      "name": "Forum Komunikasi Persaudaraan Nusantara",
+      "alias": [
+        "FKPN"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -9755,8 +9875,10 @@
     },
     {
       "id": 707,
-      "name": "PT Digital Asset Indonesia (e-share profit)",
-      "alias": [],
+      "name": "PT Digital Asset Indonesia",
+      "alias": [
+        "e-share profit"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -9853,8 +9975,10 @@
     },
     {
       "id": 715,
-      "name": "PT Shakti Persada Indonesia (e-share profit, e-saham infinity)",
-      "alias": [],
+      "name": "PT Shakti Persada Indonesia",
+      "alias": [
+        "e-share profit, e-saham infinity"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -9954,8 +10078,10 @@
     },
     {
       "id": 723,
-      "name": "Koperasi Namastra (Namastra - Koperasi Masa Kini)",
-      "alias": [],
+      "name": "Koperasi Namastra",
+      "alias": [
+        "Namastra - Koperasi Masa Kini"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -9969,8 +10095,10 @@
     },
     {
       "id": 724,
-      "name": "Koperasi Simpan Pinjam Jalan Gemilang (Uang Pintar)",
-      "alias": [],
+      "name": "Koperasi Simpan Pinjam Jalan Gemilang",
+      "alias": [
+        "Uang Pintar"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -9983,8 +10111,10 @@
     },
     {
       "id": 725,
-      "name": "KSP SNR Soft (Koperasi Simpan Pinjam)",
-      "alias": [],
+      "name": "KSP SNR Soft",
+      "alias": [
+        "Koperasi Simpan Pinjam"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -9997,8 +10127,10 @@
     },
     {
       "id": 726,
-      "name": "Koperasi Dana Pinjaman Mandiri Sejahtera (Dana Pinjaman Mobile)",
-      "alias": [],
+      "name": "Koperasi Dana Pinjaman Mandiri Sejahtera",
+      "alias": [
+        "Dana Pinjaman Mobile"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -10039,8 +10171,10 @@
     },
     {
       "id": 729,
-      "name": "KSPPS BMT Sejahtera Makassar (BMT Sejahtera)",
-      "alias": [],
+      "name": "KSPPS BMT Sejahtera Makassar",
+      "alias": [
+        "BMT Sejahtera"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -10110,8 +10244,10 @@
     },
     {
       "id": 734,
-      "name": "Koperasi Karyawan SIGAP Prima Astrea (Koperasi Sigap)",
-      "alias": [],
+      "name": "Koperasi Karyawan SIGAP Prima Astrea",
+      "alias": [
+        "Koperasi Sigap"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -10124,8 +10260,10 @@
     },
     {
       "id": 735,
-      "name": "Koperasi KITA (Koperasi KITA - Koperasi Digital)",
-      "alias": [],
+      "name": "Koperasi KITA",
+      "alias": [
+        "Koperasi KITA - Koperasi Digital"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -10138,8 +10276,10 @@
     },
     {
       "id": 736,
-      "name": "KSP Modal Usaha (Pinjam Pro - Pinjaman Dana Cepat Online CairKilat)",
-      "alias": [],
+      "name": "KSP Modal Usaha",
+      "alias": [
+        "Pinjam Pro - Pinjaman Dana Cepat Online CairKilat"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -10152,8 +10292,10 @@
     },
     {
       "id": 737,
-      "name": "KOPERASI SIMPAN PINJAM ANDALAN USAHA SEJAHTERA (Kredikas - KreditUangCepat Cash KSP)",
-      "alias": [],
+      "name": "KOPERASI SIMPAN PINJAM ANDALAN USAHA SEJAHTERA",
+      "alias": [
+        "Kredikas - KreditUangCepat Cash KSP"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -10180,8 +10322,10 @@
     },
     {
       "id": 739,
-      "name": "Nanonetwork (Fingo Indonesia)",
-      "alias": [],
+      "name": "Nanonetwork",
+      "alias": [
+        "Fingo Indonesia"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -10204,8 +10348,10 @@
     },
     {
       "id": 741,
-      "name": "Building The Dream (BTD)",
-      "alias": [],
+      "name": "Building The Dream",
+      "alias": [
+        "BTD"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -10216,8 +10362,10 @@
     },
     {
       "id": 742,
-      "name": "Komunitas Cerdas Finansial (KCFS)",
-      "alias": [],
+      "name": "Komunitas Cerdas Finansial",
+      "alias": [
+        "KCFS"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -10255,8 +10403,10 @@
     },
     {
       "id": 745,
-      "name": "PT Future View Tech (VTube)",
-      "alias": [],
+      "name": "PT Future View Tech",
+      "alias": [
+        "VTube"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -10317,8 +10467,10 @@
     },
     {
       "id": 750,
-      "name": "E-Dinar Coin Gold (PT Indragiri Digital Aset Indonesia)",
-      "alias": [],
+      "name": "E-Dinar Coin Gold",
+      "alias": [
+        "PT Indragiri Digital Aset Indonesia"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -10939,8 +11091,10 @@
     },
     {
       "id": 794,
-      "name": "Instaforex Partner (Rebate)",
-      "alias": [],
+      "name": "Instaforex Partner",
+      "alias": [
+        "Rebate"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -11540,8 +11694,10 @@
     },
     {
       "id": 837,
-      "name": "Koperasi Produsen Mitra Wira Terpadu (My Win Trade)",
-      "alias": [],
+      "name": "Koperasi Produsen Mitra Wira Terpadu",
+      "alias": [
+        "My Win Trade"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -11578,8 +11734,10 @@
     },
     {
       "id": 840,
-      "name": "Perkumpulan Pengusaha Digital Aset Internasional (PT Digital Aset Development Indonesia)",
-      "alias": [],
+      "name": "Perkumpulan Pengusaha Digital Aset Internasional",
+      "alias": [
+        "PT Digital Aset Development Indonesia"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -11604,8 +11762,10 @@
     },
     {
       "id": 842,
-      "name": "Lucky Trade Community (LTC)",
-      "alias": [],
+      "name": "Lucky Trade Community",
+      "alias": [
+        "LTC"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -11631,8 +11791,10 @@
     },
     {
       "id": 844,
-      "name": "Super-IBS (Super Ikhlas Berbagai Sosial)",
-      "alias": [],
+      "name": "Super-IBS",
+      "alias": [
+        "Super Ikhlas Berbagai Sosial"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -11701,8 +11863,10 @@
     },
     {
       "id": 849,
-      "name": "Komunitas Jempol Preneur (KJP)",
-      "alias": [],
+      "name": "Komunitas Jempol Preneur",
+      "alias": [
+        "KJP"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -11757,8 +11921,10 @@
     },
     {
       "id": 853,
-      "name": "Banjir Rizki Community (BRC)",
-      "alias": [],
+      "name": "Banjir Rizki Community",
+      "alias": [
+        "BRC"
+      ],
       "address": "",
       "number": [],
       "email": [],
@@ -11927,8 +12093,9 @@
     },
     {
       "id": 865,
-      "name": "PT Inovatif Sinergi Indonesia (Affiliate Junction Indonesia)",
+      "name": "PT Inovatif Sinergi Indonesia",
       "alias": [
+        "Affiliate Junction Indonesia",
         ""
       ],
       "address": "",
@@ -11959,7 +12126,8 @@
       "id": 867,
       "name": "Autogajian",
       "alias": [
-        "Real Sultan (Yayasan Indonesia Urun Berkah)"
+        "Real Sultan",
+        "Yayasan Indonesia Urun Berkah"
       ],
       "address": "",
       "number": [],
@@ -11971,8 +12139,10 @@
     },
     {
       "id": 868,
-      "name": "King Poin (PT Forkom Digital Indonesia)",
-      "alias": [],
+      "name": "King Poin",
+      "alias": [
+        "PT Forkom Digital Indonesia"
+      ],
       "address": "",
       "number": [],
       "email": [],
