@@ -1,6 +1,8 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
+
 import { ValidationError } from '../../src/exceptions/validation';
-import { HTTPCodes, validateParam } from '../../src/services/api/api';
+import { HTTPCodes } from '../../src/services/api/const';
+import { validateParam } from './../../src/services/api/utils';
 import { getOne } from '../../src/services/api/app';
 
 /**
