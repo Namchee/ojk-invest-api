@@ -60,7 +60,9 @@ export class ProductsScrapper extends Scrapper<Product> {
 
     return rawProducts.map((product: string) => {
       const prod = JSON.parse(product);
+
       prod.id = Number(prod.id);
+      prod.name = capitalize(prod.name);
       prod.type = capitalize(prod.type);
 
       return prod;

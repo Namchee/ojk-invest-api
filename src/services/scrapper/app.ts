@@ -4,6 +4,7 @@ import { benchmark } from '@namchee/decora';
 import { PAGE_OPTIONS, Scrapper } from './scrapper';
 import { App } from '../../entity/app';
 import { writeScrappingResultToFile } from '../writer';
+import { capitalize } from '../../utils';
 
 
 /**
@@ -59,6 +60,8 @@ export class AppsScrapper extends Scrapper<App> {
 
     return rawApps.map((stringifiedApp: string) => {
       const app = JSON.parse(stringifiedApp);
+
+      app.name = capitalize(app.name);
       app.id = Number(app.id);
 
       return app;
