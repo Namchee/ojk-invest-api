@@ -41,5 +41,5 @@ export function normalize(sentence: string): string {
     return '';
   }
 
-  return sentence.replace(/\\"/g, '');
+  return sentence.replace(/\"/g, '');
 }
