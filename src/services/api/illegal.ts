@@ -43,11 +43,7 @@ async function importData(): Promise<IllegalInvestmentData> {
 export async function getMany(
   query: Query,
 ): Promise<GetManyResult<IllegalInvestment> > {
-  const { name } = query;
-  let { limit, offset } = query;
-
-  offset = offset ?? 0;
-  limit = limit ?? 0;
+  const { name, limit, offset } = query;
 
   const source = await importData();
 
@@ -65,13 +61,8 @@ export async function getMany(
 
   const count = investments.length;
 
-  if (!isNaN(offset)) {
-    investments = investments.slice(offset);
-  }
-
-  if (!isNaN(limit)) {
-    investments = investments.slice(0, limit);
-  }
+  investments = investments.slice(offset);
+  investments = investments.slice(0, limit);
 
   return {
     data: investments,

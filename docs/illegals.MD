@@ -14,7 +14,7 @@ Cari seluruh produk investasi yang telah dinyatakan illegal oleh OJK.
 ---- | ---- | ---------
 `name` | `string` | Pola _string_ yang ingin dicari dari nama produk investasi
 `limit` | `int` | Jumlah data yang diminta
-`start` | `int` | Indeks pertama dari data yang diminta. Dimulai dari 1.
+`offset` | `int` | Indeks pertama dari data yang diminta.
 
 ### Status HTTP
 

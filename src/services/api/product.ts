@@ -43,11 +43,7 @@ async function importData(): Promise<ProductData> {
 export async function getMany(
   query: Query,
 ): Promise<GetManyResult<Product> > {
-  const { name } = query;
-  let { limit, offset } = query;
-
-  limit = limit ?? 0;
-  offset = offset ?? 0;
+  const { name, limit, offset } = query;
 
   const dataPath = resolve(process.cwd(), 'data', 'products.json');
 
@@ -78,13 +74,8 @@ export async function getMany(
 
   const count = products.length;
 
-  if (!isNaN(offset)) {
-    products = products.slice(offset);
-  }
-
-  if (!isNaN(limit)) {
-    products = products.slice(0, limit);
-  }
+  products = products.slice(offset);
+  products = products.slice(0, limit);
 
   return {
     data: products,

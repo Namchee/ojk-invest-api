@@ -12,7 +12,7 @@ Cari seluruh aplikasi manajemen investasi atau portal transaksi investasi yang t
 ---- | ---- | ---------
 `name` | `string` | Pola _string_ yang ingin dicari dari nama aplikasi
 `limit` | `int` | Jumlah data yang diminta
-`start` | `int` | Indeks pertama dari data yang diminta. Dimulai dari 1.
+`offset` | `int` | Indeks pertama dari data yang diminta.
 
 ### Status HTTP
 

@@ -12,7 +12,7 @@ Cari seluruh produk reksa dana yang telah dinyatakan legal oleh OJK.
 ---- | ---- | ---------
 `name` | `string` | Pola _string_ yang ingin dicari dari nama produk reksa dana
 `limit` | `int` | Jumlah data yang diminta
-`start` | `int` | Indeks pertama dari data yang diminta. Dimulai dari 1.
+`offset` | `int` | Indeks pertama dari data yang diminta.
 
 ### Status HTTP
 
@@ -40,9 +40,7 @@ Cari sebuah produk reksa dana legal yang diizinkan oleh OJK yang memiliki ID yan
 
 **Nama** | **Tipe Data** | **Deskripsi**
 ---- | ---- | ---------
-`name` | `string` | Pola _string_ yang ingin dicari dari nama produk reksa dana
-`limit` | `int` | Jumlah data yang diminta
-`start` | `int` | Indeks pertama dari data yang diminta. Dimulai dari 1.
+`id` | `number` | ID dari produk reksa dana
 
 ### Status HTTP
 
