@@ -41,11 +41,7 @@ async function importData(): Promise<AppsData> {
  * application.
  */
 export async function getMany(query: Query): Promise<GetManyResult<App> > {
-  const { name } = query;
-  let { limit, offset } = query;
-
-  limit = limit ?? 0;
-  offset = offset ?? 0;
+  const { name, limit, offset } = query;
 
   const source = await importData();
 
@@ -63,13 +59,8 @@ export async function getMany(query: Query): Promise<GetManyResult<App> > {
 
   const count = apps.length;
 
-  if (!isNaN(offset)) {
-    apps = apps.slice(offset);
-  }
-
-  if (!isNaN(limit)) {
-    apps = apps.slice(0, limit);
-  }
+  apps = apps.slice(offset);
+  apps = apps.slice(0, limit);
 
   return {
     data: apps,

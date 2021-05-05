@@ -8,21 +8,19 @@ import { Query, Params } from './const';
  * @return {Query} validated and formatted user input
  */
 export function validateQuery(query: any): Query {
-  let limit = Number(query.limit);
-  let offset = Number(query.start) - 1;
+  let limit: number | undefined = Number(query.limit);
+  let offset = Number(query.offset);
 
-  if (limit < 0) {
-    throw new ValidationError('Nilai `limit` tidak boleh negatif');
+  if (!isNaN(limit) && limit < 1) {
+    throw new ValidationError('Nilai `limit` tidak boleh lebih kecil dari 1');
   }
 
-  if (offset < 0) {
-    throw new ValidationError(
-      'Nilai `offset` tidak boleh lebih kecil dari satu',
-    );
+  if (!isNaN(limit) && offset < 0) {
+    throw new ValidationError('Nilai `offset` tidak boleh negatif');
   }
 
-  limit = limit ?? 0;
-  offset = offset ?? 0;
+  limit = limit || undefined;
+  offset = offset || 0;
 
   return {
     name: query.name,
