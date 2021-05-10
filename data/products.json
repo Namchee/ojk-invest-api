@@ -5030,7 +5030,7 @@
       "id": 719,
       "name": "REKSA DANA MANDIRI PASAR UANG OPTIMA 3",
       "management": "Mandiri Manajemen Investasi, PT",
-      "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
+      "custodian": "PT. BANK PEMBANGUNAN DAERAH JAWA BARAT DAN BANTEN TBK",
       "type": "Money Market Fund"
     },
     {
@@ -17046,5 +17046,5 @@
       "type": "Equity Fund"
     }
   ],
-  "version": "5/9/2021"
+  "version": "5/10/2021"
 }
