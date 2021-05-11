@@ -12150,7 +12150,329 @@
       "type": "Kegiatan Periklanan Digital Menggunakan Sistem Referral atau Member Get Member",
       "inputDate": "10/1/2020",
       "details": "Siaran Pers Satuan Tugas Waspada Investasi Nomor SP 08/SWI/IX/2020 tentang SATGAS WASPADA INVESTASI TUTUP 126 FINTECH LENDING ILEGAL DAN 32 INVESTASI TANPA IZIN"
+    },
+    {
+      "id": 869,
+      "name": "Batu Vulkanik",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Money Game",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021"
+    },
+    {
+      "id": 870,
+      "name": "Lucky Best Coin",
+      "alias": [
+        "LBC"
+      ],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Investasi Penjualan Cryptocurrency Dengan Skema Member Get Member",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021"
+    },
+    {
+      "id": 871,
+      "name": "XBIT",
+      "alias": [
+        "mining crypto"
+      ],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Money Game",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021"
+    },
+    {
+      "id": 872,
+      "name": "Koperasi Tabung Haji Umroh",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Penyelenggara Pembiayaan Ibadah Haji dan Umroh Tanpa Izin",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021 Daftar Entitas Investasi Ilegal Yang Dihentikan"
+    },
+    {
+      "id": 873,
+      "name": "GBHub Chain",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Investasi Penjualan Cryptocurrency Dengan Skema Member Get Member",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021"
+    },
+    {
+      "id": 874,
+      "name": "Raja Coin",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Investasi Penjualan Cryptocurrency",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021"
+    },
+    {
+      "id": 875,
+      "name": "Thelikey",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [
+        "https://thelikey.org"
+      ],
+      "type": "Money Game",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021"
+    },
+    {
+      "id": 876,
+      "name": "Creative Trading System",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Money Game/ Penyelenggara Pelatihan Pasar Modal Merangkap Penasehat Investasi Tanpa Izin",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021 Daftar Entitas Investasi Ilegal Yang Dihentikan"
+    },
+    {
+      "id": 877,
+      "name": "PT Trijaya Tirto Marto",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Penawaran Promisory Note Dengan Imbal Hasil 10% Tanpa Izin",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021"
+    },
+    {
+      "id": 878,
+      "name": "PT Tanam Uang Indonesia",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Platform Penitipan Dana Kepada Trader",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021"
+    },
+    {
+      "id": 879,
+      "name": "Auto Trade Gold 4.0",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Investasi Robot Trading/money Game",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021 Daftar Entitas Investasi Ilegal Yang Dihentikan"
+    },
+    {
+      "id": 880,
+      "name": "PT Medussa Multi Business Center",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Penyelenggara Sistem Pembayaran Tanpa Izin",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021"
+    },
+    {
+      "id": 881,
+      "name": "Kitabisa Saling Jaga Sesama",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [
+        "https://salingjaga.kitabisa.com"
+      ],
+      "type": "Kegiatan Perasuransian Tanpa Izin",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021"
+    },
+    {
+      "id": 882,
+      "name": "PT Dana Oil Konsorsium",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Perdagangan Berjangka Minyak Mentah Tanpa Izin",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021"
+    },
+    {
+      "id": 883,
+      "name": "Investasi Titip Dana Amanah",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Money Game",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021 Daftar Entitas Investasi Ilegal Yang Dihentikan"
+    },
+    {
+      "id": 884,
+      "name": "Magnipay – h5.Magnipay.com",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Money Game",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021 Daftar Entitas Investasi Ilegal Yang Dihentikan"
+    },
+    {
+      "id": 885,
+      "name": "PT Pay Earn Indonesia",
+      "alias": [
+        "convertCASH"
+      ],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Penyelenggara Pembiayaan Tanpa Izin",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021"
+    },
+    {
+      "id": 886,
+      "name": "BWTRADE – PT Semut Hitam Nusantara",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Money Game",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021 Daftar Entitas Investasi Ilegal Yang Dihentikan"
+    },
+    {
+      "id": 887,
+      "name": "Investasi Saham NSI",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Penawaran Investasi Saham Tanpa Izin",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021"
+    },
+    {
+      "id": 888,
+      "name": "PT Bintang Maha Wijaya",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Money Game",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021 Daftar Entitas Investasi Ilegal Yang Dihentikan"
+    },
+    {
+      "id": 889,
+      "name": "Trader Sukses Indonesia",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Money Game",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021 Daftar Entitas Investasi Ilegal Yang Dihentikan"
+    },
+    {
+      "id": 890,
+      "name": "ARA HUNTER",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Penawaran Investasi Trading Saham Tanpa Izin",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021"
+    },
+    {
+      "id": 891,
+      "name": "Trader King Pro",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Money Game",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021 Daftar Entitas Investasi Ilegal Yang Dihentikan"
+    },
+    {
+      "id": 892,
+      "name": "HJ Invesment oleh grup telegram @angara_syahputra, @erik_chandra",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Penawaran Investasi Dengan Menggunakan Logo OJK Tanpa Izin",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021"
+    },
+    {
+      "id": 893,
+      "name": "Syndication Group of Investors and Invesment Banks",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Penawaran Investasi Pada Proyek-proyek Infrastruktur dan Lainnya Tanpa Izin",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021"
+    },
+    {
+      "id": 894,
+      "name": "PT Saham Bibit Reksadana, PT Bibit Saham Reksadana, dan PT Bibit Tumbuh Bersama Reksadana",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Penawaran Investasi Tanpa Izin Dengan Menduplikasi Nama PT Bibit Tumbuh Bersama (Bibit.id)",
+      "inputDate": "5/11/2021",
+      "details": "SP 03/SWI/V/2021"
     }
   ],
-  "version": "5/10/2021"
+  "version": "5/11/2021"
 }
