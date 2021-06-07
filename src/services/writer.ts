@@ -17,7 +17,7 @@ export function writeScrappingResultToFile(
   // preserve immutability to the data
   const dataCopy = JSON.parse(JSON.stringify(scrappingResult));
 
-  dataCopy.version = scrappingResult.version.toLocaleDateString('en-id');
+  dataCopy.version = scrappingResult.version.toLocaleDateString('id-ID');
 
   writeFileSync(
     target,
