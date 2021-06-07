@@ -12,7 +12,7 @@ Nilai `data` akan selalu memiliki dua _key_ (kunci) berikut
 **Nama** | **Deskripsi**
 ---- | ---------
 `<nama_entitas>` | Entitas yang dicari
-`version` | Tanggal pembaruan data. Memiliki format `MM/DD/YYYY`
+`version` | Tanggal pembaruan data. Memiliki format `DD/MM/YYYY`
 
 Setiap berkas _markdown_ yang ada pada _folder_ ini merupakan sebuah _endpoint_ yang dapat dipanggil melalui `/api/<nama_berkas>`. Dokumentasi untuk masing-masing _endpoint_ dapat dilihat melalui berkas _markdown_ dengan nama yang sama.
 
