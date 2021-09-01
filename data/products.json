@@ -9216,21 +9216,21 @@
       "id": 1317,
       "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH FIXED INCOME AMANAH",
       "management": "Eastspring Investments Indonesia, PT",
-      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
+      "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
       "id": 1318,
       "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH FIXED INCOME AMANAH KELAS A",
       "management": "Eastspring Investments Indonesia, PT",
-      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
+      "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
       "id": 1319,
       "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH FIXED INCOME AMANAH KELAS B",
       "management": "Eastspring Investments Indonesia, PT",
-      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
+      "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
@@ -17109,5 +17109,5 @@
       "type": "Equity Fund"
     }
   ],
-  "version": "8/31/2021"
+  "version": "9/1/2021"
 }
