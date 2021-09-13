@@ -6,6 +6,7 @@ import { resolvers } from './../src/graphql/resolver';
 const server = new ApolloServer({
   typeDefs,
   resolvers,
+  debug: false,
   playground: true,
   introspection: true,
 });
