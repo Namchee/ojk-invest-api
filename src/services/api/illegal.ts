@@ -25,7 +25,7 @@ async function importData(): Promise<IllegalInvestmentData> {
       'JSON data for `illegal` endpoint does not exist',
     );
 
-    throw new Error('Terdapat kesalahan pada sistem.');
+    throw new Error('Terdapat kesalahan pada sistem');
   }
 
   const rawData = readFileSync(dataPath);

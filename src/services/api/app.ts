@@ -25,7 +25,7 @@ async function importData(): Promise<AppsData> {
       'JSON data for `apps` endpoint does not exist',
     );
 
-    throw new Error('Terdapat kesalahan pada sistem.');
+    throw new Error('Terdapat kesalahan pada sistem');
   }
 
   const rawData = readFileSync(dataPath);

@@ -54,7 +54,7 @@ export async function getMany(
       'JSON data for `products` endpoint does not exist',
     );
 
-    throw new Error('Terdapat kesalahan pada sistem.');
+    throw new Error('Terdapat kesalahan pada sistem');
   }
 
   const rawData = readFileSync(dataPath);
