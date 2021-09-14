@@ -4,6 +4,7 @@ import { existsSync, readFileSync } from 'fs';
 import { GetManyResult, GetResult, Params, Query } from './const';
 import { Product } from '../../entity/product';
 import { Logger } from './../logger';
+import { escapeName } from './utils';
 
 interface ProductData {
   data: Product[];
@@ -51,8 +52,7 @@ export async function getMany(
   const version = source.version;
 
   if (name) {
-    const escapedName = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    const pattern = new RegExp(escapedName, 'ig');
+    const pattern = new RegExp(escapeName(name), 'ig');
 
     products = products.filter((product: Product) => {
       return pattern.test(product.name);

@@ -4,6 +4,7 @@ import { existsSync, readFileSync } from 'fs';
 import { IllegalInvestment } from '../../entity/illegal';
 import { GetManyResult, GetResult, Params, Query } from './const';
 import { Logger } from './../logger';
+import { escapeName } from './utils';
 
 interface IllegalInvestmentData {
   data: IllegalInvestment[];
@@ -51,8 +52,7 @@ export async function getMany(
   const version = source.version;
 
   if (name) {
-    const escapedName = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    const pattern = new RegExp(escapedName, 'ig');
+    const pattern = new RegExp(escapeName(name), 'ig');
 
     investments = investments.filter((investment: IllegalInvestment) => {
       return pattern.test(investment.name);

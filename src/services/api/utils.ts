@@ -61,3 +61,13 @@ export function validateParam(param: any): Params {
     id: convertedValue,
   };
 }
+
+/**
+ * Escape name query to avoid regex pattern failures
+ *
+ * @param {string} query name query
+ * @return {string} escaped name query
+ */
+export function escapeName(query: string): string {
+  return query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}

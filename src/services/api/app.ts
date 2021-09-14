@@ -4,6 +4,7 @@ import { existsSync, readFileSync } from 'fs';
 import { GetManyResult, GetResult, Params, Query } from './const';
 import { App } from '../../entity/app';
 import { Logger } from '../logger';
+import { escapeName } from './utils';
 
 interface AppsData {
   data: App[];
@@ -49,8 +50,7 @@ export async function getMany(query: Query): Promise<GetManyResult<App> > {
   const version = source.version;
 
   if (name) {
-    const escapedName = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    const pattern = new RegExp(escapedName, 'ig');
+    const pattern = new RegExp(escapeName(name), 'ig');
 
     apps = apps.filter((app: App) => {
       return pattern.test(app.name);
