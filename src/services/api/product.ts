@@ -45,22 +45,9 @@ export async function getMany(
 ): Promise<GetManyResult<Product> > {
   const { name, limit, offset } = query;
 
-  const dataPath = resolve(process.cwd(), 'data', 'products.json');
+  const source = await importData();
 
-  const isDataFetched = existsSync(dataPath);
-
-  if (!isDataFetched) {
-    await Logger.getInstance().logError(
-      'JSON data for `products` endpoint does not exist',
-    );
-
-    throw new Error('Terdapat kesalahan pada sistem');
-  }
-
-  const rawData = readFileSync(dataPath);
-  const source = JSON.parse(rawData.toString('utf-8'));
-
-  let products: Product[] = source.data;
+  let products = source.data;
   const version = source.version;
 
   if (name) {
