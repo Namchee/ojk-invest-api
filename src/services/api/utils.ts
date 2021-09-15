@@ -1,5 +1,9 @@
+import { resolve } from 'path';
+import { existsSync, readFileSync } from 'fs';
+
 import { ValidationError } from '../../exceptions/validation';
 import { Query, Params } from './const';
+import { Logger } from '../logger';
 
 /**
  * Validate user inputs and transform them into Query
@@ -70,4 +74,27 @@ export function validateParam(param: any): Params {
  */
 export function escapeName(query: string): string {
   return query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+/**
+ * Import investment data from JSON files.
+ *
+ * @param {string} name filename
+ * @return {T} requested data in JSON format
+ */
+export function importData<T>(name: string): T {
+  const dataPath = resolve(process.cwd(), 'data', `${name}.json`);
+
+  const isDataFetched = existsSync(dataPath);
+
+  if (!isDataFetched) {
+    Logger.getInstance().logError(
+      `JSON data for '${name}' endpoint does not exist`,
+    );
+
+    throw new Error('Terdapat kesalahan pada sistem');
+  }
+
+  const rawData = readFileSync(dataPath);
+  return JSON.parse(rawData.toString('utf-8'));
 }

@@ -38,11 +38,10 @@ export class Logger {
 
   /**
    * Send an error log to Sentry.
+   *
    * @param {string} message - error message.
    */
-  public async logError(message: string): Promise<boolean> {
+  public logError(message: string): void {
     this.client.captureException(new Error(message));
-
-    return this.client.flush(2000);
   }
 }
