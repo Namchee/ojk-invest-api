@@ -43,7 +43,7 @@ export async function getVersion(): Promise<string> {
       new Error('Inconsistent data version'),
     );
 
-    throw new Error('Terdapat kesalahan pada sistem');
+    return '';
   }
 
   return versions[0];

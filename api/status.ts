@@ -26,7 +26,7 @@ export default async function(
     return res.status(200)
       .json({
         data: {
-          status: 'ok',
+          status: version ? 'ok' : 'not ok',
           version,
         },
         error: null,
