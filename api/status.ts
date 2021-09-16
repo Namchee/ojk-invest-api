@@ -1,15 +1,16 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
 import { ValidationError } from 'apollo-server-errors';
+
+import { getVersion } from '../src/services/api/version';
 import { HTTPCodes } from '../src/services/api/const';
-import { getOne } from '../src/services/api/product';
-import { validateParam } from '../src/services/api/utils';
+
 
 /**
- * Search for a legal mutual funds product from OJK's data
+ * Get data version from the API
  *
  * @param {NowRequest} req - request object
  * @param {VercelResponse} res - response object
- * @return {VercelResponse} - response object, packed with data
+ * @return {Promise<VercelResponse>} - response object, packed with data
  */
 export default async function(
   req: VercelRequest,
@@ -20,7 +21,16 @@ export default async function(
   }
 
   try {
-    
+    const version = await getVersion();
+
+    return res.status(200)
+      .json({
+        data: {
+          status: 'ok',
+          version,
+        },
+        error: null,
+      });
   } catch (err) {
     let status = HTTPCodes.SERVER_ERROR;
 
