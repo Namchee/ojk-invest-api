@@ -28,7 +28,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
-          git commit -m "chore(ci): Refresh investments data"
+          git commit --allow-empty -m "chore(ci): Refresh investments data"
           git push
       - name: Deploy to Vercel Now
         uses: amondnet/vercel-action@v20.0.0
