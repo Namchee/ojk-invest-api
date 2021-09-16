@@ -1,5 +1,6 @@
 import { resolve } from 'path';
 import { existsSync, mkdirSync, writeFileSync } from 'fs';
+import dayjs from 'dayjs';
 
 import { ScrappingResult } from './scrapper/scrapper';
 
@@ -17,7 +18,7 @@ export function writeScrappingResultToFile(
   // preserve immutability to the data
   const dataCopy = JSON.parse(JSON.stringify(scrappingResult));
 
-  dataCopy.version = scrappingResult.version.toLocaleDateString('id-ID');
+  dataCopy.version = dayjs(scrappingResult.version).format('DD/MM/YYYY');
 
   writeFileSync(
     target,

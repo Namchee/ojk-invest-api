@@ -1,5 +1,7 @@
 # Dokumentasi API
 
+> Sebagian besar _endpoint_ dalam API ini akan disimpan dalam _cache_ yang berumur 12 jam.
+
 Seluruh _endpoint_ yang dapat dipanggil pada API ini memiliki format _data_ berikut:
 
 **Nama** | **Deskripsi**

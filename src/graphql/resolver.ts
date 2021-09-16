@@ -29,11 +29,11 @@ import { App } from '../entity/app';
  * @param {Function} validator validation function
  * @return {Promise<T>} requested data
  */
-async function wrapResolver<T, U>(
-  service: (args: U) => Promise<T>,
+function wrapResolver<T, U>(
+  service: (args: U) => T,
   args: Record<string, any>,
   validator: (obj: Record<string, any>) => U,
-): Promise<T> {
+): T {
   try {
     const obj = validator(args);
 
@@ -51,42 +51,42 @@ async function wrapResolver<T, U>(
 
 export const resolvers = {
   Query: {
-    illegalInvestments: async (_: any, args: any) => {
+    illegalInvestments: (_: any, args: any) => {
       return wrapResolver<GetManyResult<IllegalInvestment>, Query>(
         getManyIllegals,
         args,
         validateQuery,
       );
     },
-    illegalInvestment: async (_: any, args: any) => {
+    illegalInvestment: (_: any, args: any) => {
       return wrapResolver<GetResult<IllegalInvestment>, Params>(
         getOneIllegal,
         args,
         validateParam,
       );
     },
-    products: async (_: any, args: any) => {
+    products: (_: any, args: any) => {
       return wrapResolver<GetManyResult<Product>, Query>(
         getManyProducts,
         args,
         validateQuery,
       );
     },
-    product: async (_: any, args: any) => {
+    product: (_: any, args: any) => {
       return wrapResolver<GetResult<Product>, Params>(
         getOneProduct,
         args,
         validateParam,
       );
     },
-    apps: async (_: any, args: any) => {
+    apps: (_: any, args: any) => {
       return wrapResolver<GetManyResult<App>, Query>(
         getManyApps,
         args,
         validateQuery,
       );
     },
-    app: async (_: any, args: any) => {
+    app: (_: any, args: any) => {
       return wrapResolver<GetResult<App>, Params>(
         getOneApp,
         args,
