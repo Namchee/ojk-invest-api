@@ -17,6 +17,7 @@ export class Logger {
   private constructor(dsn: string) {
     this.client = new NodeClient({
       dsn,
+      environment: process.env.NODE_ENV,
     });
   }
 
@@ -39,9 +40,9 @@ export class Logger {
   /**
    * Send an error log to Sentry.
    *
-   * @param {string} message - error message.
+   * @param {Error} err - error object.
    */
-  public logError(message: string): void {
-    this.client.captureException(new Error(message));
+  public logError(err: Error): void {
+    this.client.captureException(err);
   }
 }

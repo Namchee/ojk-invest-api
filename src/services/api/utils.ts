@@ -89,7 +89,7 @@ export function importData<T>(name: string): T {
 
   if (!isDataFetched) {
     Logger.getInstance().logError(
-      `JSON data for '${name}' endpoint does not exist`,
+      new Error(`JSON data for '${name}' endpoint does not exist`),
     );
 
     throw new Error('Terdapat kesalahan pada sistem');

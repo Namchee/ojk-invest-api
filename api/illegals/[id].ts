@@ -12,17 +12,17 @@ import { getOne } from '../../src/services/api/illegal';
  * @param {VercelResponse} res - response object
  * @return {VercelResponse} - response object, packed with data
  */
-export default async function(
+export default function(
   req: VercelRequest,
   res: VercelResponse,
-): Promise<VercelResponse> {
+): VercelResponse {
   if (req.method !== 'GET') {
     return res.status(405).json(undefined);
   }
 
   try {
     const params = validateParam(req.query);
-    const { data, version } = await getOne(params);
+    const { data, version } = getOne(params);
 
     if (data === null) {
       return res.status(HTTPCodes.NOT_FOUND)

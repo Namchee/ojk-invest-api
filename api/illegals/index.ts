@@ -12,10 +12,10 @@ import { getMany } from '../../src/services/api/illegal';
  * @param {VercelResponse} res - response object
  * @return {VercelResponse} - response object, packed with data
  */
-export default async function(
+export default function(
   req: VercelRequest,
   res: VercelResponse,
-): Promise<VercelResponse> {
+): VercelResponse {
   if (req.method !== 'GET') {
     return res.status(405).json(undefined);
   }
@@ -30,7 +30,7 @@ export default async function(
   try {
     const query = validateQuery(req.query);
 
-    const illegals = await getMany(query);
+    const illegals = getMany(query);
 
     return res.status(HTTPCodes.SUCCESS)
       .json(illegals);
