@@ -1,12 +1,14 @@
 import { Browser, Page } from 'puppeteer';
 import { benchmark } from '@namchee/decora';
 import { Standard, tryFormat } from '@namchee/telepon';
-import getUrls from 'get-urls';
 
 import { PAGE_OPTIONS, Scrapper } from './scrapper';
 import { capitalize, normalize } from '../../utils';
 import { IllegalInvestment } from '../../entity/illegal';
 import { writeScrappingResultToFile } from '../writer';
+
+import getUrls from 'get-urls';
+import dayjs from 'dayjs';
 
 /**
  * Scrapper script to extract illegal investments data
@@ -72,10 +74,7 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
       const names = rawProduct.name
         .split(/[/\\]/g)
         .map((str: string) => {
-          str = str.replace(/;/, '');
-          str = str.trim();
-
-          return str;
+          return str.replace(/;/, '').trim();
         })
         .map((str: string) => {
           const inBraces = str.match(/\((.+?)\)/);
@@ -91,7 +90,9 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
         })
         .flat();
 
-      const name = names[0];
+      const name = [...getUrls(rawProduct.name)][0] === rawProduct.name ?
+        rawProduct.name :
+        names[0];
       const alias = names.slice(1);
 
       const urls = [...getUrls(rawProduct.urls)];
@@ -164,14 +165,13 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
       return {
         id,
         name,
-        alias,
+        alias: alias.filter((a: string) => a),
         address,
         number: phoneNumbers,
         email: emails,
         urls,
         type: capitalize(normalize(rawProduct.type)),
-        inputDate: this.parseDate(rawProduct.inputDate)
-          .toLocaleDateString('en-id'),
+        inputDate: this.formatDate(rawProduct.inputDate),
         details: normalize(rawProduct.details),
       };
     });
@@ -238,12 +238,12 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
   }
 
   /**
-   * Parse `Date` object from a date string in OJK page
+   * Format a date string from OJK page to desired format.
    *
    * @param {string} dateString date string
-   * @return {Date} parsed `Date` object
+   * @return {string} DD/MM/YYYY date string
    */
-  private parseDate(dateString: string): Date {
+  private formatDate(dateString: string): string {
     const monthMap: Record<string, number> = {
       'Jan': 0,
       'Feb': 1,
@@ -252,6 +252,7 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
       'Mei': 4,
       'Jun': 5,
       'Jul': 6,
+      'Agt': 7,
       'Agu': 7,
       'Sep': 8,
       'Okt': 9,
@@ -259,12 +260,14 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
       'Des': 11,
     };
 
-    const tokens = dateString.split(' ');
+    const tokens = dateString.trim().split(' ');
 
-    return new Date(
+    const d = new Date(
       Number(tokens[2]),
       monthMap[tokens[1]],
       Number(tokens[0]),
     );
+
+    return dayjs(d).format('DD/MM/YYYY');
   }
 }
