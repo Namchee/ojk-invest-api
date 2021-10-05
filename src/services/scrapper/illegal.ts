@@ -74,10 +74,7 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
       const names = rawProduct.name
         .split(/[/\\]/g)
         .map((str: string) => {
-          str = str.replace(/;/, '');
-          str = str.trim();
-
-          return str;
+          return str.replace(/;/, '').trim();
         })
         .map((str: string) => {
           const inBraces = str.match(/\((.+?)\)/);
@@ -93,7 +90,9 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
         })
         .flat();
 
-      const name = names[0];
+      const name = [...getUrls(rawProduct.name)][0] === rawProduct.name ?
+        rawProduct.name :
+        names[0];
       const alias = names.slice(1);
 
       const urls = [...getUrls(rawProduct.urls)];
@@ -166,7 +165,7 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
       return {
         id,
         name,
-        alias,
+        alias: alias.filter((a: string) => a),
         address,
         number: phoneNumbers,
         email: emails,
@@ -254,13 +253,14 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
       'Jun': 5,
       'Jul': 6,
       'Agt': 7,
+      'Agu': 7,
       'Sep': 8,
       'Okt': 9,
       'Nov': 10,
       'Des': 11,
     };
 
-    const tokens = dateString.split(' ');
+    const tokens = dateString.trim().split(' ');
 
     const d = new Date(
       Number(tokens[2]),
