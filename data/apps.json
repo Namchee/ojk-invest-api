@@ -8,49 +8,49 @@
     },
     {
       "id": 2,
-      "name": "Aplikasi Android Mentimun Pay",
+      "name": "Mentimun Pay",
       "url": "https://www.mentimun.co.id",
       "owner": "PT Nusantara Sejahtera Investama"
     },
     {
       "id": 3,
-      "name": "Aplikasi Pembayaran Finnet",
+      "name": "Finnet",
       "url": "http://www.finnet-indonesia.com",
       "owner": "PT Nusantara Sejahtera Investama"
     },
     {
       "id": 4,
-      "name": "Aplikasi PNM Digi PT Mitra Tekno Madani",
+      "name": "Mitra Tekno Madani",
       "url": "http://www.pnmdigi.id",
       "owner": "PT Star Mercato Capitale"
     },
     {
       "id": 5,
-      "name": "Aplikasi Seluler InvestASIK",
+      "name": "InvestASIK",
       "url": "https://play.google.com/store/apps/developer?id=PT+Danareksa+Investment+Management&hl=en",
       "owner": "PT Danareksa Investment Management"
     },
     {
       "id": 6,
-      "name": "Aplikasi Seluler Raiz Invest",
+      "name": "Raiz Invest",
       "url": "http://raizinvest.id/",
       "owner": "PT Raiz Invest Indonesia"
     },
     {
       "id": 7,
-      "name": "Aplikasi Seluler WELMA",
+      "name": "WELMA",
       "url": "https://www.bca.co.id",
       "owner": "PT Bank Central Asia Tbk"
     },
     {
       "id": 8,
-      "name": "Aplikasi Telepon Seluler (Android dan Iphone) Kelola Investasi",
+      "name": "Kelola Investasi",
       "url": "http://kelolaapp.com",
       "owner": "PT Aldiracita Sekuritas Indonesia"
     },
     {
       "id": 9,
-      "name": "Aplikasi Telepon Seluler Bibitnomic",
+      "name": "Bibitnomic",
       "url": "http://bibit.id",
       "owner": "PT Bibit Tumbuh Bersama"
     },
@@ -104,19 +104,19 @@
     },
     {
       "id": 18,
-      "name": "Fitur GO-POINTS Aplikasi GOJEK",
+      "name": "GO-POINTS GOJEK",
       "url": "http://www.go-jek.com/",
       "owner": "PT Nusantara Sejahtera Investama"
     },
     {
       "id": 19,
-      "name": "Fitur Reksa Dana - Akseleran.co.id",
+      "name": "Akseleran.co.id",
       "url": "https://www.akseleran.co.id",
       "owner": "PT Star Mercato Capitale"
     },
     {
       "id": 20,
-      "name": "Fitur Reksa Dana - Ikredo.id",
+      "name": "Ikredo.id",
       "url": "https://www.ikredo.id",
       "owner": "PT Moduit Digital Indonesia"
     },
@@ -128,7 +128,7 @@
     },
     {
       "id": 22,
-      "name": "Fundtastic (PT Chandharwealth Mandiri Indonesia)",
+      "name": "Fundtastic",
       "url": "https://fundtastic.co.id/",
       "owner": "PT Nusantara Sejahtera Investama"
     },
@@ -146,25 +146,25 @@
     },
     {
       "id": 25,
-      "name": "Internet & Mobile Banking Bank OCBC NISP",
+      "name": "OCBC NISP",
       "url": "https://www.ocbcnisp.com/personal-banking/wealth-management.aspx",
       "owner": "PT. Bank OCBC NISP, Tbk"
     },
     {
       "id": 26,
-      "name": "Internet & Mobile Banking Commbank ID",
+      "name": "Commbank ID",
       "url": "https://www.commbank.co.id/upublic/mod_home/default_content.aspx?code=iv_mf",
       "owner": "PT. Commonwealth Bank"
     },
     {
       "id": 27,
-      "name": "Internet Banking Bank HSBC Indonesia",
+      "name": "HSBC Indonesia",
       "url": "https://www.hsbc.co.id/1/2/id/personal/wealth-management/investasi/mutual-funds",
       "owner": "PT Bank HSBC Indonesia"
     },
     {
       "id": 28,
-      "name": "Internet Banking Standard Chartered Bank",
+      "name": "Standard Chartered",
       "url": "https://www.sc.com/id/invest/mutual-funds.html",
       "owner": "Standard Chartered Bank"
     },
@@ -206,7 +206,7 @@
     },
     {
       "id": 35,
-      "name": "Koperasi KOPOJEKA (akses Internal Institusi)",
+      "name": "Koperasi KOPOJEKA",
       "url": "http://kopojeka.tanamduit.com/",
       "owner": "PT Star Mercato Capitale"
     },
@@ -248,7 +248,7 @@
     },
     {
       "id": 42,
-      "name": "OVO - Aplikasi Telepon Seluler",
+      "name": "OVO",
       "url": "https://www.ovo.id",
       "owner": "PT Ciptadana Asset Management"
     },
@@ -284,19 +284,19 @@
     },
     {
       "id": 48,
-      "name": "PT BNP IP - PT Indosat Tbk",
+      "name": "BNP IP",
       "url": "https://www.dompetku.com/contents/investasi-reksa-dana",
       "owner": "PT BNP Paribas Investment Partners"
     },
     {
       "id": 49,
-      "name": "PT Talenta Digital Indonesia (Perusahaan Konsultan Sumber Daya Manusia Online)",
+      "name": "Talenta Digital Indonesia",
       "url": "http://www.talenta.co",
       "owner": "PT Star Mercato Capitale"
     },
     {
       "id": 50,
-      "name": "Reksa Dana SAM",
+      "name": "SAM",
       "url": "https://www.reksadanasam.co.id",
       "owner": "PT Samuel Aset Manajemen"
     },
@@ -344,13 +344,13 @@
     },
     {
       "id": 58,
-      "name": "Widget Reksa Dana - Baznas",
+      "name": "Baznas",
       "url": "http://baznas.go.id/reksadana",
       "owner": "PT Nusantara Sejahtera Investama"
     },
     {
       "id": 59,
-      "name": "Xdana (Xsaver, Xdana Pro, dan Xdana Syariah)",
+      "name": "Xdana",
       "url": "http://xdana.com",
       "owner": "PT Xdana Investa Indonesia"
     }
