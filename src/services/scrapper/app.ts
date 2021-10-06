@@ -44,8 +44,12 @@ export class AppsScrapper extends Scrapper<App> {
 
       const rowData = dataRows.map((row) => {
         const children = Array.from(row.children);
-        const cleanUrl = (children[2].textContent as string)
+        let cleanUrl = (children[2].textContent as string)
           .replace(/\s+/g, '');
+
+        if (!cleanUrl.startsWith('http')) {
+          cleanUrl = `https://${cleanUrl}`;
+        }
 
         return JSON.stringify({
           id: children[0].textContent?.trim(),
@@ -61,7 +65,7 @@ export class AppsScrapper extends Scrapper<App> {
     return rawApps.map((stringifiedApp: string) => {
       const app = JSON.parse(stringifiedApp);
 
-      app.name = capitalize(app.name);
+      app.name = capitalize(this.cleanName(app.name));
       app.id = Number(app.id);
 
       return app;
@@ -124,5 +128,54 @@ export class AppsScrapper extends Scrapper<App> {
     };
 
     writeScrappingResultToFile(result, 'apps');
+  }
+
+  /**
+   * Format and sanitize raw app names from OJK's data
+   *
+   * @param {string} rawName raw app name
+   * @return {string} sanitized app name
+   */
+  private cleanName(rawName: string): string {
+    // TODO: do research about this
+    const stopWords = [
+      'aplikasi',
+      'android',
+      'seluler',
+      'telepon',
+      'fitur',
+      'reksa',
+      'dana',
+      'internet',
+      'mobile',
+      'banking',
+      'bank',
+      'pembayaran',
+      'widget',
+    ];
+
+    const stopPattern = new RegExp(`\\b(${stopWords.join('|')})\\b`, 'ig');
+
+    rawName = rawName.replace(stopPattern, '');
+    // remove unnecessary explanations
+    rawName = rawName.replace(/\([\w\s,.\-_]+?\)/, '');
+    // remove PT from start
+    rawName = rawName.replace(/^\s+(PT)/, '');
+
+    const tokens = rawName.split(' - ');
+
+    // pick the first name only
+    if (tokens.length === 2) {
+      rawName = tokens[0].trim().length ? tokens[0] : tokens[1];
+    }
+
+    // remove extrateneous PT from the name
+    if (rawName.indexOf('PT') > -1) {
+      rawName = rawName.slice(rawName.indexOf('PT') + 2);
+    }
+    // remove residual ampersand and dash
+    rawName = rawName.replace(/^\s+[&\-]+/, '');
+
+    return rawName.trim();
   }
 }
