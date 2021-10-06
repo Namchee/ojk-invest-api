@@ -44,8 +44,12 @@ export class AppsScrapper extends Scrapper<App> {
 
       const rowData = dataRows.map((row) => {
         const children = Array.from(row.children);
-        const cleanUrl = (children[2].textContent as string)
+        let cleanUrl = (children[2].textContent as string)
           .replace(/\s+/g, '');
+
+        if (!cleanUrl.startsWith('http')) {
+          cleanUrl = `https://${cleanUrl}`;
+        }
 
         return JSON.stringify({
           id: children[0].textContent?.trim(),
