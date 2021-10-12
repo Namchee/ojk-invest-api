@@ -8,7 +8,7 @@
     "scrap:dev": "ts-node index.ts",
     "scrap:build": "tsc",
     "lint": "eslint ./src/**/*.ts ./api/*.ts",
-    "api:dev": "vercel dev"
+    "api:dev": "vercel dev -l 3001"
   },
   "keywords": [
     "api",
