@@ -21,19 +21,24 @@ export default function(
   }
 
   if (Array.isArray(req.query.name)) {
-    return res.status(HTTPCodes.INVALID_PARAMS)
-      .json({
-        error: 'Nilai `name` hanya boleh ada satu',
-      });
+    return res.status(HTTPCodes.INVALID_PARAMS).json({
+      error: 'Nilai `name` hanya boleh ada satu',
+    });
   }
 
   try {
     const query = validateQuery(req.query);
 
-    const illegals = getMany(query);
+    const { data, count, version } = getMany(query);
 
-    return res.status(HTTPCodes.SUCCESS)
-      .json(illegals);
+    return res.status(HTTPCodes.SUCCESS).json({
+      data: {
+        illegals: data,
+        count: count,
+        version: version,
+      },
+      error: '',
+    });
   } catch (err) {
     let status = HTTPCodes.SERVER_ERROR;
 
@@ -41,9 +46,9 @@ export default function(
       status = HTTPCodes.INVALID_PARAMS;
     }
 
-    return res.status(status)
-      .json({
-        error: err.message,
-      });
+    return res.status(status).json({
+      data: null,
+      error: err.message,
+    });
   }
 }

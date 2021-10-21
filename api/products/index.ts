@@ -23,16 +23,24 @@ export default function(
   if (Array.isArray(req.query.name)) {
     return res.status(HTTPCodes.INVALID_PARAMS)
       .json({
+        data: null,
         error: 'Nilai `name` hanya boleh ada satu',
       });
   }
 
   try {
     const query = validateQuery(req.query);
-    const products = getMany(query);
+    const { data, version, count } = getMany(query);
 
     return res.status(HTTPCodes.SUCCESS)
-      .json(products);
+      .json({
+        data: {
+          products: data,
+          version,
+          count,
+        },
+        error: '',
+      });
   } catch (err) {
     let status = HTTPCodes.SERVER_ERROR;
 
@@ -42,6 +50,7 @@ export default function(
 
     return res.status(status)
       .json({
+        data: null,
         error: err.message,
       });
   }

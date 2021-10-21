@@ -35,7 +35,7 @@ export default function(
     return res.status(HTTPCodes.SUCCESS)
       .json({
         data: {
-          product: data,
+          products: data,
           version,
         },
         error: null,

@@ -31,13 +31,14 @@ export default function(
   try {
     const query = validateQuery(req.query);
 
-    const { data, version } = getMany(query);
+    const { data, version, count } = getMany(query);
 
     return res.status(HTTPCodes.SUCCESS)
       .json({
         data: {
           apps: data,
           version,
+          count,
         },
         error: null,
       });
