@@ -1,0 +1,34 @@
+name: Refresh investments data in case of error
+
+on: workflow_dispatch
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Connect to repository
+        uses: actions/checkout@v2
+      - name: Setup NodeJS
+        uses: actions/setup-node@v2
+        with:
+          node-version: '12.x'
+      - name: Install all required dependencies
+        run: yarn install --frozen-lockfile
+      - name: Build the files
+        run: yarn scrap:build
+      - name: Scrap and renew the data
+        run: yarn scrap
+      - name: Recommit the data
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit --allow-empty -m "chore(ci): Refresh investments data"
+          git push --force
+      - name: Deploy to Vercel Now
+        uses: amondnet/vercel-action@v20.0.0
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          vercel-args: '--prod'
