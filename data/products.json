@@ -9025,23 +9025,23 @@
     },
     {
       "id": 1290,
+      "name": "REKSA DANA SYARIAH BATAVIA DANA KAS SYARIAH",
+      "management": "Batavia Prosperindo Aset Manajemen, PT",
+      "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
+      "type": "Money Market Fund"
+    },
+    {
+      "id": 1291,
       "name": "REKSA DANA SYARIAH BATAVIA GLOBAL ESG SHARIA EQUITY USD",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Global Fund"
     },
     {
-      "id": 1291,
+      "id": 1292,
       "name": "REKSA DANA SYARIAH BATAVIA PENDAPATAN TETAP UTAMA SYARIAH",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
-      "type": "Fixed Income Fund"
-    },
-    {
-      "id": 1292,
-      "name": "REKSA DANA SYARIAH BERBASIS SUKUK ASANUSA SYARIAH SUKUK INVESTMENT",
-      "management": "Asanusa Asset Management, PT",
-      "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Fixed Income Fund"
     },
     {
@@ -9049,69 +9049,69 @@
       "name": "REKSA DANA SYARIAH BERBASIS SUKUK ASANUSA SYARIAH SUKUK INVESTMENT",
       "management": "Asanusa Asset Management, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
-      "type": "Sukuk Based Fund"
+      "type": "Fixed Income Fund"
     },
     {
       "id": 1294,
-      "name": "REKSA DANA SYARIAH BERBASIS SUKUK AVRIST ADA SUKUK BERKAH SYARIAH",
-      "management": "Avrist Asset Management, PT",
-      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
-      "type": "Fixed Income Fund"
+      "name": "REKSA DANA SYARIAH BERBASIS SUKUK ASANUSA SYARIAH SUKUK INVESTMENT",
+      "management": "Asanusa Asset Management, PT",
+      "custodian": "PT Bank Maybank Indonesia Tbk",
+      "type": "Sukuk Based Fund"
     },
     {
       "id": 1295,
       "name": "REKSA DANA SYARIAH BERBASIS SUKUK AVRIST ADA SUKUK BERKAH SYARIAH",
       "management": "Avrist Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
-      "type": "Sukuk Based Fund"
+      "type": "Fixed Income Fund"
     },
     {
       "id": 1296,
+      "name": "REKSA DANA SYARIAH BERBASIS SUKUK AVRIST ADA SUKUK BERKAH SYARIAH",
+      "management": "Avrist Asset Management, PT",
+      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
+      "type": "Sukuk Based Fund"
+    },
+    {
+      "id": 1297,
       "name": "REKSA DANA SYARIAH BERBASIS SUKUK BNP PARIBAS SUKUK NEGARA",
       "management": "BNP Paribas Asset Management, PT",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Sukuk Based Fund"
     },
     {
-      "id": 1297,
+      "id": 1298,
       "name": "REKSA DANA SYARIAH BERBASIS SUKUK MAJORIS SUKUK ANDALAN INDONESIA",
       "management": "Majoris Asset Management, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Sukuk Based Fund"
     },
     {
-      "id": 1298,
-      "name": "REKSA DANA SYARIAH BERBASIS SUKUK OSO CELEBES SYARIAH SUKUK",
-      "management": "OSO Manajemen Investasi, PT",
-      "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
-      "type": "Fixed Income Fund"
-    },
-    {
       "id": 1299,
       "name": "REKSA DANA SYARIAH BERBASIS SUKUK OSO CELEBES SYARIAH SUKUK",
       "management": "OSO Manajemen Investasi, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
-      "type": "Sukuk Based Fund"
+      "type": "Fixed Income Fund"
     },
     {
       "id": 1300,
-      "name": "REKSA DANA SYARIAH BERBASIS SUKUK SHINHAN SUKUK SYARIAH I",
-      "management": "Shinhan Asset Management Indonesia, PT",
+      "name": "REKSA DANA SYARIAH BERBASIS SUKUK OSO CELEBES SYARIAH SUKUK",
+      "management": "OSO Manajemen Investasi, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
-      "type": "Fixed Income Fund"
+      "type": "Sukuk Based Fund"
     },
     {
       "id": 1301,
       "name": "REKSA DANA SYARIAH BERBASIS SUKUK SHINHAN SUKUK SYARIAH I",
       "management": "Shinhan Asset Management Indonesia, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
-      "type": "Sukuk Based Fund"
+      "type": "Fixed Income Fund"
     },
     {
       "id": 1302,
-      "name": "REKSA DANA SYARIAH BERBASIS SUKUK SUCORINVEST SHARIA SUKUK FUND",
-      "management": "Sucorinvest Asset Management, PT",
-      "custodian": "PT Bank HSBC Indonesia",
+      "name": "REKSA DANA SYARIAH BERBASIS SUKUK SHINHAN SUKUK SYARIAH I",
+      "management": "Shinhan Asset Management Indonesia, PT",
+      "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Sukuk Based Fund"
     },
     {
@@ -9123,31 +9123,31 @@
     },
     {
       "id": 1304,
+      "name": "REKSA DANA SYARIAH BERBASIS SUKUK SUCORINVEST SHARIA SUKUK FUND",
+      "management": "Sucorinvest Asset Management, PT",
+      "custodian": "PT Bank HSBC Indonesia",
+      "type": "Sukuk Based Fund"
+    },
+    {
+      "id": 1305,
       "name": "REKSA DANA SYARIAH BNI AM DANA PENDAPATAN TETAP SYARIAH ARDHANI",
       "management": "BNI Asset Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1305,
+      "id": 1306,
       "name": "Reksa Dana Syariah BNI AM Likuid Prioritas Syariah",
       "management": "BNI Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 1306,
-      "name": "REKSA DANA SYARIAH BNP PARIBAS CAKRA SYARIAH USD",
-      "management": "BNP Paribas Asset Management, PT",
-      "custodian": "CITIBANK N. A. - CUSTODY",
-      "type": "Equity Fund"
-    },
-    {
       "id": 1307,
       "name": "REKSA DANA SYARIAH BNP PARIBAS CAKRA SYARIAH USD",
       "management": "BNP Paribas Asset Management, PT",
       "custodian": "CITIBANK N. A. - CUSTODY",
-      "type": "Global Fund"
+      "type": "Equity Fund"
     },
     {
       "id": 1308,
@@ -9158,28 +9158,28 @@
     },
     {
       "id": 1309,
-      "name": "REKSA DANA SYARIAH BNP PARIBAS CAKRA SYARIAH USD KELAS IK1",
+      "name": "REKSA DANA SYARIAH BNP PARIBAS CAKRA SYARIAH USD",
       "management": "BNP Paribas Asset Management, PT",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Global Fund"
     },
     {
       "id": 1310,
-      "name": "REKSA DANA SYARIAH BNP PARIBAS CAKRA SYARIAH USD KELAS IK2",
+      "name": "REKSA DANA SYARIAH BNP PARIBAS CAKRA SYARIAH USD KELAS IK1",
       "management": "BNP Paribas Asset Management, PT",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Global Fund"
     },
     {
       "id": 1311,
-      "name": "REKSA DANA SYARIAH BNP PARIBAS CAKRA SYARIAH USD KELAS RK1",
+      "name": "REKSA DANA SYARIAH BNP PARIBAS CAKRA SYARIAH USD KELAS IK2",
       "management": "BNP Paribas Asset Management, PT",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Global Fund"
     },
     {
       "id": 1312,
-      "name": "REKSA DANA SYARIAH BNP PARIBAS GREATER CHINA EQUITY SYARIAH USD",
+      "name": "REKSA DANA SYARIAH BNP PARIBAS CAKRA SYARIAH USD KELAS RK1",
       "management": "BNP Paribas Asset Management, PT",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Global Fund"
@@ -9193,269 +9193,269 @@
     },
     {
       "id": 1314,
-      "name": "REKSA DANA SYARIAH BNP PARIBAS GREATER CHINA EQUITY SYARIAH USD KELAS IK1",
+      "name": "REKSA DANA SYARIAH BNP PARIBAS GREATER CHINA EQUITY SYARIAH USD",
       "management": "BNP Paribas Asset Management, PT",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Global Fund"
     },
     {
       "id": 1315,
-      "name": "REKSA DANA SYARIAH BNP PARIBAS GREATER CHINA EQUITY SYARIAH USD KELAS RK1",
+      "name": "REKSA DANA SYARIAH BNP PARIBAS GREATER CHINA EQUITY SYARIAH USD KELAS IK1",
       "management": "BNP Paribas Asset Management, PT",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Global Fund"
     },
     {
       "id": 1316,
+      "name": "REKSA DANA SYARIAH BNP PARIBAS GREATER CHINA EQUITY SYARIAH USD KELAS RK1",
+      "management": "BNP Paribas Asset Management, PT",
+      "custodian": "CITIBANK N. A. - CUSTODY",
+      "type": "Global Fund"
+    },
+    {
+      "id": 1317,
       "name": "REKSA DANA SYARIAH BNP PARIBAS PASAR UANG SYARIAH",
       "management": "BNP Paribas Asset Management, PT",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Money Market Fund"
     },
     {
-      "id": 1317,
+      "id": 1318,
       "name": "Reksa Dana Syariah BNP Paribas Pesona Syariah",
       "management": "BNP Paribas Asset Management, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Equity Fund"
     },
     {
-      "id": 1318,
+      "id": 1319,
       "name": "REKSA DANA SYARIAH BUMIPUTERA MITRA KAS FADHILA",
       "management": "Bumiputera Manajemen Investasi, PT",
       "custodian": "BANK BUKOPIN - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 1319,
+      "id": 1320,
       "name": "REKSA DANA SYARIAH CAMPURAN BNI AM PRIORITAS MINDI",
       "management": "BNI Asset Management, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 1320,
+      "id": 1321,
       "name": "REKSA DANA SYARIAH CAMPURAN MAJORIS SYARIAH DANA LESTARI UNIVERSITAS SYIAH KUALA INDONESIA",
       "management": "Majoris Asset Management, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 1321,
+      "id": 1322,
       "name": "REKSA DANA SYARIAH CAPITAL SHARIA BALANCED",
       "management": "Capital Asset Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 1322,
+      "id": 1323,
       "name": "REKSA DANA SYARIAH CAPITAL SHARIA EQUITY",
       "management": "Capital Asset Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 1323,
+      "id": 1324,
       "name": "REKSA DANA SYARIAH CAPITAL SHARIA MONEY MARKET",
       "management": "Capital Asset Management, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 1324,
+      "id": 1325,
       "name": "REKSA DANA SYARIAH CIMB PRINCIPAL SUKUK SYARIAH",
       "management": "Principal Asset Management",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1325,
+      "id": 1326,
       "name": "REKSA DANA SYARIAH CIMB PRINCIPAL SUKUK SYARIAH 2",
       "management": "Principal Asset Management",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1326,
+      "id": 1327,
       "name": "REKSA DANA SYARIAH CIMB PRINCIPAL SUKUK SYARIAH 3",
       "management": "Principal Asset Management",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1327,
+      "id": 1328,
       "name": "REKSA DANA SYARIAH CIPTA DANA KAS SYARIAH",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 1328,
+      "id": 1329,
       "name": "REKSA DANA SYARIAH CIPTA PENDAPATAN TETAP UNGGULAN SYARIAH",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1329,
+      "id": 1330,
       "name": "REKSA DANA SYARIAH CIPTA SAHAM UNGGULAN SYARIAH",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 1330,
+      "id": 1331,
       "name": "REKSA DANA SYARIAH CORFINA AMANAH SAHAM SYARIAH",
       "management": "Corfina Capital, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 1331,
+      "id": 1332,
       "name": "REKSA DANA SYARIAH CORFINA INVESTA SAHAM SYARIAH",
       "management": "Corfina Capital, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 1332,
+      "id": 1333,
       "name": "REKSA DANA SYARIAH DANAREKSA G20 SHARIA EQUITY FUND DOLLAR",
       "management": "Danareksa Investment Management, PT",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Global Fund"
     },
     {
-      "id": 1333,
+      "id": 1334,
       "name": "REKSA DANA SYARIAH DANAREKSA SERUNI PASAR UANG SYARIAH",
       "management": "Danareksa Investment Management, PT",
       "custodian": "BANK BUKOPIN - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 1334,
+      "id": 1335,
       "name": "REKSA DANA SYARIAH DANAREKSA SERUNI PASAR UANG SYARIAH DANA HAJI",
       "management": "Danareksa Investment Management, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Money Market Fund"
     },
     {
-      "id": 1335,
+      "id": 1336,
       "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH EQUITY ISLAMIC ASIA PACIFIC USD",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Equity Fund"
     },
     {
-      "id": 1336,
+      "id": 1337,
       "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH EQUITY ISLAMIC ASIA PACIFIC USD",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Global Fund"
     },
     {
-      "id": 1337,
+      "id": 1338,
       "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH EQUITY ISLAMIC ASIA PACIFIC USD KELAS A",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Global Fund"
     },
     {
-      "id": 1338,
+      "id": 1339,
       "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH EQUITY ISLAMIC ASIA PACIFIC USD KELAS B",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Global Fund"
     },
     {
-      "id": 1339,
+      "id": 1340,
       "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH EQUITY ISLAMIC ASIA PACIFIC USD KELAS C",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Global Fund"
     },
     {
-      "id": 1340,
+      "id": 1341,
       "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH FIXED INCOME AMANAH",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1341,
-      "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH FIXED INCOME AMANAH",
-      "management": "Eastspring Investments Indonesia, PT",
-      "custodian": "CITIBANK N. A. - CUSTODY",
-      "type": "Fixed Income Fund"
-    },
-    {
       "id": 1342,
-      "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH FIXED INCOME AMANAH KELAS A",
+      "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH FIXED INCOME AMANAH",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
       "id": 1343,
-      "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH FIXED INCOME AMANAH KELAS B",
+      "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH FIXED INCOME AMANAH KELAS A",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
       "id": 1344,
+      "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH FIXED INCOME AMANAH KELAS B",
+      "management": "Eastspring Investments Indonesia, PT",
+      "custodian": "CITIBANK N. A. - CUSTODY",
+      "type": "Fixed Income Fund"
+    },
+    {
+      "id": 1345,
       "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH FIXED INCOME USD",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1345,
+      "id": 1346,
       "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH FIXED INCOME USD KELAS A",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1346,
+      "id": 1347,
       "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH FIXED INCOME USD KELAS B",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1347,
+      "id": 1348,
       "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH GREATER CHINA EQUITY USD",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Global Fund"
     },
     {
-      "id": 1348,
+      "id": 1349,
       "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH GREATER CHINA EQUITY USD KELAS A",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Global Fund"
     },
     {
-      "id": 1349,
+      "id": 1350,
       "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH GREATER CHINA EQUITY USD KELAS B",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Global Fund"
     },
     {
-      "id": 1350,
+      "id": 1351,
       "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH GREATER CHINA EQUITY USD KELAS C",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Global Fund"
-    },
-    {
-      "id": 1351,
-      "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH MONEY MARKET KHAZANAH",
-      "management": "Eastspring Investments Indonesia, PT",
-      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
-      "type": "Money Market Fund"
     },
     {
       "id": 1352,
@@ -9480,31 +9480,31 @@
     },
     {
       "id": 1355,
-      "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH MONEY MARKET KHAZANAH KELAS A",
+      "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH MONEY MARKET KHAZANAH",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Money Market Fund"
     },
     {
       "id": 1356,
-      "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH MONEY MARKET KHAZANAH KELAS B",
+      "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH MONEY MARKET KHAZANAH KELAS A",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Money Market Fund"
     },
     {
       "id": 1357,
+      "name": "REKSA DANA SYARIAH EASTSPRING SYARIAH MONEY MARKET KHAZANAH KELAS B",
+      "management": "Eastspring Investments Indonesia, PT",
+      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
+      "type": "Money Market Fund"
+    },
+    {
+      "id": 1358,
       "name": "REKSA DANA SYARIAH EMCO SAHAM BAROKAH SYARIAH",
       "management": "Emco Asset Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
-    },
-    {
-      "id": 1358,
-      "name": "Reksa Dana Syariah GAP Syariah Money Market Fund",
-      "management": "GAP Capital, PT",
-      "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
-      "type": "Money Market Fund"
     },
     {
       "id": 1359,
