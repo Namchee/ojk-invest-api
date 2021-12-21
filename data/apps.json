@@ -14,472 +14,454 @@
     },
     {
       "id": 3,
-      "name": "Mentimun Pay",
-      "url": "https://www.mentimun.co.id",
-      "owner": "PT Dinamika Mitra Sukses Makmur - PT Nusantara Sejahtera Investama"
-    },
-    {
-      "id": 4,
       "name": "Belanja Valbury Online",
       "url": "https://bravo.valbury.co.id/",
       "owner": "PT Valbury Capital Management"
     },
     {
-      "id": 5,
+      "id": 4,
       "name": "Bmoney",
       "url": "https://play.google.com/store/apps/details?id=com.bmoney.android",
       "owner": "PT Buka Investasi Bersama"
     },
     {
-      "id": 6,
+      "id": 5,
       "name": "Digibank",
       "url": "https://www.dbs.id/id/treasures-id/investasi/reksadana/digibank-mutual-fund",
       "owner": "PT Bank DBS Indonesia"
     },
     {
-      "id": 7,
-      "name": "GreatDay HR",
-      "url": "https://greatdayhr.com/en-en/",
-      "owner": "PT People Intelligence - PT Nusantara Sejahtera Investama"
-    },
-    {
-      "id": 8,
+      "id": 6,
       "name": "IReksadana",
       "url": "https://btnprioritas.btn.co.id/page/detail/kebijakan-privasi-dan-pengamanan-btn-prioritas-dan-ireksadana-btn",
       "owner": "PT Bank Tabungan Negara (Persero) Tbk"
     },
     {
-      "id": 9,
+      "id": 7,
       "name": "Jenius",
       "url": "https://www.jenius.com/everyyay/details/investasi-2",
       "owner": "PT Bank BTPN Tbk"
     },
     {
-      "id": 10,
+      "id": 8,
       "name": "MNC Trade",
       "url": "https://www.mncsekuritas.id/download-area",
       "owner": "PT MNC Sekuritas"
     },
     {
-      "id": 11,
+      "id": 9,
       "name": "Octo dan CIMB Clicks",
       "url": "https://www.cimbniaga.co.id/id/personal/reksadana",
       "owner": "PT Bank CIMB Niaga Tbk"
     },
     {
-      "id": 12,
+      "id": 10,
       "name": "Payuung.com",
       "url": "https://payuung.com/benefit-karyawan/investment/investasi-reksa-dana",
       "owner": "PT Benefide Sejahtera Berkarya - PT Star Mercato Capitale"
     },
     {
-      "id": 13,
-      "name": "Finnet",
-      "url": "http://www.finnet-indonesia.com",
-      "owner": "PT Finnet Indonesia - PT Nusantara Sejahtera Investama"
-    },
-    {
-      "id": 14,
+      "id": 11,
       "name": "Pluang",
       "url": "https://pluang.com/",
       "owner": "PT Bumi Santosa Cemerlang - PT Sarana Santosa Sejati"
     },
     {
-      "id": 15,
+      "id": 12,
       "name": "Pluang-Grow",
       "url": "https://www.pluang-grow.com",
       "owner": "PT Sarana Santosa Sejati"
     },
     {
-      "id": 16,
+      "id": 13,
       "name": "Mitra Tekno Madani",
       "url": "http://www.pnmdigi.id",
       "owner": "PT Mitra Tekno Madani - PT Star Mercato Capitale"
     },
     {
-      "id": 17,
+      "id": 14,
       "name": "Maybank2U",
       "url": "https://www.maybank.co.id/premierwealth/aset-enhancer/ReksaDana?utm_source=offline&utm_medium=billboard&utm_content=markurl&utm_campaign=wm-200929-ReksaDana",
       "owner": "PT Bank Maybank Indonesia Tbk"
     },
     {
-      "id": 18,
+      "id": 15,
       "name": "InvestASIK",
       "url": "https://play.google.com/store/apps/developer?id=PT+Danareksa+Investment+Management&hl=en",
       "owner": "PT Danareksa Investment Management"
     },
     {
-      "id": 19,
+      "id": 16,
       "name": "Raiz Invest",
       "url": "http://raizinvest.id/",
       "owner": "PT Raiz Invest Indonesia"
     },
     {
-      "id": 20,
+      "id": 17,
       "name": "WELMA",
       "url": "https://www.bca.co.id/id/Individu/layanan/e-banking/Welma",
       "owner": "PT Bank Central Asia Tbk"
     },
     {
-      "id": 21,
+      "id": 18,
       "name": "SIMINVEST",
       "url": "https://www.siminvest.id/",
       "owner": "PT Sinarmas Sekuritas"
     },
     {
-      "id": 22,
+      "id": 19,
       "name": "Kelola Investasi",
       "url": "http://kelolaapp.com",
       "owner": "PT Kelola Mitra Investama - PT Aldiracita Sekuritas Indonesia"
     },
     {
-      "id": 23,
+      "id": 20,
       "name": "Bibitnomic",
       "url": "http://bibit.id",
       "owner": "PT Bibit Tumbuh Bersama"
     },
     {
-      "id": 24,
+      "id": 21,
       "name": "Bareksa.com",
       "url": "https://www.bareksa.com",
       "owner": "PT Bareksa Portal Investasi"
     },
     {
-      "id": 25,
-      "name": "Blanja Invest",
-      "url": "https://www.blanja.com/kp/blanja-invest",
-      "owner": "PT Metra Plasa - PT Nusantara Sejahtera Investama"
-    },
-    {
-      "id": 26,
+      "id": 22,
       "name": "Bukalapak",
       "url": "https://www.bukalapak.com/bukareksa/home",
       "owner": "PT Bukalapak.com - PT Buka Investasi Bersama"
     },
     {
-      "id": 27,
+      "id": 23,
       "name": "Bukalapak Tanamduit",
       "url": "https://www.bukalapak.com",
       "owner": "PT Bukalapak.com - PT Star Mercato Capitale"
     },
     {
-      "id": 28,
+      "id": 24,
       "name": "BukaReksa",
       "url": "https://www.Bukalapak.com/bukareksa",
       "owner": "PT Bukalapak.com - PT Bareksa Portal Investasi"
     },
     {
-      "id": 29,
+      "id": 25,
       "name": "CROS",
       "url": "https://corfina.id/",
       "owner": "PT Corfina Capital"
     },
     {
-      "id": 30,
+      "id": 26,
       "name": "Digital Kiosk",
       "url": "https://elebox.id",
       "owner": "PT Kresna Asset Management"
     },
     {
-      "id": 31,
+      "id": 27,
       "name": "DOKU",
       "url": "https://www.doku.com/id/konsumen/investasi",
       "owner": "PT Nusa Satu Inti Artha - PT Bareksa Portal Investasi"
     },
     {
-      "id": 32,
+      "id": 28,
       "name": "Finansialku",
       "url": "https://www.finansialku.com",
       "owner": "PT Solusi Finansialku Indonesia - PT Star Mercato Capitale"
     },
     {
-      "id": 33,
+      "id": 29,
       "name": "Akseleran.co.id",
       "url": "https://www.akseleran.co.id",
       "owner": "PT Akseleran Keuangan Inklusif Indonesia - PT Star Mercato Capitale"
     },
     {
-      "id": 34,
+      "id": 30,
       "name": "Ikredo.id",
       "url": "https://www.ikredo.id",
       "owner": "PT Investdana Fintek Nusantara - PT Moduit Digital Indonesia"
     },
     {
-      "id": 35,
+      "id": 31,
       "name": "Fund ZaisanBNIS",
       "url": "http://fund.zaisanbnis.com",
       "owner": "PT BNI Sekuritas"
     },
     {
-      "id": 36,
+      "id": 32,
       "name": "Fundtastic",
       "url": "https://fundtastic.co.id/",
       "owner": "PT Chandharwealth Mandiri Indonesia - PT Nusantara Sejahtera Investama"
     },
     {
-      "id": 37,
+      "id": 33,
       "name": "Fundtastic+",
       "url": "https://fundtasticplus.co.id/",
       "owner": "PT Nusantara Sejahtera Investama"
     },
     {
-      "id": 38,
+      "id": 34,
+      "name": "Go-Investasi Go-Jek",
+      "url": "https://www.gojek.com",
+      "owner": "PT Aplikasi Karya Anak Bangsa - PT Sarana Santosa Sejati"
+    },
+    {
+      "id": 35,
       "name": "Halofina",
       "url": "https://Halofina.id",
       "owner": "PT Akselerasi Edukasi Internasional - PT Star Mercato Capitale"
     },
     {
-      "id": 39,
+      "id": 36,
       "name": "HPAM",
       "url": "https://www.hpam.co.id",
       "owner": "PT Henan Putihrai Asset Management"
     },
     {
-      "id": 40,
+      "id": 37,
       "name": "OCBC NISP",
       "url": "https://www.ocbcnisp.com/personal-banking/wealth-management.aspx",
       "owner": "PT. Bank OCBC NISP, Tbk"
     },
     {
-      "id": 41,
+      "id": 38,
       "name": "Commbank ID",
       "url": "https://www.commbank.co.id/upublic/mod_home/default_content.aspx?code=iv_mf",
       "owner": "PT. Commonwealth Bank"
     },
     {
-      "id": 42,
+      "id": 39,
       "name": "HSBC Indonesia",
       "url": "https://www.hsbc.co.id/1/2/id/personal/wealth-management/investasi/mutual-funds",
       "owner": "PT Bank HSBC Indonesia"
     },
     {
-      "id": 43,
+      "id": 40,
       "name": "Standard Chartered",
       "url": "https://www.sc.com/id/invest/mutual-funds.html",
       "owner": "Standard Chartered Bank"
     },
     {
-      "id": 44,
+      "id": 41,
+      "name": "Invesnow",
+      "url": "https://www.invesnow.id",
+      "owner": "PT Invesnow Principal Optima"
+    },
+    {
+      "id": 42,
       "name": "Investree",
       "url": "https://www.investree.id",
       "owner": "PT Investree Radhika Jaya - PT Star Mercato Capitale"
     },
     {
-      "id": 45,
+      "id": 43,
       "name": "IPOTFUND",
       "url": "https://www.indopremier.com/ipotfund",
       "owner": "PT Indopremier Securities"
     },
     {
-      "id": 46,
+      "id": 44,
       "name": "IPOTGO",
       "url": "https://www.indopremier.com/ipotgo/reksadana.php?page=list",
       "owner": "PT Indo Premier Investment Management"
     },
     {
-      "id": 47,
+      "id": 45,
       "name": "ITRAM",
       "url": "https://www.itram.co.id",
       "owner": "PT Trimegah Asset Management"
     },
     {
-      "id": 48,
+      "id": 46,
       "name": "Klik Mami",
       "url": "https://www.klikmami.com",
       "owner": "PT Manulife Aset Manajemen Indonesia"
     },
     {
-      "id": 49,
+      "id": 47,
       "name": "Koinworks",
       "url": "https://koinworks.com/",
       "owner": "PT Lunaria Annua Teknologi - PT Mandiri Manajemen Investasi"
     },
     {
-      "id": 50,
+      "id": 48,
       "name": "Koperasi KOPOJEKA",
       "url": "http://kopojeka.tanamduit.com/",
       "owner": "Koperasi Pegawai OJK - PT Star Mercato Capitale"
     },
     {
-      "id": 51,
+      "id": 49,
       "name": "LinkAja",
       "url": "https://www.linkaja.id/promo/linkaja-investasi-di-menu-investasi-reksadana-aplikasi-linkaja-dapat-cashback-s-d-10rb",
       "owner": "PT Fintek Karya Nusantara - PT Bibit Tumbuh Bersama"
     },
     {
-      "id": 52,
+      "id": 50,
       "name": "Makmur",
       "url": "https://www.makmur.id/",
       "owner": "PT Inovasi Finansial Teknologi"
     },
     {
-      "id": 53,
+      "id": 51,
       "name": "Max",
       "url": "https://max.miraeasset.co.id/id/home",
       "owner": "PT Mirae Asset Sekuritas Indonesia"
     },
     {
-      "id": 54,
+      "id": 52,
       "name": "Moduit",
       "url": "https://www.moduit.id",
       "owner": "PT Moduit Digital Indonesia"
     },
     {
-      "id": 55,
+      "id": 53,
       "name": "Moinves",
       "url": "https://www.moinves.co.id",
       "owner": "PT Mandiri Manajemen Investasi"
     },
     {
-      "id": 56,
+      "id": 54,
       "name": "MOST",
       "url": "https://www.most.co.id/Portal/Content/10/transaksi-reksa-dana",
       "owner": "PT Mandiri Sekuritas"
     },
     {
-      "id": 57,
+      "id": 55,
       "name": "Motion Funds",
       "url": "https://www.motionfunds.id",
       "owner": "PT MNC Asset Management"
     },
     {
-      "id": 58,
+      "id": 56,
       "name": "NOIS",
       "url": "http://nois.id",
       "owner": "PT Narada Aset Manajemen"
     },
     {
-      "id": 59,
+      "id": 57,
       "name": "OVO",
       "url": "https://www.ovo.co.id",
       "owner": "PT Visionet Internasional - PT Ciptadana Asset Management"
     },
     {
-      "id": 60,
+      "id": 58,
       "name": "OVO Invest",
       "url": "https://www.ovo.id",
       "owner": "PT Visionet Internasional - PT Bareksa Portal Investasi"
     },
     {
-      "id": 61,
+      "id": 59,
       "name": "Panin AM",
       "url": "https://www.panin-am.co.id",
       "owner": "PT Panin Asset Management"
     },
     {
-      "id": 62,
+      "id": 60,
       "name": "PayOr",
       "url": "http://payor.paytren-am.co.id",
       "owner": "PT Paytren Aset Manajemen"
     },
     {
-      "id": 63,
+      "id": 61,
       "name": "Paypro",
       "url": "https://paypro.id",
       "owner": "PT Solusi Pasti Indonesia - PT BNP Paribas Investment Partners"
     },
     {
-      "id": 64,
+      "id": 62,
       "name": "Permatanet",
       "url": "https://www.permatabank.com/reksadanapermatanet",
       "owner": "PT Bank Permata Tbk"
     },
     {
-      "id": 65,
+      "id": 63,
       "name": "PG Online",
       "url": "https://www.pgonline.co.id",
       "owner": "PT PG Asset Management"
     },
     {
-      "id": 66,
+      "id": 64,
       "name": "Postdana",
       "url": "https://www.postdana.id/mutual-fund",
       "owner": "PT Panin Sekuritas Tbk"
     },
     {
-      "id": 67,
+      "id": 65,
       "name": "PRINCIPAL ID",
       "url": "https://www.principal.co.id/",
       "owner": "PT Principal Asset Management"
     },
     {
-      "id": 68,
+      "id": 66,
       "name": "Profunds",
       "url": "https://www.poems.co.id/Profunds",
       "owner": "PT Philips Securities Indonesia"
     },
     {
-      "id": 69,
+      "id": 67,
       "name": "SAM",
       "url": "https://www.reksadanasam.co.id",
       "owner": "PT Samuel Aset Manajemen"
     },
     {
-      "id": 70,
+      "id": 68,
       "name": "Rol.sinarmas-am.co.id",
       "url": "http://rol.sinarmas-am.co.id",
       "owner": "PT Sinarmas Asset Management"
     },
     {
-      "id": 71,
+      "id": 69,
       "name": "Si Jago",
       "url": "https://sijago.pnmim.com",
       "owner": "PT PNM Investment Management"
     },
     {
-      "id": 72,
+      "id": 70,
       "name": "Sinar Bahana",
       "url": "https://www.sinar.bahanatcw.com",
       "owner": "PT Bahana TCW Investment Management"
     },
     {
-      "id": 73,
+      "id": 71,
       "name": "SPOR",
       "url": "http://spor.sucorinvestam.com",
       "owner": "PT Sucorinvest Asset Management"
     },
     {
-      "id": 74,
+      "id": 72,
       "name": "SRI Online",
       "url": "https://www.supermarketreksadana.com",
       "owner": "PT Supermarket Reksadana Indonesia"
     },
     {
-      "id": 75,
+      "id": 73,
       "name": "Tanam Duit",
       "url": "https://www.tanamduit.com",
       "owner": "PT Star Mercato Capitale"
     },
     {
-      "id": 76,
+      "id": 74,
       "name": "Tokopedia",
       "url": "http://www.tokopedia.com/reksa-dana/",
       "owner": "PT Tokopedia - PT Bareksa Portal Investasi"
     },
     {
-      "id": 77,
+      "id": 75,
       "name": "Trima Trimegah",
       "url": "http://trima.trimegah.com/produk-layanan/reksa-dana/",
       "owner": "PT Trimegah Securities"
     },
     {
-      "id": 78,
-      "name": "Baznas",
-      "url": "http://baznas.go.id/reksadana",
-      "owner": "Badan Amil Zakat Nasional (BAZNAS) - PT Nusantara Sejahtera Investama"
-    },
-    {
-      "id": 79,
+      "id": 76,
       "name": "Xdana",
       "url": "http://xdana.com",
       "owner": "PT Xdana Investa Indonesia"
     },
     {
-      "id": 80,
+      "id": 77,
       "name": "YO! Inves",
       "url": "https://www.syailendracapital.com/investasi-sekarang",
       "owner": "PT Syailendra Capital"
     }
   ],
-  "version": "20/12/2021"
+  "version": "21/12/2021"
 }

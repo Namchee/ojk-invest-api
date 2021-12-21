@@ -15248,7 +15248,69 @@
       "type": "Penawaran Investasi Aset Kripto Tanpa Izin",
       "inputDate": "06/08/2021",
       "details": "SP 04/SWI/VII/2021"
+    },
+    {
+      "id": 1097,
+      "name": "PT Saratoga Investama Reksadana",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Penipuan Penawaran Investasi Dengan Mengatasnamakan PT Saratoga Investama Sedaya Tanpa Izin",
+      "inputDate": "21/12/2021",
+      "details": "SP 05/XI/SWI/2021"
+    },
+    {
+      "id": 1098,
+      "name": "Robot Trading DNA Pro",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Robot Trading",
+      "inputDate": "21/12/2021",
+      "details": "SP 05/XI/SWI/2021"
+    },
+    {
+      "id": 1099,
+      "name": "Robot Trading Pansaka",
+      "alias": [
+        "Auto Trade Gold"
+      ],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Robot Trading",
+      "inputDate": "21/12/2021",
+      "details": "SP 05/XI/SWI/2021"
+    },
+    {
+      "id": 1100,
+      "name": "FX Family",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Perdagangan Berjangka (forex) Tanpa Izin",
+      "inputDate": "21/12/2021",
+      "details": "SP 05/XI/SWI/2021"
+    },
+    {
+      "id": 1101,
+      "name": "Fahrenheit Robot Trading",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Kegiatan Perdagangan Berjangka atau Aset Kripto Tanpa Izin",
+      "inputDate": "21/12/2021",
+      "details": "SP 05/XI/SWI/2021"
     }
   ],
-  "version": "20/12/2021"
+  "version": "21/12/2021"
 }
