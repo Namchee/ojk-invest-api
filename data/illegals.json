@@ -15310,7 +15310,141 @@
       "type": "Kegiatan Perdagangan Berjangka atau Aset Kripto Tanpa Izin",
       "inputDate": "21/12/2021",
       "details": "SP 05/XI/SWI/2021"
+    },
+    {
+      "id": 1102,
+      "name": "Indonesia Crypto Exchange",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Kegiatan Sebagai Bursa Perdagangan Aset Kripto Tanpa Izin",
+      "inputDate": "22/12/2021",
+      "details": "SP 05/XI/SWI/2021"
+    },
+    {
+      "id": 1103,
+      "name": "Smart Gold",
+      "alias": [
+        "Smartavatar Co. Ltd."
+      ],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Kegiatan Sebagai Bursa Perdagangan Aset Kripto Tanpa Izin",
+      "inputDate": "22/12/2021",
+      "details": "SP 05/XI/SWI/2021"
+    },
+    {
+      "id": 1104,
+      "name": "CSPmine",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Money Game",
+      "inputDate": "22/12/2021",
+      "details": "SP 06/XII/SWI/2021"
+    },
+    {
+      "id": 1105,
+      "name": "Sultan Digital Payment",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Investasi Aset Crypto",
+      "inputDate": "22/12/2021",
+      "details": "SP 06/XII/SWI/2021"
+    },
+    {
+      "id": 1106,
+      "name": "Emas 24K Community",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Money Game",
+      "inputDate": "22/12/2021",
+      "details": "SP 06/XII/SWI/2021"
+    },
+    {
+      "id": 1107,
+      "name": "Platinumindo",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Money Game",
+      "inputDate": "22/12/2021",
+      "details": "SP 06/XII/SWI/2021"
+    },
+    {
+      "id": 1108,
+      "name": "RoyalQ Indonesia",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Perdagangan Robot Trading atau Aset Kripto Tanpa Izin",
+      "inputDate": "22/12/2021",
+      "details": "SP 06/XII/SWI/2021"
+    },
+    {
+      "id": 1109,
+      "name": "Robot Trading Maxima Margin",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Robot Trading",
+      "inputDate": "22/12/2021",
+      "details": "SP 06/XII/SWI/2021"
+    },
+    {
+      "id": 1110,
+      "name": "Robot Trading Revenue Bintang Mas",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Robot Trading",
+      "inputDate": "22/12/2021",
+      "details": "SP 06/XII/SWI/2021"
+    },
+    {
+      "id": 1111,
+      "name": "Tikvee",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Money Game",
+      "inputDate": "22/12/2021",
+      "details": "SP 06/XII/SWI/2021"
+    },
+    {
+      "id": 1112,
+      "name": "PT Rechain Digital Indonesia",
+      "alias": [],
+      "address": "",
+      "number": [],
+      "email": [],
+      "urls": [],
+      "type": "Perdagangan Aset Kripto Vidy Coin dan Vidyx Tanpa Izin",
+      "inputDate": "22/12/2021",
+      "details": "SP 06/XII/SWI/2021"
     }
   ],
-  "version": "21/12/2021"
+  "version": "22/12/2021"
 }

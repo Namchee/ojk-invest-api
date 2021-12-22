@@ -17033,7 +17033,7 @@
     },
     {
       "id": 2434,
-      "name": "REKSA DANA UOBAM PASAR UANG INDONESIA",
+      "name": "REKSA DANA UOBAM ESG PASAR UANG INDONESIA",
       "management": "UOB Asset Management Indonesia, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
@@ -17319,5 +17319,5 @@
       "type": "Equity Fund"
     }
   ],
-  "version": "21/12/2021"
+  "version": "22/12/2021"
 }
