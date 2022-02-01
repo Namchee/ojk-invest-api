@@ -2762,14 +2762,14 @@
       "id": 395,
       "name": "REKSA DANA CIPTA SYARIAH BALANCE",
       "management": "Ciptadana Asset Management, PT",
-      "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
+      "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
       "id": 396,
       "name": "REKSA DANA CIPTA SYARIAH EQUITY",
       "management": "Ciptadana Asset Management, PT",
-      "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
+      "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
@@ -7389,7 +7389,7 @@
       "id": 1056,
       "name": "REKSA DANA RENCANA CERDAS",
       "management": "Ciptadana Asset Management, PT",
-      "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
+      "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
@@ -17123,5 +17123,5 @@
       "type": "Equity Fund"
     }
   ],
-  "version": "29/01/2022"
+  "version": "01/02/2022"
 }
