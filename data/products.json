@@ -2202,7 +2202,7 @@
       "id": 315,
       "name": "REKSA DANA BNIAM DANA LANCAR SYARIAH",
       "management": "BNI Asset Management, PT",
-      "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
+      "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Money Market Fund"
     },
     {
@@ -17123,5 +17123,5 @@
       "type": "Equity Fund"
     }
   ],
-  "version": "15/02/2022"
+  "version": "16/02/2022"
 }
