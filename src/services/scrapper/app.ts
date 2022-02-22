@@ -101,7 +101,7 @@ export class AppsScrapper extends Scrapper<App> {
           AppsScrapper.nextSelector,
           (buttons, selector) => {
             const nextBtn = buttons[1] as HTMLButtonElement;
-            const isDisabled = nextBtn.classList.contains(selector);
+            const isDisabled = nextBtn.classList.contains(selector as string);
 
             if (!isDisabled) {
               nextBtn.click();

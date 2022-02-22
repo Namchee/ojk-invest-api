@@ -209,7 +209,7 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
           (buttons, selector) => {
             const nextBtn = buttons[1] as HTMLButtonElement;
 
-            const isDisabled = nextBtn.classList.contains(selector);
+            const isDisabled = nextBtn.classList.contains(selector as string);
 
             // click when the page isn't the last page
             if (!isDisabled) {

@@ -98,7 +98,9 @@ export class ProductsScrapper extends Scrapper<Product> {
           ProductsScrapper.nextSelector,
           (buttons, selector) => {
             const nextButton = buttons[1] as HTMLButtonElement;
-            const isDisabled = nextButton.classList.contains(selector);
+            const isDisabled = nextButton.classList.contains(
+              selector as string,
+            );
 
             if (!isDisabled) {
               nextButton.click();
