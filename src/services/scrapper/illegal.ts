@@ -188,6 +188,15 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
     const page = await this.browser.newPage();
     await page.goto(this.url, PAGE_OPTIONS);
 
+    await page.setRequestInterception(true);
+    page.on('request', (request) => {
+      if (['image', 'stylesheet'].includes(request.resourceType())) {
+        request.abort();
+      } else {
+        request.continue();
+      }
+    });
+
     await page.setBypassCSP(true);
     await page.waitForSelector(IllegalsScrapper.pageSelector);
 

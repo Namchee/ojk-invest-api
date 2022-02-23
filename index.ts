@@ -12,6 +12,9 @@ import { bootstrapOutput } from './src/services/writer';
   const browser = await puppeteer.launch({
     headless: true,
     ignoreHTTPSErrors: true,
+    args: [
+      '--no-sandbox',
+    ],
   });
 
   try {
