@@ -1,4 +1,6 @@
-export const typeDefs = `
+import { gql } from 'apollo-server-micro';
+
+export const typeDefs = gql`
   # Illegal investment product
   type IllegalInvestment {
     id: ID!

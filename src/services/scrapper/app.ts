@@ -83,6 +83,15 @@ export class AppsScrapper extends Scrapper<App> {
     const page = await this.browser.newPage();
     await page.goto(this.url, PAGE_OPTIONS);
 
+    await page.setRequestInterception(true);
+    page.on('request', (request) => {
+      if (['image', 'stylesheet'].includes(request.resourceType())) {
+        request.abort();
+      } else {
+        request.continue();
+      }
+    });
+
     await page.setBypassCSP(true);
     await page.waitForSelector(AppsScrapper.nextSelector);
 
@@ -101,7 +110,7 @@ export class AppsScrapper extends Scrapper<App> {
           AppsScrapper.nextSelector,
           (buttons, selector) => {
             const nextBtn = buttons[1] as HTMLButtonElement;
-            const isDisabled = nextBtn.classList.contains(selector);
+            const isDisabled = nextBtn.classList.contains(selector as string);
 
             if (!isDisabled) {
               nextBtn.click();

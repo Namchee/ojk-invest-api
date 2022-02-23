@@ -80,6 +80,15 @@ export class ProductsScrapper extends Scrapper<Product> {
     const page = await this.browser.newPage();
     await page.goto(this.url, PAGE_OPTIONS);
 
+    await page.setRequestInterception(true);
+    page.on('request', (request) => {
+      if (['image', 'stylesheet'].includes(request.resourceType())) {
+        request.abort();
+      } else {
+        request.continue();
+      }
+    });
+
     await page.setBypassCSP(true);
     await page.waitForSelector(ProductsScrapper.nextSelector);
 
@@ -98,7 +107,9 @@ export class ProductsScrapper extends Scrapper<Product> {
           ProductsScrapper.nextSelector,
           (buttons, selector) => {
             const nextButton = buttons[1] as HTMLButtonElement;
-            const isDisabled = nextButton.classList.contains(selector);
+            const isDisabled = nextButton.classList.contains(
+              selector as string,
+            );
 
             if (!isDisabled) {
               nextButton.click();

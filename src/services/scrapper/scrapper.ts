@@ -1,4 +1,4 @@
-import { Browser, DirectNavigationOptions, Page } from 'puppeteer';
+import { Browser, Page, WaitForOptions } from 'puppeteer';
 
 /**
  * Scrapping result from a scrapping script
@@ -8,7 +8,7 @@ export interface ScrappingResult<T> {
   version: Date;
 }
 
-export const PAGE_OPTIONS: DirectNavigationOptions = {
+export const PAGE_OPTIONS: WaitForOptions = {
   waitUntil: 'networkidle0',
   timeout: 0,
 };

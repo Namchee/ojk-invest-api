@@ -1,5 +1,5 @@
+import puppeteer from 'puppeteer';
 import { performance } from 'perf_hooks';
-import { launch } from 'puppeteer';
 
 import { IllegalsScrapper } from './src/services/scrapper/illegal';
 import { AppsScrapper } from './src/services/scrapper/app';
@@ -9,9 +9,12 @@ import { bootstrapOutput } from './src/services/writer';
 (async () => {
   bootstrapOutput();
 
-  const browser = await launch({
+  const browser = await puppeteer.launch({
     headless: true,
     ignoreHTTPSErrors: true,
+    args: [
+      '--no-sandbox',
+    ],
   });
 
   try {
