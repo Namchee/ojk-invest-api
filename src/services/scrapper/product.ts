@@ -78,9 +78,11 @@ export class ProductsScrapper extends Scrapper<Product> {
   @benchmark('s', 3)
   public async scrapInfo(): Promise<void> {
     const page = await this.browser.newPage();
-    await page.goto(this.url, PAGE_OPTIONS);
 
+    await page.setBypassCSP(true);
+    await page.goto(this.url, PAGE_OPTIONS);
     await page.setRequestInterception(true);
+
     page.on('request', (request) => {
       if (['image', 'stylesheet'].includes(request.resourceType())) {
         request.abort();
@@ -89,7 +91,6 @@ export class ProductsScrapper extends Scrapper<Product> {
       }
     });
 
-    await page.setBypassCSP(true);
     await page.waitForSelector(ProductsScrapper.nextSelector);
 
     const products: Product[] = [];
