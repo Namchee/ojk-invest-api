@@ -9,6 +9,7 @@ import { writeScrappingResultToFile } from '../writer';
 
 import getUrls from 'get-urls';
 import dayjs from 'dayjs';
+import { USER_AGENT } from '../../constant/browser';
 
 /**
  * Scrapper script to extract illegal investments data
@@ -187,6 +188,8 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
   public async scrapInfo(): Promise<void> {
     const page = await this.browser.newPage();
 
+    await page.setUserAgent(USER_AGENT);
+
     await page.setBypassCSP(true);
     await page.goto(this.url, PAGE_OPTIONS);
     await page.setRequestInterception(true);
@@ -214,25 +217,20 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
         lastPageInvestment.id !== lastInvestment.id) {
         investments.push(...pageInvestments);
 
-        const isLastPage = await page.$$eval(
-          IllegalsScrapper.nextSelector,
-          (buttons, selector) => {
-            const nextBtn = buttons[1] as HTMLButtonElement;
+        const buttons = await page.$$(IllegalsScrapper.nextSelector);
+        const nextBtn = buttons[1];
 
-            const isDisabled = nextBtn.classList.contains(selector as string);
+        const rawClass = await nextBtn.getProperty('className');
+        const classList: string = await rawClass.jsonValue();
 
-            // click when the page isn't the last page
-            if (!isDisabled) {
-              nextBtn.click();
-            }
+        const isDisabled = new RegExp(IllegalsScrapper.disabledSelector)
+          .test(classList);
 
-            return isDisabled;
-          }, IllegalsScrapper.disabledSelector);
-
-        if (isLastPage) {
+        if (isDisabled) {
           break;
         }
 
+        await nextBtn.click();
         await page.waitForResponse((res) => {
           return res.url() === this.url && res.request().method() === 'POST';
         }, { timeout: 0 });

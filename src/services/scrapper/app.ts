@@ -5,6 +5,7 @@ import { PAGE_OPTIONS, Scrapper } from './scrapper';
 import { App } from '../../entity/app';
 import { writeScrappingResultToFile } from '../writer';
 import { capitalize } from '../../utils';
+import { USER_AGENT } from '../../constant/browser';
 
 
 /**
@@ -82,6 +83,8 @@ export class AppsScrapper extends Scrapper<App> {
   public async scrapInfo(): Promise<void> {
     const page = await this.browser.newPage();
 
+    await page.setUserAgent(USER_AGENT);
+
     await page.setBypassCSP(true);
     await page.goto(this.url, PAGE_OPTIONS);
     await page.setRequestInterception(true);
@@ -107,25 +110,20 @@ export class AppsScrapper extends Scrapper<App> {
       if (apps.length === 0 || lastPageApp.id !== lastApp.id) {
         apps.push(...pageApps);
 
-        const isLastPage = await page.$$eval(
-          AppsScrapper.nextSelector,
-          (buttons, selector) => {
-            const nextBtn = buttons[1] as HTMLButtonElement;
-            const isDisabled = nextBtn.classList.contains(selector as string);
+        const buttons = await page.$$(AppsScrapper.nextSelector);
+        const nextBtn = buttons[1];
 
-            if (!isDisabled) {
-              nextBtn.click();
-            }
+        const rawClass = await nextBtn.getProperty('className');
+        const classList: string = await rawClass.jsonValue();
 
-            return isDisabled;
-          },
-          AppsScrapper.disabledSelector,
-        );
+        const isDisabled = new RegExp(AppsScrapper.disabledSelector)
+          .test(classList);
 
-        if (isLastPage) {
+        if (isDisabled) {
           break;
         }
 
+        await nextBtn.click();
         await page.waitForResponse((res) => {
           return res.url() === this.url && res.request().method() === 'POST';
         });

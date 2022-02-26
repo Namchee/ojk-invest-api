@@ -40,8 +40,9 @@ import { bootstrapOutput } from './src/services/writer';
     );
 
     const end = performance.now();
+    const delta = (end - start) / 1000;
 
-    console.log(`All process was executed in ${(end - start).toFixed(3)} ms`);
+    console.log(`All process was executed in ${(delta).toFixed(2)} s`);
   } catch (err) {
     throw err;
   } finally {

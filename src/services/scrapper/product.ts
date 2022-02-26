@@ -5,6 +5,7 @@ import { PAGE_OPTIONS, Scrapper } from './scrapper';
 import { capitalize } from '../../utils';
 import { Product } from '../../entity/product';
 import { writeScrappingResultToFile } from '../writer';
+import { USER_AGENT } from '../../constant/browser';
 
 /**
  * Scrapper script to extract legal mutual funds products
@@ -79,6 +80,8 @@ export class ProductsScrapper extends Scrapper<Product> {
   public async scrapInfo(): Promise<void> {
     const page = await this.browser.newPage();
 
+    await page.setUserAgent(USER_AGENT);
+
     await page.setBypassCSP(true);
     await page.goto(this.url, PAGE_OPTIONS);
     await page.setRequestInterception(true);
@@ -104,27 +107,20 @@ export class ProductsScrapper extends Scrapper<Product> {
       if (products.length === 0 || lastPageProduct.id !== lastProduct.id) {
         products.push(...pageProducts);
 
-        const isLastPage = await page.$$eval(
-          ProductsScrapper.nextSelector,
-          (buttons, selector) => {
-            const nextButton = buttons[1] as HTMLButtonElement;
-            const isDisabled = nextButton.classList.contains(
-              selector as string,
-            );
+        const buttons = await page.$$(ProductsScrapper.nextSelector);
+        const nextBtn = buttons[1];
 
-            if (!isDisabled) {
-              nextButton.click();
-            }
+        const rawClass = await nextBtn.getProperty('className');
+        const classList: string = await rawClass.jsonValue();
 
-            return isDisabled;
-          },
-          ProductsScrapper.disabledSelector,
-        );
+        const isDisabled = new RegExp(ProductsScrapper.disabledSelector)
+          .test(classList);
 
-        if (isLastPage) {
+        if (isDisabled) {
           break;
         }
 
+        await nextBtn.click();
         await page.waitForResponse((res) => {
           return res.url() === this.url && res.request().method() === 'POST';
         });
