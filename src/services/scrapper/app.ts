@@ -5,6 +5,7 @@ import { PAGE_OPTIONS, Scrapper } from './scrapper';
 import { App } from '../../entity/app';
 import { writeScrappingResultToFile } from '../writer';
 import { capitalize } from '../../utils';
+import { USER_AGENT } from '../../constant/browser';
 
 
 /**
@@ -81,6 +82,8 @@ export class AppsScrapper extends Scrapper<App> {
   @benchmark('s', 3)
   public async scrapInfo(): Promise<void> {
     const page = await this.browser.newPage();
+
+    await page.setUserAgent(USER_AGENT);
 
     await page.setBypassCSP(true);
     await page.goto(this.url, PAGE_OPTIONS);

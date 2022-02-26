@@ -5,6 +5,7 @@ import { PAGE_OPTIONS, Scrapper } from './scrapper';
 import { capitalize } from '../../utils';
 import { Product } from '../../entity/product';
 import { writeScrappingResultToFile } from '../writer';
+import { USER_AGENT } from '../../constant/browser';
 
 /**
  * Scrapper script to extract legal mutual funds products
@@ -78,6 +79,8 @@ export class ProductsScrapper extends Scrapper<Product> {
   @benchmark('s', 3)
   public async scrapInfo(): Promise<void> {
     const page = await this.browser.newPage();
+
+    await page.setUserAgent(USER_AGENT);
 
     await page.setBypassCSP(true);
     await page.goto(this.url, PAGE_OPTIONS);

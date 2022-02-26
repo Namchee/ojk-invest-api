@@ -9,6 +9,7 @@ import { writeScrappingResultToFile } from '../writer';
 
 import getUrls from 'get-urls';
 import dayjs from 'dayjs';
+import { USER_AGENT } from '../../constant/browser';
 
 /**
  * Scrapper script to extract illegal investments data
@@ -187,7 +188,7 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
   public async scrapInfo(): Promise<void> {
     const page = await this.browser.newPage();
 
-    await page.setUserAgent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36');
+    await page.setUserAgent(USER_AGENT);
 
     await page.setBypassCSP(true);
     await page.goto(this.url, PAGE_OPTIONS);
