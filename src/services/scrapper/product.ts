@@ -104,27 +104,20 @@ export class ProductsScrapper extends Scrapper<Product> {
       if (products.length === 0 || lastPageProduct.id !== lastProduct.id) {
         products.push(...pageProducts);
 
-        const isLastPage = await page.$$eval(
-          ProductsScrapper.nextSelector,
-          (buttons, selector) => {
-            const nextButton = buttons[1] as HTMLButtonElement;
-            const isDisabled = nextButton.classList.contains(
-              selector as string,
-            );
+        const buttons = await page.$$(ProductsScrapper.nextSelector);
+        const nextBtn = buttons[1];
 
-            if (!isDisabled) {
-              nextButton.click();
-            }
+        const rawClass = await nextBtn.getProperty('className');
+        const classList: string = await rawClass.jsonValue();
 
-            return isDisabled;
-          },
-          ProductsScrapper.disabledSelector,
-        );
+        const isDisabled = new RegExp(ProductsScrapper.disabledSelector)
+          .test(classList);
 
-        if (isLastPage) {
+        if (isDisabled) {
           break;
         }
 
+        await nextBtn.click();
         await page.waitForResponse((res) => {
           return res.url() === this.url && res.request().method() === 'POST';
         });

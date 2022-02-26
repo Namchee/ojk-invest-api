@@ -107,25 +107,20 @@ export class AppsScrapper extends Scrapper<App> {
       if (apps.length === 0 || lastPageApp.id !== lastApp.id) {
         apps.push(...pageApps);
 
-        const isLastPage = await page.$$eval(
-          AppsScrapper.nextSelector,
-          (buttons, selector) => {
-            const nextBtn = buttons[1] as HTMLButtonElement;
-            const isDisabled = nextBtn.classList.contains(selector as string);
+        const buttons = await page.$$(AppsScrapper.nextSelector);
+        const nextBtn = buttons[1];
 
-            if (!isDisabled) {
-              nextBtn.click();
-            }
+        const rawClass = await nextBtn.getProperty('className');
+        const classList: string = await rawClass.jsonValue();
 
-            return isDisabled;
-          },
-          AppsScrapper.disabledSelector,
-        );
+        const isDisabled = new RegExp(AppsScrapper.disabledSelector)
+          .test(classList);
 
-        if (isLastPage) {
+        if (isDisabled) {
           break;
         }
 
+        await nextBtn.click();
         await page.waitForResponse((res) => {
           return res.url() === this.url && res.request().method() === 'POST';
         });
