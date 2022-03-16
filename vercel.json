@@ -3,13 +3,18 @@
   "github": {
     "enabled": false
   },
+  "functions": {
+    "api/*": {
+      "includeFiles": "data/*.json"
+    }
+  },
   "headers": [
     {
       "source": "/api/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=86400, stale-while-revalidate"
+          "value": "stale-while-revalidate=86400"
         },
         {
           "key": "Content-Type",
@@ -39,11 +44,11 @@
       ]
     },
     {
-      "source": "/api/version",
+      "source": "/api/status",
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "cache-control: public, max-age=0, must-revalidate"
+          "value": "no-cache"
         }
       ]
     }
