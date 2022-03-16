@@ -3,6 +3,11 @@
   "github": {
     "enabled": false
   },
+  "functions": {
+    "api/*": {
+      "includeFiles": "data/*.json"
+    }
+  },
   "headers": [
     {
       "source": "/api/(.*)",
@@ -39,11 +44,11 @@
       ]
     },
     {
-      "source": "/api/version",
+      "source": "/api/status",
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "cache-control: public, max-age=0, must-revalidate"
+          "value": "no-cache"
         }
       ]
     }
