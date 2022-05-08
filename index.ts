@@ -10,7 +10,7 @@ import { bootstrapOutput } from './src/services/writer';
   bootstrapOutput();
 
   const browser = await puppeteer.launch({
-    headless: true,
+    headless: false,
     ignoreHTTPSErrors: true,
   });
 
@@ -33,6 +33,7 @@ import { bootstrapOutput } from './src/services/writer';
           // eslint-disable-next-line max-len
           console.log(`✔️ ${scrappers[idx].constructor.name} has successfully scrapped`);
         } else {
+          console.log(result.reason);
           // eslint-disable-next-line max-len
           console.log(`❌ ${scrappers[idx].constructor.name} has failed`);
         }

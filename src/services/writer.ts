@@ -1,28 +1,32 @@
 import { resolve } from 'path';
 import { existsSync, mkdirSync, writeFileSync } from 'fs';
-import dayjs from 'dayjs';
 
 import { ScrappingResult } from './scrapper/scrapper';
 
 /**
  * Write scrapper output to a JSON file
  *
- * @param {Record<string, any>} scrappingResult - scrapper's output
+ * @param {Record<string, any>} result - scrapper's output
  * @param {string} filename - filename
  */
 export function writeScrappingResultToFile(
-  scrappingResult: ScrappingResult<Record<string, any> >,
+  result: ScrappingResult<Record<string, any> >,
   filename: string,
 ): void {
   const target = resolve(process.cwd(), 'data', `${filename}.json`);
   // preserve immutability to the data
-  const dataCopy = JSON.parse(JSON.stringify(scrappingResult));
+  const copy = JSON.parse(JSON.stringify(result));
 
-  dataCopy.version = dayjs(scrappingResult.version).format('DD/MM/YYYY');
+  const currentDate = (result.version as Date);
+  copy.version = currentDate.toLocaleDateString('en-ID', {
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  });
 
   writeFileSync(
     target,
-    JSON.stringify(dataCopy, null, 2),
+    JSON.stringify(copy, null, 2),
     { encoding: 'utf-8' },
   );
 }

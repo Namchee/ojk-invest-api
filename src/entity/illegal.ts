@@ -1,12 +1,13 @@
+/* eslint-disable camelcase */
 export interface IllegalInvestment {
   id: number;
   name: string;
-  alias: string[];
   address: string;
-  number: string[];
+  phone: string[];
+  web: string[];
   email: string[];
-  urls: string[];
-  type: string;
-  inputDate: string;
-  details: string;
+  entity_type: string;
+  activity_type: string;
+  input_date: string;
+  description: string;
 }
