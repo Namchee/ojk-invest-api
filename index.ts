@@ -33,9 +33,8 @@ import { bootstrapOutput } from './src/services/writer';
           // eslint-disable-next-line max-len
           console.log(`✔️ ${scrappers[idx].constructor.name} has successfully scrapped`);
         } else {
-          console.log(result.reason);
           // eslint-disable-next-line max-len
-          console.log(`❌ ${scrappers[idx].constructor.name} has failed`);
+          console.log(`❌ ${scrappers[idx].constructor.name} has failed. Reason: ${result.reason}`);
         }
       },
     );
