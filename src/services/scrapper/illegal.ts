@@ -7,7 +7,7 @@ import { benchmark } from '@namchee/decora';
 import { Standard, tryFormat } from '@namchee/telepon';
 
 import { PAGE_OPTIONS, Scrapper } from './scrapper';
-import { capitalize, normalize } from '../../utils';
+import { capitalize, normalize, sanitize } from '../../utils';
 import { IllegalInvestment } from '../../entity/illegal';
 import { writeScrappingResultToFile } from '../writer';
 
@@ -66,16 +66,13 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
     return rawData.map((illegal: string) => {
       const data = JSON.parse(illegal);
 
-      const id = Number(data.id);
-      const name = data.name;
-
       return {
-        id,
-        name,
-        address: data.address,
-        phone: data.phone,
-        web: [...getUrls(data.urls)],
-        email: [data.urls],
+        id: Number(data.id),
+        name: data.name.trim(),
+        address: sanitize(data.address),
+        phone: [...sanitize(data.phone)],
+        web: [...getUrls(sanitize(data.urls))],
+        email: [sanitize(data.urls)],
         entity_type: capitalize(normalize(data.entity_type)),
         activity_type: capitalize(normalize(data.activity_type)),
         input_date: data.input_date,

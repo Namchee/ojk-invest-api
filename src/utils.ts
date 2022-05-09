@@ -1,3 +1,5 @@
+import { UNKNOWNS } from './constant/words';
+
 const stopwords = ['dan', 'atau'];
 
 /**
@@ -42,4 +44,16 @@ export function normalize(sentence: string): string {
   }
 
   return sentence.replace(/\"/g, '');
+}
+
+/**
+ * Remove `unknown` or similar words from a string
+ *
+ * @param {string} sentence source string
+ * @return {string} string without `unknown` or similar words
+ */
+export function sanitize(sentence: string): string {
+  const regex = new RegExp(`(${UNKNOWNS.join('|')})`, 'ig');
+
+  return sentence.replace(regex, '');
 }

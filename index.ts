@@ -2,8 +2,8 @@ import puppeteer from 'puppeteer';
 import { performance } from 'perf_hooks';
 
 import { IllegalsScrapper } from './src/services/scrapper/illegal';
-import { AppsScrapper } from './src/services/scrapper/app';
-import { ProductsScrapper } from './src/services/scrapper/product';
+// import { AppsScrapper } from './src/services/scrapper/app';
+// import { ProductsScrapper } from './src/services/scrapper/product';
 import { bootstrapOutput } from './src/services/writer';
 
 (async () => {
@@ -17,8 +17,8 @@ import { bootstrapOutput } from './src/services/writer';
   try {
     const scrappers = [
       new IllegalsScrapper(browser),
-      new AppsScrapper(browser),
-      new ProductsScrapper(browser),
+      // new AppsScrapper(browser),
+      // new ProductsScrapper(browser),
     ];
 
     const start = performance.now();
