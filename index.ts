@@ -24,7 +24,7 @@ import { bootstrapOutput } from './src/services/writer';
     const start = performance.now();
 
     const scrappingResult = await Promise.allSettled(
-      scrappers.map(scrapper => scrapper.scrapInfo()),
+      scrappers.map(scrapper => scrapper.scrapData()),
     );
 
     scrappingResult.forEach(

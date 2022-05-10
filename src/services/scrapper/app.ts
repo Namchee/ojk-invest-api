@@ -1,11 +1,11 @@
 import { Browser, Page } from 'puppeteer';
 import { benchmark } from '@namchee/decora';
 
-import { PAGE_OPTIONS, Scrapper } from './scrapper';
+import { writeResult } from '../writer';
+
+import { Scrapper } from './scrapper';
 import { App } from '../../entity/app';
-import { writeScrappingResultToFile } from '../writer';
-import { capitalize } from '../../utils';
-import { USER_AGENT } from '../../constant/browser';
+import { TextProcessor } from '../processor';
 
 
 /**
@@ -65,8 +65,11 @@ export class AppsScrapper extends Scrapper<App> {
 
     return rawApps.map((stringifiedApp: string) => {
       const app = JSON.parse(stringifiedApp);
+      const name = this.cleanName(app.name);
 
-      app.name = capitalize(this.cleanName(app.name));
+      const processor = new TextProcessor(name);
+
+      app.name = processor.capitalize().getResult();
       app.id = Number(app.id);
 
       return app;
@@ -80,24 +83,8 @@ export class AppsScrapper extends Scrapper<App> {
    * @return {Promise<void>}
    */
   @benchmark('s', 3)
-  public async scrapInfo(): Promise<void> {
-    const page = await this.browser.newPage();
-
-    await page.setUserAgent(USER_AGENT);
-
-    await page.setBypassCSP(true);
-    await page.goto(this.url, PAGE_OPTIONS);
-    await page.setRequestInterception(true);
-
-    page.on('request', (request) => {
-      if (['image', 'stylesheet'].includes(request.resourceType())) {
-        request.abort();
-      } else {
-        request.continue();
-      }
-    });
-
-    await page.waitForSelector(AppsScrapper.nextSelector);
+  public async scrapData(): Promise<void> {
+    const page = await this.initializePage(AppsScrapper.nextSelector);
 
     const apps: App[] = [];
 
@@ -135,7 +122,7 @@ export class AppsScrapper extends Scrapper<App> {
       version: new Date(),
     };
 
-    writeScrappingResultToFile(result, 'apps');
+    writeResult(result, 'apps');
   }
 
   /**
@@ -145,7 +132,6 @@ export class AppsScrapper extends Scrapper<App> {
    * @return {string} sanitized app name
    */
   private cleanName(rawName: string): string {
-    // TODO: do research about this
     const stopWords = [
       'aplikasi',
       'android',

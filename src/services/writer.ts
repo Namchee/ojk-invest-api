@@ -9,7 +9,7 @@ import { ScrappingResult } from './scrapper/scrapper';
  * @param {Record<string, any>} result - scrapper's output
  * @param {string} filename - filename
  */
-export function writeScrappingResultToFile(
+export function writeResult(
   result: ScrappingResult<Record<string, any> >,
   filename: string,
 ): void {

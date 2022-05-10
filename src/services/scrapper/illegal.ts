@@ -6,12 +6,11 @@ import emailRegex from 'email-regex-safe';
 import { benchmark } from '@namchee/decora';
 import { Standard, tryFormat } from '@namchee/telepon';
 
-import { PAGE_OPTIONS, Scrapper } from './scrapper';
-import { capitalize, normalize, sanitize } from '../../utils';
+import { Scrapper } from './scrapper';
 import { IllegalInvestment } from '../../entity/illegal';
-import { writeScrappingResultToFile } from '../writer';
+import { writeResult } from '../writer';
+import { TextProcessor } from '../processor';
 
-import { USER_AGENT } from '../../constant/browser';
 
 /**
  * Scrapper script to extract illegal investments data
@@ -54,9 +53,9 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
           name: row.childNodes[3].textContent,
           address: row.childNodes[5].textContent,
           phone: row.childNodes[7].textContent,
-          urls: row.childNodes[9].textContent,
-          entity_type: row.childNodes[11].textContent,
-          activity_type: row.childNodes[13].textContent,
+          web: row.childNodes[9].textContent,
+          entityType: row.childNodes[11].textContent,
+          activityType: row.childNodes[13].textContent,
           input_date: row.childNodes[15].textContent,
           description: row.childNodes[17].textContent,
         });
@@ -66,17 +65,25 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
     return rawData.map((illegal: string) => {
       const data = JSON.parse(illegal);
 
+      const address = new TextProcessor(data.address);
+      const phone = new TextProcessor(data.phone);
+      const web = new TextProcessor(data.web);
+      const email = new TextProcessor(data.email);
+      const entityType = new TextProcessor(data.entityType);
+      const activityType = new TextProcessor(data.activityType);
+      const description = new TextProcessor(data.description);
+
       return {
         id: Number(data.id),
         name: data.name.trim(),
-        address: sanitize(data.address),
-        phone: [...sanitize(data.phone)],
-        web: [...getUrls(sanitize(data.urls))],
-        email: [sanitize(data.urls)],
-        entity_type: capitalize(normalize(data.entity_type)),
-        activity_type: capitalize(normalize(data.activity_type)),
+        address: address.sanitize().trim().getResult(),
+        phone: [phone.sanitize().trim().getResult()],
+        web: [...getUrls(web.sanitize().trim().getResult())],
+        email: [email.sanitize().trim().getResult()],
+        entity_type: entityType.sanitize().capitalize().trim().getResult(),
+        activity_type: activityType.sanitize().capitalize().trim().getResult(),
         input_date: data.input_date,
-        description: normalize(data.description),
+        description: description.sanitize().trim().getResult(),
       };
     });
   }
@@ -88,26 +95,10 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
    * @return {Promise<void>}
    */
   @benchmark('s', 3)
-  public async scrapInfo(): Promise<void> {
-    const page = await this.browser.newPage();
+  public async scrapData(): Promise<void> {
+    const page = await this.initializePage(IllegalsScrapper.tableSelector);
 
-    await page.setUserAgent(USER_AGENT);
-
-    await page.setBypassCSP(true);
-    await page.goto(this.url, PAGE_OPTIONS);
-    await page.setRequestInterception(true);
-
-    page.on('request', (request) => {
-      if (['image', 'stylesheet'].includes(request.resourceType())) {
-        request.abort();
-      } else {
-        request.continue();
-      }
-    });
-
-    await page.waitForSelector(IllegalsScrapper.tableSelector);
-
-    const investments = [];
+    const investments: IllegalInvestment[] = [];
 
     while (true) {
       const pageInvestments = await this.scrapPage(page);
@@ -136,6 +127,6 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
       version: new Date(),
     };
 
-    writeScrappingResultToFile(result, 'illegals');
+    writeResult(result, 'illegals');
   }
 }

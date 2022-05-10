@@ -2,10 +2,9 @@ import { Browser, Page } from 'puppeteer';
 import { benchmark } from '@namchee/decora';
 
 import { PAGE_OPTIONS, Scrapper } from './scrapper';
-import { capitalize } from '../../utils';
 import { Product } from '../../entity/product';
-import { writeScrappingResultToFile } from '../writer';
-import { USER_AGENT } from '../../constant/browser';
+import { writeResult } from '../writer';
+import { TextProcessor } from '../processor';
 
 /**
  * Scrapper script to extract legal mutual funds products
@@ -59,14 +58,17 @@ export class ProductsScrapper extends Scrapper<Product> {
         return rowData;
       });
 
-    return rawProducts.map((product: string) => {
-      const prod = JSON.parse(product);
+    return rawProducts.map((rawProduct: string) => {
+      const product = JSON.parse(rawProduct);
 
-      prod.id = Number(prod.id);
-      prod.name = capitalize(prod.name);
-      prod.type = capitalize(prod.type);
+      const name = new TextProcessor(product.name);
+      const type = new TextProcessor(product.type);
 
-      return prod;
+      product.id = Number(product.id);
+      product.name = name.capitalize().trim().getResult();
+      product.type = type.capitalize().trim().getResult();
+
+      return product;
     });
   }
 
@@ -77,24 +79,8 @@ export class ProductsScrapper extends Scrapper<Product> {
    * @return {Promise<void>}
    */
   @benchmark('s', 3)
-  public async scrapInfo(): Promise<void> {
-    const page = await this.browser.newPage();
-
-    await page.setUserAgent(USER_AGENT);
-
-    await page.setBypassCSP(true);
-    await page.goto(this.url, PAGE_OPTIONS);
-    await page.setRequestInterception(true);
-
-    page.on('request', (request) => {
-      if (['image', 'stylesheet'].includes(request.resourceType())) {
-        request.abort();
-      } else {
-        request.continue();
-      }
-    });
-
-    await page.waitForSelector(ProductsScrapper.nextSelector);
+  public async scrapData(): Promise<void> {
+    const page = await this.initializePage(ProductsScrapper.nextSelector);
 
     const products: Product[] = [];
 
@@ -132,6 +118,6 @@ export class ProductsScrapper extends Scrapper<Product> {
       version: new Date(),
     };
 
-    writeScrappingResultToFile(result, 'products');
+    writeResult(result, 'products');
   }
 }
