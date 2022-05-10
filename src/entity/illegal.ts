@@ -11,3 +11,15 @@ export interface IllegalInvestment {
   input_date: string;
   description: string;
 }
+
+/**
+ * Extract data from raw object to build investment object
+ *
+ * @param {Record<string, string>} data raw data
+ * @return {IllegalInvestment} investment object
+ */
+export function extractInvestmentData(
+  data: Record<string, string>[],
+): IllegalInvestment[] {
+  return [];
+}

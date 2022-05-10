@@ -54,7 +54,7 @@ export class TextProcessor {
    */
   public sanitize(): TextProcessor {
     const regex = new RegExp(
-      ``,
+      `${TextProcessor.UNKNOWN_WORDS.join('|')}`,
       'ig',
     );
 

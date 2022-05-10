@@ -1,7 +1,7 @@
 import { Browser, Page } from 'puppeteer';
 import { benchmark } from '@namchee/decora';
 
-import { PAGE_OPTIONS, Scrapper } from './scrapper';
+import { Scrapper } from './scrapper';
 import { Product } from '../../entity/product';
 import { writeResult } from '../writer';
 import { TextProcessor } from '../processor';

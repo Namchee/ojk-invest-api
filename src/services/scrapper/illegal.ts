@@ -68,7 +68,7 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
       const address = new TextProcessor(data.address);
       const phone = new TextProcessor(data.phone);
       const web = new TextProcessor(data.web);
-      const email = new TextProcessor(data.email);
+      const email = new TextProcessor(data.web);
       const entityType = new TextProcessor(data.entityType);
       const activityType = new TextProcessor(data.activityType);
       const description = new TextProcessor(data.description);
