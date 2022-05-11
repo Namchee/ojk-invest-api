@@ -2424,7 +2424,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ip-regex@npm:^4.3.0":
+"ip-regex@npm:4.3.0, ip-regex@npm:^4.3.0":
   version: 4.3.0
   resolution: "ip-regex@npm:4.3.0"
   checksum: 7ff904b891221b1847f3fdf3dbb3e6a8660dc39bc283f79eb7ed88f5338e1a3d1104b779bc83759159be266249c59c2160e779ee39446d79d4ed0890dfd06f08
@@ -3110,8 +3110,10 @@ __metadata:
     micro: ^9.3.4
     micro-cors: ^0.1.1
     puppeteer: ^13.4.0
+    re2: ^1.17.4
     tsm: ^2.2.1
     typescript: ^4.5.5
+    url-regex-safe: ^3.0.0
     vercel: ^24.0.0
   languageName: unknown
   linkType: soft
@@ -3376,7 +3378,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"re2@npm:^1.15.9":
+"re2@npm:^1.15.9, re2@npm:^1.17.4":
   version: 1.17.4
   resolution: "re2@npm:1.17.4"
   dependencies:
@@ -3839,6 +3841,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tlds@npm:^1.228.0":
+  version: 1.231.0
+  resolution: "tlds@npm:1.231.0"
+  bin:
+    tlds: bin.js
+  checksum: a77078c8d329c8a1f91d58459f48174a4d2be2cea1e48b8d732a3122dd394b23c5c18187882ad0139d01076191167242afa2307ec3f63c0ae9dcea0c9e9b48cc
+  languageName: node
+  linkType: hard
+
 "to-readable-stream@npm:^1.0.0":
   version: 1.0.0
   resolution: "to-readable-stream@npm:1.0.0"
@@ -4091,6 +4102,21 @@ __metadata:
     re2: ^1.16.0
     tlds: ^1.217.0
   checksum: 235b2d1d25b63b8041ce2947855160d977d6810da2b291655fe2d5d64fdec2659f8001f17f0fde12b5727f666ccc8b9b9b713007c8d7b33f36527499aacc4620
+  languageName: node
+  linkType: hard
+
+"url-regex-safe@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "url-regex-safe@npm:3.0.0"
+  dependencies:
+    ip-regex: 4.3.0
+    tlds: ^1.228.0
+  peerDependencies:
+    re2: ^1.17.2
+  peerDependenciesMeta:
+    re2:
+      optional: true
+  checksum: 85b45f7436dcdffe3c8caca45a3dedc478dffe308e13637dfec1ad99545ac3b69edb20ba27d33edfca7b1cbc2ad5066e6443518fb363d4f54541bf0d9c1382c8
   languageName: node
   linkType: hard
 

@@ -33,7 +33,9 @@
     "graphql": "^15.5.0",
     "micro": "^9.3.4",
     "micro-cors": "^0.1.1",
-    "puppeteer": "^13.4.0"
+    "puppeteer": "^13.4.0",
+    "re2": "^1.17.4",
+    "url-regex-safe": "^3.0.0"
   },
   "devDependencies": {
     "@sentry/types": "^6.2.3",

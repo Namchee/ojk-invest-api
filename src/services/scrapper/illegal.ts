@@ -7,10 +7,8 @@ import { benchmark } from '@namchee/decora';
 import { Standard, tryFormat } from '@namchee/telepon';
 
 import { Scrapper } from './scrapper';
-import { IllegalInvestment } from '../../entity/illegal';
+import { IllegalInvestment, parseInvestmentData } from '../../entity/illegal';
 import { writeResult } from '../writer';
-import { TextProcessor } from '../processor';
-
 
 /**
  * Scrapper script to extract illegal investments data
@@ -62,30 +60,9 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
       });
     });
 
-    return rawData.map((illegal: string) => {
-      const data = JSON.parse(illegal);
-
-      const address = new TextProcessor(data.address);
-      const phone = new TextProcessor(data.phone);
-      const web = new TextProcessor(data.web);
-      const email = new TextProcessor(data.web);
-      const entityType = new TextProcessor(data.entityType);
-      const activityType = new TextProcessor(data.activityType);
-      const description = new TextProcessor(data.description);
-
-      return {
-        id: Number(data.id),
-        name: data.name.trim(),
-        address: address.sanitize().trim().getResult(),
-        phone: [phone.sanitize().trim().getResult()],
-        web: [...getUrls(web.sanitize().trim().getResult())],
-        email: [email.sanitize().trim().getResult()],
-        entity_type: entityType.sanitize().capitalize().trim().getResult(),
-        activity_type: activityType.sanitize().capitalize().trim().getResult(),
-        input_date: data.input_date,
-        description: description.sanitize().trim().getResult(),
-      };
-    });
+    return rawData.map((illegal: string, idx: number) =>
+      parseInvestmentData(idx, JSON.parse(illegal)),
+    );
   }
 
   /**
