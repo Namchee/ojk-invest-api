@@ -18,7 +18,7 @@ export interface IllegalInvestment {
   web: string[];
   email: string[];
   entity_type: string;
-  activity_type: string;
+  activity_type: string[];
   input_date: string;
   description: string;
 }
@@ -37,8 +37,13 @@ export function parseInvestmentData(
   const nameProps = scanDataFromName(data.name);
 
   const entityType = new TextProcessor(data.entityType);
-  const activityType = new TextProcessor(data.activityType);
   const description = new TextProcessor(data.description);
+
+  const activityType = data.activityType
+    .split('/')
+    .map(val =>
+      new TextProcessor(val).sanitize().capitalize().trim().getResult(),
+    );
 
   return {
     id: index,
@@ -49,7 +54,7 @@ export function parseInvestmentData(
     email: [],
     phone: [],
     entity_type: entityType.sanitize().capitalize().trim().getResult(),
-    activity_type: activityType.sanitize().capitalize().trim().getResult(),
+    activity_type: activityType,
     input_date: data.input_date,
     description: description.sanitize().trim().getResult(),
   };
