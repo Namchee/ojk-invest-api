@@ -5,14 +5,15 @@ import { TextProcessor } from '../services/processor';
 
 // courtesy of: https://gist.github.com/dperini/729294
 // eslint-disable-next-line max-len
-const urlRegex = /\(?(?:(?:(?:https?|ftp):)?\/\/)(?:\S+(?::\S*)?@)?(?:(?!(?:10|127)(?:\.\d{1,3}){3})(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z0-9\u00a1-\uffff][a-z0-9\u00a1-\uffff_-]{0,62})?[a-z0-9\u00a1-\uffff]\.)+(?:[a-z\u00a1-\uffff]{2,}\.?))(?::\d{2,5})?(?:[/?#]\S*)?\)?/i;
+const urlRegex =
+  /\(?(?:(?:(?:https?|ftp):)?\/\/)(?:\S+(?::\S*)?@)?(?:(?!(?:10|127)(?:\.\d{1,3}){3})(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z0-9\u00a1-\uffff][a-z0-9\u00a1-\uffff_-]{0,62})?[a-z0-9\u00a1-\uffff]\.)+(?:[a-z\u00a1-\uffff]{2,}\.?))(?::\d{2,5})?(?:[/?#]\S*)?\)?/i;
 
 /* eslint-disable camelcase */
 export interface IllegalInvestment {
   id: number;
   name: string;
   alias: string[];
-  address: string;
+  address: string[];
   phone: string[];
   web: string[];
   email: string[];
@@ -40,9 +41,13 @@ export function parseInvestmentData(
   const description = new TextProcessor(data.description);
 
   return {
-    ...(nameProps as IllegalInvestment),
     id: index,
-    phone: [data.phone],
+    name: nameProps.name,
+    alias: nameProps.alias,
+    address: [],
+    web: [...nameProps.web],
+    email: [],
+    phone: [],
     entity_type: entityType.sanitize().capitalize().trim().getResult(),
     activity_type: activityType.sanitize().capitalize().trim().getResult(),
     input_date: data.input_date,
@@ -51,18 +56,23 @@ export function parseInvestmentData(
 }
 
 /**
- * Foo bar
- * @param {string} name Foo bar
- * @return {Partial<IllegalInvestment>} fo bar
+ * Extract investment data from `name` field
+ *
+ * @param {string} name name field
+ * @return {Partial<IllegalInvestment>} partial investment object
  */
-function scanDataFromName(name: string): Partial<IllegalInvestment> {
+function scanDataFromName(name: string): {
+  name: string;
+  alias: string[];
+  web: string[];
+} {
   const web = name.match(urlRegex) || [];
 
-  web.forEach(site => name = name.replace(site, ''));
+  web.forEach(site => (name = name.replace(site, '')));
 
   const alias = name.match(/(?<=\()[\w\s]+(?=\))/) || [];
 
-  alias.forEach(alias => name = name.replace(alias, ''));
+  alias.forEach(alias => (name = name.replace(alias, '')));
 
   const names = name
     .split(/[;\-/]/)
@@ -76,4 +86,14 @@ function scanDataFromName(name: string): Partial<IllegalInvestment> {
     alias: [...names.slice(1), ...(alias as string[])],
     web: cleanedWeb,
   };
+}
+
+/**
+ * Extract investment data from `address` field
+ *
+ * @param {string} address address field
+ * @return {Partial<IllegalInvestment>} partial investment object
+ */
+function scanDataFromAddress(address: string): Partial<IllegalInvestment> {
+  return {};
 }
