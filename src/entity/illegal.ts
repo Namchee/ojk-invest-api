@@ -71,6 +71,12 @@ function scanDataFromName(name: string): {
   alias: string[];
   web: string[];
 } {
+  if (name.startsWith('.')) {
+    name = name.slice(1);
+  }
+
+  name = name.trim();
+
   const web = name.match(urlRegex) || [];
 
   web.forEach(site => (name = name.replace(site, '')));
@@ -108,6 +114,7 @@ function scanDataFromAddress(address: string): {
 
   emails.forEach(email => (address = address.replace(email, '')));
   address = address.replaceAll(/(Email|Alamat) ?:/ig, '');
+  address = address.replaceAll(/telepon ?: \d+/ig, '');
 
   const addresses = address
     .split(/\d\./)
