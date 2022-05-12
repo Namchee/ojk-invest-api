@@ -118,7 +118,15 @@ function scanDataFromAddress(address: string): {
 
   const addresses = address
     .split(/\d\./)
-    .map(address => address.replace(/[;\.]/, '').trim())
+    .map((address) => {
+      const cleanAddress = address.replace(/[;\.]/, '').trim();
+
+      if (cleanAddress.startsWith('m')) {
+        return cleanAddress.slice(1).trim();
+      }
+
+      return cleanAddress;
+    })
     .filter(Boolean);
 
   return {
