@@ -9,7 +9,8 @@
     "lib": [
       "DOM",
       "ES2019.Array",
-      "ES2020.Promise"
+      "ES2020.Promise",
+      "ES2021.String"
     ],                             /* Specify library files to be included in the compilation. */
     // "allowJs": true,                       /* Allow javascript files to be compiled. */
     // "checkJs": true,                       /* Report errors in .js files. */
