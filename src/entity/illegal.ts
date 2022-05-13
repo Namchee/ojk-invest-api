@@ -26,12 +26,10 @@ export interface IllegalInvestment {
 /**
  * Extract data from raw object to build investment object
  *
- * @param {number} index item's index on the list
  * @param {Record<string, string>} data raw data
  * @return {IllegalInvestment} investment object
  */
 export function parseInvestmentData(
-  index: number,
   data: Record<string, string>,
 ): IllegalInvestment {
   const nameProps = scanDataFromName(data.name);
@@ -49,7 +47,7 @@ export function parseInvestmentData(
     );
 
   return {
-    id: index,
+    id: 0, // fill this out later
     name: nameProps.name,
     alias: nameProps.alias,
     address: addressProps.address,

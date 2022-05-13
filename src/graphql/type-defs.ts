@@ -68,9 +68,10 @@ export const typeDefs = gql`
     illegalInvestments(
       name: String,
       limit: Int,
-      offset: Int
+      offset: Int,
+      version: Int
     ): IllegalsQueryResult!
-    illegalInvestment(id: ID): IllegalQueryResult!
+    illegalInvestment(id: ID, version: Int): IllegalQueryResult!
     products(name: String, limit: Int, offset: Int): ProductsQueryResult!
     product(id: ID): ProductQueryResult!
     apps(name: String, limit: Int, offset: Int): AppsQueryResult!

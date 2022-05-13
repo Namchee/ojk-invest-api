@@ -12,18 +12,16 @@ interface IllegalInvestmentData {
  * query.
  *
  * @param {Query} query - GET query
- * @param {number} dataVersion - data version
  * @return {GetManyResult<IllegalInvestment>} - array of
  * illegal investments that satisfies the provided query.
  */
 export function getMany(
   query: Query,
-  dataVersion = 2,
 ): GetManyResult<IllegalInvestment> {
   const { name, limit, offset } = query;
 
   const source = importData<IllegalInvestmentData>(
-    dataVersion === 2 ? 'illegals' : 'illegals_v1',
+    query.version == 1 ? 'illegals_v1' : 'illegals',
   );
 
   let investments: IllegalInvestment[] = source.data;
@@ -58,11 +56,10 @@ export function getMany(
  * with matching ID
  */
 export function getOne(
-  { id }: Params,
-  dataVersion = 2,
+  { id, version: dataVersion }: Params,
 ): GetResult<IllegalInvestment> {
   const source = importData<IllegalInvestmentData>(
-    dataVersion === 2 ? 'illegals' : 'illegals_v1',
+    dataVersion == 1 ? 'illegals_v1' : 'illegals',
   );
 
   const investment = source.data.find(datum => datum.id === id);

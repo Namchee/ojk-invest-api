@@ -1,10 +1,6 @@
 import { Browser, Page } from 'puppeteer';
 
-import getUrls from 'get-urls';
-import emailRegex from 'email-regex-safe';
-
 import { benchmark } from '@namchee/decora';
-import { Standard, tryFormat } from '@namchee/telepon';
 
 import { Scrapper } from './scrapper';
 import { IllegalInvestment, parseInvestmentData } from '../../entity/illegal';
@@ -60,8 +56,8 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
       });
     });
 
-    return rawData.map((illegal: string, idx: number) =>
-      parseInvestmentData(idx, JSON.parse(illegal)),
+    return rawData.map((illegal: string) =>
+      parseInvestmentData(JSON.parse(illegal)),
     );
   }
 
@@ -97,6 +93,10 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
       }
 
       await nextBtn.click();
+    }
+
+    for (let i = 0; i < investments.length; i++) {
+      investments[i].id = i + 1;
     }
 
     const result = {
