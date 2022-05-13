@@ -37,6 +37,7 @@ export function parseInvestmentData(
   const nameProps = scanDataFromName(data.name);
   const addressProps = scanDataFromAddress(data.address);
   const phoneProps = scanDataFromPhone(data.phone);
+  const emailProps = scanDataFromEmails(data.web);
 
   const entityType = new TextProcessor(data.entityType);
   const description = new TextProcessor(data.description);
@@ -52,8 +53,14 @@ export function parseInvestmentData(
     name: nameProps.name,
     alias: nameProps.alias,
     address: addressProps.address,
-    web: [...nameProps.web],
-    email: [...addressProps.email, ...phoneProps.email],
+    web: [...new Set([...nameProps.web, ...emailProps.web])],
+    email: [
+      ...new Set([
+        ...addressProps.email,
+        ...phoneProps.email,
+        ...emailProps.email,
+      ]),
+    ],
     phone: [...phoneProps.phone],
     entity_type: entityType.sanitize().capitalize().trim().getResult(),
     activity_type: activityType,
@@ -148,7 +155,7 @@ function scanDataFromPhone(phone: string): {
   email: string[];
 } {
   phone = new TextProcessor(phone).sanitize().trim().getResult();
-  phone = phone.replaceAll(/(Telepon|Customer Care) ?:/ig, '');
+  phone = phone.replaceAll(/(Telepon|Customer Care) ?:/gi, '');
 
   const emails = phone.match(emailRegex) || [];
 
@@ -164,10 +171,30 @@ function scanDataFromPhone(phone: string): {
       } catch (err) {
         return phone;
       }
-    }).filter(Boolean);
+    })
+    .filter(Boolean);
 
   return {
     phone: phoneNumbers,
     email: emails,
+  };
+}
+
+/**
+ * Extract investment data from `phone` field
+ *
+ * @param {string} email phone field
+ * @return {string[]} list of emails
+ */
+function scanDataFromEmails(email: string): {
+  web: string[];
+  email: string[];
+} {
+  email = new TextProcessor(email).sanitize().trim().getResult();
+  const web = email.match(urlRegex) || [];
+
+  return {
+    web,
+    email: email.match(emailRegex) || [],
   };
 }

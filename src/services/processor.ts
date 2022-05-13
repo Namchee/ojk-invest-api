@@ -8,6 +8,7 @@ export class TextProcessor {
     'tidak',
     'ketahui',
     'diketahui',
+    'email not found',
     '-',
     '\\"',
   ];
