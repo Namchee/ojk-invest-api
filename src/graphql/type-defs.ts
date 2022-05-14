@@ -6,14 +6,13 @@ export const typeDefs = gql`
     id: ID!
     name: String!
     alias: [String!]!
-    address: [String!]!
-    phone: [String!]!
-    web: [String!]!
+    address: String!
+    number: [String!]!
+    urls: [String!]!
     email: [String!]!
-    entity_type: String!
-    activity_type: [String!]!
-    input_date: String!
-    description: String!
+    type: String!
+    inputDate: String!
+    details: String!
   }
 
   # Legal and authorized shared fund products
