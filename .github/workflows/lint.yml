@@ -19,6 +19,6 @@ jobs:
         with:
           node-version: '12.x'
       - name: Install all required dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install
       - name: Lint the files
         run: yarn lint
