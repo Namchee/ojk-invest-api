@@ -90,17 +90,28 @@ function scanDataFromName(name: string): {
 
   const alias = name.match(/(?<=\()[\w\s]+(?=\))/) || [];
 
-  alias.forEach(alias => (name = name.replace(alias, '')));
+  alias
+    .map(name => new TextProcessor(name).sanitize().trim().getResult())
+    .filter(alias => !/Instagram/.test(alias))
+    .forEach(alias => (name = name.replace(alias, '')));
 
   const names = name
-    .split(/[;\-/]/)
-    .map(val => val.replace(/[\(\)]+/g, '').trim())
+    .split(/[;/]/)
+    .map(name => name.replace(/[\(\)\\]+/g, '').trim())
     .filter(Boolean);
+
+  if (!names.length && alias.length) {
+    names.push(alias.shift() as string);
+  }
+
+  if (!names.length && web.length) {
+    names.push(web.shift() as string);
+  }
 
   const cleanedWeb = web.map(w => w.replace(/[\(\)]+/g, ''));
 
   return {
-    name: names[0],
+    name: names[0]?.trim(),
     alias: [...names.slice(1), ...(alias as string[])],
     web: cleanedWeb,
   };

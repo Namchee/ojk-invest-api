@@ -5,13 +5,15 @@ export const typeDefs = gql`
   type IllegalInvestment {
     id: ID!
     name: String!
-    address: String!
-    number: String!
-    email: String!
-    url: String!
-    type: String!
-    inputDate: String!
-    details: String!
+    alias: [String!]!
+    address: [String!]!
+    phone: [String!]!
+    web: [String!]!
+    email: [String!]!
+    entity_type: String!
+    activity_type: [String!]!
+    input_date: String!
+    description: String!
   }
 
   # Legal and authorized shared fund products
@@ -68,10 +70,9 @@ export const typeDefs = gql`
     illegalInvestments(
       name: String,
       limit: Int,
-      offset: Int,
-      version: Int
+      offset: Int
     ): IllegalsQueryResult!
-    illegalInvestment(id: ID, version: Int): IllegalQueryResult!
+    illegalInvestment(id: ID): IllegalQueryResult!
     products(name: String, limit: Int, offset: Int): ProductsQueryResult!
     product(id: ID): ProductQueryResult!
     apps(name: String, limit: Int, offset: Int): AppsQueryResult!

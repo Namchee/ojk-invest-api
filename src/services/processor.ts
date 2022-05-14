@@ -10,7 +10,8 @@ export class TextProcessor {
     'diketahui',
     'email not found',
     '-',
-    '\\"',
+    '\\',
+    '"',
   ];
 
   // List of stop words that should be ignore on capitalization
@@ -55,11 +56,11 @@ export class TextProcessor {
    */
   public sanitize(): TextProcessor {
     const regex = new RegExp(
-      `${TextProcessor.UNKNOWN_WORDS.join('|')}`,
+      `(${TextProcessor.UNKNOWN_WORDS.join('|')})`,
       'ig',
     );
 
-    this.text = this.text.replace(regex, '');
+    this.text = this.text.replaceAll(regex, '');
 
     return this;
   }
