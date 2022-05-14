@@ -18,7 +18,7 @@ export function writeResult(
   const copy = JSON.parse(JSON.stringify(result));
 
   const currentDate = (result.version as Date);
-  copy.version = currentDate.toLocaleDateString('en-ID', {
+  copy.version = currentDate.toLocaleDateString('id-ID', {
     year: 'numeric',
     month: '2-digit',
     day: '2-digit',
