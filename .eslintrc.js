@@ -33,6 +33,7 @@ module.exports = {
       { 'requireForBlockBody': true },
     ],
     'no-unused-vars': 'off',
+    'camelcase': 'off',
     '@typescript-eslint/no-unused-vars': 'error',
   },
 };

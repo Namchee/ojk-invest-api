@@ -5,10 +5,11 @@ export const typeDefs = gql`
   type IllegalInvestment {
     id: ID!
     name: String!
+    alias: [String!]!
     address: String!
-    number: String!
-    email: String!
-    url: String!
+    number: [String!]!
+    urls: [String!]!
+    email: [String!]!
     type: String!
     inputDate: String!
     details: String!

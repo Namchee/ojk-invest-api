@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: '12.x'
       - name: Install all required dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install
       - name: Build the files
         run: yarn scrap:build
       - name: Scrap and renew the data

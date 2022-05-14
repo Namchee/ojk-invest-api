@@ -37,3 +37,9 @@ Status HTTP kembalian yang mungkin dikembalikan, beserta deskripsi untuk masing-
 ### Struktur Data
 
 Bentuk objek dari `data` yang dikembalikan, beserta tipe data dan deskripsi untuk masing-masing _key_ (kunci) yang terdapat pada objek tersebut.
+
+### Versioning
+
+Karena adanya perubahan bentuk sumber data untuk beberapa API, *endpoint-endpoint* yang mengalami perubahan daa akan memiliki parameter tambahan bernama `version`. Secara bawaan, *endpoint* akan menyajikan data versi lama untuk menjamin kompatibilitas dengan konsumen API. 
+
+Data versi lama akan dihapus secara permanen dalam waktu 6 bulan sejak versi data terbaru dirilis.

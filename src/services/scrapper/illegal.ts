@@ -1,28 +1,23 @@
 import { Browser, Page } from 'puppeteer';
+
 import { benchmark } from '@namchee/decora';
-import { Standard, tryFormat } from '@namchee/telepon';
 
-import { PAGE_OPTIONS, Scrapper } from './scrapper';
-import { capitalize, normalize } from '../../utils';
-import { IllegalInvestment } from '../../entity/illegal';
-import { writeScrappingResultToFile } from '../writer';
-
-import getUrls from 'get-urls';
-import dayjs from 'dayjs';
-import { USER_AGENT } from '../../constant/browser';
+import { Scrapper } from './scrapper';
+import { IllegalInvestment, parseInvestmentData } from '../../entity/illegal';
+import { writeResult } from '../writer';
 
 /**
  * Scrapper script to extract illegal investments data
  */
 export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
   // row selector
-  private static readonly rowSelector = 'tr.dxgvDataRow_Moderno';
+  private static readonly rowSelector = 'tbody > tr';
   // table navigation selector
-  private static readonly nextSelector = '.dxp-button';
-  // table page number selector
-  private static readonly pageSelector = '.dxp-num';
+  private static readonly nextSelector = '.next';
+  // table selector
+  private static readonly tableSelector = '.dataTable';
   // disabled selector
-  private static readonly disabledSelector = 'dxp-disabledButton';
+  private static readonly disabledSelector = '.disabled';
 
   /**
    * Constructor for IllegalScrapper
@@ -31,7 +26,7 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
   public constructor(browser: Browser) {
     super(
       browser,
-      'https://sikapiuangmu.ojk.go.id/FrontEnd/AlertPortal/Negative',
+      'https://emiten.ojk.go.id/Satgas/AlertPortal/IndexAlertPortal',
     );
   }
 
@@ -42,140 +37,28 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
    * @return {Promise<IllegalInvestment[]>} - array of illegal
    * investments data
    */
-  protected async scrapPage(
-    page: Page,
-  ): Promise<IllegalInvestment[]> {
+  protected async scrapPage(page: Page): Promise<IllegalInvestment[]> {
     await page.waitForSelector(IllegalsScrapper.rowSelector);
 
-    const rawIllegals = await page.$$eval(
-      IllegalsScrapper.rowSelector,
-      (rows) => {
-        const dataRows = rows.filter(row => row.childElementCount > 1);
-
-        const rowData = dataRows.map((row) => {
-          return JSON.stringify({
-            id: row.childNodes[1].textContent?.trim(),
-            name: row.childNodes[2].textContent?.trim(),
-            contacts: row.childNodes[3].textContent?.trim(),
-            urls: row.childNodes[4].textContent?.trim(),
-            type: row.childNodes[5].textContent?.trim(),
-            inputDate: row.childNodes[6].textContent?.trim(),
-            details: row.childNodes[7].textContent?.trim(),
-          });
+    const rawData = await page.$$eval(IllegalsScrapper.rowSelector, (rows) => {
+      return rows.map((row) => {
+        return JSON.stringify({
+          id: 0,
+          name: row.childNodes[3].textContent,
+          address: row.childNodes[5].textContent,
+          phone: row.childNodes[7].textContent,
+          web: row.childNodes[9].textContent,
+          entityType: row.childNodes[11].textContent,
+          activityType: row.childNodes[13].textContent,
+          input_date: row.childNodes[15].textContent,
+          description: row.childNodes[17].textContent,
         });
-
-        return rowData;
-      },
-    );
-
-    return rawIllegals.map((illegal: string) => {
-      const rawProduct = JSON.parse(illegal);
-
-      const id = Number(rawProduct.id);
-      const names = rawProduct.name
-        .split(/[/\\]/g)
-        .map((str: string) => {
-          return str.replace(/;/, '').trim();
-        })
-        .map((str: string) => {
-          const inBraces = str.match(/\((.+?)\)/);
-
-          if (inBraces) {
-            return [
-              str.slice(0, str.indexOf(inBraces[0])).trim(),
-              inBraces[1],
-            ];
-          }
-
-          return str;
-        })
-        .flat();
-
-      const name = [...getUrls(rawProduct.name)][0] === rawProduct.name ?
-        rawProduct.name :
-        names[0];
-      const alias = names.slice(1);
-
-      const urls = [...getUrls(rawProduct.urls)];
-
-      const contactInfo = rawProduct.contacts
-        .split('Tel :');
-
-      const address = normalize(contactInfo[0]);
-
-      const phoneAndMail = normalize(contactInfo[1]);
-      const phoneNumbers = phoneAndMail
-        .split(/([,;](?= )|(?<= )\/(?= )|(?<= )\-(?= ))/)
-        .map((num: string): string | string[] => {
-          if (/[\/\\]/g.test(num)) {
-            const splitted = num.split(/[\/\\]/);
-
-            splitted[1] = `${splitted[0].slice(
-              0,
-              splitted[0].length - splitted[1].length,
-            )}${splitted[1]}`;
-
-            return splitted;
-          }
-
-          return num;
-        })
-        .flat()
-        .map((num: string): string => {
-          num = num.trim();
-
-          if (num.startsWith('8')) {
-            num = `0${num}`;
-          }
-
-          const tokens = num.split(/\s/);
-
-          if (tokens[0] === '+6221' && tokens[1].startsWith('8')) {
-            tokens[0] = '0';
-            num = tokens.join('');
-          }
-
-          try {
-            return tryFormat(num, Standard.LOCAL);
-          } catch (err) {
-            num = num.replace(/\s/g, '');
-
-            // eslint-disable-next-line
-            const numberPattern = /\+?(\(\s?[\d\-]+\s?\)\s?)?[\d]+\s?\-?\s?\d{0,}\s?\-?\s?\d{0,}\/?\d{0,}/;
-            const numberMatch = num.match(numberPattern);
-
-            return numberMatch && numberMatch[0].length >= 7 ?
-              numberMatch[0] :
-              '';
-          }
-        })
-        .filter(num => num !== '' && num !== ',');
-
-      const emails: string[] = [];
-
-      const emailMatch = phoneAndMail
-        .match(
-          // eslint-disable-next-line max-len
-          /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/,
-        );
-
-      if (emailMatch) {
-        emailMatch.forEach(match => emails.push(match));
-      }
-
-      return {
-        id,
-        name,
-        alias: alias.filter((a: string) => a),
-        address,
-        number: phoneNumbers,
-        email: emails,
-        urls,
-        type: capitalize(normalize(rawProduct.type)),
-        inputDate: this.formatDate(rawProduct.inputDate),
-        details: normalize(rawProduct.details),
-      };
+      });
     });
+
+    return rawData.map((illegal: string) =>
+      parseInvestmentData(JSON.parse(illegal)),
+    );
   }
 
   /**
@@ -185,56 +68,35 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
    * @return {Promise<void>}
    */
   @benchmark('s', 3)
-  public async scrapInfo(): Promise<void> {
-    const page = await this.browser.newPage();
+  public async scrapData(): Promise<void> {
+    const page = await this.initializePage(IllegalsScrapper.tableSelector);
 
-    await page.setUserAgent(USER_AGENT);
-
-    await page.setBypassCSP(true);
-    await page.goto(this.url, PAGE_OPTIONS);
-    await page.setRequestInterception(true);
-
-    page.on('request', (request) => {
-      if (['image', 'stylesheet'].includes(request.resourceType())) {
-        request.abort();
-      } else {
-        request.continue();
-      }
-    });
-
-    await page.waitForSelector(IllegalsScrapper.pageSelector);
-
-    const investments = [];
+    const investments: IllegalInvestment[] = [];
 
     while (true) {
       const pageInvestments = await this.scrapPage(page);
 
-      const lastPageInvestment = pageInvestments[pageInvestments.length - 1];
-      const lastInvestment = investments[investments.length - 1];
+      investments.push(...pageInvestments);
 
-      // prevent re-scrapping when DOM hasn't finished updating
-      if (investments.length === 0 ||
-        lastPageInvestment.id !== lastInvestment.id) {
-        investments.push(...pageInvestments);
+      const buttons = await page.$$(IllegalsScrapper.nextSelector);
+      const nextBtn = buttons[0];
 
-        const buttons = await page.$$(IllegalsScrapper.nextSelector);
-        const nextBtn = buttons[1];
+      const rawClass = await nextBtn.getProperty('className');
+      const classList: string = await rawClass.jsonValue();
 
-        const rawClass = await nextBtn.getProperty('className');
-        const classList: string = await rawClass.jsonValue();
+      const isDisabled = new RegExp(IllegalsScrapper.disabledSelector).test(
+        classList,
+      );
 
-        const isDisabled = new RegExp(IllegalsScrapper.disabledSelector)
-          .test(classList);
-
-        if (isDisabled) {
-          break;
-        }
-
-        await nextBtn.click();
-        await page.waitForResponse((res) => {
-          return res.url() === this.url && res.request().method() === 'POST';
-        }, { timeout: 0 });
+      if (isDisabled) {
+        break;
       }
+
+      await nextBtn.click();
+    }
+
+    for (let i = 0; i < investments.length; i++) {
+      investments[i].id = i + 1;
     }
 
     const result = {
@@ -242,40 +104,6 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
       version: new Date(),
     };
 
-    writeScrappingResultToFile(result, 'illegals');
-  }
-
-  /**
-   * Format a date string from OJK page to desired format.
-   *
-   * @param {string} dateString date string
-   * @return {string} DD/MM/YYYY date string
-   */
-  private formatDate(dateString: string): string {
-    const monthMap: Record<string, number> = {
-      'Jan': 0,
-      'Feb': 1,
-      'Mar': 2,
-      'Apr': 3,
-      'Mei': 4,
-      'Jun': 5,
-      'Jul': 6,
-      'Agt': 7,
-      'Agu': 7,
-      'Sep': 8,
-      'Okt': 9,
-      'Nov': 10,
-      'Des': 11,
-    };
-
-    const tokens = dateString.trim().split(' ');
-
-    const d = new Date(
-      Number(tokens[2]),
-      monthMap[tokens[1]],
-      Number(tokens[0]),
-    );
-
-    return dayjs(d).format('DD/MM/YYYY');
+    writeResult(result, 'illegals');
   }
 }

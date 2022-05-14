@@ -5,6 +5,7 @@ export interface Query {
   name?: string;
   limit?: number;
   offset?: number;
+  version?: number;
 }
 
 /**
@@ -12,6 +13,7 @@ export interface Query {
  */
 export interface Params {
   id: number;
+  version?: number;
 }
 
 export interface APIResponse {
