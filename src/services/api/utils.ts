@@ -30,7 +30,7 @@ export function validateQuery(query: any): Query {
 
   limit = limit || undefined;
   offset = offset || 0;
-  version = version || 2;
+  version = version || 1;
 
   return {
     name: query.name,
