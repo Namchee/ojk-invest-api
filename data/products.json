@@ -16146,7 +16146,7 @@
       "id": 2307,
       "name": "REKSA DANA TERPROTEKSI SYAILENDRA CAPITAL PROTECTED FUND 53",
       "management": "Syailendra Capital, PT",
-      "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
+      "custodian": "PT. BANK PEMBANGUNAN DAERAH JAWA BARAT DAN BANTEN TBK",
       "type": "Capital Protected Fund"
     },
     {
@@ -17144,5 +17144,5 @@
       "type": "Equity Fund"
     }
   ],
-  "version": "05/30/2022"
+  "version": "06/01/2022"
 }
