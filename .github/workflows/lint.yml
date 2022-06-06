@@ -23,6 +23,6 @@ jobs:
         with:
           version: 7.0.0
       - name: Install all required dependencies
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
       - name: Lint the files
         run: pnpm run lint
