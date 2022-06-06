@@ -21,7 +21,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@namchee/decora": "^1.0.1",
+    "@namchee/decora": "^1.0.5",
     "@namchee/telepon": "1.0.5",
     "@sentry/node": "^6.1.0",
     "@sentry/tracing": "^6.1.0",
