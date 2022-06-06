@@ -25,7 +25,12 @@ export class TextProcessor {
    *
    * @param {string} text text to be preprocessed
    */
-  public constructor(private text: string) {}
+  public constructor(private text: string) {
+    if (!text) {
+      // fallback to empty string
+      this.text = '';
+    }
+  }
 
   /**
    * Capitalize each words from the text except stop words
