@@ -6,6 +6,7 @@ on:
       - master
   schedule:
     - cron: '0 17 * * *'
+  workflow_dispatch:
 
 jobs:
   refresh:
@@ -16,13 +17,17 @@ jobs:
       - name: Setup NodeJS
         uses: actions/setup-node@v2
         with:
-          node-version: '12.x'
+          node-version: '16.x'
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v2.1.0
+        with:
+          version: 7.0.0
       - name: Install all required dependencies
-        run: yarn install
+        run: pnpm install --frozen-lockfile
       - name: Build the files
-        run: yarn scrap:build
+        run: pnpm run scrap:build
       - name: Scrap and renew the data
-        run: yarn scrap
+        run: pnpm run scrap
       - name: Recommit the data
         run: |
           git config user.name github-actions
@@ -31,7 +36,7 @@ jobs:
           git commit --allow-empty -m "chore(ci): Refresh investments data"
           git push
       - name: Deploy to Vercel Now
-        uses: amondnet/vercel-action@v20.0.0
+        uses: amondnet/vercel-action@v20.0.1
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
