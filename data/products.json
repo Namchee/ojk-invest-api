@@ -10726,43 +10726,43 @@
     },
     {
       "id": 1533,
-      "name": "Reksa Dana Syariah Terproteksi Eastspring Syariah Misbah 2",
-      "management": "Eastspring Investments Indonesia, PT",
-      "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
-      "type": "Capital Protected Fund"
-    },
-    {
-      "id": 1534,
       "name": "REKSA DANA SYARIAH TERPROTEKSI HPAM SMART SYARIAH PROTECTED II",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1535,
+      "id": 1534,
       "name": "REKSA DANA SYARIAH TERPROTEKSI INSIGHT TERPROTEKSI SYARIAH V",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1536,
+      "id": 1535,
       "name": "REKSA DANA SYARIAH TERPROTEKSI INSIGHT TERPROTEKSI SYARIAH VI",
       "management": "Insight Investments Management, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1537,
+      "id": 1536,
       "name": "Reksa Dana Syariah Terproteksi Lautandhana Proteksi Dinamis Syariah I",
       "management": "Lautandhana Investment Management, PT",
       "custodian": "BANK PERMATA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1538,
+      "id": 1537,
       "name": "Reksa Dana Syariah Terproteksi Lautandhana Proteksi Indo Syariah I",
       "management": "Lautandhana Investment Management, PT",
+      "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
+      "type": "Capital Protected Fund"
+    },
+    {
+      "id": 1538,
+      "name": "REKSA DANA SYARIAH TERPROTEKSI MANDIRI SYARIAH SERI 168",
+      "management": "Mandiri Manajemen Investasi, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
@@ -10775,64 +10775,64 @@
     },
     {
       "id": 1540,
-      "name": "REKSA DANA SYARIAH TERPROTEKSI MANDIRI SYARIAH SERI 168",
-      "management": "Mandiri Manajemen Investasi, PT",
-      "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
-      "type": "Capital Protected Fund"
-    },
-    {
-      "id": 1541,
       "name": "REKSA DANA SYARIAH TERPROTEKSI MISBAH MANDIRI SYARIAH SERI 227",
       "management": "Mandiri Manajemen Investasi, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1542,
+      "id": 1541,
       "name": "REKSA DANA SYARIAH TERPROTEKSI PNM INVESTA 21",
       "management": "PNM Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1543,
+      "id": 1542,
       "name": "REKSA DANA SYARIAH TERPROTEKSI PNM INVESTA 32",
       "management": "PNM Investment Management, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1544,
+      "id": 1543,
       "name": "REKSA DANA SYARIAH TERPROTEKSI PNM MISBAH 4",
       "management": "PNM Investment Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1545,
+      "id": 1544,
       "name": "REKSA DANA SYARIAH TERPROTEKSI PNM MISBAH 6",
       "management": "PNM Investment Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1546,
+      "id": 1545,
       "name": "REKSA DANA SYARIAH TERPROTEKSI PNM TERPROTEKSI INVESTA 38",
       "management": "PNM Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1547,
+      "id": 1546,
       "name": "REKSA DANA SYARIAH TERPROTEKSI PNM TERPROTEKSI INVESTA 40",
       "management": "PNM Investment Management, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1548,
+      "id": 1547,
       "name": "REKSA DANA SYARIAH TERPROTEKSI PRINCIPAL CPF MISBAH SYARIAH",
       "management": "Principal Asset Management",
+      "custodian": "PT Bank Maybank Indonesia Tbk",
+      "type": "Capital Protected Fund"
+    },
+    {
+      "id": 1548,
+      "name": "REKSA DANA SYARIAH TERPROTEKSI SCHRODER DANA SYARIAH I",
+      "management": "Schroder Investment Management Indonesia, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Capital Protected Fund"
     },
@@ -10845,1157 +10845,1157 @@
     },
     {
       "id": 1550,
-      "name": "REKSA DANA SYARIAH TERPROTEKSI SCHRODER DANA SYARIAH I",
-      "management": "Schroder Investment Management Indonesia, PT",
-      "custodian": "PT Bank Maybank Indonesia Tbk",
-      "type": "Capital Protected Fund"
-    },
-    {
-      "id": 1551,
       "name": "Reksa Dana Syariah Terproteksi Syailendra Capital Protected Fund Syariah 1",
       "management": "Syailendra Capital, PT",
       "custodian": "BANK PERMATA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1552,
+      "id": 1551,
       "name": "REKSA DANA SYARIAH TERPROTEKSI SYAILENDRA CAPITAL PROTECTED FUND SYARIAH 1",
       "management": "Syailendra Capital, PT",
       "custodian": "BANK PERMATA - CUSTODY, Tbk, PT",
       "type": "RD - Syariah - Terproteksi"
     },
     {
-      "id": 1553,
+      "id": 1552,
       "name": "REKSA DANA SYARIAH TREASURE SAHAM BERKAH SYARIAH",
       "management": "Treasure Fund Investama, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 1554,
+      "id": 1553,
       "name": "Reksa Dana Syariah Trimegah Dana Tetap Syariah",
       "management": "Trimegah Asset Management, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1555,
+      "id": 1554,
       "name": "REKSA DANA SYARIAH TRIMEGAH KAS SYARIAH 2",
       "management": "Trimegah Asset Management, PT",
       "custodian": "BANK MANDIRI (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 1556,
+      "id": 1555,
       "name": "REKSA DANA SYARIAH TRIMEGAH KAS SYARIAH 3",
       "management": "Trimegah Asset Management, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Money Market Fund"
     },
     {
-      "id": 1557,
+      "id": 1556,
       "name": "REKSA DANA SYARIAH TRIMEGAH KAS SYARIAH 5",
       "management": "Trimegah Asset Management, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Money Market Fund"
     },
     {
-      "id": 1558,
+      "id": 1557,
       "name": "Reksa Dana Syariah Trimegah Pendapatan Tetap Prima Syariah",
       "management": "Trimegah Asset Management, PT",
       "custodian": "BANK PERMATA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1559,
+      "id": 1558,
       "name": "REKSA DANA SYARIAH UOBAM ESG SHARIA MONEY MARKET INDONESIA",
       "management": "UOB Asset Management Indonesia, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Money Market Fund"
     },
     {
-      "id": 1560,
+      "id": 1559,
       "name": "REKSA DANA SYARIAH VICTORIA OBLIGASI NEGARA SYARIAH",
       "management": "Victoria Manajemen Investasi, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1561,
+      "id": 1560,
       "name": "REKSA DANA SYARIAH VICTORIA PASAR UANG SYARIAH",
       "management": "Victoria Manajemen Investasi, PT",
       "custodian": "BANK BUKOPIN - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 1562,
+      "id": 1561,
       "name": "REKSA DANA SYARIAH VICTORIA SAHAM SYARIAH",
       "management": "Victoria Manajemen Investasi, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 1563,
+      "id": 1562,
       "name": "REKSA DANA TERPOTEKSI BAHANA PROTECTED FUND 224",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1564,
+      "id": 1563,
       "name": "REKSA DANA TERPROTEKSI CIPTA PROTEKSI XII",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK BUKOPIN - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1565,
+      "id": 1564,
       "name": "REKSA DANA TERPROTEKSI ABERDEEN STANDARD PROTEKSI PENDAPATAN BERKALA",
       "management": "Aberdeen Standard Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1566,
+      "id": 1565,
       "name": "REKSA DANA TERPROTEKSI ABERDEEN STANDARD PROTEKSI PENDAPATAN BERKALA USD",
       "management": "Aberdeen Standard Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1567,
+      "id": 1566,
       "name": "REKSA DANA TERPROTEKSI ALLIANZ CAPITAL PROTECTED FUND 49",
       "management": "Allianz Global Investors Asset Management Indonesia, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1568,
+      "id": 1567,
       "name": "REKSA DANA TERPROTEKSI ALLIANZ CAPITAL PROTECTED FUND 50",
       "management": "Allianz Global Investors Asset Management Indonesia, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1569,
+      "id": 1568,
       "name": "REKSA DANA TERPROTEKSI ALLIANZ CAPITAL PROTECTED FUND 53",
       "management": "Allianz Global Investors Asset Management Indonesia, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1570,
+      "id": 1569,
       "name": "REKSA DANA TERPROTEKSI ALLIANZ CAPITAL PROTECTED FUND 54",
       "management": "Allianz Global Investors Asset Management Indonesia, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1571,
+      "id": 1570,
       "name": "REKSA DANA TERPROTEKSI ALLIANZ CAPITAL PROTECTED FUND 55",
       "management": "Allianz Global Investors Asset Management Indonesia, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1572,
+      "id": 1571,
       "name": "REKSA DANA TERPROTEKSI ALLIANZ CAPITAL PROTECTED FUND 56",
       "management": "Allianz Global Investors Asset Management Indonesia, PT",
       "custodian": "BANK PERMATA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1573,
+      "id": 1572,
       "name": "REKSA DANA TERPROTEKSI ALLIANZ CAPITAL PROTECTED FUND 57",
       "management": "Allianz Global Investors Asset Management Indonesia, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1574,
+      "id": 1573,
       "name": "REKSA DANA TERPROTEKSI ALLIANZ CAPITAL PROTECTED FUND 58",
       "management": "Allianz Global Investors Asset Management Indonesia, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1575,
+      "id": 1574,
       "name": "REKSA DANA TERPROTEKSI ALLIANZ CAPITAL PROTECTED FUND 60",
       "management": "Allianz Global Investors Asset Management Indonesia, PT",
       "custodian": "BANK PERMATA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1576,
+      "id": 1575,
       "name": "REKSA DANA TERPROTEKSI ARCHIPELAGO MAS PROTEKSI 1",
       "management": "Shinhan Asset Management Indonesia, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "RD - Terproteksi"
     },
     {
-      "id": 1577,
+      "id": 1576,
       "name": "REKSA DANA TERPROTEKSI ASANUSA DYNAMIC PROTECTED FUND",
       "management": "Asiantrust Asset Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1578,
+      "id": 1577,
       "name": "REKSA DANA TERPROTEKSI ASANUSA SUPREME BOND INVESTMENT",
       "management": "Asiantrust Asset Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1579,
+      "id": 1578,
       "name": "Reksa Dana Terproteksi Ashmore Dana Terproteksi Nusantara II",
       "management": "PT Ashmore Asset Management Indonesia, Tbk",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1580,
+      "id": 1579,
       "name": "REKSA DANA TERPROTEKSI AVRIST DANA TERPROTEKSI SPIRIT 1",
       "management": "Avrist Asset Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1581,
+      "id": 1580,
       "name": "REKSA DANA TERPROTEKSI AVRIST DANA TERPROTEKSI SPIRIT 2",
       "management": "Avrist Asset Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1582,
+      "id": 1581,
       "name": "Reksa Dana Terproteksi Avrist Dana Terproteksi Spirit 3",
       "management": "Avrist Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1583,
+      "id": 1582,
       "name": "REKSA DANA TERPROTEKSI AVRIST DANA TERPROTEKSI SPIRIT 4",
       "management": "Avrist Asset Management, PT",
       "custodian": "BANK BUKOPIN - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1584,
+      "id": 1583,
       "name": "REKSA DANA TERPROTEKSI AVRIST DANA TERPROTEKSI SPIRIT 5",
       "management": "Avrist Asset Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1585,
+      "id": 1584,
       "name": "REKSA DANA TERPROTEKSI AVRIST DANA TERPROTEKSI SPIRIT 6",
       "management": "Avrist Asset Management, PT",
       "custodian": "BANK BUKOPIN - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1586,
+      "id": 1585,
       "name": "REKSA DANA TERPROTEKSI AVRIST DANA TERPROTEKSI SPIRIT 7",
       "management": "Avrist Asset Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1587,
+      "id": 1586,
       "name": "REKSA DANA TERPROTEKSI AVRIST DANA TERPROTEKSI SPIRIT 8",
       "management": "Avrist Asset Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1588,
+      "id": 1587,
       "name": "REKSA DANA TERPROTEKSI AVRIST PROTECTED FUND 2",
       "management": "Avrist Asset Management, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1589,
+      "id": 1588,
       "name": "Reksa Dana Terproteksi Avrist Proteksi Spirit 10",
       "management": "Avrist Asset Management, PT",
       "custodian": "BANK PERMATA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1590,
+      "id": 1589,
       "name": "REKSA DANA TERPROTEKSI AVRIST PROTEKSI SPIRIT 11",
       "management": "Avrist Asset Management, PT",
       "custodian": "BANK BUKOPIN - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1591,
+      "id": 1590,
       "name": "Reksa Dana Terproteksi Avrist Proteksi Spirit 12",
       "management": "Avrist Asset Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1592,
+      "id": 1591,
       "name": "REKSA DANA TERPROTEKSI AVRIST PROTEKSI SPIRIT 13",
       "management": "Avrist Asset Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1593,
+      "id": 1592,
       "name": "REKSA DANA TERPROTEKSI AVRIST PROTEKSI SPIRIT 14",
       "management": "Avrist Asset Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1594,
+      "id": 1593,
       "name": "REKSA DANA TERPROTEKSI AVRIST PROTEKSI SPIRIT 15",
       "management": "Avrist Asset Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1595,
+      "id": 1594,
       "name": "Reksa Dana Terproteksi Avrist Proteksi Spirit 9",
       "management": "Avrist Asset Management, PT",
       "custodian": "BANK PERMATA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1596,
+      "id": 1595,
       "name": "REKSA DANA TERPROTEKSI BAHANA AKTIVA PROTECTED FUND 111",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1597,
+      "id": 1596,
       "name": "REKSA DANA TERPROTEKSI BAHANA ALTERA PROTECTED FUND 133",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1598,
+      "id": 1597,
       "name": "REKSA DANA TERPROTEKSI BAHANA ALTERA PROTECTED FUND 137",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1599,
+      "id": 1598,
       "name": "REKSA DANA TERPROTEKSI BAHANA C OPTIMA PROTECTED FUND 74",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1600,
+      "id": 1599,
       "name": "REKSA DANA TERPROTEKSI BAHANA C OPTIMA PROTECTED FUND 78",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1601,
+      "id": 1600,
       "name": "REKSA DANA TERPROTEKSI BAHANA CENTRUM PROTECTED FUND 156",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1602,
+      "id": 1601,
       "name": "REKSA DANA TERPROTEKSI BAHANA CENTRUM PROTECTED FUND 157",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1603,
+      "id": 1602,
       "name": "REKSA DANA TERPROTEKSI BAHANA CENTRUM PROTECTED FUND 158",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1604,
+      "id": 1603,
       "name": "REKSA DANA TERPROTEKSI BAHANA CENTRUM PROTECTED FUND 179",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1605,
+      "id": 1604,
       "name": "Reksa Dana Terproteksi Bahana Centrum Protected Fund 185",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1606,
+      "id": 1605,
       "name": "REKSA DANA TERPROTEKSI BAHANA CENTRUM PROTECTED FUND 192",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1607,
+      "id": 1606,
       "name": "REKSA DANA TERPROTEKSI BAHANA CENTRUM PROTECTED FUND 193",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1608,
+      "id": 1607,
       "name": "REKSA DANA TERPROTEKSI BAHANA CENTRUM PROTECTED FUND 194",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1609,
+      "id": 1608,
       "name": "REKSA DANA TERPROTEKSI BAHANA CENTRUM PROTECTED FUND 198",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1610,
+      "id": 1609,
       "name": "REKSA DANA TERPROTEKSI BAHANA CENTRUM PROTECTED FUND 202",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1611,
+      "id": 1610,
       "name": "REKSA DANA TERPROTEKSI BAHANA CENTRUM PROTECTED FUND 204",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1612,
+      "id": 1611,
       "name": "REKSA DANA TERPROTEKSI BAHANA CENTRUM PROTECTED FUND 207",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1613,
+      "id": 1612,
       "name": "REKSA DANA TERPROTEKSI BAHANA CENTRUM PROTECTED FUND 218",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1614,
+      "id": 1613,
       "name": "REKSA DANA TERPROTEKSI BAHANA CENTRUM PROTECTED FUND 221",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1615,
+      "id": 1614,
       "name": "REKSA DANA TERPROTEKSI BAHANA CENTRUM PROTECTED FUND 222",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1616,
+      "id": 1615,
       "name": "REKSA DANA TERPROTEKSI BAHANA CORE PROTECTED FUND 132",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1617,
+      "id": 1616,
       "name": "Reksa Dana Terproteksi Bahana Core Protected Fund USD 1",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1618,
+      "id": 1617,
       "name": "REKSA DANA TERPROTEKSI BAHANA D OPTIMA PROTECTED FUND 55",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1619,
+      "id": 1618,
       "name": "REKSA DANA TERPROTEKSI BAHANA D OPTIMA PROTECTED FUND 56",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1620,
+      "id": 1619,
       "name": "REKSA DANA TERPROTEKSI BAHANA DYNAMIC PLUS PROTECTED FUND 203",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1621,
+      "id": 1620,
       "name": "REKSA DANA TERPROTEKSI BAHANA F OPTIMA PROTECTED FUND 53",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1622,
+      "id": 1621,
       "name": "REKSA DANA TERPROTEKSI BAHANA F OPTIMA PROTECTED FUND 54",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1623,
+      "id": 1622,
       "name": "Reksa Dana Terproteksi Bahana Merdeka Terproteksi",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1624,
+      "id": 1623,
       "name": "Reksa Dana Terproteksi Bahana Premium Protected Fund 134",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1625,
+      "id": 1624,
       "name": "Reksa Dana Terproteksi Bahana Premium Protected Fund 135",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1626,
+      "id": 1625,
       "name": "Reksa Dana Terproteksi Bahana Premium Protected Fund 143",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1627,
+      "id": 1626,
       "name": "Reksa Dana Terproteksi Bahana Premium Protected Fund 145",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1628,
+      "id": 1627,
       "name": "REKSA DANA TERPROTEKSI BAHANA PREMIUM PROTECTED FUND 155",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1629,
+      "id": 1628,
       "name": "REKSA DANA TERPROTEKSI BAHANA PREMIUM PROTECTED FUND USD 2",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1630,
+      "id": 1629,
       "name": "REKSA DANA TERPROTEKSI BAHANA PREMIUM PROTECTED FUND USD 3",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1631,
+      "id": 1630,
       "name": "REKSA DANA TERPROTEKSI BAHANA PRIMERA PLUS PROTECTED FUND 107",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1632,
+      "id": 1631,
       "name": "REKSA DANA TERPROTEKSI BAHANA PRIMERA PLUS PROTECTED FUND 97",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1633,
+      "id": 1632,
       "name": "REKSA DANA TERPROTEKSI BAHANA PRIMERA PROTECTED FUND 88",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1634,
+      "id": 1633,
       "name": "REKSA DANA TERPROTEKSI BAHANA PRIVA PROTECTED FUND 142",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1635,
+      "id": 1634,
       "name": "REKSA DANA TERPROTEKSI BAHANA PRIVA PROTECTED FUND 148",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1636,
+      "id": 1635,
       "name": "Reksa Dana Terproteksi Bahana Progressive Protected Fund 177",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1637,
+      "id": 1636,
       "name": "REKSA DANA TERPROTEKSI BAHANA PROGRESSIVE PROTECTED FUND 168",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1638,
+      "id": 1637,
       "name": "REKSA DANA TERPROTEKSI BAHANA PROGRESSIVE PROTECTED FUND 172",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1639,
+      "id": 1638,
       "name": "Reksa Dana Terproteksi Bahana Progressive Protected Fund 176",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1640,
+      "id": 1639,
       "name": "Reksa Dana Terproteksi Bahana Progressive Protected Fund 178",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1641,
+      "id": 1640,
       "name": "Reksa Dana Terproteksi Bahana Progressive Protected Fund 183",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1642,
+      "id": 1641,
       "name": "REKSA DANA TERPROTEKSI BAHANA PROGRESSIVE PROTECTED FUND 184",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1643,
+      "id": 1642,
       "name": "Reksa Dana Terproteksi Bahana Progressive Protected Fund 187",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1644,
+      "id": 1643,
       "name": "Reksa Dana Terproteksi Bahana Progressive Protected Fund 188",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1645,
+      "id": 1644,
       "name": "Reksa Dana Terproteksi Bahana Progressive Protected Fund 189",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1646,
+      "id": 1645,
       "name": "Reksa Dana Terproteksi Bahana Progressive Protected Fund 196",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1647,
+      "id": 1646,
       "name": "Reksa Dana Terproteksi Bahana Progressive Protected Fund 197",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1648,
+      "id": 1647,
       "name": "Reksa Dana Terproteksi Bahana Progressive Protected Fund 199",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1649,
+      "id": 1648,
       "name": "Reksa Dana Terproteksi Bahana Progressive Protected Fund 200",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1650,
+      "id": 1649,
       "name": "Reksa Dana Terproteksi Bahana Progressive Protected Fund 201",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1651,
+      "id": 1650,
       "name": "REKSA DANA TERPROTEKSI BAHANA PROGRESSIVE PROTECTED FUND 212",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1652,
+      "id": 1651,
       "name": "REKSA DANA TERPROTEKSI BAHANA PROGRESSIVE PROTECTED FUND 213",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1653,
+      "id": 1652,
       "name": "REKSA DANA TERPROTEKSI BAHANA PROGRESSIVE PROTECTED FUND 220",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1654,
+      "id": 1653,
       "name": "REKSA DANA TERPROTEKSI BAHANA PROTECTED FUND 171",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1655,
+      "id": 1654,
       "name": "REKSA DANA TERPROTEKSI BAHANA PROTECTED FUND 169",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1656,
+      "id": 1655,
       "name": "REKSA DANA TERPROTEKSI BAHANA PROTECTED FUND 170",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1657,
+      "id": 1656,
       "name": "REKSA DANA TERPROTEKSI BAHANA PROTECTED FUND 205",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1658,
+      "id": 1657,
       "name": "REKSA DANA TERPROTEKSI BAHANA PROTECTED FUND 206",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1659,
+      "id": 1658,
       "name": "REKSA DANA TERPROTEKSI BAHANA PROTECTED FUND 208",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1660,
+      "id": 1659,
       "name": "REKSA DANA TERPROTEKSI BAHANA PROTECTED FUND 209",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1661,
+      "id": 1660,
       "name": "REKSA DANA TERPROTEKSI BAHANA PROTECTED FUND 210",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1662,
+      "id": 1661,
       "name": "REKSA DANA TERPROTEKSI BAHANA PROTECTED FUND 211",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1663,
+      "id": 1662,
       "name": "REKSA DANA TERPROTEKSI BAHANA PROTECTED FUND 214",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1664,
+      "id": 1663,
       "name": "REKSA DANA TERPROTEKSI BAHANA PROTECTED FUND 216",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1665,
+      "id": 1664,
       "name": "REKSA DANA TERPROTEKSI BAHANA PROTECTED FUND 217",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1666,
+      "id": 1665,
       "name": "REKSA DANA TERPROTEKSI BAHANA PROTECTED FUND G 65",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1667,
+      "id": 1666,
       "name": "REKSA DANA TERPROTEKSI BAHANA PROTECTED FUND G 67",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1668,
+      "id": 1667,
       "name": "REKSA DANA TERPROTEKSI BAHANA PROTECTED FUND H 82",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1669,
+      "id": 1668,
       "name": "Reksa Dana Terproteksi Bahana Ultima Protected Fund 153",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1670,
+      "id": 1669,
       "name": "REKSA DANA TERPROTEKSI BAHANA ULTIMA PROTECTED FUND 223",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1671,
+      "id": 1670,
       "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI CEMERLANG 18",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1672,
+      "id": 1671,
       "name": "Reksa Dana Terproteksi Batavia Proteksi Cemerlang 28",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1673,
+      "id": 1672,
       "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI CEMERLANG 38",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1674,
+      "id": 1673,
       "name": "Reksa Dana Terproteksi Batavia Proteksi Cemerlang 68",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1675,
+      "id": 1674,
       "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI CEMERLANG 70",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "RD - Terproteksi"
     },
     {
-      "id": 1676,
+      "id": 1675,
       "name": "Reksa Dana Terproteksi Batavia Proteksi Cemerlang 72",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "BANK MANDIRI (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1677,
+      "id": 1676,
       "name": "Reksa Dana Terproteksi Batavia Proteksi Cemerlang 76",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1678,
+      "id": 1677,
       "name": "Reksa Dana Terproteksi Batavia Proteksi Cemerlang 81",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1679,
+      "id": 1678,
       "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI CEMERLANG 88",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1680,
+      "id": 1679,
       "name": "Reksa Dana Terproteksi Batavia Proteksi Cemerlang 89",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1681,
+      "id": 1680,
       "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI CEMERLANG 92",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1682,
+      "id": 1681,
       "name": "Reksa Dana Terproteksi Batavia Proteksi Cemerlang 95",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1683,
+      "id": 1682,
       "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI GEBYAR 10",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1684,
+      "id": 1683,
       "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI GEBYAR 11",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1685,
+      "id": 1684,
       "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI GEBYAR 12",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1686,
+      "id": 1685,
       "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI GEBYAR 8",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1687,
+      "id": 1686,
       "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI GEBYAR 9",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1688,
+      "id": 1687,
       "name": "Reksa Dana Terproteksi Batavia Proteksi Gemilang 16",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1689,
+      "id": 1688,
       "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI GEMILANG 9",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1690,
+      "id": 1689,
       "name": "Reksa Dana Terproteksi Batavia Proteksi Maxima 1",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1691,
+      "id": 1690,
       "name": "Reksa Dana Terproteksi Batavia Proteksi Maxima 10",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1692,
+      "id": 1691,
       "name": "Reksa Dana Terproteksi Batavia Proteksi Maxima 11",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1693,
+      "id": 1692,
       "name": "Reksa Dana Terproteksi Batavia Proteksi Maxima 12",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1694,
+      "id": 1693,
       "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI MAXIMA 15",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "BANK MANDIRI (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1695,
+      "id": 1694,
       "name": "Reksa Dana Terproteksi Batavia Proteksi Maxima 16",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1696,
+      "id": 1695,
       "name": "Reksa Dana Terproteksi Batavia Proteksi Maxima 17",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1697,
+      "id": 1696,
       "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI MAXIMA 19",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1698,
+      "id": 1697,
       "name": "Reksa Dana Terproteksi Batavia Proteksi Maxima 2",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "BANK MANDIRI (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1699,
+      "id": 1698,
       "name": "Reksa Dana Terproteksi Batavia Proteksi Maxima 20",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1700,
+      "id": 1699,
       "name": "Reksa Dana Terproteksi Batavia Proteksi Maxima 21",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1701,
+      "id": 1700,
       "name": "Reksa Dana Terproteksi Batavia Proteksi Maxima 22",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1702,
+      "id": 1701,
       "name": "Reksa Dana Terproteksi Batavia Proteksi Maxima 23",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1703,
+      "id": 1702,
       "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI MAXIMA 25",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1704,
+      "id": 1703,
       "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI MAXIMA 26",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "BANK MANDIRI (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1705,
+      "id": 1704,
       "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI MAXIMA 27",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1706,
+      "id": 1705,
       "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI MAXIMA 28",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1707,
+      "id": 1706,
       "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI MAXIMA 29",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1708,
+      "id": 1707,
       "name": "Reksa Dana Terproteksi Batavia Proteksi Maxima 3",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1709,
+      "id": 1708,
       "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI MAXIMA 30",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1710,
+      "id": 1709,
       "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI MAXIMA 31",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1711,
+      "id": 1710,
       "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI MAXIMA 32",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1712,
+      "id": 1711,
       "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI MAXIMA 33",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "BANK MANDIRI (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1713,
+      "id": 1712,
       "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI MAXIMA 35",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1714,
+      "id": 1713,
       "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI MAXIMA 37",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
+      "type": "Capital Protected Fund"
+    },
+    {
+      "id": 1714,
+      "name": "REKSA DANA TERPROTEKSI BATAVIA PROTEKSI MAXIMA 38",
+      "management": "Batavia Prosperindo Aset Manajemen, PT",
+      "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
@@ -17172,5 +17172,5 @@
       "type": "Equity Fund"
     }
   ],
-  "version": "13/07/2022"
+  "version": "14/07/2022"
 }
