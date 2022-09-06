@@ -5721,9 +5721,9 @@
     },
     {
       "id": 818,
-      "name": "Reksa Dana Indeks Panin Sri Kehati",
+      "name": "REKSA DANA INDEKS PANIN SRI KEHATI",
       "management": "Panin Asset Management, PT",
-      "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
+      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
@@ -24950,312 +24950,319 @@
     },
     {
       "id": 3565,
+      "name": "REKSA DANA VICTORIA FIXED INCOME",
+      "management": "Victoria Manajemen Investasi, PT",
+      "custodian": "PT KEB Hana Bank Indonesia",
+      "type": "Fixed Income Fund"
+    },
+    {
+      "id": 3566,
       "name": "Reksa Dana Victoria Mandiri Berimbang",
       "management": "Victoria Manajemen Investasi, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 3566,
+      "id": 3567,
       "name": "REKSA DANA VICTORIA OBLIGASI NEGARA",
       "management": "Victoria Manajemen Investasi, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 3567,
+      "id": 3568,
       "name": "REKSA DANA VICTORIA PRIME EQUITY FUND",
       "management": "Victoria Manajemen Investasi, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 3568,
+      "id": 3569,
       "name": "REKSA DANA VMI DANA SAHAM",
       "management": "Victoria Manajemen Investasi, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Equity Fund"
     },
     {
-      "id": 3569,
+      "id": 3570,
       "name": "Reksa Dana Yuanta Equity Alpha",
       "management": "Yuanta Asset Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 3570,
+      "id": 3571,
       "name": "REKSA DANA YUANTA FIXED INCOME",
       "management": "Yuanta Asset Management, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 3571,
+      "id": 3572,
       "name": "REKSA DANA YUANTA LIQUID PLUS MONEY MARKET",
       "management": "Yuanta Asset Management, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Money Market Fund"
     },
     {
-      "id": 3572,
+      "id": 3573,
       "name": "REKSA DANA YUANTA USD FIXED INCOME",
       "management": "Yuanta Asset Management, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 3573,
+      "id": 3574,
       "name": "Reksa DanaTerproteksi BNP Paribas Gemilang 3",
       "management": "BNP Paribas Asset Management, PT",
       "custodian": "BANK PERMATA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 3574,
+      "id": 3575,
       "name": "REKSADANA MILLENIUM DYNAMIC EQUITY FUND",
       "management": "Millenium Capital Management, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 3575,
+      "id": 3576,
       "name": "Reksadana Bahana Likuid Plus",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 3576,
+      "id": 3577,
       "name": "Reksadana Batavia Prima Obligasi",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "BANK PERMATA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 3577,
+      "id": 3578,
       "name": "REKSADANA DANAKITA INVESTASI FLEKSIBEL",
       "management": "Danakita Investama, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 3578,
+      "id": 3579,
       "name": "REKSADANA DANAKITA SAHAM PRIORITAS",
       "management": "Danakita Investama, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 3579,
+      "id": 3580,
       "name": "REKSADANA GURU",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK MANDIRI (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 3580,
+      "id": 3581,
       "name": "REKSADANA HPAM EKUITAS PROGRESIF",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "RD - Saham"
     },
     {
-      "id": 3581,
+      "id": 3582,
       "name": "Reksadana Mega Asset Mantap",
       "management": "Mega Asset Management, PT",
       "custodian": "BANK MANDIRI (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 3582,
+      "id": 3583,
       "name": "REKSADANA MILLENIUM DYNAMIC EQUITY FUND",
       "management": "Millenium Capital Management, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 3583,
+      "id": 3584,
       "name": "Reksadana Ori",
       "management": "Mega Capital Investama, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 3584,
+      "id": 3585,
       "name": "REKSADANA PG SEJAHTERA",
       "management": "UOB Asset Management Indonesia, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 3585,
+      "id": 3586,
       "name": "REKSADANA PNM DANA SEJAHTERA II",
       "management": "PNM Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 3586,
+      "id": 3587,
       "name": "Reksadana PNM Terproteksi Dana Investa 1",
       "management": "PNM Investment Management, PT",
       "custodian": "BANK PERMATA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 3587,
+      "id": 3588,
       "name": "Reksadana Schroder Prestasi Gebyar Indonesia II",
       "management": "Schroder Investment Management Indonesia, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 3588,
+      "id": 3589,
       "name": "REKSADANA SHINHAN MONEY MARKET FUND",
       "management": "Shinhan Asset Management Indonesia, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 3589,
+      "id": 3590,
       "name": "REKSADANA SYARIAH CIPTA NUSANTARA SYARIAH BERIMBANG",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK MANDIRI (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 3590,
+      "id": 3591,
       "name": "REKSADANA SYARIAH PNM SUKUK NEGARA SYARIAH",
       "management": "PNM Investment Management, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 3591,
+      "id": 3592,
       "name": "REKSADANA SYARIAH RELIANCE SAHAM SYARIAH",
       "management": "Reliance Manajer Investasi, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 3592,
+      "id": 3593,
       "name": "REKSADANA SYARIAH RHB SYARIAH INDO GLOBAL SUKUK USD FUND",
       "management": "Allianz Global Investors Asset Management Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Equity Fund"
     },
     {
-      "id": 3593,
+      "id": 3594,
       "name": "REKSADANA TERPROTEKSI BAHANA PRIMERA PROTECTED FUND 91",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 3594,
+      "id": 3595,
       "name": "Reksadana Terproteksi Batavia Proteksi Cemerlang 52",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 3595,
+      "id": 3596,
       "name": "Reksadana Terproteksi Danakita Proteksi Seri VI",
       "management": "Danakita Investama, PT",
       "custodian": "BANK PERMATA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 3596,
+      "id": 3597,
       "name": "REKSADANA TERPROTEKSI MANDIRI SERI 16",
       "management": "Mandiri Manajemen Investasi, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 3597,
+      "id": 3598,
       "name": "REKSADANA TERPROTEKSI MANDIRI SERI 21",
       "management": "Mandiri Manajemen Investasi, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 3598,
+      "id": 3599,
       "name": "Reksadana Terproteksi Mega Dana Terproteksi XIV",
       "management": "Mega Capital Investama, PT",
       "custodian": "BANK MANDIRI (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 3599,
+      "id": 3600,
       "name": "REKSADANA TERPROTEKSI NET DANA PROTEKSI VIII",
       "management": "Net Assets Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 3600,
+      "id": 3601,
       "name": "REKSADANA TERPROTEKSI SYAILENDRA CAPITAL PROTECTED FUND 23",
       "management": "Syailendra Capital, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 3601,
+      "id": 3602,
       "name": "RHB SHARIA CAPITAL PROTECTED FUND 1",
       "management": "Allianz Global Investors Asset Management Indonesia, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 3602,
+      "id": 3603,
       "name": "SAM Dana Berkembang",
       "management": "Samuel Aset Manajemen, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 3603,
+      "id": 3604,
       "name": "SAMUEL DANA OBLIGASI TERPROTEKSI",
       "management": "Samuel Aset Manajemen, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 3604,
+      "id": 3605,
       "name": "Simas Satu",
       "management": "Sinarmas Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 3605,
+      "id": 3606,
       "name": "Syailendra Balanced Opportunity Fund",
       "management": "Syailendra Capital, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 3606,
+      "id": 3607,
       "name": "TRAM Terproteksi Lestari 7",
       "management": "Trimegah Asset Management, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 3607,
+      "id": 3608,
       "name": "TRAM Terproteksi Lestari 9",
       "management": "Trimegah Asset Management, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 3608,
+      "id": 3609,
       "name": "TRIM Kapital",
       "management": "Trimegah Asset Management, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Equity Fund"
     }
   ],
-  "version": "05/09/2022"
+  "version": "06/09/2022"
 }
