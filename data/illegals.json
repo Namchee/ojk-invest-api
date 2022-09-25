@@ -92366,7 +92366,214 @@
       ],
       "input_date": "26/08/2022",
       "description": ""
+    },
+    {
+      "id": 5500,
+      "name": "PT Multi Mitra Mandiri Bersatu",
+      "alias": [],
+      "address": [],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Investasi Ilegal",
+      "activity_type": [
+        "Lain Lain"
+      ],
+      "input_date": "15/08/2022",
+      "description": ""
+    },
+    {
+      "id": 5501,
+      "name": "Boke Financial Limited",
+      "alias": [],
+      "address": [],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Investasi Ilegal",
+      "activity_type": [
+        "Lain Lain"
+      ],
+      "input_date": "15/08/2022",
+      "description": ""
+    },
+    {
+      "id": 5502,
+      "name": "Yayasan Shanti Bhakti Amertha",
+      "alias": [
+        "Duplikasi nama Yayasan Shanti Bhakti Amertha"
+      ],
+      "address": [],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Investasi Ilegal",
+      "activity_type": [
+        "Lain Lain"
+      ],
+      "input_date": "15/08/2022",
+      "description": ""
+    },
+    {
+      "id": 5503,
+      "name": "PT Royal Cipta Properti",
+      "alias": [],
+      "address": [],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Investasi Ilegal",
+      "activity_type": [
+        "Money Game",
+        "Ponzi"
+      ],
+      "input_date": "15/08/2022",
+      "description": ""
+    },
+    {
+      "id": 5504,
+      "name": "PT Niscaya Sitindo",
+      "alias": [],
+      "address": [],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Investasi Ilegal",
+      "activity_type": [
+        "Money Game",
+        "Ponzi"
+      ],
+      "input_date": "15/08/2022",
+      "description": ""
+    },
+    {
+      "id": 5505,
+      "name": "FIRSTSOLARIDN.com",
+      "alias": [],
+      "address": [],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Investasi Ilegal",
+      "activity_type": [
+        "Money Game",
+        "Ponzi"
+      ],
+      "input_date": "15/08/2022",
+      "description": ""
+    },
+    {
+      "id": 5506,
+      "name": "OINVESTASI",
+      "alias": [
+        "Oi Otomotif Investasi"
+      ],
+      "address": [],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Investasi Ilegal",
+      "activity_type": [
+        "Money Game",
+        "Ponzi"
+      ],
+      "input_date": "15/08/2022",
+      "description": ""
+    },
+    {
+      "id": 5507,
+      "name": "OXTRADE",
+      "alias": [],
+      "address": [],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Investasi Ilegal",
+      "activity_type": [
+        "Forex",
+        "Futures"
+      ],
+      "input_date": "15/08/2022",
+      "description": ""
+    },
+    {
+      "id": 5508,
+      "name": "PT Vestifarm Agro Indonesia vestifarm.com",
+      "alias": [],
+      "address": [],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Investasi Ilegal",
+      "activity_type": [
+        "Lain Lain"
+      ],
+      "input_date": "15/08/2022",
+      "description": ""
+    },
+    {
+      "id": 5509,
+      "name": "Almira Grup",
+      "alias": [],
+      "address": [],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Investasi Ilegal",
+      "activity_type": [
+        "Crytocurrency",
+        "Cryptoasset"
+      ],
+      "input_date": "15/08/2022",
+      "description": ""
+    },
+    {
+      "id": 5510,
+      "name": "Redford",
+      "alias": [],
+      "address": [],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Investasi Ilegal",
+      "activity_type": [
+        "Crytocurrency",
+        "Cryptoasset"
+      ],
+      "input_date": "15/08/2022",
+      "description": ""
+    },
+    {
+      "id": 5511,
+      "name": "Pi Network Indonesia",
+      "alias": [],
+      "address": [],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Investasi Ilegal",
+      "activity_type": [
+        "Crytocurrency",
+        "Cryptoasset"
+      ],
+      "input_date": "15/08/2022",
+      "description": ""
+    },
+    {
+      "id": 5512,
+      "name": "Yayasan Surya Nuswantara",
+      "alias": [],
+      "address": [],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Investasi Ilegal",
+      "activity_type": [
+        "Lain Lain"
+      ],
+      "input_date": "15/08/2022",
+      "description": ""
     }
   ],
-  "version": "20/09/2022"
+  "version": "25/09/2022"
 }
