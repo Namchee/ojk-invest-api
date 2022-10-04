@@ -5219,7 +5219,7 @@
       "id": 746,
       "name": "REKSA DANA HPAM PASAR UANG DINAMIS",
       "management": "Henan Putihrai Asset Management, PT",
-      "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
+      "custodian": "BANK BUKOPIN - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
@@ -25334,5 +25334,5 @@
       "type": "Equity Fund"
     }
   ],
-  "version": "03/10/2022"
+  "version": "04/10/2022"
 }
