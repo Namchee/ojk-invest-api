@@ -8579,7 +8579,7 @@
       "id": 1226,
       "name": "REKSA DANA PASAR UANG UOBAM DANA RUPIAH",
       "management": "UOB Asset Management Indonesia, PT",
-      "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
+      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Money Market Fund"
     },
     {
@@ -25362,5 +25362,5 @@
       "type": "Equity Fund"
     }
   ],
-  "version": "09/10/2022"
+  "version": "10/10/2022"
 }
