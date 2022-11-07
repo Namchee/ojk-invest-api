@@ -10922,31 +10922,31 @@
     },
     {
       "id": 1561,
-      "name": "REKSA DANA STAR FIXED INCOME II",
-      "management": "Surya Timur Alam Raya Asset Management, PT",
-      "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
-      "type": "Fixed Income Fund"
-    },
-    {
-      "id": 1562,
       "name": "Reksa Dana STAR Money Market",
       "management": "Surya Timur Alam Raya Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 1563,
+      "id": 1562,
       "name": "REKSA DANA STAR MONEY MARKET II",
       "management": "Surya Timur Alam Raya Asset Management, PT",
       "custodian": "PT KEB Hana Bank Indonesia",
       "type": "Money Market Fund"
     },
     {
-      "id": 1564,
+      "id": 1563,
       "name": "REKSA DANA STAR MONEY MARKET III",
       "management": "Surya Timur Alam Raya Asset Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
+    },
+    {
+      "id": 1564,
+      "name": "REKSA DANA STAR STABLE INCOME FUND",
+      "management": "Surya Timur Alam Raya Asset Management, PT",
+      "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
+      "type": "Fixed Income Fund"
     },
     {
       "id": 1565,
@@ -25439,5 +25439,5 @@
       "type": "Equity Fund"
     }
   ],
-  "version": "05/11/2022"
+  "version": "07/11/2022"
 }
