@@ -7270,7 +7270,7 @@
       "id": 1039,
       "name": "REKSA DANA MANULIFE DANA SAHAM UTAMA",
       "management": "Manulife Aset Manajemen Indonesia, PT",
-      "custodian": "CITIBANK N. A. - CUSTODY",
+      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Equity Fund"
     },
     {
@@ -25537,5 +25537,5 @@
       "type": "Equity Fund"
     }
   ],
-  "version": "27/11/2022"
+  "version": "28/11/2022"
 }
