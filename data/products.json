@@ -2424,7 +2424,7 @@
     },
     {
       "id": 347,
-      "name": "Reksa Dana Ashmore Providentia Balanced Nusantara",
+      "name": "REKSA DANA ASHMORE PROGRESSIVE BALANCED NUSANTARA",
       "management": "PT Ashmore Asset Management Indonesia, Tbk",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Mixed Asset Fund"
@@ -6428,7 +6428,7 @@
     },
     {
       "id": 919,
-      "name": "REKSA DANA INSIGHT TUNAS BANGSA BALANCED FUND 2",
+      "name": "REKSA DANA INSIGHT TUNAS BANGSA FUND 2 I NEXT G 2",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
@@ -25677,5 +25677,5 @@
       "type": "Equity Fund"
     }
   ],
-  "version": "10/12/2022"
+  "version": "12/12/2022"
 }
