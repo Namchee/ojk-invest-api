@@ -422,88 +422,82 @@
     },
     {
       "id": 71,
-      "name": "PRINCIPAL ID",
-      "url": "https://www.principal.co.id/",
-      "owner": "PT Principal Asset Management"
-    },
-    {
-      "id": 72,
       "name": "Profunds",
       "url": "https://www.poems.co.id/Profunds",
       "owner": "PT Philips Securities Indonesia"
     },
     {
-      "id": 73,
+      "id": 72,
       "name": "SAM",
       "url": "https://www.reksadanasam.co.id",
       "owner": "PT Samuel Aset Manajemen"
     },
     {
-      "id": 74,
+      "id": 73,
       "name": "Rol.sinarmas-am.co.id",
       "url": "http://rol.sinarmas-am.co.id",
       "owner": "PT Sinarmas Asset Management"
     },
     {
-      "id": 75,
+      "id": 74,
       "name": "Si Jago",
       "url": "https://sijago.pnmim.com",
       "owner": "PT PNM Investment Management"
     },
     {
-      "id": 76,
+      "id": 75,
       "name": "Sinar Bahana",
       "url": "https://www.sinar.bahanatcw.com",
       "owner": "PT Bahana TCW Investment Management"
     },
     {
-      "id": 77,
+      "id": 76,
       "name": "SPOR",
       "url": "http://spor.sucorinvestam.com",
       "owner": "PT Sucorinvest Asset Management"
     },
     {
-      "id": 78,
+      "id": 77,
       "name": "SRI Online",
       "url": "https://www.supermarketreksadana.com",
       "owner": "PT Supermarket Reksadana Indonesia"
     },
     {
-      "id": 79,
+      "id": 78,
       "name": "Tanam Duit",
       "url": "https://www.tanamduit.com",
       "owner": "PT Star Mercato Capitale"
     },
     {
-      "id": 80,
+      "id": 79,
       "name": "Tokopedia",
       "url": "http://www.tokopedia.com/reksa-dana/",
       "owner": "PT Tokopedia - PT Bareksa Portal Investasi"
     },
     {
-      "id": 81,
+      "id": 80,
       "name": "Trima Trimegah",
       "url": "http://trima.trimegah.com/produk-layanan/reksa-dana/",
       "owner": "PT Trimegah Securities"
     },
     {
-      "id": 82,
+      "id": 81,
       "name": "Artha Investa Teknologi",
       "url": "https://www.arthainvestasiteknologi.co.id",
       "owner": "PT Artha Investa Teknologi"
     },
     {
-      "id": 83,
+      "id": 82,
       "name": "Xdana",
       "url": "http://xdana.com",
       "owner": "PT Xdana Investa Indonesia"
     },
     {
-      "id": 84,
+      "id": 83,
       "name": "YO! Inves",
       "url": "https://www.syailendracapital.com/investasi-sekarang",
       "owner": "PT Syailendra Capital"
     }
   ],
-  "version": "14/12/2022"
+  "version": "16/12/2022"
 }
