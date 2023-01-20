@@ -8103,7 +8103,7 @@
       "id": 1158,
       "name": "REKSA DANA MNC DANA PASAR UANG",
       "management": "MNC Asset Management, PT",
-      "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
+      "custodian": "BANK BUKOPIN - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
@@ -26020,5 +26020,5 @@
       "type": "Equity Fund"
     }
   ],
-  "version": "19/01/2023"
+  "version": "20/01/2023"
 }
