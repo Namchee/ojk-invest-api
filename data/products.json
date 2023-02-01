@@ -11029,7 +11029,7 @@
       "id": 1576,
       "name": "REKSA DANA SIMAS PENDAPATAN OPTIMA",
       "management": "Sinarmas Asset Management, PT",
-      "custodian": "PT KEB Hana Bank Indonesia",
+      "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
@@ -26020,5 +26020,5 @@
       "type": "Equity Fund"
     }
   ],
-  "version": "31/01/2023"
+  "version": "01/02/2023"
 }
