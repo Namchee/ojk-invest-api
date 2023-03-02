@@ -99,7 +99,7 @@
     {
       "id": 17,
       "name": "SayaKaya",
-      "url": "https://www.sayakaya.id",
+      "url": "http://sayakaya.id",
       "owner": "PT Sayakaya Lahir Batin"
     },
     {
@@ -511,5 +511,5 @@
       "owner": "PT Syailendra Capital"
     }
   ],
-  "version": "01/03/2023"
+  "version": "02/03/2023"
 }
