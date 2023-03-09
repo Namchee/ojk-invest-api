@@ -6491,14 +6491,14 @@
     },
     {
       "id": 928,
-      "name": "REKSA DANA INSIGHT TUNAS BANGSA",
+      "name": "REKSA DANA INSIGHT TUNAS BANGSA BALANCED FUND 2 I NEXT G 2",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
       "id": 929,
-      "name": "REKSA DANA INSIGHT TUNAS BANGSA BALANCED FUND 2 I NEXT G 2",
+      "name": "REKSA DANA INSIGHT TUNAS BANGSA I NEXT G",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
@@ -26048,5 +26048,5 @@
       "type": "Equity Fund"
     }
   ],
-  "version": "07/03/2023"
+  "version": "09/03/2023"
 }
