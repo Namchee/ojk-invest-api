@@ -94936,23 +94936,6 @@
     },
     {
       "id": 5633,
-      "name": "Jenfi",
-      "alias": [],
-      "address": [],
-      "web": [
-        "https://jenfi.com/id"
-      ],
-      "email": [],
-      "phone": [],
-      "entity_type": "Investasi Ilegal",
-      "activity_type": [
-        "Lain Lain"
-      ],
-      "input_date": "10/10/2022",
-      "description": ""
-    },
-    {
-      "id": 5634,
       "name": "PT Infinity Financial Services",
       "alias": [],
       "address": [],
@@ -94967,7 +94950,7 @@
       "description": ""
     },
     {
-      "id": 5635,
+      "id": 5634,
       "name": "Dana Segera Pinjam Uang",
       "alias": [],
       "address": [],
@@ -94986,7 +94969,7 @@
       "description": ""
     },
     {
-      "id": 5636,
+      "id": 5635,
       "name": "Pinjaman Tunai-Cepet Cash Dana zeli 4,3 star",
       "alias": [],
       "address": [],
@@ -95004,7 +94987,7 @@
       "description": ""
     },
     {
-      "id": 5637,
+      "id": 5636,
       "name": "KreditCepat - Dapat dipercaya",
       "alias": [],
       "address": [],
@@ -95025,7 +95008,7 @@
       "description": ""
     },
     {
-      "id": 5638,
+      "id": 5637,
       "name": "Daun Hijau - pinjaman online",
       "alias": [],
       "address": [
@@ -95048,7 +95031,7 @@
       "description": ""
     },
     {
-      "id": 5639,
+      "id": 5638,
       "name": "PINJOL KAMI - Pinjaman Cair",
       "alias": [],
       "address": [],
@@ -95067,7 +95050,7 @@
       "description": ""
     },
     {
-      "id": 5640,
+      "id": 5639,
       "name": "DigiPinjam - aman dan cepat",
       "alias": [],
       "address": [],
@@ -95089,7 +95072,7 @@
       "description": ""
     },
     {
-      "id": 5641,
+      "id": 5640,
       "name": "Findaya - Pinjam Online OJK",
       "alias": [
         "pencatutan"
@@ -95111,7 +95094,7 @@
       "description": ""
     },
     {
-      "id": 5642,
+      "id": 5641,
       "name": "Dana Sayang - dompet digital",
       "alias": [],
       "address": [],
@@ -95132,7 +95115,7 @@
       "description": ""
     },
     {
-      "id": 5643,
+      "id": 5642,
       "name": "Tujuh Pinjaman",
       "alias": [],
       "address": [],
@@ -95149,7 +95132,7 @@
       "description": ""
     },
     {
-      "id": 5644,
+      "id": 5643,
       "name": "Uang Beruntung",
       "alias": [],
       "address": [],
@@ -95166,7 +95149,7 @@
       "description": ""
     },
     {
-      "id": 5645,
+      "id": 5644,
       "name": "Saku Penuh",
       "alias": [],
       "address": [],
@@ -95183,7 +95166,7 @@
       "description": ""
     },
     {
-      "id": 5646,
+      "id": 5645,
       "name": "Simpan Uang",
       "alias": [],
       "address": [],
@@ -95200,7 +95183,7 @@
       "description": ""
     },
     {
-      "id": 5647,
+      "id": 5646,
       "name": "Suasana Hijau",
       "alias": [],
       "address": [],
@@ -95217,7 +95200,7 @@
       "description": ""
     },
     {
-      "id": 5648,
+      "id": 5647,
       "name": "pinjaman tepuk",
       "alias": [],
       "address": [],
@@ -95234,7 +95217,7 @@
       "description": ""
     },
     {
-      "id": 5649,
+      "id": 5648,
       "name": "EasyCash - Pinjaman Online Pencatutan",
       "alias": [],
       "address": [],
@@ -95255,7 +95238,7 @@
       "description": ""
     },
     {
-      "id": 5650,
+      "id": 5649,
       "name": "Dompet Mudah - Pinjam Cepat",
       "alias": [],
       "address": [],
@@ -95274,7 +95257,7 @@
       "description": ""
     },
     {
-      "id": 5651,
+      "id": 5650,
       "name": "Dompet Ku - Pinjaman Cepat",
       "alias": [],
       "address": [],
@@ -95294,7 +95277,7 @@
       "description": ""
     },
     {
-      "id": 5652,
+      "id": 5651,
       "name": "Newer Dompet - Bantuan Cash",
       "alias": [],
       "address": [
@@ -95316,7 +95299,7 @@
       "description": ""
     },
     {
-      "id": 5653,
+      "id": 5652,
       "name": "Super Dana - Aman Duit",
       "alias": [],
       "address": [],
@@ -95337,7 +95320,7 @@
       "description": ""
     },
     {
-      "id": 5654,
+      "id": 5653,
       "name": "Dana Pratama - Pinjaman Online dahulu Dana Pratama - Pinjaman Online Cepat Cair",
       "alias": [],
       "address": [
@@ -95361,7 +95344,7 @@
       "description": ""
     },
     {
-      "id": 5655,
+      "id": 5654,
       "name": "Dana Ribu - Pinjaman Online",
       "alias": [],
       "address": [],
@@ -95382,7 +95365,7 @@
       "description": ""
     },
     {
-      "id": 5656,
+      "id": 5655,
       "name": "Duit Aman - Pinjaman nyaman",
       "alias": [],
       "address": [],
@@ -95401,7 +95384,7 @@
       "description": ""
     },
     {
-      "id": 5657,
+      "id": 5656,
       "name": "Dana Kita - KAT Cepat Online",
       "alias": [],
       "address": [],
@@ -95422,7 +95405,7 @@
       "description": ""
     },
     {
-      "id": 5658,
+      "id": 5657,
       "name": "Pinjaman online WOW",
       "alias": [],
       "address": [],
@@ -95443,7 +95426,7 @@
       "description": ""
     },
     {
-      "id": 5659,
+      "id": 5658,
       "name": "Pinjam Mudah - Uang Online",
       "alias": [],
       "address": [],
@@ -95464,7 +95447,7 @@
       "description": ""
     },
     {
-      "id": 5660,
+      "id": 5659,
       "name": "Pinjamanplus - Bunga Rendah dahulu Pinjamanplus - Pinjaman Uang Online Dana Cepat Cair",
       "alias": [],
       "address": [],
@@ -95484,7 +95467,7 @@
       "description": ""
     },
     {
-      "id": 5661,
+      "id": 5660,
       "name": "RupiahLagi",
       "alias": [],
       "address": [],
@@ -95505,7 +95488,7 @@
       "description": ""
     },
     {
-      "id": 5662,
+      "id": 5661,
       "name": "Pinjaman Ekspres Kapal Selam",
       "alias": [],
       "address": [],
@@ -95525,7 +95508,7 @@
       "description": ""
     },
     {
-      "id": 5663,
+      "id": 5662,
       "name": "360 pinjaman",
       "alias": [],
       "address": [],
@@ -95545,7 +95528,7 @@
       "description": ""
     },
     {
-      "id": 5664,
+      "id": 5663,
       "name": "Pinjaman Cepat - Pinjaman Uang dahlu Pinjaman Cepat - Pinjaman Uang Tunai Dana Cepat",
       "alias": [],
       "address": [],
@@ -95565,7 +95548,7 @@
       "description": ""
     },
     {
-      "id": 5665,
+      "id": 5664,
       "name": "OranyePinjaman Cepat",
       "alias": [],
       "address": [],
@@ -95586,7 +95569,7 @@
       "description": ""
     },
     {
-      "id": 5666,
+      "id": 5665,
       "name": "Tunai KilatPinjaman Tunai",
       "alias": [],
       "address": [],
@@ -95608,7 +95591,7 @@
       "description": ""
     },
     {
-      "id": 5667,
+      "id": 5666,
       "name": "Pinjaman Cepat AK",
       "alias": [],
       "address": [],
@@ -95629,7 +95612,7 @@
       "description": ""
     },
     {
-      "id": 5668,
+      "id": 5667,
       "name": "Sumber Solusi Terdepan - Cepat dahulu Dewa Penolong - Pinjaman easy",
       "alias": [],
       "address": [],
@@ -95650,7 +95633,7 @@
       "description": ""
     },
     {
-      "id": 5669,
+      "id": 5668,
       "name": "Pinjaman Aman - KTA Terpercaya dahulu Pinjaman Aman – Pinjaman Online Dana Rupiah",
       "alias": [],
       "address": [
@@ -95671,7 +95654,7 @@
       "description": ""
     },
     {
-      "id": 5670,
+      "id": 5669,
       "name": "Pinjaman Petir – Bunga Rendah",
       "alias": [],
       "address": [],
@@ -95691,7 +95674,7 @@
       "description": ""
     },
     {
-      "id": 5671,
+      "id": 5670,
       "name": "Harimau Kecil - Pinjaman Cepat",
       "alias": [],
       "address": [],
@@ -95711,7 +95694,7 @@
       "description": ""
     },
     {
-      "id": 5672,
+      "id": 5671,
       "name": "Pinjaman Tunai Red Sun",
       "alias": [],
       "address": [],
@@ -95733,7 +95716,7 @@
       "description": ""
     },
     {
-      "id": 5673,
+      "id": 5672,
       "name": "Rupiah Cepat Cair Pinjol Advic",
       "alias": [
         "Pencatutan"
@@ -95757,7 +95740,7 @@
       "description": ""
     },
     {
-      "id": 5674,
+      "id": 5673,
       "name": "Uang Pinjam Online Dana Cepat dahulu Uang PinjamPinjaman Dana Cepat Cash Tunai Online",
       "alias": [
         "Uang Pinjam Pinjam Dana Cepat"
@@ -95781,7 +95764,7 @@
       "description": ""
     },
     {
-      "id": 5675,
+      "id": 5674,
       "name": "Dana Aman - KTA Bunga Rendah dahulu Dana Aman – Pinjaman Online Uang Tunai Bunga Rendah",
       "alias": [],
       "address": [],
@@ -95804,7 +95787,7 @@
       "description": ""
     },
     {
-      "id": 5676,
+      "id": 5675,
       "name": "Pinjaman Cepat F&1",
       "alias": [],
       "address": [
@@ -95826,7 +95809,7 @@
       "description": ""
     },
     {
-      "id": 5677,
+      "id": 5676,
       "name": "Dompet Emas Pinjama uang cepat",
       "alias": [],
       "address": [],
@@ -95849,7 +95832,7 @@
       "description": ""
     },
     {
-      "id": 5678,
+      "id": 5677,
       "name": "BoomPitih",
       "alias": [],
       "address": [
@@ -95870,7 +95853,7 @@
       "description": ""
     },
     {
-      "id": 5679,
+      "id": 5678,
       "name": "Siput Energi",
       "alias": [],
       "address": [
@@ -95889,7 +95872,7 @@
       "description": ""
     },
     {
-      "id": 5680,
+      "id": 5679,
       "name": "Telur Rebus",
       "alias": [],
       "address": [
@@ -95908,7 +95891,7 @@
       "description": ""
     },
     {
-      "id": 5681,
+      "id": 5680,
       "name": "Telur Rebus",
       "alias": [],
       "address": [
@@ -95929,7 +95912,7 @@
       "description": ""
     },
     {
-      "id": 5682,
+      "id": 5681,
       "name": "DuniaSaku",
       "alias": [],
       "address": [
@@ -95950,7 +95933,7 @@
       "description": ""
     },
     {
-      "id": 5683,
+      "id": 5682,
       "name": "Bantu Cepat Pinjaman Tips",
       "alias": [],
       "address": [],
@@ -95973,7 +95956,7 @@
       "description": ""
     },
     {
-      "id": 5684,
+      "id": 5683,
       "name": "Bantu Cepat Pinjaman Guide",
       "alias": [],
       "address": [
@@ -95995,7 +95978,7 @@
       "description": ""
     },
     {
-      "id": 5685,
+      "id": 5684,
       "name": "Dana Darurat - Kredit Tunai",
       "alias": [],
       "address": [],
@@ -96018,7 +96001,7 @@
       "description": ""
     },
     {
-      "id": 5686,
+      "id": 5685,
       "name": "Dana Darurat Pinjaman Guide",
       "alias": [],
       "address": [],
@@ -96038,7 +96021,7 @@
       "description": ""
     },
     {
-      "id": 5687,
+      "id": 5686,
       "name": "Tunai Cair - Pinjaman Kredit",
       "alias": [],
       "address": [],
@@ -96060,7 +96043,7 @@
       "description": ""
     },
     {
-      "id": 5688,
+      "id": 5687,
       "name": "Tunai Cair",
       "alias": [],
       "address": [],
@@ -96077,7 +96060,7 @@
       "description": ""
     },
     {
-      "id": 5689,
+      "id": 5688,
       "name": "Tunai Cair Pinjaman Guide",
       "alias": [],
       "address": [],
@@ -96094,7 +96077,7 @@
       "description": ""
     },
     {
-      "id": 5690,
+      "id": 5689,
       "name": "Tunai Cair Pinjaman Uang Hint",
       "alias": [],
       "address": [],
@@ -96112,7 +96095,7 @@
       "description": ""
     },
     {
-      "id": 5691,
+      "id": 5690,
       "name": "Uang datang",
       "alias": [],
       "address": [],
@@ -96129,7 +96112,7 @@
       "description": ""
     },
     {
-      "id": 5692,
+      "id": 5691,
       "name": "Mari Pinjam",
       "alias": [],
       "address": [],
@@ -96146,7 +96129,7 @@
       "description": ""
     },
     {
-      "id": 5693,
+      "id": 5692,
       "name": "Kredit Mudah – Uang Kilat",
       "alias": [],
       "address": [],
@@ -96166,7 +96149,7 @@
       "description": ""
     },
     {
-      "id": 5694,
+      "id": 5693,
       "name": "Super Rupiah - Aman dan cepat",
       "alias": [],
       "address": [],
@@ -96185,7 +96168,7 @@
       "description": ""
     },
     {
-      "id": 5695,
+      "id": 5694,
       "name": "Dompet Kilat - Pinjam Online",
       "alias": [
         "Pencatutan"
@@ -96209,7 +96192,7 @@
       "description": ""
     },
     {
-      "id": 5696,
+      "id": 5695,
       "name": "Pinjaman soto",
       "alias": [],
       "address": [],
@@ -96226,7 +96209,7 @@
       "description": ""
     },
     {
-      "id": 5697,
+      "id": 5696,
       "name": "Easy Go",
       "alias": [],
       "address": [],
@@ -96243,7 +96226,7 @@
       "description": ""
     },
     {
-      "id": 5698,
+      "id": 5697,
       "name": "Berikan Dana",
       "alias": [],
       "address": [],
@@ -96260,7 +96243,7 @@
       "description": ""
     },
     {
-      "id": 5699,
+      "id": 5698,
       "name": "Tunai Boom",
       "alias": [],
       "address": [],
@@ -96277,7 +96260,7 @@
       "description": ""
     },
     {
-      "id": 5700,
+      "id": 5699,
       "name": "Dana boom",
       "alias": [],
       "address": [],
@@ -96294,7 +96277,7 @@
       "description": ""
     },
     {
-      "id": 5701,
+      "id": 5700,
       "name": "Kredit Penuh-Pinjaman Cash",
       "alias": [],
       "address": [],
@@ -96316,7 +96299,7 @@
       "description": ""
     },
     {
-      "id": 5702,
+      "id": 5701,
       "name": "DearRupiah-Kredit Uang Kilat",
       "alias": [],
       "address": [],
@@ -96337,7 +96320,7 @@
       "description": ""
     },
     {
-      "id": 5703,
+      "id": 5702,
       "name": "Dear Rupiah Pinjaman Guide",
       "alias": [],
       "address": [],
@@ -96357,7 +96340,7 @@
       "description": ""
     },
     {
-      "id": 5704,
+      "id": 5703,
       "name": "Pinjaman Pudah",
       "alias": [],
       "address": [],
@@ -96378,7 +96361,7 @@
       "description": ""
     },
     {
-      "id": 5705,
+      "id": 5704,
       "name": "KA Pinjaman Online Cepat",
       "alias": [],
       "address": [],
@@ -96398,7 +96381,7 @@
       "description": ""
     },
     {
-      "id": 5706,
+      "id": 5705,
       "name": "Kilat Rupiah - Quick & Safe",
       "alias": [],
       "address": [],
@@ -96419,7 +96402,7 @@
       "description": ""
     },
     {
-      "id": 5707,
+      "id": 5706,
       "name": "Pinjaman Online CKE",
       "alias": [],
       "address": [],
@@ -96439,7 +96422,7 @@
       "description": ""
     },
     {
-      "id": 5708,
+      "id": 5707,
       "name": "Kilat Kas-Kita Pinjama Credit",
       "alias": [],
       "address": [],
@@ -96459,7 +96442,7 @@
       "description": ""
     },
     {
-      "id": 5709,
+      "id": 5708,
       "name": "Selamat Cash - Duit Aman",
       "alias": [],
       "address": [],
@@ -96480,7 +96463,7 @@
       "description": ""
     },
     {
-      "id": 5710,
+      "id": 5709,
       "name": "Platform Pinjaman Online XOT",
       "alias": [],
       "address": [],
@@ -96500,7 +96483,7 @@
       "description": ""
     },
     {
-      "id": 5711,
+      "id": 5710,
       "name": "CashWallet",
       "alias": [],
       "address": [],
@@ -96520,7 +96503,7 @@
       "description": ""
     },
     {
-      "id": 5712,
+      "id": 5711,
       "name": "Pinjaman Hoki-Uang Online",
       "alias": [],
       "address": [],
@@ -96542,7 +96525,7 @@
       "description": ""
     },
     {
-      "id": 5713,
+      "id": 5712,
       "name": "Pinjaman Cepat Online MK",
       "alias": [],
       "address": [],
@@ -96562,7 +96545,7 @@
       "description": ""
     },
     {
-      "id": 5714,
+      "id": 5713,
       "name": "Dana Impian",
       "alias": [],
       "address": [],
@@ -96584,7 +96567,7 @@
       "description": ""
     },
     {
-      "id": 5715,
+      "id": 5714,
       "name": "Dana Ceria",
       "alias": [],
       "address": [],
@@ -96603,7 +96586,7 @@
       "description": ""
     },
     {
-      "id": 5716,
+      "id": 5715,
       "name": "Timeshare Property",
       "alias": [],
       "address": [],
@@ -96618,7 +96601,7 @@
       "description": ""
     },
     {
-      "id": 5717,
+      "id": 5716,
       "name": "MSL-CF Arbah Capital",
       "alias": [],
       "address": [],
@@ -96635,7 +96618,7 @@
       "description": ""
     },
     {
-      "id": 5718,
+      "id": 5717,
       "name": "xtoko.co",
       "alias": [],
       "address": [],
@@ -96651,7 +96634,7 @@
       "description": ""
     },
     {
-      "id": 5719,
+      "id": 5718,
       "name": "https://h5.easygoid.com/guide",
       "alias": [],
       "address": [],
@@ -96668,7 +96651,7 @@
       "description": ""
     },
     {
-      "id": 5720,
+      "id": 5719,
       "name": "https://www.genesis-mining.com/",
       "alias": [],
       "address": [],
@@ -96686,7 +96669,7 @@
       "description": ""
     },
     {
-      "id": 5721,
+      "id": 5720,
       "name": "PT Data Saham Indonesia",
       "alias": [],
       "address": [],
@@ -96704,7 +96687,7 @@
       "description": ""
     },
     {
-      "id": 5722,
+      "id": 5721,
       "name": "PT Semesta Tekno Indoraya",
       "alias": [
         "cuanz"
@@ -96721,7 +96704,7 @@
       "description": ""
     },
     {
-      "id": 5723,
+      "id": 5722,
       "name": "QZ Asset Management",
       "alias": [],
       "address": [],
@@ -96736,7 +96719,7 @@
       "description": ""
     },
     {
-      "id": 5724,
+      "id": 5723,
       "name": "PT Syariah Investing",
       "alias": [],
       "address": [],
@@ -96753,7 +96736,7 @@
       "description": ""
     },
     {
-      "id": 5725,
+      "id": 5724,
       "name": "Gadai Mega Elektronik",
       "alias": [],
       "address": [
@@ -96770,7 +96753,7 @@
       "description": ""
     },
     {
-      "id": 5726,
+      "id": 5725,
       "name": "Triptoo Gadai",
       "alias": [],
       "address": [
@@ -96787,7 +96770,7 @@
       "description": ""
     },
     {
-      "id": 5727,
+      "id": 5726,
       "name": "Flobamora Gadai",
       "alias": [],
       "address": [
@@ -96804,7 +96787,7 @@
       "description": ""
     },
     {
-      "id": 5728,
+      "id": 5727,
       "name": "KSP Gadai",
       "alias": [],
       "address": [
@@ -96821,7 +96804,7 @@
       "description": ""
     },
     {
-      "id": 5729,
+      "id": 5728,
       "name": "KSP Gadai",
       "alias": [],
       "address": [
@@ -96846,7 +96829,7 @@
       "description": ""
     },
     {
-      "id": 5730,
+      "id": 5729,
       "name": "Pusat Gadai Indonesia",
       "alias": [],
       "address": [
@@ -96868,7 +96851,7 @@
       "description": ""
     },
     {
-      "id": 5731,
+      "id": 5730,
       "name": "Tosin Gadai",
       "alias": [],
       "address": [
@@ -96888,7 +96871,7 @@
       "description": ""
     },
     {
-      "id": 5732,
+      "id": 5731,
       "name": "Usaha Gadai Mandiri",
       "alias": [],
       "address": [
@@ -96907,7 +96890,7 @@
       "description": ""
     },
     {
-      "id": 5733,
+      "id": 5732,
       "name": "Gadai Syariah Berkat Bersama",
       "alias": [],
       "address": [
@@ -96927,7 +96910,7 @@
       "description": ""
     },
     {
-      "id": 5734,
+      "id": 5733,
       "name": "CAIRIN: Pinjol Cepat Tips Cair",
       "alias": [
         "Pencatutan"
@@ -96949,7 +96932,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5735,
+      "id": 5734,
       "name": "RUPIAH DANA CEPAT - Butuh Uang Tunai Tanpa Agunan",
       "alias": [],
       "address": [],
@@ -96967,7 +96950,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5736,
+      "id": 5735,
       "name": "Pasar KTA - Pinjaman Uang Online Cepat Dana Cair",
       "alias": [],
       "address": [
@@ -96989,7 +96972,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5737,
+      "id": 5736,
       "name": "Pasar KTA - Cepat Dana Tunai",
       "alias": [],
       "address": [
@@ -97012,7 +96995,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5738,
+      "id": 5737,
       "name": "Dompet pemula",
       "alias": [],
       "address": [
@@ -97035,7 +97018,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5739,
+      "id": 5738,
       "name": "Rupiah teman",
       "alias": [],
       "address": [],
@@ -97053,7 +97036,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5740,
+      "id": 5739,
       "name": "pasar cash",
       "alias": [],
       "address": [
@@ -97074,7 +97057,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5741,
+      "id": 5740,
       "name": "Rupiahku- Pinjaman Uang online",
       "alias": [],
       "address": [],
@@ -97093,7 +97076,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5742,
+      "id": 5741,
       "name": "Uang Pintar - Pinjaman kilat",
       "alias": [],
       "address": [],
@@ -97114,7 +97097,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5743,
+      "id": 5742,
       "name": "Kredit Berlian - Pinjaman Uang",
       "alias": [],
       "address": [
@@ -97139,7 +97122,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5744,
+      "id": 5743,
       "name": "Duit panaspinjaman online",
       "alias": [],
       "address": [],
@@ -97160,7 +97143,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5745,
+      "id": 5744,
       "name": "Uang Hoki",
       "alias": [],
       "address": [],
@@ -97177,7 +97160,7 @@
       "description": ""
     },
     {
-      "id": 5746,
+      "id": 5745,
       "name": "Dana Kejayaan - Uang Online",
       "alias": [],
       "address": [
@@ -97199,7 +97182,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5747,
+      "id": 5746,
       "name": "Aman Money - Mudah Cepat",
       "alias": [],
       "address": [
@@ -97221,7 +97204,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5748,
+      "id": 5747,
       "name": "Pinjaman Angsuran Ekspres",
       "alias": [],
       "address": [],
@@ -97241,7 +97224,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5749,
+      "id": 5748,
       "name": "Laut-Pinjaman Tanpa Jaminan",
       "alias": [],
       "address": [],
@@ -97262,7 +97245,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5750,
+      "id": 5749,
       "name": "Dana Uang - Pinjaman Kredit",
       "alias": [],
       "address": [],
@@ -97283,7 +97266,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5751,
+      "id": 5750,
       "name": "Pinjaman Duit – KTA Online",
       "alias": [],
       "address": [],
@@ -97304,7 +97287,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5752,
+      "id": 5751,
       "name": "PinjamNow",
       "alias": [],
       "address": [],
@@ -97326,7 +97309,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5753,
+      "id": 5752,
       "name": "Ringan Tunai - Dompet online",
       "alias": [],
       "address": [
@@ -97347,7 +97330,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5754,
+      "id": 5753,
       "name": "Hello Duit - Dana Happy",
       "alias": [],
       "address": [],
@@ -97368,7 +97351,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5755,
+      "id": 5754,
       "name": "Dana Flow- Pinjama dana cepat",
       "alias": [],
       "address": [],
@@ -97389,7 +97372,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5756,
+      "id": 5755,
       "name": "Dana Pro - Cepat Uang Dana",
       "alias": [],
       "address": [
@@ -97410,7 +97393,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5757,
+      "id": 5756,
       "name": "Pinjaman Boll",
       "alias": [],
       "address": [],
@@ -97431,7 +97414,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5758,
+      "id": 5757,
       "name": "Get Emas - Dana Cepat",
       "alias": [],
       "address": [],
@@ -97453,7 +97436,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5759,
+      "id": 5758,
       "name": "Rupiah Go- Pinjama Uang Cepat",
       "alias": [],
       "address": [],
@@ -97474,7 +97457,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5760,
+      "id": 5759,
       "name": "GO Rupiah - Kredit Uang Kilat",
       "alias": [],
       "address": [],
@@ -97495,7 +97478,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5761,
+      "id": 5760,
       "name": "Cash Bintang- Pinjaman Online",
       "alias": [],
       "address": [
@@ -97517,7 +97500,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5762,
+      "id": 5761,
       "name": "Dompet Now - Dapat dipercaya",
       "alias": [],
       "address": [],
@@ -97539,7 +97522,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5763,
+      "id": 5762,
       "name": "Pinjaman Angsuran Renren",
       "alias": [],
       "address": [],
@@ -97560,7 +97543,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5764,
+      "id": 5763,
       "name": "Pinjaman Tanpa Jaminan Rocket",
       "alias": [],
       "address": [],
@@ -97580,7 +97563,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5765,
+      "id": 5764,
       "name": "Permata Pinjaman Lebih Cepat",
       "alias": [],
       "address": [],
@@ -97600,7 +97583,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5766,
+      "id": 5765,
       "name": "AYO Bintang",
       "alias": [],
       "address": [
@@ -97624,7 +97607,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5767,
+      "id": 5766,
       "name": "Butler Emas- Pinjaman Cepat",
       "alias": [],
       "address": [],
@@ -97644,7 +97627,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5768,
+      "id": 5767,
       "name": "Platform Pinjaman Cepat SDK",
       "alias": [],
       "address": [],
@@ -97665,7 +97648,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5769,
+      "id": 5768,
       "name": "Platform pinjaman online Abe",
       "alias": [],
       "address": [],
@@ -97685,7 +97668,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5770,
+      "id": 5769,
       "name": "GoRupiah Plus",
       "alias": [],
       "address": [],
@@ -97705,7 +97688,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5771,
+      "id": 5770,
       "name": "Pinjaman Cepat Hhemat Waktu",
       "alias": [],
       "address": [],
@@ -97725,7 +97708,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5772,
+      "id": 5771,
       "name": "Pinjaman Uang-Indonesia Wallet",
       "alias": [],
       "address": [],
@@ -97746,7 +97729,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5773,
+      "id": 5772,
       "name": "Dana Instan - KTA Kilat Uang dahulu Dana Instan - Pinjaman Uang Tunai Rupiah",
       "alias": [],
       "address": [
@@ -97769,7 +97752,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5774,
+      "id": 5773,
       "name": "Dana Instan - KTA Kilat Uang dahulu Dana Instan - Pinjaman Uang Tunai Rupiah",
       "alias": [],
       "address": [
@@ -97791,7 +97774,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5775,
+      "id": 5774,
       "name": "Pinjaman Tunai Pribadi Terbang",
       "alias": [],
       "address": [],
@@ -97812,7 +97795,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5776,
+      "id": 5775,
       "name": "Wadah Uang - Pinjaman Online dengan Bunga Rendah",
       "alias": [],
       "address": [
@@ -97835,7 +97818,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5777,
+      "id": 5776,
       "name": "Cash Pro – Pinjaman Uang Tunai Online",
       "alias": [],
       "address": [
@@ -97858,7 +97841,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5778,
+      "id": 5777,
       "name": "Swan Pinjaman Tunai Pribadi",
       "alias": [],
       "address": [],
@@ -97878,7 +97861,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5779,
+      "id": 5778,
       "name": "Cash Cash",
       "alias": [],
       "address": [],
@@ -97897,7 +97880,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5780,
+      "id": 5779,
       "name": "Pinjaman Cepat Online RAC",
       "alias": [],
       "address": [],
@@ -97918,7 +97901,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5781,
+      "id": 5780,
       "name": "TemanUang",
       "alias": [],
       "address": [],
@@ -97940,7 +97923,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5782,
+      "id": 5781,
       "name": "Kontribusi Uang-Pinjaman aman",
       "alias": [],
       "address": [],
@@ -97961,7 +97944,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5783,
+      "id": 5782,
       "name": "Uang Mudah - Pinjam Dana Cepat",
       "alias": [],
       "address": [],
@@ -97982,7 +97965,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5784,
+      "id": 5783,
       "name": "PT Satu Solusi Intermedia Utama",
       "alias": [
         "Indonetwork"
@@ -97999,24 +97982,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5785,
-      "name": "PT Bina Asia Propertindo",
-      "alias": [
-        "Cicilsewa"
-      ],
-      "address": [],
-      "web": [],
-      "email": [],
-      "phone": [],
-      "entity_type": "Investasi Ilegal",
-      "activity_type": [
-        "Lain Lain"
-      ],
-      "input_date": "10/02/2023",
-      "description": "SP 01/SWI/II/2023"
-    },
-    {
-      "id": 5786,
+      "id": 5784,
       "name": "ourcitrusindo.com",
       "alias": [
         "duplikasi PT Gemilang Citrus Berjaya"
@@ -98033,7 +97999,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5787,
+      "id": 5785,
       "name": "Ayostore.id",
       "alias": [],
       "address": [],
@@ -98048,7 +98014,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5788,
+      "id": 5786,
       "name": "Realms of Ruby",
       "alias": [],
       "address": [],
@@ -98064,7 +98030,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5789,
+      "id": 5787,
       "name": "konsor.io",
       "alias": [],
       "address": [],
@@ -98080,7 +98046,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5790,
+      "id": 5788,
       "name": "Go-Star",
       "alias": [],
       "address": [],
@@ -98096,7 +98062,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5791,
+      "id": 5789,
       "name": "duplikasi Mego Supply Indonesia",
       "alias": [],
       "address": [],
@@ -98114,7 +98080,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5792,
+      "id": 5790,
       "name": "https://gold-mining.co/?G=&id=ARRAZZAQ01",
       "alias": [],
       "address": [],
@@ -98132,7 +98098,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5793,
+      "id": 5791,
       "name": "KGRS",
       "alias": [
         "Komunitas Gotong Royong Sejahtera"
@@ -98149,5 +98115,5 @@
       "description": "SP 01/SWI/II/2023"
     }
   ],
-  "version": "07/03/2023"
+  "version": "10/03/2023"
 }
