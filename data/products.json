@@ -11225,7 +11225,7 @@
       "id": 1604,
       "name": "REKSA DANA STAR MONEY MARKET III",
       "management": "Surya Timur Alam Raya Asset Management, PT",
-      "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
+      "custodian": "BANK BUKOPIN - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
@@ -26048,5 +26048,5 @@
       "type": "Equity Fund"
     }
   ],
-  "version": "16/03/2023"
+  "version": "17/03/2023"
 }
