@@ -11078,7 +11078,7 @@
       "id": 1583,
       "name": "REKSA DANA SIMAS DANAMAS INSTRUMEN NEGARA",
       "management": "Sinarmas Asset Management, PT",
-      "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
+      "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
@@ -26496,5 +26496,5 @@
       "type": "Equity Fund"
     }
   ],
-  "version": "18/05/2023"
+  "version": "19/05/2023"
 }
