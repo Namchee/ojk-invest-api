@@ -49,10 +49,12 @@ export default function(
       status = HTTPCodes.INVALID_PARAMS;
     }
 
+    const error = err as Error;
+
     return res.status(status)
       .json({
         data: null,
-        error: err.message,
+        error: error.message,
       });
   }
 }

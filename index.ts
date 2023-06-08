@@ -10,8 +10,19 @@ import { bootstrapOutput } from './src/services/writer';
   bootstrapOutput();
 
   const browser = await puppeteer.launch({
-    headless: true,
+    headless: true, // 'new' is much slower while bringing no benefits for now
     ignoreHTTPSErrors: true,
+    protocolTimeout: 0,
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+      '--disable-web-security',
+      '--disable-site-isolation-trials',
+      '--disable-notifications',
+      '--no-zygote',
+    ],
+    devtools: false,
   });
 
   try {
