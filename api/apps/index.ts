@@ -1,9 +1,9 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
-import { ValidationError } from '../../src/exceptions/validation';
+import { ValidationError } from '../../src/exceptions/validation.js';
 
-import { HTTPCodes } from '../../src/services/api/const';
-import { validateQuery } from './../../src/services/api/utils';
-import { getMany } from '../../src/services/api/app';
+import { HTTPCodes } from '../../src/services/api/const.js';
+import { validateQuery } from './../../src/services/api/utils.js';
+import { getMany } from '../../src/services/api/app.js';
 
 /**
  * Search for legal investments application from OJK's data

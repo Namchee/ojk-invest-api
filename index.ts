@@ -1,10 +1,12 @@
 import puppeteer from 'puppeteer';
 import { performance } from 'perf_hooks';
 
-import { IllegalsScrapper } from './src/services/scrapper/illegal';
-import { AppsScrapper } from './src/services/scrapper/app';
-import { ProductsScrapper } from './src/services/scrapper/product';
-import { bootstrapOutput } from './src/services/writer';
+import { IllegalsScrapper } from './src/services/scrapper/illegal.js';
+import { AppsScrapper } from './src/services/scrapper/app.js';
+import { ProductsScrapper } from './src/services/scrapper/product.js';
+import { bootstrapOutput } from './src/services/writer.js';
+
+import { ONE_SECOND } from './src/constant/time.js';
 
 (async () => {
   bootstrapOutput();
@@ -51,7 +53,7 @@ import { bootstrapOutput } from './src/services/writer';
     );
 
     const end = performance.now();
-    const delta = (end - start) / 1000;
+    const delta = (end - start) / ONE_SECOND;
 
     console.log(`All process was executed in ${(delta).toFixed(2)} s`);
   } catch (err) {

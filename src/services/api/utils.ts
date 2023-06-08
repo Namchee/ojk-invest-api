@@ -1,9 +1,9 @@
 import { resolve } from 'path';
 import { existsSync, readFileSync } from 'fs';
 
-import { ValidationError } from '../../exceptions/validation';
-import { Query, Params } from './const';
-import { Logger } from '../logger';
+import { ValidationError } from '../../exceptions/validation.js';
+import { Query, Params } from './const.js';
+import { Logger } from '../logger.js';
 
 /**
  * Validate user inputs and transform them into Query

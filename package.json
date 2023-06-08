@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Public API for OJK's investment data",
   "main": "dist/index.js",
+  "type": "module",
   "scripts": {
     "scrap": "node dist/index.js",
     "scrap:dev": "tsx index.ts",
@@ -21,17 +22,16 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@apollo/server": "^4.7.3",
+    "@as-integrations/next": "^2.0.0",
     "@namchee/decora": "^1.0.5",
     "@namchee/telepon": "1.0.5",
     "@sentry/node": "^6.1.0",
     "@sentry/tracing": "^6.1.0",
     "@vercel/node": "^1.13.0",
-    "apollo-server-errors": "^3.1.0",
-    "apollo-server-micro": "^3.6.3",
     "email-regex-safe": "^1.0.2",
     "graphql": "^16.6.0",
-    "micro": "^9.3.4",
-    "micro-cors": "^0.1.1",
+    "graphql-tag": "^2.12.6",
     "puppeteer": "^20.5.0"
   },
   "devDependencies": {

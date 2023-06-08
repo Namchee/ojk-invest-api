@@ -2,9 +2,12 @@ import { Browser, Page } from 'puppeteer';
 
 import { benchmark } from '@namchee/decora';
 
-import { Scrapper } from './scrapper';
-import { IllegalInvestment, parseInvestmentData } from '../../entity/illegal';
-import { writeResult } from '../writer';
+import { Scrapper } from './scrapper.js';
+import {
+  IllegalInvestment,
+  parseInvestmentData,
+} from '../../entity/illegal.js';
+import { writeResult } from '../writer.js';
 
 /**
  * Scrapper script to extract illegal investments data

@@ -1,11 +1,11 @@
 import { Browser, Page } from 'puppeteer';
 import { benchmark } from '@namchee/decora';
 
-import { writeResult } from '../writer';
+import { writeResult } from '../writer.js';
 
-import { Scrapper } from './scrapper';
-import { App } from '../../entity/app';
-import { TextProcessor } from '../processor';
+import { Scrapper } from './scrapper.js';
+import { App } from '../../entity/app.js';
+import { TextProcessor } from '../processor.js';
 
 
 /**

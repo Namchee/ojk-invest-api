@@ -1,9 +1,9 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
 
-import { ValidationError } from '../../src/exceptions/validation';
-import { HTTPCodes } from '../../src/services/api/const';
-import { validateParam } from './../../src/services/api/utils';
-import { getOne } from '../../src/services/api/app';
+import { ValidationError } from '../../src/exceptions/validation.js';
+import { HTTPCodes } from '../../src/services/api/const.js';
+import { validateParam } from './../../src/services/api/utils.js';
+import { getOne } from '../../src/services/api/app.js';
 
 /**
  * Search for a legal investments application from OJK's data
@@ -47,10 +47,12 @@ export default function(
       status = HTTPCodes.INVALID_PARAMS;
     }
 
+    const error = err as Error;
+
     return res.status(status)
       .json({
         data: null,
-        error: err.message,
+        error: error.message,
       });
   }
 }

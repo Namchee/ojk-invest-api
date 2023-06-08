@@ -1,9 +1,7 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
-import { ValidationError } from 'apollo-server-errors';
 
-import { getVersion } from '../src/services/api/version';
-import { HTTPCodes } from '../src/services/api/const';
-
+import { getVersion } from '../src/services/api/version.js';
+import { HTTPCodes } from '../src/services/api/const.js';
 
 /**
  * Get data version from the API
@@ -32,15 +30,11 @@ export default async function(
         error: null,
       });
   } catch (err) {
-    let status = HTTPCodes.SERVER_ERROR;
-
-    if (err instanceof ValidationError) {
-      status = HTTPCodes.INVALID_PARAMS;
-    }
-
     const error = err as Error;
 
-    return res.status(status)
+    console.log(error);
+
+    return res.status(HTTPCodes.SERVER_ERROR)
       .json({
         data: null,
         error: error.message,
