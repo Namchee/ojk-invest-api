@@ -1,4 +1,5 @@
-import { Browser, Page } from 'puppeteer';
+import type { Browser, Page } from 'puppeteer';
+
 import { benchmark } from '@namchee/decora';
 
 import { writeResult } from '../writer.js';

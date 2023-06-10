@@ -1,4 +1,5 @@
 import puppeteer from 'puppeteer';
+
 import { performance } from 'perf_hooks';
 
 import { IllegalsScrapper } from './src/services/scrapper/illegal.js';
@@ -56,8 +57,6 @@ import { ONE_SECOND } from './src/constant/time.js';
     const delta = (end - start) / ONE_SECOND;
 
     console.log(`All process was executed in ${(delta).toFixed(2)} s`);
-  } catch (err) {
-    throw err;
   } finally {
     await browser.close();
   }
