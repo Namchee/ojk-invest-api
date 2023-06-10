@@ -1,7 +1,7 @@
 import { resolve } from 'path';
 import { existsSync, mkdirSync, writeFileSync } from 'fs';
 
-import { ScrappingResult } from './scrapper/scrapper';
+import { ScrappingResult } from './scrapper/scrapper.js';
 
 /**
  * Write scrapper output to a JSON file

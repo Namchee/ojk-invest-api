@@ -1,36 +1,13 @@
-import { ApolloServer } from 'apollo-server-micro';
+import { ApolloServer } from '@apollo/server';
+import { startServerAndCreateNextHandler } from '@as-integrations/next';
 
-import CORS from 'micro-cors';
-
-import { typeDefs } from './../src/graphql/type-defs';
-import { resolvers } from './../src/graphql/resolver';
-
-// TypeScript type hack
-const {
-  ApolloServerPluginLandingPageGraphQLPlayground,
-} = require('apollo-server-core');
-
-// eslint-disable-next-line new-cap
-const cors = CORS();
+import { typeDefs } from './../src/graphql/type-defs.js';
+import { resolvers } from './../src/graphql/resolver.js';
 
 const server = new ApolloServer({
-  typeDefs,
   resolvers,
-  plugins: [
-    // eslint-disable-next-line new-cap
-    ApolloServerPluginLandingPageGraphQLPlayground(),
-  ],
-  introspection: true,
+  typeDefs,
 });
 
-const start = server.start();
+export default startServerAndCreateNextHandler(server);
 
-export default cors(async (req, res) => {
-  if (req.method === 'OPTIONS') {
-    res.end();
-    return false;
-  }
-
-  await start;
-  await server.createHandler({ path: '/api/graphql' })(req, res);
-});

@@ -1,10 +1,10 @@
-import { Browser, Page } from 'puppeteer';
+import type { Browser, Page } from 'puppeteer';
 import { benchmark } from '@namchee/decora';
 
-import { Scrapper } from './scrapper';
-import { Product } from '../../entity/product';
-import { writeResult } from '../writer';
-import { TextProcessor } from '../processor';
+import { Scrapper } from './scrapper.js';
+import { Product } from '../../entity/product.js';
+import { writeResult } from '../writer.js';
+import { TextProcessor } from '../processor.js';
 
 /**
  * Scrapper script to extract legal mutual funds products

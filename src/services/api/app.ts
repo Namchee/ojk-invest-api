@@ -1,6 +1,7 @@
-import { GetManyResult, GetResult, Params, Query } from './const';
-import { App } from '../../entity/app';
-import { escapeName, importData } from './utils';
+import { App } from '../../entity/app.js';
+import { escapeName, importData } from './utils.js';
+
+import { GetManyResult, GetResult, Params, Query } from './const.js';
 
 interface AppsData {
   data: App[];

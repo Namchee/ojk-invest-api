@@ -1,6 +1,6 @@
-import { Browser, Page, WaitForOptions } from 'puppeteer';
+import type { Browser, Page, WaitForOptions } from 'puppeteer';
 
-import { FIVE_MINUTES } from '../../constant/time';
+import { FIVE_MINUTES } from '../../constant/time.js';
 
 /**
  * Scrapping result from a scrapping script

@@ -1,6 +1,7 @@
-import { GetManyResult, GetResult, Params, Query } from './const';
-import { Product } from '../../entity/product';
-import { escapeName, importData } from './utils';
+import { GetManyResult, GetResult, Params, Query } from './const.js';
+
+import { Product } from '../../entity/product.js';
+import { escapeName, importData } from './utils.js';
 
 interface ProductData {
   data: Product[];

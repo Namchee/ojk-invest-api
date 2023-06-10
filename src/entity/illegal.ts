@@ -1,6 +1,6 @@
 import { Standard, tryFormat } from '@namchee/telepon';
 
-import { TextProcessor } from '../services/processor';
+import { TextProcessor } from '../services/processor.js';
 
 // courtesy of: https://gist.github.com/dperini/729294
 // eslint-disable-next-line max-len

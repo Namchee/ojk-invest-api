@@ -1,7 +1,8 @@
 import { readFile, existsSync } from 'fs';
 import { resolve } from 'path';
 import { promisify } from 'util';
-import { Logger } from '../logger';
+
+import { Logger } from '../logger.js';
 
 const readFileAsync = promisify(readFile);
 

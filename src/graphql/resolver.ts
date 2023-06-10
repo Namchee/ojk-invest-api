@@ -1,25 +1,27 @@
-import { UserInputError } from 'apollo-server-errors';
-
-import { GetManyResult, GetResult, Params, Query } from '../services/api/const';
-import { validateQuery, validateParam } from './../services/api/utils';
+import {
+  GetManyResult,
+  GetResult,
+  Params,
+  Query,
+} from '../services/api/const.js';
+import { validateQuery, validateParam } from './../services/api/utils.js';
 
 import {
   getMany as getManyApps,
   getOne as getOneApp,
-} from '../services/api/app';
+} from '../services/api/app.js';
 import {
   getMany as getManyIllegals,
   getOne as getOneIllegal,
-} from '../services/api/illegal';
+} from '../services/api/illegal.js';
 import {
   getMany as getManyProducts,
   getOne as getOneProduct,
-} from '../services/api/product';
-import { ValidationError } from '../exceptions/validation';
+} from '../services/api/product.js';
 
-import { IllegalInvestment } from '../entity/illegal';
-import { Product } from '../entity/product';
-import { App } from '../entity/app';
+import { IllegalInvestment } from '../entity/illegal.js';
+import { Product } from '../entity/product.js';
+import { App } from '../entity/app.js';
 
 /**
  * Wrapping function for resolver.
@@ -34,19 +36,9 @@ function wrapResolver<T, U>(
   args: Record<string, any>,
   validator: (obj: Record<string, any>) => U,
 ): T {
-  try {
-    const obj = validator(args);
+  const obj = validator(args);
 
-    return service(obj);
-  } catch (err) {
-    const error = err as Error;
-
-    if (error instanceof ValidationError) {
-      throw new UserInputError(error.message);
-    }
-
-    throw error;
-  }
+  return service(obj);
 }
 
 export const resolvers = {

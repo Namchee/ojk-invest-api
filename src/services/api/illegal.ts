@@ -1,6 +1,7 @@
-import { IllegalInvestment } from '../../entity/illegal';
-import { GetManyResult, GetResult, Params, Query } from './const';
-import { escapeName, importData } from './utils';
+import { IllegalInvestment } from '../../entity/illegal.js';
+
+import { GetManyResult, GetResult, Params, Query } from './const.js';
+import { escapeName, importData } from './utils.js';
 
 interface IllegalInvestmentData {
   data: IllegalInvestment[];

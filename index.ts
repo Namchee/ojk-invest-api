@@ -1,17 +1,31 @@
 import puppeteer from 'puppeteer';
+
 import { performance } from 'perf_hooks';
 
-import { IllegalsScrapper } from './src/services/scrapper/illegal';
-import { AppsScrapper } from './src/services/scrapper/app';
-import { ProductsScrapper } from './src/services/scrapper/product';
-import { bootstrapOutput } from './src/services/writer';
+import { IllegalsScrapper } from './src/services/scrapper/illegal.js';
+import { AppsScrapper } from './src/services/scrapper/app.js';
+import { ProductsScrapper } from './src/services/scrapper/product.js';
+import { bootstrapOutput } from './src/services/writer.js';
+
+import { ONE_SECOND } from './src/constant/time.js';
 
 (async () => {
   bootstrapOutput();
 
   const browser = await puppeteer.launch({
-    headless: true,
+    headless: true, // 'new' is much slower while bringing no benefits for now
     ignoreHTTPSErrors: true,
+    protocolTimeout: 0,
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+      '--disable-web-security',
+      '--disable-site-isolation-trials',
+      '--disable-notifications',
+      '--no-zygote',
+    ],
+    devtools: false,
   });
 
   try {
@@ -40,11 +54,9 @@ import { bootstrapOutput } from './src/services/writer';
     );
 
     const end = performance.now();
-    const delta = (end - start) / 1000;
+    const delta = (end - start) / ONE_SECOND;
 
     console.log(`All process was executed in ${(delta).toFixed(2)} s`);
-  } catch (err) {
-    throw err;
   } finally {
     await browser.close();
   }
