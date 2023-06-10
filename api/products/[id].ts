@@ -1,9 +1,9 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
 
-import { ValidationError } from '../../src/exceptions/validation';
-import { HTTPCodes } from '../../src/services/api/const';
-import { validateParam } from './../../src/services/api/utils';
-import { getOne } from '../../src/services/api/product';
+import { ValidationError } from '../../src/exceptions/validation.js';
+import { HTTPCodes } from '../../src/services/api/const.js';
+import { validateParam } from './../../src/services/api/utils.js';
+import { getOne } from '../../src/services/api/product.js';
 
 /**
  * Search for a legal mutual funds product from OJK's data
