@@ -19,11 +19,9 @@ interface IllegalInvestmentData {
 export function getMany(
   query: Query,
 ): GetManyResult<IllegalInvestment> {
-  const { name, limit, offset, version: dataVersion } = query;
+  const { name, limit, offset } = query;
 
-  const source = importData<IllegalInvestmentData>(
-    dataVersion === 2 ? 'illegals' : 'illegals_v1',
-  );
+  const source = importData<IllegalInvestmentData>('illegals');
 
   let investments: IllegalInvestment[] = source.data;
   const version = source.version;
@@ -57,11 +55,9 @@ export function getMany(
  * with matching ID
  */
 export function getOne(
-  { id, version: dataVersion }: Params,
+  { id }: Params,
 ): GetResult<IllegalInvestment> {
-  const source = importData<IllegalInvestmentData>(
-    dataVersion === 2 ? 'illegals' : 'illegals_v1',
-  );
+  const source = importData<IllegalInvestmentData>('illegals');
 
   const investment = source.data.find(datum => datum.id === id);
 
