@@ -1,12 +1,7 @@
 import { Standard, tryFormat } from '@namchee/telepon';
 
 import { TextProcessor } from '../services/processor.js';
-
-// courtesy of: https://gist.github.com/dperini/729294
-// eslint-disable-next-line max-len
-const urlRegex = /\(?(?:(?:(?:https?|ftp):)?\/\/)(?:\S+(?::\S*)?@)?(?:(?!(?:10|127)(?:\.\d{1,3}){3})(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z0-9\u00a1-\uffff][a-z0-9\u00a1-\uffff_-]{0,62})?[a-z0-9\u00a1-\uffff]\.)+(?:[a-z\u00a1-\uffff]{2,}\.?))(?::\d{2,5})?(?:[/?#]\S*)?\)?/g;
-// eslint-disable-next-line max-len
-const emailRegex = /(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))/g;
+import { EMAIL_PATTERN, URL_PATTERN } from '../constant/regex.js';
 
 /* eslint-disable camelcase */
 export interface IllegalInvestment {
@@ -47,7 +42,7 @@ export function parseInvestmentData(
     );
 
   return {
-    id: 0, // fill this out later
+    id: 0, // will be set on the main function instead
     name: nameProps.name,
     alias: nameProps.alias,
     address: addressProps.address,
@@ -84,11 +79,11 @@ function scanDataFromName(name: string): {
 
   name = name.trim();
 
-  const web = name.match(urlRegex) || [];
+  const web = name.match(URL_PATTERN) ?? [];
 
   web.forEach(site => (name = name.replace(site, '')));
 
-  const alias = name.match(/(?<=\()[\w\s]+(?=\))/) || [];
+  const alias = name.match(/(?<=\()[\w\s]+(?=\))/) ?? [];
 
   alias
     .map(name => new TextProcessor(name).sanitize().trim().getResult())
@@ -128,7 +123,7 @@ function scanDataFromAddress(address: string): {
   email: string[];
 } {
   address = new TextProcessor(address).sanitize().trim().getResult();
-  const emails = address.match(emailRegex) || [];
+  const emails = address.match(EMAIL_PATTERN) ?? [];
 
   emails.forEach(email => (address = address.replace(email, '')));
   address = address.replaceAll(/(Email|Alamat) ?:/gi, '');
@@ -166,19 +161,19 @@ function scanDataFromPhone(phone: string): {
   phone = new TextProcessor(phone).sanitize().trim().getResult();
   phone = phone.replaceAll(/(Telepon|Customer Care) ?:/gi, '');
 
-  const emails = phone.match(emailRegex) || [];
+  const emails = phone.match(EMAIL_PATTERN) ?? [];
 
   emails.forEach(email => (phone = phone.replace(email, '')));
 
   const phoneNumbers = phone
     .split(/[;/]/)
     .map((phone: string) => {
-      phone = phone.replaceAll(/[()\-  +]+/g, '');
+      phone = phone.replaceAll(/[()\- +]+/g, '');
 
       try {
         return tryFormat(phone, Standard.LOCAL);
       } catch (err) {
-        return phone;
+        return '';
       }
     })
     .filter(Boolean);
@@ -199,11 +194,12 @@ function scanDataFromEmails(email: string): {
   web: string[];
   email: string[];
 } {
-  email = new TextProcessor(email).sanitize().trim().getResult();
-  const web = email.match(urlRegex) || [];
+  const web = email.match(URL_PATTERN) ?? [];
+  const emails = email.match(EMAIL_PATTERN) ?? [];
 
   return {
-    web,
-    email: email.match(emailRegex) || [],
+    web: web.map(text => new TextProcessor(text).sanitize().trim().getResult()),
+    email:
+      emails.map(text => new TextProcessor(text).sanitize().trim().getResult()),
   };
 }

@@ -29,7 +29,6 @@
     "@sentry/node": "^6.1.0",
     "@sentry/tracing": "^6.1.0",
     "@vercel/node": "^1.13.0",
-    "email-regex-safe": "^1.0.2",
     "graphql": "^16.6.0",
     "graphql-tag": "^2.12.6",
     "puppeteer": "^20.5.0"
