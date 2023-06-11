@@ -14,6 +14,10 @@ jobs:
     steps:
       - name: Connect to repository
         uses: actions/checkout@v3
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v2.2.4
+        with:
+          version: 8.6.1
       - name: Setup NodeJS
         uses: actions/setup-node@v3
         with:
