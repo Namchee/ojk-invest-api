@@ -17,7 +17,7 @@ export function writeResult(
   // preserve immutability to the data
   const copy = JSON.parse(JSON.stringify(result));
 
-  const currentDate = (result.version as Date);
+  const currentDate = result.version;
   copy.version = currentDate.toLocaleDateString('id-ID', {
     year: 'numeric',
     month: '2-digit',

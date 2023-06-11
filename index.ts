@@ -7,7 +7,7 @@ import { AppsScrapper } from './src/services/scrapper/app.js';
 import { ProductsScrapper } from './src/services/scrapper/product.js';
 import { bootstrapOutput } from './src/services/writer.js';
 
-import { ONE_SECOND } from './src/constant/time.js';
+import { ONE_SECOND, TEN_MINUTES } from './src/constant/time.js';
 
 (async () => {
   bootstrapOutput();
@@ -16,6 +16,7 @@ import { ONE_SECOND } from './src/constant/time.js';
     headless: true, // 'new' is much slower while bringing no benefits for now
     ignoreHTTPSErrors: true,
     protocolTimeout: 0,
+    timeout: TEN_MINUTES,
     args: [
       '--no-sandbox',
       '--disable-setuid-sandbox',
