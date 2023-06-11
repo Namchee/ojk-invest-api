@@ -13,15 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Connect to repository
-        uses: actions/checkout@v3.5.3
+        uses: actions/checkout@v3
       - name: Setup NodeJS
-        uses: actions/setup-node@v2.5.2
+        uses: actions/setup-node@v3
         with:
           node-version: '20.x'
-      - name: Setup PNPM
-        uses: pnpm/action-setup@v2.2.4
-        with:
-          version: 8.6.1
+          cache: 'pnpm'
       - name: Install all required dependencies
         run: pnpm install --frozen-lockfile
       - name: Build the files

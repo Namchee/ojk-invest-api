@@ -16,6 +16,7 @@ import { ONE_SECOND } from './src/constant/time.js';
     headless: true, // 'new' is much slower while bringing no benefits for now
     ignoreHTTPSErrors: true,
     protocolTimeout: 0,
+    timeout: 0,
     args: [
       '--no-sandbox',
       '--disable-setuid-sandbox',
