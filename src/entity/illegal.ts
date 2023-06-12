@@ -185,21 +185,51 @@ function scanDataFromPhone(phone: string): {
 }
 
 /**
- * Extract investment data from `phone` field
+ * Extract investment data from `web` field
  *
- * @param {string} email phone field
+ * @param {string} field web field
  * @return {string[]} list of emails
  */
-function scanDataFromEmails(email: string): {
+function scanDataFromEmails(field: string): {
   web: string[];
   email: string[];
 } {
-  const web = email.match(URL_PATTERN) ?? [];
-  const emails = email.match(EMAIL_PATTERN) ?? [];
+  const tokens = getTokensFromEmailField(field.split(/\s+/));
+  if (field.startsWith('https://www.pinjamanpermata.xyz')) {
+    console.log(tokens);
+  }
+
+  const webs = [];
+  const emails = [];
+
+  for (const token of tokens) {
+    if (token.match(EMAIL_PATTERN)) {
+      emails.push(token);
+    }
+
+    if (token.match(URL_PATTERN)) {
+      webs.push(token);
+    }
+  }
 
   return {
-    web: web.map(text => new TextProcessor(text).sanitize().trim().getResult()),
-    email:
-      emails.map(text => new TextProcessor(text).sanitize().trim().getResult()),
+    web: webs,
+    email: emails,
   };
+}
+
+/**
+ * Get web URIs from fields
+ *
+ * @param {string} tokens web tokens
+ * @return {string[]} list of URIs
+ */
+function getTokensFromEmailField(tokens: string[]): string[] {
+  const brokenPlaystoreURLIdx = tokens.indexOf('https://play.google.com/sto');
+  if (brokenPlaystoreURLIdx !== -1) {
+    tokens[brokenPlaystoreURLIdx] = tokens
+      .slice(brokenPlaystoreURLIdx).join('');
+  }
+
+  return tokens;
 }
