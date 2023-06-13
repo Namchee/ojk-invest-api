@@ -161,7 +161,7 @@ function scanDataFromPhone(phone: string): {
   phone = new TextProcessor(phone).sanitize().trim().getResult();
   phone = phone.replaceAll(/(Telepon|Customer Care) ?:/gi, '');
 
-  const emails = phone.match(EMAIL_PATTERN) ?? [];
+  const emails = EMAIL_PATTERN.exec(phone) ?? [];
 
   emails.forEach(email => (phone = phone.replace(email, '')));
 
@@ -194,20 +194,17 @@ function scanDataFromEmails(field: string): {
   web: string[];
   email: string[];
 } {
-  const tokens = getTokensFromEmailField(field.split(/\s+/));
-  if (field.startsWith('https://www.pinjamanpermata.xyz')) {
-    console.log(tokens);
-  }
+  const tokens = tokenizeEmailField(field.split(/\s+/));
 
   const webs = [];
   const emails = [];
 
   for (const token of tokens) {
-    if (token.match(EMAIL_PATTERN)) {
+    if (EMAIL_PATTERN.exec(token)) {
       emails.push(token);
     }
 
-    if (token.match(URL_PATTERN)) {
+    if (URL_PATTERN.exec(token)) {
       webs.push(token);
     }
   }
@@ -224,12 +221,17 @@ function scanDataFromEmails(field: string): {
  * @param {string} tokens web tokens
  * @return {string[]} list of URIs
  */
-function getTokensFromEmailField(tokens: string[]): string[] {
-  const brokenPlaystoreURLIdx = tokens.indexOf('https://play.google.com/sto');
-  if (brokenPlaystoreURLIdx !== -1) {
-    tokens[brokenPlaystoreURLIdx] = tokens
-      .slice(brokenPlaystoreURLIdx).join('');
+function tokenizeEmailField(tokens: string[]): string[] {
+  const result = [];
+
+  for (const token of tokens) {
+    const isWebResource = URL_PATTERN.exec(token) ?? EMAIL_PATTERN.exec(token);
+    if (isWebResource) {
+      result.push(token);
+    } else {
+      result[result.length - 1] += token;
+    }
   }
 
-  return tokens;
+  return result;
 }
