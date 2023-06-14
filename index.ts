@@ -32,8 +32,8 @@ import { ONE_SECOND, TEN_MINUTES } from './src/constant/time.js';
   try {
     const scrappers = [
       new IllegalsScrapper(browser),
-      new AppsScrapper(browser),
-      new ProductsScrapper(browser),
+      // new AppsScrapper(browser),
+      // new ProductsScrapper(browser),
     ];
 
     const start = performance.now();

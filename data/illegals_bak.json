@@ -4,9 +4,7 @@
       "id": 1,
       "name": "Alipinjaman - Ali Pinjaman Uang Kilat Dana Kredit",
       "alias": [],
-      "address": [
-        "-"
-      ],
+      "address": [],
       "web": [],
       "email": [
         "alipinjaman1818@gmail.com"
@@ -61647,7 +61645,7 @@
       "name": "Satu Celluler",
       "alias": [],
       "address": [
-        "Jl Raya Jkt- Bogor KM 40 Pabuaran Cibinong"
+        "Jl Raya Jkt Bogor KM 40 Pabuaran Cibinong"
       ],
       "web": [],
       "email": [],
@@ -62676,7 +62674,7 @@
       "name": "Koperasi Simpan Pinjam Mandiri Sejahtera Abadi",
       "alias": [],
       "address": [
-        "Jalan Ketileng Raya No36, Semarang - 50271"
+        "Jalan Ketileng Raya No36, Semarang  50271"
       ],
       "web": [],
       "email": [],
@@ -63629,7 +63627,9 @@
       ],
       "web": [],
       "email": [],
-      "phone": [],
+      "phone": [
+        "082350023517\n082339148278"
+      ],
       "entity_type": "Gadai Ilegal",
       "activity_type": [
         "Gadai Ilegal"
@@ -63663,7 +63663,9 @@
       ],
       "web": [],
       "email": [],
-      "phone": [],
+      "phone": [
+        "085333746338\n082341887918"
+      ],
       "entity_type": "Gadai Ilegal",
       "activity_type": [
         "Gadai Ilegal"
@@ -63991,7 +63993,7 @@
       "name": "NEW JAWA GADAI",
       "alias": [],
       "address": [
-        "Jl Yogyakarta - Wates Gg. Mawar, Sonopakis Lor, Ngestiharjo, Kec. Kasihan, Bantul 55182"
+        "Jl Yogyakarta  Wates Gg. Mawar, Sonopakis Lor, Ngestiharjo, Kec. Kasihan, Bantul 55182"
       ],
       "web": [],
       "email": [],
@@ -64346,7 +64348,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 110/DKNS/OJK/XI/2016  Pelunasan utang"
@@ -64491,7 +64493,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 14/DKNS/OJK/II/2017"
@@ -64506,7 +64508,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 14/DKNS/OJK/II/2017 Investasi gula merah"
@@ -64555,7 +64557,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 27/DKNS/OJK/III/2017"
@@ -64586,7 +64588,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 29/DKNS/OJK/III/2017"
@@ -64921,7 +64923,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 88/DKNS/OJK/VII/2017  Penipuan dengan modus umrah"
@@ -64938,7 +64940,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 88/DKNS/OJK/VII/2017 Investasi pulsa"
@@ -64953,7 +64955,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 88/DKNS/OJK/VII/2017 Produk Kecantikan"
@@ -64968,10 +64970,10 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
-      "description": "SP 88/DKNS/OJK/VII/2017 jasa teknologi (IT) dan ekspor - impor"
+      "description": "SP 88/DKNS/OJK/VII/2017 jasa teknologi (IT) dan ekspor  impor"
     },
     {
       "id": 3976,
@@ -64985,7 +64987,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 88/DKNS/OJK/VII/2017 Kredit Mobil dan Produk Kesehatan"
@@ -65002,7 +65004,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 88/DKNS/OJK/VII/2017 Commercial Paper"
@@ -65057,7 +65059,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP/2/SWI/2017  Penghapusan piutang"
@@ -65094,7 +65096,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP/2/SWI/2017 enterpreneurship dan ecommerce"
@@ -65111,7 +65113,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP/2/SWI/2017 Kepemilikan Rumah"
@@ -65275,7 +65277,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP/3/SWI/2017 Pemasaran Produk Kecantikan dan Kesehatan"
@@ -65292,7 +65294,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP/3/SWI/2017 Penitipan Mobil"
@@ -65430,7 +65432,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 4/SWI/2017"
@@ -65449,7 +65451,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 4/SWI/2017"
@@ -65795,7 +65797,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 01/III/SWI/2018  Penasihat Investasi tanpa izin"
@@ -65868,7 +65870,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 01/III/SWI/2018 Program hibah dana simpanan yang mengatasnamakan Anthoni Salim"
@@ -65887,7 +65889,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 01/III/SWI/2018 Paket kebutuhan seharihari dengan manfaat hemat 50% dan manfaat tambahan berupa komisi. Adapun bisnis lainnya antara lain transportasi online, layanan pemesanan travel & wisata, dan online marketplace"
@@ -67062,7 +67064,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP04/V/SWI/2018 Sistem keagenan dan waralaba tanpa izin"
@@ -67079,7 +67081,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP04/V/SWI/2018 Travel umrah tanpa izin"
@@ -67486,7 +67488,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP06/VII/SWI/2018 Manajer investasi tanpa izin"
@@ -67503,7 +67505,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP06/VII/SWI/2018 Kegiatan Bank Perkreditan Rakyat tanpa izin"
@@ -67632,7 +67634,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP07/IX/SWI/2018 Penjualan emas dengan sistem digital"
@@ -67647,7 +67649,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP07/IX/SWI/2018 Kegiatan Travel Umrah tanpa izin"
@@ -67873,7 +67875,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP02/III/SWI/2019 Investasi pohon jabon tanpa izin"
@@ -67890,7 +67892,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP02/III/SWI/2019 Investasi pohon gaharu tanpa izin"
@@ -68043,7 +68045,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP02/III/SWI/2019 Asuransi jiwa tanpa izin"
@@ -68060,7 +68062,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP02/III/SWI/2019 Investasi kesehatan tanpa izin"
@@ -68333,7 +68335,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP02/III/SWI/2019 Penawaran paket perjalanan ibadah umrah tanpa izin"
@@ -68350,7 +68352,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP02/III/SWI/2019 Penyelenggara umrah tanpa izin"
@@ -68367,7 +68369,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP02/III/SWI/2019 Bank syariah/KSPS tanpa izin"
@@ -68402,7 +68404,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP02/III/SWI/2019 Investasi emas dan berlian"
@@ -68417,7 +68419,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP02/III/SWI/2019 Investasi onlineshop"
@@ -68432,7 +68434,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP02/III/SWI/2019 Koperasi tanpa izin"
@@ -68447,7 +68449,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP02/III/SWI/2019 Investasi saham"
@@ -68466,7 +68468,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP02/III/SWI/2019 Investasi properti tanpa izin"
@@ -69742,7 +69744,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 03/IV/SWI/2019 Investasi Perkebunan"
@@ -70487,7 +70489,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 05/VII/SWI/2019 Investasi aplikasi EzyCloud"
@@ -70736,7 +70738,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 06/IX/SWI/2019 Dropship supplier, onlineshop course, payment agent, edukasi bisnis online"
@@ -70769,7 +70771,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 06/IX/SWI/2019 Jasa penutupan kartu kredit"
@@ -70784,7 +70786,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 06/IX/SWI/2019 Penerbitan kartu ATM"
@@ -71833,7 +71835,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 07/X/SWI/2019 Travel umroh tanpa izin"
@@ -71950,7 +71952,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 07/X/SWI/2019 Investasi Pohon Gaharu"
@@ -72017,7 +72019,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "?SP 08/X/SWI/2019 Koperasi tanpa izin"
@@ -72148,7 +72150,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 10/XII/SWI/2019 Koperasi"
@@ -72405,7 +72407,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 10/XII/SWI/2019 Agen perjalan umroh"
@@ -72422,7 +72424,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 10/XII/SWI/2019 Perdagangan kebun kurma"
@@ -75078,7 +75080,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 1/SWI/I/2020 Equity crowdfunding"
@@ -75093,7 +75095,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 1/SWI/I/2020 Equity Crowdfunding"
@@ -75142,7 +75144,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 1/SWI/I/2020 Penjualan barang berkedok pergadaian syariah"
@@ -75157,7 +75159,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 1/SWI/I/2020 Koperasi simpan pinjam"
@@ -75212,7 +75214,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 1/SWI/I/2020 Penawaran pelunasan utang"
@@ -75229,7 +75231,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 1/SWI/I/2020 Penawaran pelunasan utang"
@@ -75246,7 +75248,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 1/SWI/I/2020 Penawaran pelunasan utang"
@@ -75261,7 +75263,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 1/SWI/I/2020 Penawaran investasi/urun dana proyek properti"
@@ -75276,7 +75278,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 1/SWI/I/2020 Platform iklan digital"
@@ -75643,7 +75645,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "?SP 02/SWI/III/2020 Koperasi simpan pinjam atau pinjaman on line tanpa izin"
@@ -75660,7 +75662,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "?SP 02/SWI/III/2020 Jasa pengecekan SLIK OJK dan BI Checking tanpa izin"
@@ -75677,7 +75679,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "?SP 02/SWI/III/2020 Platform iklan dengan menawarkan komisi kepada para agen tanpa izin"
@@ -76122,7 +76124,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 06/SWI/VII/2020 Pendidikan Bisnis, konsultan Bisnis, investasi uang tanpa izin"
@@ -76213,7 +76215,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 06/SWI/VII/2020 Penawaran jasa pelunasan utang tanpa izin"
@@ -77849,7 +77851,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 06/SWI/VII/2020 Penasehat Investasi dan/atau Agen Perantara Perdagangan Efek tanpa izin"
@@ -77866,7 +77868,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 06/SWI/VII/2020 Penasehat Investasi, Manajer Investasi atau Perusahaan Sekuritas tanpa izin"
@@ -77883,7 +77885,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 06/SWI/VII/2020 Penasehat Investasi, Manajer Investasi atau Perusahaan Sekuritas tanpa izin"
@@ -78478,7 +78480,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "?SP 09/SWI/X/2020 Koperasi yang menawarkan pinjaman online di luar anggota tanpa izin"
@@ -78493,7 +78495,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "?SP 09/SWI/X/2020 Koperasi simpan pinjam dengan menggunakan logo OJK tanpa izin"
@@ -78508,7 +78510,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "?SP 09/SWI/X/2020 Penjualan logam emas mulia dengan sistem jaringan tanpa izin"
@@ -78811,7 +78813,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "?SP 09/SWI/X/2020 Penghimpunan dana dengan kedok penjualan mie instan tanpa izin"
@@ -81208,7 +81210,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 01/SWI/1/2021 Penawaran investasi tanpa izin"
@@ -81241,7 +81243,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 01/SWI/1/2021 Investasi Properti"
@@ -81388,7 +81390,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 01/SWI/1/2021 KSP tanpa izin"
@@ -81403,7 +81405,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 01/SWI/1/2021 KSP tanpa izin"
@@ -81418,7 +81420,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 01/SWI/1/2021 KSP tanpa izin"
@@ -81435,7 +81437,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 02/SWI/III/2021 Equity Crowdfunding tanpa izin"
@@ -81452,7 +81454,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 02/SWI/III/2021 Sistem pembayaran tanpa izin"
@@ -81613,7 +81615,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 02/SWI/III/2021 Penawaran Investasi tanpa izin"
@@ -81944,7 +81946,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 03/SWI/V/2021 Platform penitipan dana kepada trader"
@@ -81959,7 +81961,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 03/SWI/V/2021 Penyelenggara sistem pembayaran tanpa izin"
@@ -81976,7 +81978,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 03/SWI/V/2021 Kegiatan perasuransian tanpa izin"
@@ -81993,7 +81995,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 03/SWI/V/2021 Penyelenggara pembiayaan tanpa izin"
@@ -82008,7 +82010,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 03/SWI/V/2021 Penyelenggara pembiayaan ibadah Haji dan Umroh tanpa izin"
@@ -82203,7 +82205,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 03/SWI/V/2021 Perdagangan berjangka minyak mentah tanpa izin"
@@ -82218,7 +82220,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 03/SWI/V/2021 Penawaran investasi saham tanpa izin"
@@ -82233,7 +82235,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 03/SWI/V/2021 Penawaran investasi trading saham tanpa izin"
@@ -82280,7 +82282,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 03/SWI/V/2021 Penawaran investasi tanpa izin dengan menduplikasi nama PT Bibit Tumbuh Bersama (Bibit.id)"
@@ -82295,7 +82297,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 04/SWI/VII/2021 Duplikasi Perusahaan PT Overseas Commercial Future dihentikan kegiatannya dan diumumkan melalui siaran pers karena melakukan kegiatan perdagangan forex tanpa izin"
@@ -82310,7 +82312,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "SP 04/SWI/VII/2021 Blog website ilegal mengatasnamakan dan duplikasi kegiatan PT Takjub Teknologi Indonesia (Ajaib)"
@@ -82475,7 +82477,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "363/HM/KOMINFO/10/2021 Sewa Collateral BG/SBLC dari Prime Bank,?Monetize Instrument?Bank"
@@ -82490,7 +82492,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "363/HM/KOMINFO/10/2021 Penyelenggara usaha modal ventura tanpa izin"
@@ -82505,7 +82507,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "363/HM/KOMINFO/10/2021 Kegiatan?equity crowdfunding?tanpa izin"
@@ -82520,7 +82522,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "01/06/2022",
       "description": "363/HM/KOMINFO/10/2021 Kegiatan equity crowdfunding tanpa ijin"
@@ -84108,7 +84110,7 @@
       "name": "Dana Gampang - Pinjaman Online Cepat Tunai",
       "alias": [],
       "address": [
-        "Jl. Jend. Sudirman No.Kav. 45 - 46, RT.3/RW.4, Karet Semanggi, Kecamatan Setiabudi, Jaksel, DKI JKT 12930"
+        "Jl. Jend. Sudirman No.Kav. 45  46, RT.3/RW.4, Karet Semanggi, Kecamatan Setiabudi, Jaksel, DKI JKT 12930"
       ],
       "web": [
         "https://apktoko.net/2021/09/danagampangapkversi630/",
@@ -84241,7 +84243,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "14/04/2022",
       "description": ""
@@ -84256,7 +84258,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "14/04/2022",
       "description": ""
@@ -84273,7 +84275,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "14/04/2022",
       "description": ""
@@ -84290,7 +84292,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "14/04/2022",
       "description": ""
@@ -84305,7 +84307,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "14/04/2022",
       "description": ""
@@ -84802,6 +84804,7 @@
       ],
       "email": [],
       "phone": [
+        "2150980364",
         "0813 6654 2105"
       ],
       "entity_type": "Fintech Ilegal",
@@ -84840,7 +84843,9 @@
         "https://chipapk.com/app/6993495/"
       ],
       "email": [],
-      "phone": [],
+      "phone": [
+        "081229841593085783789732"
+      ],
       "entity_type": "Fintech Ilegal",
       "activity_type": [
         "Peer To Peer Lending"
@@ -84861,7 +84866,9 @@
       "email": [
         "danakilat0209@gmail.com"
       ],
-      "phone": [],
+      "phone": [
+        "6284237768294"
+      ],
       "entity_type": "Fintech Ilegal",
       "activity_type": [
         "Peer To Peer Lending"
@@ -84882,7 +84889,9 @@
       "email": [
         "danakilat0209@gmail.com"
       ],
-      "phone": [],
+      "phone": [
+        "6284237768294"
+      ],
       "entity_type": "Fintech Ilegal",
       "activity_type": [
         "Peer To Peer Lending"
@@ -85514,7 +85523,7 @@
       "name": "Pinjam Petir",
       "alias": [],
       "address": [
-        "Jl Letjen S. Parman Kav. 26 Grogol Petamburan Jakarta Barat 10670 - Indonesia"
+        "Jl Letjen S. Parman Kav. 26 Grogol Petamburan Jakarta Barat 10670  Indonesia"
       ],
       "web": [
         "https://chipapk.com/app/6775158/",
@@ -85656,7 +85665,7 @@
       "name": "Rupiah Cash - Liquid online cash loan",
       "alias": [],
       "address": [
-        "Jl Jalan Jend. Sudirman Kav. 29 - 31, WTC 3, 20th.Floor, Jakarta, 12920"
+        "Jl Jalan Jend. Sudirman Kav. 29  31, WTC 3, 20th.Floor, Jakarta, 12920"
       ],
       "web": [
         "https://apkfun.com/RupiahCashLiquidonlinecashloan.html",
@@ -85677,7 +85686,7 @@
       "name": "Super Dana - Pinjaman Online 24 Jam Uang",
       "alias": [],
       "address": [
-        "Jl Jalan Jend. Sudirman Kav. 29 - 31, WTC 3, 20th.Floor, Jakarta, 12920"
+        "Jl Jalan Jend. Sudirman Kav. 29  31, WTC 3, 20th.Floor, Jakarta, 12920"
       ],
       "web": [
         "https://apkfun.com/RupiahCashLiquidonlinecashloan.html",
@@ -86908,7 +86917,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "23/05/2022",
       "description": ""
@@ -87306,7 +87315,10 @@
         "https://apksos.com/app/com.koinmaster.pinjaman.credit.danarupiah"
       ],
       "email": [],
-      "phone": [],
+      "phone": [
+        "GedungBenelliLt.3,JalanBatuCepernomor65RT.003",
+        "001,Kel.KebonKelapa,Kec.Gambir,KotaJakartaPusat,DKIJakarta"
+      ],
       "entity_type": "Fintech Ilegal",
       "activity_type": [
         "Peer To Peer Lending"
@@ -87378,7 +87390,7 @@
       ],
       "web": [
         "https://chipapk.com/app/6555274/",
-        "https://apkpure.com/it/gomoney-%E2%80%93cepat/com.damned.gomoney",
+        "https://apkpure.com/it/gomoney%E2%80%93cepat/com.damned.gomoney",
         "https://apkgk.com/com.damned.gomoney",
         "https://apkdownloadforwindows.com/fr/app/com.damned.gomoney/"
       ],
@@ -88159,7 +88171,7 @@
       "name": "Pinjaman Now - Uang Cepat",
       "alias": [],
       "address": [
-        "Jl Raya Lebah - semarang No.222, Jayalura, lebah, Kabupaten semarang, Jawa tengah"
+        "Jl Raya Lebah  semarang No.222, Jayalura, lebah, Kabupaten semarang, Jawa tengah"
       ],
       "web": [
         "https://www.pn10.xyz/privacy/index.html",
@@ -88857,6 +88869,7 @@
         "dananow@gmail.com"
       ],
       "phone": [
+        "62081329857521",
         "0812 7861 7918"
       ],
       "entity_type": "Fintech Ilegal",
@@ -88993,7 +89006,7 @@
       "name": "Kredit Ku - Pinjaman Murah KTA",
       "alias": [],
       "address": [
-        ", ????????? ?6?16?1622 -2, 100038 Beijing, China"
+        ", ????????? ?6?16?1622 2, 100038 Beijing, China"
       ],
       "web": [
         "https://www.facebook.com/KreditKu107093211484012/",
@@ -90643,7 +90656,9 @@
       "email": [
         "ledana2112@gmail.com"
       ],
-      "phone": [],
+      "phone": [
+        "62081218528812"
+      ],
       "entity_type": "Fintech Ilegal",
       "activity_type": [
         "Peer To Peer Lending"
@@ -90942,7 +90957,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "15/08/2022",
       "description": ""
@@ -90957,7 +90972,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "15/08/2022",
       "description": ""
@@ -90985,7 +91000,7 @@
       "alias": [],
       "address": [],
       "web": [
-        "https://apkpure.com/selamatmeminjam-%E2%80%94%E2%80%94-"
+        "https://apkpure.com/selamatmeminjam%E2%80%94%E2%80%94"
       ],
       "email": [],
       "phone": [
@@ -91855,7 +91870,7 @@
       "address": [],
       "web": [
         "https://www.fundcash.id/google/fundcash",
-        "https://apkcombo.com/id/kreditguna-",
+        "https://apkcombo.com/id/kreditguna",
         "https://play.google.com/sto"
       ],
       "email": [
@@ -91993,7 +92008,7 @@
       "alias": [],
       "address": [],
       "web": [
-        "https://apkcombo.com/saku-"
+        "https://apkcombo.com/saku"
       ],
       "email": [],
       "phone": [],
@@ -92345,7 +92360,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "15/08/2022",
       "description": ""
@@ -92360,7 +92375,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "15/08/2022",
       "description": ""
@@ -92377,7 +92392,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "15/08/2022",
       "description": ""
@@ -92474,7 +92489,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "15/08/2022",
       "description": ""
@@ -92537,7 +92552,7 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "15/08/2022",
       "description": ""
@@ -92558,7 +92573,8 @@
       "email": [],
       "phone": [
         "0857 8959 4487",
-        "0816 1729 3748"
+        "0816 1729 3748",
+        "66809346288"
       ],
       "entity_type": "Fintech Ilegal",
       "activity_type": [
@@ -93003,6 +93019,28 @@
     },
     {
       "id": 5536,
+      "name": "KOPI SUSUPinjaman Uang Online",
+      "alias": [],
+      "address": [
+        ": Jalan Mujair Raya Nomor 16, Kel Jati Padang, Kec. Pasar Minggu, Jakarta Selatan"
+      ],
+      "web": [
+        "https://www.kopisusu.co.id",
+        "https://apps.apple.com/id/"
+      ],
+      "email": [],
+      "phone": [
+        "0815 1457 8967"
+      ],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/10/2022",
+      "description": ""
+    },
+    {
+      "id": 5537,
       "name": "Banyak Uang",
       "alias": [],
       "address": [
@@ -93022,7 +93060,7 @@
       "description": ""
     },
     {
-      "id": 5537,
+      "id": 5538,
       "name": "Uang Banyakpinjaman tanpa jaminan",
       "alias": [],
       "address": [],
@@ -93040,7 +93078,7 @@
       "description": ""
     },
     {
-      "id": 5538,
+      "id": 5539,
       "name": "Andalan Sejahtera",
       "alias": [],
       "address": [
@@ -93059,7 +93097,7 @@
       "description": ""
     },
     {
-      "id": 5539,
+      "id": 5540,
       "name": "SayaModalin - Pinjaman Uang",
       "alias": [],
       "address": [],
@@ -93077,7 +93115,7 @@
       "description": ""
     },
     {
-      "id": 5540,
+      "id": 5541,
       "name": "InDana",
       "alias": [],
       "address": [
@@ -93098,7 +93136,7 @@
       "description": ""
     },
     {
-      "id": 5541,
+      "id": 5542,
       "name": "Cari Dana",
       "alias": [],
       "address": [],
@@ -93115,7 +93153,7 @@
       "description": ""
     },
     {
-      "id": 5542,
+      "id": 5543,
       "name": "Cash Advance – Pinjaman Tanpa",
       "alias": [],
       "address": [],
@@ -93135,7 +93173,7 @@
       "description": ""
     },
     {
-      "id": 5543,
+      "id": 5544,
       "name": "OK! Meminjam Uang",
       "alias": [],
       "address": [],
@@ -93157,11 +93195,11 @@
       "description": ""
     },
     {
-      "id": 5544,
+      "id": 5545,
       "name": "Tunai Kilat",
       "alias": [],
       "address": [
-        "Jalan Cipaku I 28- 16, RT 001, RW 004, Petogogan, Kec Kebayoran Baru, Jakarta Selatan, DKI Jakarta 12170"
+        "Jalan Cipaku I 28 16, RT 001, RW 004, Petogogan, Kec Kebayoran Baru, Jakarta Selatan, DKI Jakarta 12170"
       ],
       "web": [
         "https://origin.tnail.cc",
@@ -93169,7 +93207,9 @@
         "https://play.google.com/sto"
       ],
       "email": [],
-      "phone": [],
+      "phone": [
+        "087734695193089506606626085693997502083850756746081212179782"
+      ],
       "entity_type": "Fintech Ilegal",
       "activity_type": [
         "Peer To Peer Lending"
@@ -93178,7 +93218,7 @@
       "description": ""
     },
     {
-      "id": 5545,
+      "id": 5546,
       "name": "Cash Rumah - Meminjaman Pintar",
       "alias": [],
       "address": [],
@@ -93199,7 +93239,7 @@
       "description": ""
     },
     {
-      "id": 5546,
+      "id": 5547,
       "name": "Cash Now",
       "alias": [],
       "address": [],
@@ -93221,7 +93261,7 @@
       "description": ""
     },
     {
-      "id": 5547,
+      "id": 5548,
       "name": "Tunai Teman",
       "alias": [],
       "address": [],
@@ -93244,7 +93284,7 @@
       "description": ""
     },
     {
-      "id": 5548,
+      "id": 5549,
       "name": "Kredit Kilat",
       "alias": [],
       "address": [],
@@ -93266,7 +93306,7 @@
       "description": ""
     },
     {
-      "id": 5549,
+      "id": 5550,
       "name": "Cash Cair",
       "alias": [],
       "address": [],
@@ -93287,7 +93327,7 @@
       "description": ""
     },
     {
-      "id": 5550,
+      "id": 5551,
       "name": "Tunai Cair",
       "alias": [],
       "address": [],
@@ -93309,7 +93349,7 @@
       "description": ""
     },
     {
-      "id": 5551,
+      "id": 5552,
       "name": "PinjamUang - Uang tunai online",
       "alias": [],
       "address": [],
@@ -93329,7 +93369,7 @@
       "description": ""
     },
     {
-      "id": 5552,
+      "id": 5553,
       "name": "Tunai Pro - Pinjaman Aman",
       "alias": [],
       "address": [],
@@ -93350,7 +93390,7 @@
       "description": ""
     },
     {
-      "id": 5553,
+      "id": 5554,
       "name": "My Echo - Dana pinjaman uang tunai, aman dan cepat",
       "alias": [],
       "address": [],
@@ -93372,7 +93412,7 @@
       "description": ""
     },
     {
-      "id": 5554,
+      "id": 5555,
       "name": "Cantik Dana - Pinjaman nyaman",
       "alias": [],
       "address": [],
@@ -93394,7 +93434,7 @@
       "description": ""
     },
     {
-      "id": 5555,
+      "id": 5556,
       "name": "Meminjam Saya - Rupiah Kasih",
       "alias": [],
       "address": [
@@ -93416,7 +93456,7 @@
       "description": ""
     },
     {
-      "id": 5556,
+      "id": 5557,
       "name": "Pinjaman Astra",
       "alias": [],
       "address": [],
@@ -93431,7 +93471,7 @@
       "description": ""
     },
     {
-      "id": 5557,
+      "id": 5558,
       "name": "CashKilat",
       "alias": [],
       "address": [],
@@ -93449,7 +93489,7 @@
       "description": ""
     },
     {
-      "id": 5558,
+      "id": 5559,
       "name": "Cash KilatPinjaman Uang Tunai Cepat",
       "alias": [],
       "address": [
@@ -93471,7 +93511,7 @@
       "description": ""
     },
     {
-      "id": 5559,
+      "id": 5560,
       "name": "Credino",
       "alias": [],
       "address": [],
@@ -93491,7 +93531,7 @@
       "description": ""
     },
     {
-      "id": 5560,
+      "id": 5561,
       "name": "Rupiah NowPinjama Dana Online",
       "alias": [],
       "address": [],
@@ -93511,7 +93551,7 @@
       "description": ""
     },
     {
-      "id": 5561,
+      "id": 5562,
       "name": "Rupiah Kasih - Dana Cepat",
       "alias": [],
       "address": [],
@@ -93533,7 +93573,7 @@
       "description": ""
     },
     {
-      "id": 5562,
+      "id": 5563,
       "name": "Pinjamnow",
       "alias": [],
       "address": [],
@@ -93556,7 +93596,7 @@
       "description": ""
     },
     {
-      "id": 5563,
+      "id": 5564,
       "name": "Kredit Excellent - Dana cair dahulu Kredit Eksklusif - Dana cair",
       "alias": [],
       "address": [],
@@ -93576,7 +93616,7 @@
       "description": ""
     },
     {
-      "id": 5564,
+      "id": 5565,
       "name": "Kredit Excellent - Dana cair dahulu Kredit Eksklusif - Dana cair",
       "alias": [],
       "address": [
@@ -93597,7 +93637,7 @@
       "description": ""
     },
     {
-      "id": 5565,
+      "id": 5566,
       "name": "Kredit Excellent - Dana cair dahulu Kredit Eksklusif - Dana cair",
       "alias": [],
       "address": [
@@ -93616,7 +93656,7 @@
       "description": ""
     },
     {
-      "id": 5566,
+      "id": 5567,
       "name": "Pinjam Kilat",
       "alias": [],
       "address": [],
@@ -93636,7 +93676,7 @@
       "description": ""
     },
     {
-      "id": 5567,
+      "id": 5568,
       "name": "Tunai Dana - Pinjaman Uang Tun dahulu Tunai Dana - Pinjaman Uang Tunai Dana Cepat atau Duit Dana - Pinjaman Uang Tunai Dana Cepat",
       "alias": [],
       "address": [],
@@ -93656,7 +93696,7 @@
       "description": ""
     },
     {
-      "id": 5568,
+      "id": 5569,
       "name": "Dana Pro-Dana Credit Cepat",
       "alias": [
         "dahulu Dana Pro Pinjaman Uang Tunai Dana Cash"
@@ -93682,7 +93722,7 @@
       "description": ""
     },
     {
-      "id": 5569,
+      "id": 5570,
       "name": "Rupiah Masuk - tanpa jaminan",
       "alias": [],
       "address": [],
@@ -93703,7 +93743,7 @@
       "description": ""
     },
     {
-      "id": 5570,
+      "id": 5571,
       "name": "Pinjaman ElitKredit Dana",
       "alias": [],
       "address": [],
@@ -93724,7 +93764,7 @@
       "description": ""
     },
     {
-      "id": 5571,
+      "id": 5572,
       "name": "Pinjaman Merpati Perdamaian",
       "alias": [],
       "address": [],
@@ -93744,7 +93784,7 @@
       "description": ""
     },
     {
-      "id": 5572,
+      "id": 5573,
       "name": "CheetahPinjaman Cepat",
       "alias": [],
       "address": [],
@@ -93764,7 +93804,7 @@
       "description": ""
     },
     {
-      "id": 5573,
+      "id": 5574,
       "name": "Findaya - Pinjam Online Pencatutan",
       "alias": [],
       "address": [],
@@ -93784,7 +93824,7 @@
       "description": ""
     },
     {
-      "id": 5574,
+      "id": 5575,
       "name": "Ayo: Pinjaman Tanpa Agunan",
       "alias": [],
       "address": [
@@ -93805,7 +93845,7 @@
       "description": ""
     },
     {
-      "id": 5575,
+      "id": 5576,
       "name": "Uang Pinjaman - Pinjaman Uang Tunai Dana Cepat",
       "alias": [],
       "address": [],
@@ -93826,7 +93866,7 @@
       "description": ""
     },
     {
-      "id": 5576,
+      "id": 5577,
       "name": "Dana Kredit - Pinjaman Uang Tunai Online Cepat",
       "alias": [],
       "address": [],
@@ -93845,7 +93885,7 @@
       "description": ""
     },
     {
-      "id": 5577,
+      "id": 5578,
       "name": "Dana Kredit - Pinjaman Uang Tunai Online Cepat",
       "alias": [],
       "address": [],
@@ -93862,7 +93902,7 @@
       "description": ""
     },
     {
-      "id": 5578,
+      "id": 5579,
       "name": "Uang Dana Pinjaman Online Cepat Tunai-Money Rupee",
       "alias": [],
       "address": [],
@@ -93882,7 +93922,7 @@
       "description": ""
     },
     {
-      "id": 5579,
+      "id": 5580,
       "name": "Feiteng-KTA Fast",
       "alias": [],
       "address": [],
@@ -93903,7 +93943,7 @@
       "description": ""
     },
     {
-      "id": 5580,
+      "id": 5581,
       "name": "Rupiah Saku - Pinjaman Kredit dahulu Rupiah Saku - Pinjaman Kredit Online Tanpa Jaminan",
       "alias": [],
       "address": [],
@@ -93924,7 +93964,7 @@
       "description": ""
     },
     {
-      "id": 5581,
+      "id": 5582,
       "name": "Kredit Saku",
       "alias": [],
       "address": [],
@@ -93945,7 +93985,7 @@
       "description": ""
     },
     {
-      "id": 5582,
+      "id": 5583,
       "name": "Dana Ribu",
       "alias": [],
       "address": [],
@@ -93967,7 +94007,7 @@
       "description": ""
     },
     {
-      "id": 5583,
+      "id": 5584,
       "name": "Duit PintarUang Online",
       "alias": [],
       "address": [],
@@ -93988,7 +94028,7 @@
       "description": ""
     },
     {
-      "id": 5584,
+      "id": 5585,
       "name": "Uang Pintar - Pinjaman Cepat",
       "alias": [],
       "address": [],
@@ -94008,7 +94048,7 @@
       "description": ""
     },
     {
-      "id": 5585,
+      "id": 5586,
       "name": "Pintar Pinjam - Pinjaman Cepa",
       "alias": [],
       "address": [],
@@ -94026,7 +94066,7 @@
       "description": ""
     },
     {
-      "id": 5586,
+      "id": 5587,
       "name": "Pintar Pinjam - Pinjaman Cepat",
       "alias": [],
       "address": [],
@@ -94044,7 +94084,7 @@
       "description": ""
     },
     {
-      "id": 5587,
+      "id": 5588,
       "name": "Pintu - Pinjaman Tunai Cepat",
       "alias": [],
       "address": [],
@@ -94063,7 +94103,7 @@
       "description": ""
     },
     {
-      "id": 5588,
+      "id": 5589,
       "name": "Kredit SamaKita",
       "alias": [
         "Pencatutan"
@@ -94086,7 +94126,7 @@
       "description": ""
     },
     {
-      "id": 5589,
+      "id": 5590,
       "name": "Dana UangKredit Uang Pinjaman",
       "alias": [],
       "address": [],
@@ -94107,7 +94147,7 @@
       "description": ""
     },
     {
-      "id": 5590,
+      "id": 5591,
       "name": "Money Cepat - Uang Kilat",
       "alias": [],
       "address": [],
@@ -94129,7 +94169,7 @@
       "description": ""
     },
     {
-      "id": 5591,
+      "id": 5592,
       "name": "Fulus Sejahtera - Pinjaman Kredit Uang Kila",
       "alias": [],
       "address": [],
@@ -94150,7 +94190,7 @@
       "description": ""
     },
     {
-      "id": 5592,
+      "id": 5593,
       "name": "Dana Senang – dompet",
       "alias": [
         "dahulu Emas Kita"
@@ -94175,7 +94215,7 @@
       "description": ""
     },
     {
-      "id": 5593,
+      "id": 5594,
       "name": "KTA Mudah",
       "alias": [],
       "address": [],
@@ -94195,7 +94235,7 @@
       "description": ""
     },
     {
-      "id": 5594,
+      "id": 5595,
       "name": "Cash MajuDana Tunai Online Pi",
       "alias": [],
       "address": [],
@@ -94216,7 +94256,7 @@
       "description": ""
     },
     {
-      "id": 5595,
+      "id": 5596,
       "name": "Maju Cash – Kredit Mudah",
       "alias": [],
       "address": [],
@@ -94236,7 +94276,7 @@
       "description": ""
     },
     {
-      "id": 5596,
+      "id": 5597,
       "name": "Uang Mudah - ayo pinjam",
       "alias": [],
       "address": [],
@@ -94257,7 +94297,7 @@
       "description": ""
     },
     {
-      "id": 5597,
+      "id": 5598,
       "name": "Pundi Aman - Uang Online",
       "alias": [],
       "address": [],
@@ -94275,7 +94315,7 @@
       "description": ""
     },
     {
-      "id": 5598,
+      "id": 5599,
       "name": "Beras: Pinjaman Stabil",
       "alias": [],
       "address": [],
@@ -94296,7 +94336,7 @@
       "description": ""
     },
     {
-      "id": 5599,
+      "id": 5600,
       "name": "Iki Modalku - Pinjam Online",
       "alias": [
         "Pencatutan"
@@ -94318,7 +94358,7 @@
       "description": ""
     },
     {
-      "id": 5600,
+      "id": 5601,
       "name": "Prosper",
       "alias": [],
       "address": [],
@@ -94337,7 +94377,7 @@
       "description": ""
     },
     {
-      "id": 5601,
+      "id": 5602,
       "name": "Speed Cash",
       "alias": [],
       "address": [],
@@ -94354,7 +94394,7 @@
       "description": ""
     },
     {
-      "id": 5602,
+      "id": 5603,
       "name": "Ngreditin aja-Pinjaman kredit",
       "alias": [],
       "address": [],
@@ -94375,7 +94415,7 @@
       "description": ""
     },
     {
-      "id": 5603,
+      "id": 5604,
       "name": "Multindo Finance - Uang Online",
       "alias": [
         "Pencatutan"
@@ -94397,7 +94437,7 @@
       "description": ""
     },
     {
-      "id": 5604,
+      "id": 5605,
       "name": "Dompet Kredit-Pinjaman Oline C",
       "alias": [],
       "address": [],
@@ -94418,7 +94458,7 @@
       "description": ""
     },
     {
-      "id": 5605,
+      "id": 5606,
       "name": "Tiger Kash Kredit Pinjama",
       "alias": [],
       "address": [],
@@ -94439,7 +94479,7 @@
       "description": ""
     },
     {
-      "id": 5606,
+      "id": 5607,
       "name": "Bahagia Loan-Pinjama Uang Dana",
       "alias": [],
       "address": [],
@@ -94459,7 +94499,7 @@
       "description": ""
     },
     {
-      "id": 5607,
+      "id": 5608,
       "name": "Pinjaman Kejutan - Keamanan",
       "alias": [],
       "address": [],
@@ -94480,7 +94520,7 @@
       "description": ""
     },
     {
-      "id": 5608,
+      "id": 5609,
       "name": "Pinjaman Kredit - Dana Numpuk",
       "alias": [],
       "address": [],
@@ -94499,7 +94539,7 @@
       "description": ""
     },
     {
-      "id": 5609,
+      "id": 5610,
       "name": "Pinjaman Kaish",
       "alias": [],
       "address": [],
@@ -94514,7 +94554,7 @@
       "description": ""
     },
     {
-      "id": 5610,
+      "id": 5611,
       "name": "Uang Kini",
       "alias": [],
       "address": [],
@@ -94529,7 +94569,7 @@
       "description": ""
     },
     {
-      "id": 5611,
+      "id": 5612,
       "name": "Tunai Pintar- Tunai Cerdas Membantu Anda",
       "alias": [],
       "address": [],
@@ -94547,7 +94587,7 @@
       "description": ""
     },
     {
-      "id": 5612,
+      "id": 5613,
       "name": "Pinjam Go - pinjaman aman",
       "alias": [],
       "address": [],
@@ -94569,7 +94609,7 @@
       "description": ""
     },
     {
-      "id": 5613,
+      "id": 5614,
       "name": "Pinjam Kami Go KSP Pinjaman Uang Online Cepat",
       "alias": [],
       "address": [],
@@ -94589,7 +94629,7 @@
       "description": ""
     },
     {
-      "id": 5614,
+      "id": 5615,
       "name": "Pinjaman Rupiah - Pinjam Uang Langsung Cair",
       "alias": [],
       "address": [],
@@ -94608,7 +94648,7 @@
       "description": ""
     },
     {
-      "id": 5615,
+      "id": 5616,
       "name": "Uang Go-Tempat Pinjaman uang Cepat Tanpa Jaminan",
       "alias": [],
       "address": [],
@@ -94627,7 +94667,7 @@
       "description": ""
     },
     {
-      "id": 5616,
+      "id": 5617,
       "name": "PT Alsi Investindo Utama",
       "alias": [],
       "address": [],
@@ -94636,13 +94676,13 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "10/10/2022",
       "description": ""
     },
     {
-      "id": 5617,
+      "id": 5618,
       "name": "Heart of Hope",
       "alias": [],
       "address": [],
@@ -94651,13 +94691,13 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "10/10/2022",
       "description": ""
     },
     {
-      "id": 5618,
+      "id": 5619,
       "name": "https://ci-hartamanajemen.com/",
       "alias": [],
       "address": [],
@@ -94675,7 +94715,7 @@
       "description": ""
     },
     {
-      "id": 5619,
+      "id": 5620,
       "name": "PT Sembilan Bintang Berjaya",
       "alias": [],
       "address": [],
@@ -94691,7 +94731,7 @@
       "description": ""
     },
     {
-      "id": 5620,
+      "id": 5621,
       "name": "PT IDS Konsultan Manajemen",
       "alias": [],
       "address": [],
@@ -94707,7 +94747,7 @@
       "description": ""
     },
     {
-      "id": 5621,
+      "id": 5622,
       "name": "CALA INDONESIA",
       "alias": [
         "PT Cala Technology Indonesia"
@@ -94725,7 +94765,7 @@
       "description": ""
     },
     {
-      "id": 5622,
+      "id": 5623,
       "name": "PT Indoasia Mitra Abadi",
       "alias": [
         "IFINEX"
@@ -94743,7 +94783,7 @@
       "description": ""
     },
     {
-      "id": 5623,
+      "id": 5624,
       "name": "ROBD Global",
       "alias": [],
       "address": [],
@@ -94759,7 +94799,7 @@
       "description": ""
     },
     {
-      "id": 5624,
+      "id": 5625,
       "name": "Royal Trinity TRD Singapore",
       "alias": [
         "PT Royal Trinity TRD Singapore"
@@ -94777,7 +94817,7 @@
       "description": ""
     },
     {
-      "id": 5625,
+      "id": 5626,
       "name": "Leap Indonesia",
       "alias": [
         "www.leapindonesia.com"
@@ -94795,7 +94835,7 @@
       "description": ""
     },
     {
-      "id": 5626,
+      "id": 5627,
       "name": "http://www.indofastcharge.com/",
       "alias": [],
       "address": [],
@@ -94813,7 +94853,7 @@
       "description": ""
     },
     {
-      "id": 5627,
+      "id": 5628,
       "name": "Wewealth",
       "alias": [],
       "address": [],
@@ -94829,7 +94869,7 @@
       "description": ""
     },
     {
-      "id": 5628,
+      "id": 5629,
       "name": "http://4klik.co/",
       "alias": [],
       "address": [],
@@ -94847,7 +94887,7 @@
       "description": ""
     },
     {
-      "id": 5629,
+      "id": 5630,
       "name": "Lex Financial Mining",
       "alias": [
         "Lex-Financial.ru"
@@ -94865,7 +94905,7 @@
       "description": ""
     },
     {
-      "id": 5630,
+      "id": 5631,
       "name": "patungankosan.com",
       "alias": [],
       "address": [],
@@ -94874,13 +94914,13 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "10/10/2022",
       "description": ""
     },
     {
-      "id": 5631,
+      "id": 5632,
       "name": "KSP Berkat Mandiri Bersatu",
       "alias": [],
       "address": [],
@@ -94889,13 +94929,13 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "10/10/2022",
       "description": ""
     },
     {
-      "id": 5632,
+      "id": 5633,
       "name": "PT Infinity Financial Services",
       "alias": [],
       "address": [],
@@ -94904,13 +94944,13 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "10/10/2022",
       "description": ""
     },
     {
-      "id": 5633,
+      "id": 5634,
       "name": "Dana Segera Pinjam Uang",
       "alias": [],
       "address": [],
@@ -94929,7 +94969,7 @@
       "description": ""
     },
     {
-      "id": 5634,
+      "id": 5635,
       "name": "Pinjaman Tunai-Cepet Cash Dana zeli 4,3 star",
       "alias": [],
       "address": [],
@@ -94947,7 +94987,7 @@
       "description": ""
     },
     {
-      "id": 5635,
+      "id": 5636,
       "name": "KreditCepat - Dapat dipercaya",
       "alias": [],
       "address": [],
@@ -94968,7 +95008,7 @@
       "description": ""
     },
     {
-      "id": 5636,
+      "id": 5637,
       "name": "Daun Hijau - pinjaman online",
       "alias": [],
       "address": [
@@ -94991,7 +95031,7 @@
       "description": ""
     },
     {
-      "id": 5637,
+      "id": 5638,
       "name": "PINJOL KAMI - Pinjaman Cair",
       "alias": [],
       "address": [],
@@ -95010,7 +95050,7 @@
       "description": ""
     },
     {
-      "id": 5638,
+      "id": 5639,
       "name": "DigiPinjam - aman dan cepat",
       "alias": [],
       "address": [],
@@ -95032,7 +95072,7 @@
       "description": ""
     },
     {
-      "id": 5639,
+      "id": 5640,
       "name": "Findaya - Pinjam Online OJK",
       "alias": [
         "pencatutan"
@@ -95054,7 +95094,7 @@
       "description": ""
     },
     {
-      "id": 5640,
+      "id": 5641,
       "name": "Dana Sayang - dompet digital",
       "alias": [],
       "address": [],
@@ -95075,7 +95115,7 @@
       "description": ""
     },
     {
-      "id": 5641,
+      "id": 5642,
       "name": "Tujuh Pinjaman",
       "alias": [],
       "address": [],
@@ -95092,13 +95132,15 @@
       "description": ""
     },
     {
-      "id": 5642,
+      "id": 5643,
       "name": "Uang Beruntung",
       "alias": [],
       "address": [],
       "web": [],
       "email": [],
-      "phone": [],
+      "phone": [
+        "0857270117330895401343519"
+      ],
       "entity_type": "Fintech Ilegal",
       "activity_type": [
         "Peer To Peer Lending"
@@ -95107,7 +95149,7 @@
       "description": ""
     },
     {
-      "id": 5643,
+      "id": 5644,
       "name": "Saku Penuh",
       "alias": [],
       "address": [],
@@ -95124,7 +95166,7 @@
       "description": ""
     },
     {
-      "id": 5644,
+      "id": 5645,
       "name": "Simpan Uang",
       "alias": [],
       "address": [],
@@ -95141,28 +95183,15 @@
       "description": ""
     },
     {
-      "id": 5645,
+      "id": 5646,
       "name": "Suasana Hijau",
       "alias": [],
       "address": [],
       "web": [],
       "email": [],
-      "phone": [],
-      "entity_type": "Fintech Ilegal",
-      "activity_type": [
-        "Peer To Peer Lending"
+      "phone": [
+        "081293266623081285829734"
       ],
-      "input_date": "03/02/2023",
-      "description": ""
-    },
-    {
-      "id": 5646,
-      "name": "pinjaman tepuk",
-      "alias": [],
-      "address": [],
-      "web": [],
-      "email": [],
-      "phone": [],
       "entity_type": "Fintech Ilegal",
       "activity_type": [
         "Peer To Peer Lending"
@@ -95172,6 +95201,23 @@
     },
     {
       "id": 5647,
+      "name": "pinjaman tepuk",
+      "alias": [],
+      "address": [],
+      "web": [],
+      "email": [],
+      "phone": [
+        "0896880023430831569386200812372728910895383205681083822414107089506548497085840854606"
+      ],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "03/02/2023",
+      "description": ""
+    },
+    {
+      "id": 5648,
       "name": "EasyCash - Pinjaman Online Pencatutan",
       "alias": [],
       "address": [],
@@ -95192,7 +95238,7 @@
       "description": ""
     },
     {
-      "id": 5648,
+      "id": 5649,
       "name": "Dompet Mudah - Pinjam Cepat",
       "alias": [],
       "address": [],
@@ -95211,13 +95257,13 @@
       "description": ""
     },
     {
-      "id": 5649,
+      "id": 5650,
       "name": "Dompet Ku - Pinjaman Cepat",
       "alias": [],
       "address": [],
       "web": [
         "https://apkaio.com/app/com.dompet.ku",
-        "https://erdroid.com/id/dompetku---pinjamancepat/com.dompet.ku"
+        "https://erdroid.com/id/dompetkupinjamancepat/com.dompet.ku"
       ],
       "email": [
         "katyumx@gmail.com"
@@ -95231,7 +95277,7 @@
       "description": ""
     },
     {
-      "id": 5650,
+      "id": 5651,
       "name": "Newer Dompet - Bantuan Cash",
       "alias": [],
       "address": [
@@ -95253,7 +95299,7 @@
       "description": ""
     },
     {
-      "id": 5651,
+      "id": 5652,
       "name": "Super Dana - Aman Duit",
       "alias": [],
       "address": [],
@@ -95274,7 +95320,7 @@
       "description": ""
     },
     {
-      "id": 5652,
+      "id": 5653,
       "name": "Dana Pratama - Pinjaman Online dahulu Dana Pratama - Pinjaman Online Cepat Cair",
       "alias": [],
       "address": [
@@ -95298,7 +95344,7 @@
       "description": ""
     },
     {
-      "id": 5653,
+      "id": 5654,
       "name": "Dana Ribu - Pinjaman Online",
       "alias": [],
       "address": [],
@@ -95319,7 +95365,7 @@
       "description": ""
     },
     {
-      "id": 5654,
+      "id": 5655,
       "name": "Duit Aman - Pinjaman nyaman",
       "alias": [],
       "address": [],
@@ -95338,7 +95384,7 @@
       "description": ""
     },
     {
-      "id": 5655,
+      "id": 5656,
       "name": "Dana Kita - KAT Cepat Online",
       "alias": [],
       "address": [],
@@ -95359,7 +95405,7 @@
       "description": ""
     },
     {
-      "id": 5656,
+      "id": 5657,
       "name": "Pinjaman online WOW",
       "alias": [],
       "address": [],
@@ -95380,7 +95426,7 @@
       "description": ""
     },
     {
-      "id": 5657,
+      "id": 5658,
       "name": "Pinjam Mudah - Uang Online",
       "alias": [],
       "address": [],
@@ -95401,7 +95447,7 @@
       "description": ""
     },
     {
-      "id": 5658,
+      "id": 5659,
       "name": "Pinjamanplus - Bunga Rendah dahulu Pinjamanplus - Pinjaman Uang Online Dana Cepat Cair",
       "alias": [],
       "address": [],
@@ -95421,7 +95467,7 @@
       "description": ""
     },
     {
-      "id": 5659,
+      "id": 5660,
       "name": "RupiahLagi",
       "alias": [],
       "address": [],
@@ -95442,7 +95488,7 @@
       "description": ""
     },
     {
-      "id": 5660,
+      "id": 5661,
       "name": "Pinjaman Ekspres Kapal Selam",
       "alias": [],
       "address": [],
@@ -95462,7 +95508,7 @@
       "description": ""
     },
     {
-      "id": 5661,
+      "id": 5662,
       "name": "360 pinjaman",
       "alias": [],
       "address": [],
@@ -95482,7 +95528,7 @@
       "description": ""
     },
     {
-      "id": 5662,
+      "id": 5663,
       "name": "Pinjaman Cepat - Pinjaman Uang dahlu Pinjaman Cepat - Pinjaman Uang Tunai Dana Cepat",
       "alias": [],
       "address": [],
@@ -95502,7 +95548,7 @@
       "description": ""
     },
     {
-      "id": 5663,
+      "id": 5664,
       "name": "OranyePinjaman Cepat",
       "alias": [],
       "address": [],
@@ -95523,7 +95569,7 @@
       "description": ""
     },
     {
-      "id": 5664,
+      "id": 5665,
       "name": "Tunai KilatPinjaman Tunai",
       "alias": [],
       "address": [],
@@ -95545,7 +95591,7 @@
       "description": ""
     },
     {
-      "id": 5665,
+      "id": 5666,
       "name": "Pinjaman Cepat AK",
       "alias": [],
       "address": [],
@@ -95566,7 +95612,7 @@
       "description": ""
     },
     {
-      "id": 5666,
+      "id": 5667,
       "name": "Sumber Solusi Terdepan - Cepat dahulu Dewa Penolong - Pinjaman easy",
       "alias": [],
       "address": [],
@@ -95587,7 +95633,7 @@
       "description": ""
     },
     {
-      "id": 5667,
+      "id": 5668,
       "name": "Pinjaman Aman - KTA Terpercaya dahulu Pinjaman Aman – Pinjaman Online Dana Rupiah",
       "alias": [],
       "address": [
@@ -95608,7 +95654,7 @@
       "description": ""
     },
     {
-      "id": 5668,
+      "id": 5669,
       "name": "Pinjaman Petir – Bunga Rendah",
       "alias": [],
       "address": [],
@@ -95628,7 +95674,7 @@
       "description": ""
     },
     {
-      "id": 5669,
+      "id": 5670,
       "name": "Harimau Kecil - Pinjaman Cepat",
       "alias": [],
       "address": [],
@@ -95648,7 +95694,7 @@
       "description": ""
     },
     {
-      "id": 5670,
+      "id": 5671,
       "name": "Pinjaman Tunai Red Sun",
       "alias": [],
       "address": [],
@@ -95659,7 +95705,9 @@
       "email": [
         "thomasservice007@gmail.co"
       ],
-      "phone": [],
+      "phone": [
+        "ditemukan"
+      ],
       "entity_type": "Fintech Ilegal",
       "activity_type": [
         "Peer To Peer Lending"
@@ -95668,7 +95716,7 @@
       "description": ""
     },
     {
-      "id": 5671,
+      "id": 5672,
       "name": "Rupiah Cepat Cair Pinjol Advic",
       "alias": [
         "Pencatutan"
@@ -95681,7 +95729,9 @@
       "email": [
         "pinjolque@gmail.com"
       ],
-      "phone": [],
+      "phone": [
+        "ditemukan"
+      ],
       "entity_type": "Fintech Ilegal",
       "activity_type": [
         "Peer To Peer Lending"
@@ -95690,7 +95740,7 @@
       "description": ""
     },
     {
-      "id": 5672,
+      "id": 5673,
       "name": "Uang Pinjam Online Dana Cepat dahulu Uang PinjamPinjaman Dana Cepat Cash Tunai Online",
       "alias": [
         "Uang Pinjam Pinjam Dana Cepat"
@@ -95703,7 +95753,9 @@
       "email": [
         "mandy33funk@gmail.com"
       ],
-      "phone": [],
+      "phone": [
+        "ditemukan"
+      ],
       "entity_type": "Fintech Ilegal",
       "activity_type": [
         "Peer To Peer Lending"
@@ -95712,7 +95764,7 @@
       "description": ""
     },
     {
-      "id": 5673,
+      "id": 5674,
       "name": "Dana Aman - KTA Bunga Rendah dahulu Dana Aman – Pinjaman Online Uang Tunai Bunga Rendah",
       "alias": [],
       "address": [],
@@ -95724,7 +95776,9 @@
       "email": [
         "DanaAman0420@gmail.com"
       ],
-      "phone": [],
+      "phone": [
+        "ditemukan"
+      ],
       "entity_type": "Fintech Ilegal",
       "activity_type": [
         "Peer To Peer Lending"
@@ -95733,7 +95787,7 @@
       "description": ""
     },
     {
-      "id": 5674,
+      "id": 5675,
       "name": "Pinjaman Cepat F&1",
       "alias": [],
       "address": [
@@ -95744,7 +95798,9 @@
         "https://play.google.com/sto"
       ],
       "email": [],
-      "phone": [],
+      "phone": [
+        "ditemukan"
+      ],
       "entity_type": "Fintech Ilegal",
       "activity_type": [
         "Peer To Peer Lending"
@@ -95753,7 +95809,7 @@
       "description": ""
     },
     {
-      "id": 5675,
+      "id": 5676,
       "name": "Dompet Emas Pinjama uang cepat",
       "alias": [],
       "address": [],
@@ -95765,26 +95821,9 @@
       "email": [
         "dompetemas0@gmail.com"
       ],
-      "phone": [],
-      "entity_type": "Fintech Ilegal",
-      "activity_type": [
-        "Peer To Peer Lending"
-      ],
-      "input_date": "03/02/2023",
-      "description": ""
-    },
-    {
-      "id": 5676,
-      "name": "BoomPitih",
-      "alias": [],
-      "address": [
+      "phone": [
         "ditemukan"
       ],
-      "web": [
-        "https://apkcombo.com/id/boompitih/com.boompttween.typts/"
-      ],
-      "email": [],
-      "phone": [],
       "entity_type": "Fintech Ilegal",
       "activity_type": [
         "Peer To Peer Lending"
@@ -95794,6 +95833,27 @@
     },
     {
       "id": 5677,
+      "name": "BoomPitih",
+      "alias": [],
+      "address": [
+        "ditemukan"
+      ],
+      "web": [
+        "https://apkcombo.com/id/boompitih/com.boompttween.typts/"
+      ],
+      "email": [],
+      "phone": [
+        "ditemukan"
+      ],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "03/02/2023",
+      "description": ""
+    },
+    {
+      "id": 5678,
       "name": "Siput Energi",
       "alias": [],
       "address": [
@@ -95812,7 +95872,7 @@
       "description": ""
     },
     {
-      "id": 5678,
+      "id": 5679,
       "name": "Telur Rebus",
       "alias": [],
       "address": [
@@ -95820,26 +95880,9 @@
       ],
       "web": [],
       "email": [],
-      "phone": [],
-      "entity_type": "Fintech Ilegal",
-      "activity_type": [
-        "Peer To Peer Lending"
+      "phone": [
+        "628826924648962896301862806281386807814"
       ],
-      "input_date": "03/02/2023",
-      "description": ""
-    },
-    {
-      "id": 5679,
-      "name": "Telur Rebus",
-      "alias": [],
-      "address": [
-        "ditemukan"
-      ],
-      "web": [
-        "http://bit.ly/3Aks9J3"
-      ],
-      "email": [],
-      "phone": [],
       "entity_type": "Fintech Ilegal",
       "activity_type": [
         "Peer To Peer Lending"
@@ -95849,16 +95892,18 @@
     },
     {
       "id": 5680,
-      "name": "DuniaSaku",
+      "name": "Telur Rebus",
       "alias": [],
       "address": [
         "ditemukan"
       ],
       "web": [
-        "https://apkcombo.com/ko/duniasaku/com.duniasaku.ds/"
+        "http://bit.ly/3Aks9J3"
       ],
       "email": [],
-      "phone": [],
+      "phone": [
+        "628826924648962896301862806281386807814"
+      ],
       "entity_type": "Fintech Ilegal",
       "activity_type": [
         "Peer To Peer Lending"
@@ -95868,6 +95913,27 @@
     },
     {
       "id": 5681,
+      "name": "DuniaSaku",
+      "alias": [],
+      "address": [
+        "ditemukan"
+      ],
+      "web": [
+        "https://apkcombo.com/ko/duniasaku/com.duniasaku.ds/"
+      ],
+      "email": [],
+      "phone": [
+        "ditemukan"
+      ],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "03/02/2023",
+      "description": ""
+    },
+    {
+      "id": 5682,
       "name": "Bantu Cepat Pinjaman Tips",
       "alias": [],
       "address": [],
@@ -95879,7 +95945,9 @@
       "email": [
         "stiga3897@gmail.com"
       ],
-      "phone": [],
+      "phone": [
+        "ditemukan"
+      ],
       "entity_type": "Fintech Ilegal",
       "activity_type": [
         "Peer To Peer Lending"
@@ -95888,7 +95956,7 @@
       "description": ""
     },
     {
-      "id": 5682,
+      "id": 5683,
       "name": "Bantu Cepat Pinjaman Guide",
       "alias": [],
       "address": [
@@ -95899,7 +95967,9 @@
         "https://apkpure.com/bantucepatpinjamanguide/com.mediastar.guide"
       ],
       "email": [],
-      "phone": [],
+      "phone": [
+        "ditemukan"
+      ],
       "entity_type": "Fintech Ilegal",
       "activity_type": [
         "Peer To Peer Lending"
@@ -95908,7 +95978,7 @@
       "description": ""
     },
     {
-      "id": 5683,
+      "id": 5684,
       "name": "Dana Darurat - Kredit Tunai",
       "alias": [],
       "address": [],
@@ -95920,7 +95990,9 @@
       "email": [
         "NENY3934@gmail.com"
       ],
-      "phone": [],
+      "phone": [
+        "ditemukan"
+      ],
       "entity_type": "Fintech Ilegal",
       "activity_type": [
         "Peer To Peer Lending"
@@ -95929,7 +96001,7 @@
       "description": ""
     },
     {
-      "id": 5684,
+      "id": 5685,
       "name": "Dana Darurat Pinjaman Guide",
       "alias": [],
       "address": [],
@@ -95949,7 +96021,7 @@
       "description": ""
     },
     {
-      "id": 5685,
+      "id": 5686,
       "name": "Tunai Cair - Pinjaman Kredit",
       "alias": [],
       "address": [],
@@ -95971,7 +96043,7 @@
       "description": ""
     },
     {
-      "id": 5686,
+      "id": 5687,
       "name": "Tunai Cair",
       "alias": [],
       "address": [],
@@ -95988,7 +96060,7 @@
       "description": ""
     },
     {
-      "id": 5687,
+      "id": 5688,
       "name": "Tunai Cair Pinjaman Guide",
       "alias": [],
       "address": [],
@@ -96005,7 +96077,7 @@
       "description": ""
     },
     {
-      "id": 5688,
+      "id": 5689,
       "name": "Tunai Cair Pinjaman Uang Hint",
       "alias": [],
       "address": [],
@@ -96023,7 +96095,7 @@
       "description": ""
     },
     {
-      "id": 5689,
+      "id": 5690,
       "name": "Uang datang",
       "alias": [],
       "address": [],
@@ -96040,7 +96112,7 @@
       "description": ""
     },
     {
-      "id": 5690,
+      "id": 5691,
       "name": "Mari Pinjam",
       "alias": [],
       "address": [],
@@ -96057,7 +96129,7 @@
       "description": ""
     },
     {
-      "id": 5691,
+      "id": 5692,
       "name": "Kredit Mudah – Uang Kilat",
       "alias": [],
       "address": [],
@@ -96077,7 +96149,7 @@
       "description": ""
     },
     {
-      "id": 5692,
+      "id": 5693,
       "name": "Super Rupiah - Aman dan cepat",
       "alias": [],
       "address": [],
@@ -96096,7 +96168,7 @@
       "description": ""
     },
     {
-      "id": 5693,
+      "id": 5694,
       "name": "Dompet Kilat - Pinjam Online",
       "alias": [
         "Pencatutan"
@@ -96120,7 +96192,7 @@
       "description": ""
     },
     {
-      "id": 5694,
+      "id": 5695,
       "name": "Pinjaman soto",
       "alias": [],
       "address": [],
@@ -96137,13 +96209,15 @@
       "description": ""
     },
     {
-      "id": 5695,
+      "id": 5696,
       "name": "Easy Go",
       "alias": [],
       "address": [],
       "web": [],
       "email": [],
-      "phone": [],
+      "phone": [
+        "085711486629085602838089087832418172089509185903085691135992089508992691"
+      ],
       "entity_type": "Fintech Ilegal",
       "activity_type": [
         "Peer To Peer Lending"
@@ -96152,7 +96226,7 @@
       "description": ""
     },
     {
-      "id": 5696,
+      "id": 5697,
       "name": "Berikan Dana",
       "alias": [],
       "address": [],
@@ -96169,7 +96243,7 @@
       "description": ""
     },
     {
-      "id": 5697,
+      "id": 5698,
       "name": "Tunai Boom",
       "alias": [],
       "address": [],
@@ -96186,7 +96260,7 @@
       "description": ""
     },
     {
-      "id": 5698,
+      "id": 5699,
       "name": "Dana boom",
       "alias": [],
       "address": [],
@@ -96203,7 +96277,7 @@
       "description": ""
     },
     {
-      "id": 5699,
+      "id": 5700,
       "name": "Kredit Penuh-Pinjaman Cash",
       "alias": [],
       "address": [],
@@ -96225,7 +96299,7 @@
       "description": ""
     },
     {
-      "id": 5700,
+      "id": 5701,
       "name": "DearRupiah-Kredit Uang Kilat",
       "alias": [],
       "address": [],
@@ -96246,7 +96320,7 @@
       "description": ""
     },
     {
-      "id": 5701,
+      "id": 5702,
       "name": "Dear Rupiah Pinjaman Guide",
       "alias": [],
       "address": [],
@@ -96266,7 +96340,7 @@
       "description": ""
     },
     {
-      "id": 5702,
+      "id": 5703,
       "name": "Pinjaman Pudah",
       "alias": [],
       "address": [],
@@ -96287,7 +96361,7 @@
       "description": ""
     },
     {
-      "id": 5703,
+      "id": 5704,
       "name": "KA Pinjaman Online Cepat",
       "alias": [],
       "address": [],
@@ -96307,7 +96381,7 @@
       "description": ""
     },
     {
-      "id": 5704,
+      "id": 5705,
       "name": "Kilat Rupiah - Quick & Safe",
       "alias": [],
       "address": [],
@@ -96328,7 +96402,7 @@
       "description": ""
     },
     {
-      "id": 5705,
+      "id": 5706,
       "name": "Pinjaman Online CKE",
       "alias": [],
       "address": [],
@@ -96348,7 +96422,7 @@
       "description": ""
     },
     {
-      "id": 5706,
+      "id": 5707,
       "name": "Kilat Kas-Kita Pinjama Credit",
       "alias": [],
       "address": [],
@@ -96368,7 +96442,7 @@
       "description": ""
     },
     {
-      "id": 5707,
+      "id": 5708,
       "name": "Selamat Cash - Duit Aman",
       "alias": [],
       "address": [],
@@ -96389,7 +96463,7 @@
       "description": ""
     },
     {
-      "id": 5708,
+      "id": 5709,
       "name": "Platform Pinjaman Online XOT",
       "alias": [],
       "address": [],
@@ -96409,7 +96483,7 @@
       "description": ""
     },
     {
-      "id": 5709,
+      "id": 5710,
       "name": "CashWallet",
       "alias": [],
       "address": [],
@@ -96429,7 +96503,7 @@
       "description": ""
     },
     {
-      "id": 5710,
+      "id": 5711,
       "name": "Pinjaman Hoki-Uang Online",
       "alias": [],
       "address": [],
@@ -96451,7 +96525,7 @@
       "description": ""
     },
     {
-      "id": 5711,
+      "id": 5712,
       "name": "Pinjaman Cepat Online MK",
       "alias": [],
       "address": [],
@@ -96471,7 +96545,7 @@
       "description": ""
     },
     {
-      "id": 5712,
+      "id": 5713,
       "name": "Dana Impian",
       "alias": [],
       "address": [],
@@ -96493,7 +96567,7 @@
       "description": ""
     },
     {
-      "id": 5713,
+      "id": 5714,
       "name": "Dana Ceria",
       "alias": [],
       "address": [],
@@ -96512,7 +96586,7 @@
       "description": ""
     },
     {
-      "id": 5714,
+      "id": 5715,
       "name": "Timeshare Property",
       "alias": [],
       "address": [],
@@ -96521,13 +96595,13 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "03/02/2023",
       "description": ""
     },
     {
-      "id": 5715,
+      "id": 5716,
       "name": "MSL-CF Arbah Capital",
       "alias": [],
       "address": [],
@@ -96544,7 +96618,7 @@
       "description": ""
     },
     {
-      "id": 5716,
+      "id": 5717,
       "name": "xtoko.co",
       "alias": [],
       "address": [],
@@ -96560,7 +96634,7 @@
       "description": ""
     },
     {
-      "id": 5717,
+      "id": 5718,
       "name": "https://h5.easygoid.com/guide",
       "alias": [],
       "address": [],
@@ -96571,13 +96645,13 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "03/02/2023",
       "description": ""
     },
     {
-      "id": 5718,
+      "id": 5719,
       "name": "https://www.genesis-mining.com/",
       "alias": [],
       "address": [],
@@ -96595,7 +96669,7 @@
       "description": ""
     },
     {
-      "id": 5719,
+      "id": 5720,
       "name": "PT Data Saham Indonesia",
       "alias": [],
       "address": [],
@@ -96613,7 +96687,7 @@
       "description": ""
     },
     {
-      "id": 5720,
+      "id": 5721,
       "name": "PT Semesta Tekno Indoraya",
       "alias": [
         "cuanz"
@@ -96624,13 +96698,13 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "03/02/2023",
       "description": ""
     },
     {
-      "id": 5721,
+      "id": 5722,
       "name": "QZ Asset Management",
       "alias": [],
       "address": [],
@@ -96639,13 +96713,13 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "03/02/2023",
       "description": ""
     },
     {
-      "id": 5722,
+      "id": 5723,
       "name": "PT Syariah Investing",
       "alias": [],
       "address": [],
@@ -96656,13 +96730,13 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "03/02/2023",
       "description": ""
     },
     {
-      "id": 5723,
+      "id": 5724,
       "name": "Gadai Mega Elektronik",
       "alias": [],
       "address": [
@@ -96679,7 +96753,7 @@
       "description": ""
     },
     {
-      "id": 5724,
+      "id": 5725,
       "name": "Triptoo Gadai",
       "alias": [],
       "address": [
@@ -96696,7 +96770,7 @@
       "description": ""
     },
     {
-      "id": 5725,
+      "id": 5726,
       "name": "Flobamora Gadai",
       "alias": [],
       "address": [
@@ -96713,7 +96787,7 @@
       "description": ""
     },
     {
-      "id": 5726,
+      "id": 5727,
       "name": "KSP Gadai",
       "alias": [],
       "address": [
@@ -96730,7 +96804,7 @@
       "description": ""
     },
     {
-      "id": 5727,
+      "id": 5728,
       "name": "KSP Gadai",
       "alias": [],
       "address": [
@@ -96755,7 +96829,7 @@
       "description": ""
     },
     {
-      "id": 5728,
+      "id": 5729,
       "name": "Pusat Gadai Indonesia",
       "alias": [],
       "address": [
@@ -96777,7 +96851,7 @@
       "description": ""
     },
     {
-      "id": 5729,
+      "id": 5730,
       "name": "Tosin Gadai",
       "alias": [],
       "address": [
@@ -96797,7 +96871,7 @@
       "description": ""
     },
     {
-      "id": 5730,
+      "id": 5731,
       "name": "Usaha Gadai Mandiri",
       "alias": [],
       "address": [
@@ -96816,7 +96890,7 @@
       "description": ""
     },
     {
-      "id": 5731,
+      "id": 5732,
       "name": "Gadai Syariah Berkat Bersama",
       "alias": [],
       "address": [
@@ -96836,7 +96910,7 @@
       "description": ""
     },
     {
-      "id": 5732,
+      "id": 5733,
       "name": "CAIRIN: Pinjol Cepat Tips Cair",
       "alias": [
         "Pencatutan"
@@ -96858,13 +96932,13 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5733,
+      "id": 5734,
       "name": "RUPIAH DANA CEPAT - Butuh Uang Tunai Tanpa Agunan",
       "alias": [],
       "address": [],
       "web": [
         "https://apkcombo.com/rupiahdanacepatbutuhuangtunaitanpaagunan/",
-        "https://apk.tools/detailsrupiahdanacepatbutuhuangtunaitanpaagunan-"
+        "https://apk.tools/detailsrupiahdanacepatbutuhuangtunaitanpaagunan"
       ],
       "email": [],
       "phone": [],
@@ -96876,7 +96950,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5734,
+      "id": 5735,
       "name": "Pasar KTA - Pinjaman Uang Online Cepat Dana Cair",
       "alias": [],
       "address": [
@@ -96898,7 +96972,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5735,
+      "id": 5736,
       "name": "Pasar KTA - Cepat Dana Tunai",
       "alias": [],
       "address": [
@@ -96921,7 +96995,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5736,
+      "id": 5737,
       "name": "Dompet pemula",
       "alias": [],
       "address": [
@@ -96944,7 +97018,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5737,
+      "id": 5738,
       "name": "Rupiah teman",
       "alias": [],
       "address": [],
@@ -96962,7 +97036,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5738,
+      "id": 5739,
       "name": "pasar cash",
       "alias": [],
       "address": [
@@ -96983,7 +97057,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5739,
+      "id": 5740,
       "name": "Rupiahku- Pinjaman Uang online",
       "alias": [],
       "address": [],
@@ -97002,7 +97076,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5740,
+      "id": 5741,
       "name": "Uang Pintar - Pinjaman kilat",
       "alias": [],
       "address": [],
@@ -97023,7 +97097,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5741,
+      "id": 5742,
       "name": "Kredit Berlian - Pinjaman Uang",
       "alias": [],
       "address": [
@@ -97037,7 +97111,9 @@
       "email": [
         "bellwwc2222222@gmail.co"
       ],
-      "phone": [],
+      "phone": [
+        "m"
+      ],
       "entity_type": "Fintech Ilegal",
       "activity_type": [
         "Peer To Peer Lending"
@@ -97046,7 +97122,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5742,
+      "id": 5743,
       "name": "Duit panaspinjaman online",
       "alias": [],
       "address": [],
@@ -97067,7 +97143,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5743,
+      "id": 5744,
       "name": "Uang Hoki",
       "alias": [],
       "address": [],
@@ -97084,11 +97160,11 @@
       "description": ""
     },
     {
-      "id": 5744,
+      "id": 5745,
       "name": "Dana Kejayaan - Uang Online",
       "alias": [],
       "address": [
-        "Wisma AKR, 7th- 8th Floor, Jl Panjang No. 5, Kebon Jeruk, Jakarta Barat 11530"
+        "Wisma AKR, 7th 8th Floor, Jl Panjang No. 5, Kebon Jeruk, Jakarta Barat 11530"
       ],
       "web": [
         "https://danakejayaan.com/",
@@ -97106,7 +97182,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5745,
+      "id": 5746,
       "name": "Aman Money - Mudah Cepat",
       "alias": [],
       "address": [
@@ -97128,7 +97204,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5746,
+      "id": 5747,
       "name": "Pinjaman Angsuran Ekspres",
       "alias": [],
       "address": [],
@@ -97148,7 +97224,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5747,
+      "id": 5748,
       "name": "Laut-Pinjaman Tanpa Jaminan",
       "alias": [],
       "address": [],
@@ -97169,7 +97245,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5748,
+      "id": 5749,
       "name": "Dana Uang - Pinjaman Kredit",
       "alias": [],
       "address": [],
@@ -97190,7 +97266,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5749,
+      "id": 5750,
       "name": "Pinjaman Duit – KTA Online",
       "alias": [],
       "address": [],
@@ -97211,7 +97287,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5750,
+      "id": 5751,
       "name": "PinjamNow",
       "alias": [],
       "address": [],
@@ -97233,7 +97309,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5751,
+      "id": 5752,
       "name": "Ringan Tunai - Dompet online",
       "alias": [],
       "address": [
@@ -97254,7 +97330,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5752,
+      "id": 5753,
       "name": "Hello Duit - Dana Happy",
       "alias": [],
       "address": [],
@@ -97275,7 +97351,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5753,
+      "id": 5754,
       "name": "Dana Flow- Pinjama dana cepat",
       "alias": [],
       "address": [],
@@ -97296,7 +97372,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5754,
+      "id": 5755,
       "name": "Dana Pro - Cepat Uang Dana",
       "alias": [],
       "address": [
@@ -97305,7 +97381,7 @@
       "web": [
         "https://play.google.com/sto",
         "https://danapro.net/",
-        "https://www.facebook.com/people/DanaProCepatUang-"
+        "https://www.facebook.com/people/DanaProCepatUang"
       ],
       "email": [],
       "phone": [],
@@ -97317,7 +97393,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5755,
+      "id": 5756,
       "name": "Pinjaman Boll",
       "alias": [],
       "address": [],
@@ -97338,7 +97414,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5756,
+      "id": 5757,
       "name": "Get Emas - Dana Cepat",
       "alias": [],
       "address": [],
@@ -97360,7 +97436,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5757,
+      "id": 5758,
       "name": "Rupiah Go- Pinjama Uang Cepat",
       "alias": [],
       "address": [],
@@ -97381,7 +97457,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5758,
+      "id": 5759,
       "name": "GO Rupiah - Kredit Uang Kilat",
       "alias": [],
       "address": [],
@@ -97402,7 +97478,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5759,
+      "id": 5760,
       "name": "Cash Bintang- Pinjaman Online",
       "alias": [],
       "address": [
@@ -97424,7 +97500,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5760,
+      "id": 5761,
       "name": "Dompet Now - Dapat dipercaya",
       "alias": [],
       "address": [],
@@ -97446,7 +97522,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5761,
+      "id": 5762,
       "name": "Pinjaman Angsuran Renren",
       "alias": [],
       "address": [],
@@ -97467,7 +97543,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5762,
+      "id": 5763,
       "name": "Pinjaman Tanpa Jaminan Rocket",
       "alias": [],
       "address": [],
@@ -97487,7 +97563,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5763,
+      "id": 5764,
       "name": "Permata Pinjaman Lebih Cepat",
       "alias": [],
       "address": [],
@@ -97507,7 +97583,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5764,
+      "id": 5765,
       "name": "AYO Bintang",
       "alias": [],
       "address": [
@@ -97531,7 +97607,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5765,
+      "id": 5766,
       "name": "Butler Emas- Pinjaman Cepat",
       "alias": [],
       "address": [],
@@ -97551,7 +97627,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5766,
+      "id": 5767,
       "name": "Platform Pinjaman Cepat SDK",
       "alias": [],
       "address": [],
@@ -97572,7 +97648,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5767,
+      "id": 5768,
       "name": "Platform pinjaman online Abe",
       "alias": [],
       "address": [],
@@ -97592,7 +97668,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5768,
+      "id": 5769,
       "name": "GoRupiah Plus",
       "alias": [],
       "address": [],
@@ -97612,7 +97688,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5769,
+      "id": 5770,
       "name": "Pinjaman Cepat Hhemat Waktu",
       "alias": [],
       "address": [],
@@ -97632,7 +97708,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5770,
+      "id": 5771,
       "name": "Pinjaman Uang-Indonesia Wallet",
       "alias": [],
       "address": [],
@@ -97653,7 +97729,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5771,
+      "id": 5772,
       "name": "Dana Instan - KTA Kilat Uang dahulu Dana Instan - Pinjaman Uang Tunai Rupiah",
       "alias": [],
       "address": [
@@ -97676,7 +97752,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5772,
+      "id": 5773,
       "name": "Dana Instan - KTA Kilat Uang dahulu Dana Instan - Pinjaman Uang Tunai Rupiah",
       "alias": [],
       "address": [
@@ -97698,7 +97774,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5773,
+      "id": 5774,
       "name": "Pinjaman Tunai Pribadi Terbang",
       "alias": [],
       "address": [],
@@ -97719,7 +97795,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5774,
+      "id": 5775,
       "name": "Wadah Uang - Pinjaman Online dengan Bunga Rendah",
       "alias": [],
       "address": [
@@ -97742,7 +97818,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5775,
+      "id": 5776,
       "name": "Cash Pro – Pinjaman Uang Tunai Online",
       "alias": [],
       "address": [
@@ -97765,7 +97841,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5776,
+      "id": 5777,
       "name": "Swan Pinjaman Tunai Pribadi",
       "alias": [],
       "address": [],
@@ -97785,7 +97861,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5777,
+      "id": 5778,
       "name": "Cash Cash",
       "alias": [],
       "address": [],
@@ -97804,7 +97880,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5778,
+      "id": 5779,
       "name": "Pinjaman Cepat Online RAC",
       "alias": [],
       "address": [],
@@ -97825,7 +97901,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5779,
+      "id": 5780,
       "name": "TemanUang",
       "alias": [],
       "address": [],
@@ -97847,7 +97923,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5780,
+      "id": 5781,
       "name": "Kontribusi Uang-Pinjaman aman",
       "alias": [],
       "address": [],
@@ -97868,7 +97944,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5781,
+      "id": 5782,
       "name": "Uang Mudah - Pinjam Dana Cepat",
       "alias": [],
       "address": [],
@@ -97889,7 +97965,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5782,
+      "id": 5783,
       "name": "PT Satu Solusi Intermedia Utama",
       "alias": [
         "Indonetwork"
@@ -97900,13 +97976,13 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "10/02/2023",
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5783,
+      "id": 5784,
       "name": "ourcitrusindo.com",
       "alias": [
         "duplikasi PT Gemilang Citrus Berjaya"
@@ -97917,13 +97993,13 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "10/02/2023",
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5784,
+      "id": 5785,
       "name": "Ayostore.id",
       "alias": [],
       "address": [],
@@ -97932,13 +98008,13 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "10/02/2023",
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5785,
+      "id": 5786,
       "name": "Realms of Ruby",
       "alias": [],
       "address": [],
@@ -97954,7 +98030,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5786,
+      "id": 5787,
       "name": "konsor.io",
       "alias": [],
       "address": [],
@@ -97970,7 +98046,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5787,
+      "id": 5788,
       "name": "Go-Star",
       "alias": [],
       "address": [],
@@ -97986,7 +98062,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5788,
+      "id": 5789,
       "name": "duplikasi Mego Supply Indonesia",
       "alias": [],
       "address": [],
@@ -98004,7 +98080,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5789,
+      "id": 5790,
       "name": "https://gold-mining.co/?G=&id=ARRAZZAQ01",
       "alias": [],
       "address": [],
@@ -98022,7 +98098,7 @@
       "description": "SP 01/SWI/II/2023"
     },
     {
-      "id": 5790,
+      "id": 5791,
       "name": "KGRS",
       "alias": [
         "Komunitas Gotong Royong Sejahtera"
@@ -98033,11 +98109,11 @@
       "phone": [],
       "entity_type": "Investasi Ilegal",
       "activity_type": [
-        "Lain - Lain"
+        "Lain Lain"
       ],
       "input_date": "10/02/2023",
       "description": "SP 01/SWI/II/2023"
     }
   ],
-  "version": "14/06/2023"
+  "version": "10/06/2023"
 }

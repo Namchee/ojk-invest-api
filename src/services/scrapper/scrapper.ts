@@ -1,6 +1,6 @@
 import type { Browser, Page, WaitForOptions } from 'puppeteer';
 
-import { FIVE_MINUTES } from '../../constant/time.js';
+import { TEN_MINUTES } from '../../constant/time.js';
 
 /**
  * Scrapping result from a scrapping script
@@ -16,7 +16,7 @@ export const PAGE_OPTIONS: WaitForOptions = {
 };
 
 // eslint-disable-next-line max-len
-const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36';
+const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36';
 
 /**
  * Base scrapping script
@@ -70,7 +70,7 @@ export abstract class Scrapper<T> {
       }
     });
 
-    await page.waitForSelector(selector, { timeout: FIVE_MINUTES });
+    await page.waitForSelector(selector, { timeout: TEN_MINUTES });
 
     return page;
   }
