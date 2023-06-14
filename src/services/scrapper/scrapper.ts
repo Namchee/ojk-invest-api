@@ -1,6 +1,6 @@
 import type { Browser, Page, WaitForOptions } from 'puppeteer';
 
-import { FIVE_MINUTES } from '../../constant/time.js';
+import { TEN_MINUTES } from '../../constant/time.js';
 
 /**
  * Scrapping result from a scrapping script
@@ -70,7 +70,7 @@ export abstract class Scrapper<T> {
       }
     });
 
-    await page.waitForSelector(selector, { timeout: FIVE_MINUTES });
+    await page.waitForSelector(selector, { timeout: TEN_MINUTES });
 
     return page;
   }

@@ -161,7 +161,7 @@ function scanDataFromPhone(phone: string): {
   phone = new TextProcessor(phone).sanitize().trim().getResult();
   phone = phone.replaceAll(/(Telepon|Customer Care) ?:/gi, '');
 
-  const emails = EMAIL_PATTERN.exec(phone) ?? [];
+  const emails = phone.match(EMAIL_PATTERN) ?? [];
 
   emails.forEach(email => (phone = phone.replace(email, '')));
 
@@ -185,53 +185,19 @@ function scanDataFromPhone(phone: string): {
 }
 
 /**
- * Extract investment data from `web` field
+ * Extract investment data from `phone` field
  *
- * @param {string} field web field
+ * @param {string} email phone field
  * @return {string[]} list of emails
  */
-function scanDataFromEmails(field: string): {
+function scanDataFromEmails(email: string): {
   web: string[];
   email: string[];
 } {
-  const tokens = tokenizeEmailField(field.split(/\s+/));
-
-  const webs = [];
-  const emails = [];
-
-  for (const token of tokens) {
-    if (EMAIL_PATTERN.exec(token)) {
-      emails.push(token);
-    }
-
-    if (URL_PATTERN.exec(token)) {
-      webs.push(token);
-    }
-  }
+  email = new TextProcessor(email).sanitize().trim().getResult();
 
   return {
-    web: webs,
-    email: emails,
+    web: email.match(URL_PATTERN) ?? [],
+    email: email.match(EMAIL_PATTERN) ?? [],
   };
-}
-
-/**
- * Get web URIs from fields
- *
- * @param {string} tokens web tokens
- * @return {string[]} list of URIs
- */
-function tokenizeEmailField(tokens: string[]): string[] {
-  const result = [];
-
-  for (const token of tokens) {
-    const isWebResource = URL_PATTERN.exec(token) ?? EMAIL_PATTERN.exec(token);
-    if (isWebResource) {
-      result.push(token);
-    } else {
-      result[result.length - 1] += token;
-    }
-  }
-
-  return result;
 }

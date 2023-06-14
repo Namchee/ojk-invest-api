@@ -18,7 +18,7 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
   // table navigation selector
   private static readonly nextSelector = '.next';
   // table selector
-  private static readonly tableSelector = '.dataTable';
+  private static readonly tableSelector = '#datatable';
   // disabled selector
   private static readonly disabledSelector = '.disabled';
 
