@@ -25,6 +25,8 @@ jobs:
           cache: 'pnpm'
       - name: Install all required dependencies
         run: pnpm install --frozen-lockfile
+      - name: Installing Chromium via Puppeteer
+        run: node ./node_modules/puppeteer/install.js
       - name: Build the files
         run: pnpm run scrap:build
       - name: Scrap and renew the data
