@@ -112874,7 +112874,5331 @@
       ],
       "input_date": "09/08/2023",
       "description": "SP04/STPAKI/VIII/2023"
+    },
+    {
+      "id": 6660,
+      "name": "Rupiah Cash - Cash Pro",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.rupiah.cash.bijak.amanah"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "07/10/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6661,
+      "name": "Dana Rupiah Pinjam Cepat Info",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=us.danarupiahpinjam"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "07/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6662,
+      "name": "Tunai Kita - Pinjam Uang Cepat Kilat dan Mudah",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.pnjmberkah.amanahbaik/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "07/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6663,
+      "name": "Dompet Cepat - Platform Pinjaman Tunai",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.ninestars.dompetcepat/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "07/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6664,
+      "name": "Pinjaman Global Personal Loan dan KTA",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.bocahlanangemak.Global_Finance/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "07/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6665,
+      "name": "KTA Pintar - Pinjam Uang Cepat,Mudah & Dana Kilat",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.ktapintar.ktapintarku/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "07/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6666,
+      "name": "Uang sesame - Pinjaman KTA Instan dan Mudah",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.uangsesame.app/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6667,
+      "name": "Uang-Mesin-[adalah aplikasi pinjaman online KTA]",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.uangmesin/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6668,
+      "name": "Aman Pinjam - Solusi Pinjaman",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.aman.pinjam.uang.money&hl=enID"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6669,
+      "name": "KTA Mudah",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.kta.udah.dupfo.ktamudah"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6670,
+      "name": "Pinjaman Amanah-Kredit Online",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.pinjaman.amanah.cash.rupiah"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6671,
+      "name": "Star Kredit - Pinjama Cepat",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.goodluck.anam.kt"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6672,
+      "name": "Dompet Mangga Pinjaman - Info",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2806844"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6673,
+      "name": "Rupiah Plus Pinjaman Dana Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792276"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6674,
+      "name": "Beruang Pinjaman Online - Hint",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2804379"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6675,
+      "name": "PNM Mekar Pinjaman Online Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2806937"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6676,
+      "name": "KSP Dana Cepat Pinjaman - Hint",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2804337"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6677,
+      "name": "Easy Uang Pinjaman Online Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792824"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6678,
+      "name": "Uang Teman Pinjaman Dana-Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2804390"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6679,
+      "name": "Dompet Mangga Pinjaman Clue",
+      "alias": [],
+      "address": [
+        "Uang Teman Pinjaman DanaClue"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6680,
+      "name": "DanaMu Pinjaman Online - Info",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792198"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6681,
+      "name": "Dompet Super Pinjaman - Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792812"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6682,
+      "name": "Pinjaman Hoki Pinjol Cair Hint",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2806947"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6683,
+      "name": "Kredit Eksklusif Pinjaman Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792227"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6684,
+      "name": "Kredit Eksklusif Pinjaman Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792227"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6685,
+      "name": "Danaku Pinjaman Online - Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2804285"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6686,
+      "name": "Danaku Pinjaman Online - Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2804285"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6687,
+      "name": "https://play.google.com/store/apps/details?id=com.newandromo.dev1197175.app2792183",
+      "alias": [],
+      "address": [
+        "Dompet Beruntung Pinjaman Tips"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6688,
+      "name": "Dewa Penolong Pinjaman Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792738"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6689,
+      "name": "Dewa Penolong Pinjaman Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792738"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6690,
+      "name": "Dana Fortuna Pinjaman - Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2806889"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6691,
+      "name": "Duit Pintar Pinjaman Cair Hint",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792239"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6692,
+      "name": "Uang Plus Pinjaman Online Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2804460"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6693,
+      "name": "Go Rupiah Pinjaman Online Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2804473"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6694,
+      "name": "Go Rupiah Pinjaman Online Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2804473"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6695,
+      "name": "Uang Pintek Pinjaman - Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2804224"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6696,
+      "name": "Uang Pintek Pinjaman - Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2804224"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6697,
+      "name": "Bahagia Loan Pinjaman - Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2804393"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6698,
+      "name": "Sinar Rupiah Pinjaman - Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2804251"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6699,
+      "name": "Q Dana Pinjaman Online - Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792744"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6700,
+      "name": "Dana Kilat Pinjaman Online Tip",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792242"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6701,
+      "name": "Gogo Uang Pinjaman Online Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792298"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6702,
+      "name": "Ringan Pinjam Pinjol - Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2806904"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6703,
+      "name": "Dana Impian Pinjaman - Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792318"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6704,
+      "name": "Pohon Dana Pinjaman - Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792773"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6705,
+      "name": "KSP Dompet Durian Pinjaman Tip",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2806859"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6706,
+      "name": "Abadi Dana - Pinjaman Uang",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.abadidana.pinjamanuang"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6707,
+      "name": "Abadi Dana - Pinjaman Uang",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.abadidana.cs"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6708,
+      "name": "Abadi Dana - Layanan",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.abadi.abadidana"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6709,
+      "name": "Abadi Dana - Pinjaman",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.abadidana.abadidana_pinjaman"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6710,
+      "name": "Dana Pay - Layanan",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.books.com.danapay.danapay"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6711,
+      "name": "Dana Pay - Cs",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.ash.danapascs"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6712,
+      "name": "Dana Pay - Cs",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.danapay.pusatbantuan"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6713,
+      "name": "Dana - Pay",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.mydanapay18",
+        "danapay181"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6714,
+      "name": "Dompet Kelapa Pinjaman - Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792850"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6715,
+      "name": "Sayang Dompet Pinjaman - Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2806870"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6716,
+      "name": "Dompet Pisang Pinjaman - Info",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2806833"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6717,
+      "name": "Super Pinjaman Dana Pinjol Tip",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792729"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6718,
+      "name": "Pinjaman Now Pinjaman Dana Tip",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2806873"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6719,
+      "name": "Kotak Uang Pinjaman Online Tip",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2806821"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6720,
+      "name": "KreditPro Pinjaman Online Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792206"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6721,
+      "name": "Modal Tunai Pinjaman Dana Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2806880"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6722,
+      "name": "Kredit Uang Pinjaman Dana Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2804296"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6723,
+      "name": "Dompet Cash Pinjaman - Cluie",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2804320"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6724,
+      "name": "Panda Money",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.pandamoneypro"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6725,
+      "name": "Dana Cepat Pinjaman Uang Cepat",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=kijang.diesel.loan"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6726,
+      "name": "Pinjaman Kilat - Layanan",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.pinjamankilat.pusatbantuan"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6727,
+      "name": "Tunai Cepat - Pinjam Online",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.rahmataziapp"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6728,
+      "name": "Dana Cepat-Pinjaman Online",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.dana.pinjaman.online.easycash"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6729,
+      "name": "Pinjaman Instan - Uang Mudah",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.pinjaman.instan.mony.loan"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6730,
+      "name": "Pinjaman Dana Online",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=pinjaman.dana.online.uang"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6731,
+      "name": "Rupiah Cash",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.rupiahcash.bantuan"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6732,
+      "name": "Rupiah Cash - Pro",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.mykreditberlian.kreditberlian"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6733,
+      "name": "Dana Rakyat Pinjaman Dana Hint",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2804451"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6734,
+      "name": "Pinjol Cepat Bayar Bulanan Tip",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792337"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6735,
+      "name": "Mobile Wallet Pinjaman – Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2804414"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6736,
+      "name": "Uang Ku Pinjaman Online – Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792802"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6737,
+      "name": "Dana Kami Pinjaman Online Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2806894"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6738,
+      "name": "Pinjol Galbay Ilegal Info",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2806913"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6739,
+      "name": "Uang Kaget Pinjaman Online Tip",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792864"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6740,
+      "name": "Cantik Dana Pinjaman – Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2804274"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6741,
+      "name": "Dompet Emas Pinjaman Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2804424"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6742,
+      "name": "Cash Now Pinjaman Online Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792763"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6743,
+      "name": "Pinjaman Dana -Pinjaman Online",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.keuangandigitalabadi.pinjamandana_pinjamanonline"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6744,
+      "name": "Dompet Kaya - Pinjaman Online",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.keuangandigitalabadi.dompetkaya2"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6745,
+      "name": "Kredit Bijak Layanan-Pinjaman",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.keuangandigitalabadi.kreditbijaklayanan_pinjaman"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6746,
+      "name": "Dana Flow- Pinjama dana cepat",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/sejah.flowcash.fwid"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6747,
+      "name": "CashCashNow-pinjam online uang rupiah cepat dana",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.cashcashnow.rich"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6748,
+      "name": "Selamat Pinjam - Pinjaman Dana Aman Terpercaya",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.selamatpinjam.flutterapp"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6749,
+      "name": "KTA Gampang -Pinjaman Online Dana Kredit Tunai",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.kat.gampang.mtydah"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6750,
+      "name": "Dana Kredit Pinjaman Dana Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792833"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6751,
+      "name": "Cash Aku Pinjaman Online Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792819"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6752,
+      "name": "Daun Hijau Pinjaman Dana guide",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.transpeedapps.thaililacwalpaper"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6753,
+      "name": "KreditPro Pinjaman Dana Guide",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.transpeedapps.britishlonghairwalpaper"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6754,
+      "name": "Dokter Uang - Pinjaman guia",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.transpeedapps.americancurlwalpaper"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6755,
+      "name": "DanaKu Pinjaman online advice",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.transpeedapps.chausiewalpaper"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6756,
+      "name": "Sinar Rupiah - Pinjaman Hint",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.transpeedapps.aegeanwalpaper"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6757,
+      "name": "Dana Darurat - Pinjaman helper",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.transpeedapps.wilakrungthepwalpaper"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6758,
+      "name": "Dompet Kredit pinjaman helper",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.transpeedapps.turkishvanwalpaper"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6759,
+      "name": "Aman Rupiah-Pinjaman Online",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.aman.rupiah.pinjol"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6760,
+      "name": "KTA Cepat",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.free.cash.ktacepat/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6761,
+      "name": "KTA Mudah",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/id.vna.pwczr.ktamudah/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6762,
+      "name": "Pinjaman KTA OK dan Terpercaya",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.lindalindahoshi.Pinjaman_KTA_OK/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6763,
+      "name": "Easykta-Pinjaman KTA Online",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.wPinjamanOnlineEasyKta_6013953/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6764,
+      "name": "Kredit Tanpa Agunan  ARIVIANNI",
+      "alias": [
+        "KTA"
+      ],
+      "address": [
+        "https://wwwapkmonk.com/app/com.app.ktaarivianni/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6765,
+      "name": "Dana Rupiah - Penghasil Uang",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.superdanacuan.danarupiah"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6766,
+      "name": "Cair Kilat - Pinjaman Onlinen",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.berkatmacak.cairkilat"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6767,
+      "name": "Cash Aman",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.cash.aman.rupiah.bijak"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6768,
+      "name": "Petir Uang - Pinjam bantuan",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.mypetiruangpinjamuang.petiruangpinjamuang"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6769,
+      "name": "Money Kilat Layanan – Pinjaman",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.keuangandigitalabadi.moneykilatlayanan_pinjaman"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6770,
+      "name": "Dana Cepat - Pinjaman Kredit",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.keuangandigitalabadi.danacepat_pinjamankredit"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6771,
+      "name": "Cash Dana - Pinjaman Tunai",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.keuangandigitalabadi.cashdana_pinjamantunai"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6772,
+      "name": "Dana Aman-Pinjaman Uang Cepat",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.danaam.emas"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6773,
+      "name": "Dana Aman-Pinjaman Uang Cepat",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.app.duitdarurat"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6774,
+      "name": "Dana Cermat",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.dcm.match"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6775,
+      "name": "Dana Yuk: Uang Efisien",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.dana.rendah.gampang.ada.on.konsumsi.pinjam.cash.tunai.line"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6776,
+      "name": "Duit Bersama - Pinjaman Kilat Dana Tunai",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.duit.bersama"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6777,
+      "name": "Uang Pintar - Pinjaman kilat",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.uang.pintar.smart"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6778,
+      "name": "Pinjaman Kilat - Tunai Mudah",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.pinjaman.cash.rupiah.kilat"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6779,
+      "name": "Pinjaman Kilat - KTA Terbaik Tanpa Deposit",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.pinjaman.kilat.uang.cash.rupee"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6780,
+      "name": "Dompet Cash - Pinjaman cepat",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.yinnidompet.yinnicash"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6781,
+      "name": "Pinjaman Cepat Keluarga",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/fdsghdfhrt.hrhrtyjk"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6782,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/425348943142655/posts/613453500998864/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6783,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/1290774265034093/posts/1456802661764585/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6784,
+      "name": "PCASH - Pinjam Uang",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.pcash.ind/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6785,
+      "name": "Pinjam Teman - Cara Pinjaman Dana Online",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.pinjam.teman.infopinjamandana/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6786,
+      "name": "pinjaman Tunai",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.meet.zxmduit/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6787,
+      "name": "Cepat Cair",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.cepatcair.cepat/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6788,
+      "name": "Lapak Tunai",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.lt.lapaktunai/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6789,
+      "name": "Kredit Good - Pinjaman online",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.mykreditgood.kreditgood"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6790,
+      "name": "Pinjaman Kredit - Uang Bantuan",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.pinjol.ceptcair.pinjaman.aman.kera"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6791,
+      "name": "Pinjaman Online Cepat Cair",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=kijang.diesel.pinjaman.online"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6792,
+      "name": "Dana Cepat Pinjaman-Uang",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.danacepat.pusatbantuan"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6793,
+      "name": "Dana Numpuk Pinjaman Cair Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792753"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6794,
+      "name": "Duit Happy Pinjaman Online Tip",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792357"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6795,
+      "name": "Teman Prima Pinjaman Dana Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792272"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6796,
+      "name": "Kreditin Pinjaman Online Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792249"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6797,
+      "name": "Pinjaman Khusus Pinjol Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792368"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6798,
+      "name": "Uang Hoki Pinjaman Online Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792229"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6799,
+      "name": "Uang Hoki Pinjaman Online Tips",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.newandromo.dev119717",
+        "app2792229"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6800,
+      "name": "Super Cash - Aman Duit Pinjam",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.mysupercashamanduit15",
+        "supercashamanduit150"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6801,
+      "name": "Dana Baguslah Murni - online",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.mykamikaspinjamdanaonline.kamikaspinjamdanaonline"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6802,
+      "name": "Mudah Cair KTA - Pinjaman",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.mykreditbijakrupiahkilat.kreditbijakrupiahkilat"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6803,
+      "name": "Money Kilat - mudah dan nyaman",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.mymoneykilatmudahdannyaman.moneykilatmudahdannyaman"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6804,
+      "name": "DanaCepat Pinjaman - Uang",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.mykreditrupiahpinjamdana.kreditrupiahpinjamdana"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6805,
+      "name": "Aman Pinjaman - Solusi Pinjam",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.mysupercashamanduit.supercashamanduit"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6806,
+      "name": "Pinjaman Amanah Kredit-Online",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.mymudahdompetpinjamanonline.mudahdompetpinjamanonline"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6807,
+      "name": "KTA Mudah -",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.mybiolink189",
+        "biolink1893"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6808,
+      "name": "Pinjaman Online Kilat - Mudah",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.mypinjamankilattunaimudah.pinjamankilattunaimudah"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6809,
+      "name": "Kredit Bijak Pinjaman Bantuan",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=nemophila.simpan.loans.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6810,
+      "name": "Sugon Online Pinjaman Guide",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=gerbera.wall.hopi.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6811,
+      "name": "Pinjaman Tunai Niko Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=mimosa.zawer.polhuy.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6812,
+      "name": "KreditBaru Pinjaman Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=foxglove.flowers.indah.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6813,
+      "name": "Dana Pay Pinjaman Online Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=nasturtium.ceks.high.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6814,
+      "name": "Dana Pribadi Pinjaman Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=fountain.loans.pinjaman.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6815,
+      "name": "Klik Kredit Pinjaman Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.lavender.credit.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6816,
+      "name": "Pinjam Emas–KTA Aman",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.pinja.uang.money.rupiah"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6817,
+      "name": "Kantun online Pinjaman Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=cake.creamy.fast.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6818,
+      "name": "Dear Rupiah Pinjaman Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=dahlia.cantik.dana.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6819,
+      "name": "Ringan Pinjaman Online Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=flowerpetals.wall.high.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6820,
+      "name": "Kreditall Pinjaman Cepat Guide",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=hibiscus.card.loan.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6821,
+      "name": "Dompet Beruntung Pinjaman Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=kerinci.mountain.high.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6822,
+      "name": "Dana Pro Pinjaman Bantuan",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=frangipani.best.credit.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6823,
+      "name": "Super Wallet Pinjaman Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=adenium.loans.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6824,
+      "name": "KamiKaya Pinjaman online Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=pyramid.wall.trend.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6825,
+      "name": "UangKaya Pinjaman Online Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=hotpink.flower.pinjam.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6826,
+      "name": "Kredit Guna Pro Pinjaman Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=kaligrafi.best.art.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6827,
+      "name": "Cantik Dana Pinjaman Bantuan",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=geraniums.card.pinjaman.chokoojourney&pli=1"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6828,
+      "name": "Pinjamindo Pinjaman Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=agapanthus.loans.pinjaman.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6829,
+      "name": "Saku Emas Pinjaman Online Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.rain.lilies.pinjaman.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6830,
+      "name": "LimaSaku Pinjaman Online Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=strawberry.fruits.high.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6831,
+      "name": "Pinjaman Cepat Kristal Guide",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=bajilive.baji99",
+        "lotuschokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6832,
+      "name": "MEKAR Pinjaman Dana Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=chocolate.sweet.hd.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6833,
+      "name": "Duku Dana Pinjaman Online Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=camellia.pink.red.loans.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6834,
+      "name": "Duku Dana Pinjaman Online Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=camellia.pink.red.loans.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6835,
+      "name": "Pinjam uang Petir Pinjol Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=cosmos.werd.pinjaman.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6836,
+      "name": "Dana Now Plus Pinjaman uang Tunai Dana Online",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.teman.rupiah/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6837,
+      "name": "Modal Tunai - Pinjaman Uang Dana Tunai",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.mt.modaltunai/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6838,
+      "name": "DANA PANTHER - PINJAMAN ONLINE UANG CEPAT",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.loankput.kput/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6839,
+      "name": "Pinjaman Dana - Uang Rupiah Kredit Kita UTunai",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.wecash.app/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6840,
+      "name": "Dana Masuk-Pinjam Duit Aplikasi Onlien Rupiah",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.dnm.masuk/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6841,
+      "name": "Saku Hijau-Pinjaman Uang Tunai Kredit Dana Cash",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.id.sakuhijau/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6842,
+      "name": "KilatDana : Helpful Tool",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.kd",
+        "yo925/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6843,
+      "name": "Pinjaman Tunai BAA Guide",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=bamboo.wall.trend.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6844,
+      "name": "Pinjaman Mudah Kredit Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=alyssum.credit.card.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6845,
+      "name": "Pinjaman Cepat HSB Guide",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=mussaenda.nppj.gyw.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6846,
+      "name": "Rupiah Kilat Pinjaman Bantuan",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=gardenia.bers.tws.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6847,
+      "name": "KTA Bijak Kredit Pinjaman Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=coneflower.bopin.hwsa.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6848,
+      "name": "Dompet Emas Pinjaman Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=sflix.sflixpro.sflixapp.movies.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6849,
+      "name": "Tunai Pintar Pinjaman Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=mosque.high.card.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6850,
+      "name": "UangMu Pinjaman Online Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=gwalabet.whiterose.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6851,
+      "name": "Cash Cair Pinjaman Online Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=dandelions.pink.red.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6852,
+      "name": "Pinjaman Dana Cicil Bantuan",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.natural.pinjaman.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6853,
+      "name": "Cash Cepat Pinjaman Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=clover.card.lopp.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6854,
+      "name": "Kredit Pinjaman Tanpa Angunan, KTA Online",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.kreditpinjaman.onlineterpercaya/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6855,
+      "name": "Kredit Pinjaman Online - KTA",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.loans.kredituanginternet/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6856,
+      "name": "KTA Kilat - Pinjaman Uang Rupiah Mudah & Cepat",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/kre.uangmudah.kreditanlwoluegh/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6857,
+      "name": "Kredit Pinjaman - KTA",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.afiq.loankta/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6858,
+      "name": "Duit Sayang-Kredit Uang Kilat",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.duitsayang/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6859,
+      "name": "Abadi Dana - Pinjaman Online",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.hi.abadi.dana/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6860,
+      "name": "Pinjam Uang- Pinjaman Uang Dana Kilat, Mudah Cair",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.puangkk.app/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6861,
+      "name": "Pinjam Uang Cepat - Mudah dan Cair Kilat",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.ljknih.pinjamtunaijackpottap/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6862,
+      "name": "Pinjam Uang Kilat - Mudah, Cepat, Langsung Cair",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.dfkjhv.pinjamuangkilatjackpotnew/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6863,
+      "name": "Pinjam Uang Emak - KTA Emak Cepat",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.kta.emak/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6864,
+      "name": "PinjamanTeman",
+      "alias": [],
+      "address": [
+        "https://apkpurecom/pinjamantemandanarupiah/com.xzpt.pt"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6865,
+      "name": "PinjamLah",
+      "alias": [],
+      "address": [
+        "https://apkpurecom/pinjamlah/com.tools.pinjamlah"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6866,
+      "name": "PinjamAku",
+      "alias": [],
+      "address": [
+        "https://apkpurecom/pinjamaku/com.housingfund.pinjamaku"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6867,
+      "name": "Duit sayang",
+      "alias": [],
+      "address": [
+        "https://apkpurecom/duitsayang/com.duitsayang.ft"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6868,
+      "name": "Pinjaman Kilat",
+      "alias": [],
+      "address": [
+        "https://apkpurecom/pinjamankilattunaimudah/com.pinjaman.cash.rupiah.kilat"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6869,
+      "name": "Uang Pintar",
+      "alias": [],
+      "address": [
+        "https://apkpurecom/uangpintarpinjamanonline/com.develovit.uangpintar"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6870,
+      "name": "Pinjaman Mudah",
+      "alias": [],
+      "address": [
+        "https://apkpurecom/pinjamanmudah/com.wrtech.dobe.v2"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6871,
+      "name": "Dana Go Pinjaman Dana Bantuan",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=makkah.wall.card.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6872,
+      "name": "Rupiah Petir Pinjaman Bantuan",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=sunflower.pinjaman.wall.card.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6873,
+      "name": "Aktivaku Pinjaman Online guide",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=betvisa.betting.betvisaapk.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6874,
+      "name": "Modal Lite Pinjaman Cepat Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=rinjani.mountain.high.credit.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6875,
+      "name": "Pohon Dana Pinjaman clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=fruits.aneka.target.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6876,
+      "name": "Dana Arisan Pinjaman Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=alstroemeria.pinjaman.cepat.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6877,
+      "name": "Dewa Penolong Pinjaman Guide",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=orchid.flow.pinjaman.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6878,
+      "name": "Beruang Pinjaman Dana Guida",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=ice.cream.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6879,
+      "name": "Pundipal Pinjaman Online Clue",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=daisywall.pinjaman.high.chokoojourney"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6880,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/162421553262919/posts/210285025143238/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6881,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/162421553262919/posts/244617228376684/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6882,
+      "name": "Harimau Kecil - Pinjaman Cepat",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/ksoikvoiewnvosmvlo.harimaukecil"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6883,
+      "name": "Pinjaman cepat - Pinjaman Uang Tunai Cepat",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.scv.finder"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6884,
+      "name": "Dana Cepat - Pinjaman Hints",
+      "alias": [],
+      "address": [
+        "https://apkpurecom/danacepatpinjamanhints/com.danacepat.satru",
+        "hints"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6885,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/258290432276852/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6886,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/162421553262919/posts/240991898739217/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6887,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/162421553262919/posts/208841545287586/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6888,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/162421553262919/posts/247574744747599/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6889,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/162421553262919/posts/245285194976554/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6890,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/162421553262919/posts/194941160010958/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6891,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/162421553262919/posts/247000824804991/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6892,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/162421553262919/posts/238604262311314/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6893,
+      "name": "Pinjaman Ayam - Bunga rendah untuk pinjaman cepat",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.ayam.emas"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6894,
+      "name": "Pinjaman Cepat",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/plus.H5A70B657"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6895,
+      "name": "Pinjaman Cepat AK",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/dk6AK.iosndqjavjkoiasdnlkasjifs"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6896,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/568133938179758/posts/681560333503784/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6897,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/703944127387441/posts/970857040696147/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6898,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/1047859762546965/posts/1236474397018833/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6899,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/1047859762546965/posts/1236440267022246/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6900,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/491235206531064/posts/606944874960096/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6901,
+      "name": "Pinjaman Cepat Bintang Tujuh",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/binta.ngtujuhtr.shfghdyrj"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6902,
+      "name": "TTR-Pinjaman Cepat",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/ttrsaf.hsafalnsdgowg.sldgnwrg"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6903,
+      "name": "Pinjaman Cepat GBG",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/kjhikl.uyoytcyr.xcjyfyij"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6904,
+      "name": "Pinjaman Cepat X.Z",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/dasnmfi9osf.sdk98ewflkoisdfjkhj"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6905,
+      "name": "Dana Pro - PINJAMAN CEPAT",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/singlealias.ficonfig.danapromax"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6906,
+      "name": "Pinjaman Cepat Hhemat Waktu",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/waktu.saknaskdnaskjcaiusclkenk"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6907,
+      "name": "Pinjaman Cepat-Pinjaman Dana Uang Cash Melayani",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.pinjaman.cepat.lxyh"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6908,
+      "name": "Pinjaman Online - Kilat Mudah",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.pinjaman.online.cash.loan"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6909,
+      "name": "DanaKu-Pinjaman Online",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=dana.pinjaman.online.ku"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6910,
+      "name": "Dana Raja Online Cepat & Aman",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=creditraja.danarj.draja"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6911,
+      "name": "Tunai Sayang-Cepat Uang",
+      "alias": [],
+      "address": [
+        "https://playgoogle.com/store/apps/details?id=com.tunai.cepat.uang"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6912,
+      "name": "KTA Pintar",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.kta.pintar.app/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6913,
+      "name": "Goldsky - aplikasi KTA terpintar",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.goldsky.android/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6914,
+      "name": "HaloRupiah - Pinjaman Uang Rupiah Dana Cepat",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.wHaloRupiahPinjamanUangRupiahDanaCepatdanMudah_6498725/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6915,
+      "name": "Pinjaman Dana",
+      "alias": [],
+      "address": [
+        "https://apkpurecom/pinjamandana/com.rupiah.cepat"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6916,
+      "name": "K-redit U-ang Management",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.kreuang.k0429/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6917,
+      "name": "Pinjaman Kredit Uang",
+      "alias": [
+        " KTA "
+      ],
+      "address": [
+        "https://wwwapkmonk.com/app/studio.code.kreditkta/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6918,
+      "name": "Kredit uang -Komputer pinjaman artefak",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.kredit.uanggo/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6919,
+      "name": "Uang Kilat-Tempat Kredit Dengan Banyak Uang Tunai",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.uang.ps.uangkilat/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6920,
+      "name": "Pinjaman Mandiri | Kredit Uang",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.indosejah.mandiripinjaman/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6921,
+      "name": "Kredit Uang Cepat-Pinjaman Tanpa Jaminan",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.Ngutanglegal.kredit/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6922,
+      "name": "Kredit Pinjaman Uang Mandiri",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.bat.uangpinjammandiri/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6923,
+      "name": "Dana Tunai-Pinjam Uang Kredit Online Cepat",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.danatunai.danatunai/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6924,
+      "name": "TangBull - Pinjaman Rupiah Dana Online in tangbull",
+      "alias": [],
+      "address": [
+        "https://wwwapkmonk.com/app/com.juice.flatten/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6925,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/1469360210063212/posts/1995082660824295/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6926,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/1016131352704619/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6927,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/985837176137205/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6928,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/845531946553457/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6929,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/162421553262919/posts/204049032433504/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6930,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/162421553262919/posts/246338414871232/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6931,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/162421553262919/posts/198148273023580/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6932,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/162421553262919/posts/242093541962386/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6933,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/1438938483548141/posts/1655768055198515/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6934,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/104208792645043/posts/198433806555874"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6935,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/104208792645043/posts/197968193269102"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6936,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/568133938179758/posts/677389933920824"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6937,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/neneng.l.ramdhani/posts/837552264685439"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6938,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/162421553262919/posts/246920061479734/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6939,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/162421553262919/posts/184180164420391/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6940,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/162421553262919/posts/247038628134544/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6941,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/162421553262919/posts/248122364692837/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6942,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/162421553262919/posts/238095832362157/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "09/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6943,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/704252124577895/posts/817519223251184/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6944,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/629091821753696/posts/846126396716903/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6945,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/546384069362992/posts/1221934471807945/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6946,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/nyong.kaesar/posts/669186921925830"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6947,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/568133938179758/posts/681989006794250/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6948,
+      "name": "Url Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/permalink.php?story_fbid=122114282462007911&id=61550237330962&ref=embed_post"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6949,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/176111835147722/posts/212200351538870/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6950,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/176111835147722/posts/212200351538870/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6951,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/485777137031005/posts/618478300427554/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6952,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/permalink.php?story_fbid=122119909286004209&id=61550126297625&ref=embed_post"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6953,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/485777137031005/posts/618524570422927/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6954,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/3129505720681408/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6955,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/1469360210063212/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6956,
+      "name": "Url Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/805092724064307/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6957,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/206118842242655/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6958,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/162421553262919/posts/247175701454170/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6959,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/104208792645043/posts/196718530060735/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6960,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/permalink.php?story_fbid=254890020696926&id=100085277904622"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6961,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/1239285569969393/posts/1390071628224119/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6962,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/1210978792911089/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6963,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/1983203288594954/posts/3422945731287362"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6964,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/175037882915787/posts/1761511740935052"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6965,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/290704738888454/posts/860484618577127"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6966,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/837580680996528/posts/1007898763964718"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6967,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/1242358895943029/posts/2424929684352605"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
+    },
+    {
+      "id": 6968,
+      "name": "URL Facebook",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/533145077123878/posts/1758874564550917"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "10/09/2023",
+      "description": "SP07/STPAKI/IX/2023"
     }
   ],
-  "version": "13/08/2023"
+  "version": "11/09/2023"
 }
