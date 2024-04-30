@@ -139561,7 +139561,58 @@
       ],
       "input_date": "03/04/2024",
       "description": "SP 11/STPASTI/XII/2023"
+    },
+    {
+      "id": 8223,
+      "name": "SAKU TEMAN – Butuh Uang Tunai Tanpa Agunan",
+      "alias": [],
+      "address": [
+        "https://apkcombocom/sakutemanbutuhuangtunaitanpa- agunan/com.pinjol.sakuteman/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "29/04/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8224,
+      "name": "CEPAT TUNTAS – Butuh Uang Tunai Tanpa Agunan",
+      "alias": [],
+      "address": [
+        "https://apkcombocom/cepattuntasbutuhuangtunaitanpa- agunan/com.nskchro.dame/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "30/04/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8225,
+      "name": "Kami hadir – Butuh Uang Tunai Tanpa Agunan",
+      "alias": [],
+      "address": [
+        "https://apkcombocom/kamihadirbutuhuangtunaitanpa- agunan/com.neptuneb.kampool/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "30/04/2024",
+      "description": "SP 3/STPASTI/III/2024"
     }
   ],
-  "version": "24/04/2024"
+  "version": "30/04/2024"
 }
