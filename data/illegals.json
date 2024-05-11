@@ -142081,7 +142081,416 @@
       ],
       "input_date": "07/05/2024",
       "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8371,
+      "name": "Cair Kilat–Pinjaman Online",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.cair.kilat.kredit.cashcai"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8372,
+      "name": "DanaKu – Pinjaman Uang Online Dana Cepat Cair",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.iddana.kudana.danaku"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8373,
+      "name": "PATUNGAN - Solusi Dana Dadakan Anda",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/abc.rumahdana.kitapatungan"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8374,
+      "name": "PATUNGAN - Solusi Dana Dadakan Anda",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/abc.rumahdana.kitapatungan"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8375,
+      "name": "MINJAM YUK - Pilihan Tepat yang Butuh Dana Cepat",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.minjam.yuk"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8376,
+      "name": "TYKredit-Pinjaman Uang Online Dana Cepat Cair",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.devbjn.tymhlb.tykredit"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8377,
+      "name": "Link CashAja Aja -Kredit.",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.cashaja.labelapp"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8378,
+      "name": "Dana Kredit - Pinjaman Uang Tunai Online Cepat",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.todayloan.dompetdana"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8379,
+      "name": "KTA Bijak - Kredit Pinjaman",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.dana.cash.pinjaman.bijak.Kilat.Rupiah"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8380,
+      "name": "Platform Kredit",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.platform.kredit"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8381,
+      "name": "Dana Tunai - Pinjaman Uang Tunai Dana Cash",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.doudou.emas"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8382,
+      "name": "Uang Cair - Pinjaman Uang Tunai Onlin Dana Cepat",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.uangy.cairn"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8383,
+      "name": "Pasar Laba-Pinjaman Uang Dana Online Cepat Cair",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.newandromo.dev715",
+        "app87151"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8384,
+      "name": "Dana Pintar - Pinjaman Uang Tunai",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.dap.tar"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8385,
+      "name": "Duit Cepat - Pinjaman Uang Tunai Dana Cair",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.slow.down.finance"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8386,
+      "name": "Swan Pinjaman Tunai Pribadi",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/etuyghgfd.hsdgsdfhg"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8387,
+      "name": "Cinta uang - Platform Pinjaman Tunai",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.felixtech.cintauang"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8388,
+      "name": "iPinjam - Pinjaman Tunai Cepat",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.weloan.ipinjam"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8389,
+      "name": "Uang Kita - Pinjaman Tunai Cepat Online",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.kakas.uang.kitas"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8390,
+      "name": "Pintu - Pinjaman Tunai Cepat",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.pintu.pinjamantunai"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8391,
+      "name": "Tunai Kilat-Pinjaman Tunai",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.knaut.ldunh"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8392,
+      "name": "Kredit Kilat-Pinjaman Tunai Cicil Online",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.gamecaaan.kreditkilat"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8393,
+      "name": "Kasbon - Pinjaman Tunai Super No. 1",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.kemuninggroup.kasbonapp"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8394,
+      "name": "Fikri Ali Fikri Ali",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/937639126898664/posts/1337684520227454/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "08/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
     }
   ],
-  "version": "07/05/2024"
+  "version": "11/05/2024"
 }
