@@ -144037,6 +144037,40 @@
       ],
       "input_date": "15/05/2024",
       "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8485,
+      "name": "Pinjaman Tunai Cepat GG",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/ggkja.sgduiergu.iarewggfd"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "15/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8486,
+      "name": "Pinjaman Internet ViVi",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/iusihfois.hduinsdjfi"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "15/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
     }
   ],
   "version": "15/05/2024"
