@@ -8,6 +8,7 @@ import {
   parseInvestmentData,
 } from '../../entity/illegal.js';
 import { writeResult } from '../writer.js';
+import { ONE_SECOND } from '../../constant/time.js';
 
 /**
  * Scrapper script to extract illegal investments data
@@ -21,6 +22,10 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
   private static readonly tableSelector = '#datatable';
   // disabled selector
   private static readonly disabledSelector = '.disabled';
+  // page size selector, mainly used to show all items at once
+  private static readonly pageSizeSelector = 'select[name="datatable_length"]';
+  // Most items selector
+  private static readonly pageSize = 100;
 
   /**
    * Constructor for IllegalScrapper
@@ -73,6 +78,13 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
   @benchmark('s', 3)
   public async scrapData(): Promise<void> {
     const page = await this.initializePage(IllegalsScrapper.tableSelector);
+
+    await page.waitForSelector(IllegalsScrapper.pageSizeSelector);
+    await page.select(IllegalsScrapper.pageSizeSelector, `${IllegalsScrapper.pageSize}`);
+
+    // wait for a period of time, for ASP to response
+    await this.delay(ONE_SECOND);
+    await page.waitForNetworkIdle();
 
     const investments: IllegalInvestment[] = [];
 

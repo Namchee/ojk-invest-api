@@ -1,6 +1,6 @@
 import type { Browser, Page, WaitForOptions } from 'puppeteer';
 
-import { TEN_MINUTES } from '../../constant/time.js';
+import { ONE_MINUTE } from '../../constant/time.js';
 
 /**
  * Scrapping result from a scrapping script
@@ -35,7 +35,7 @@ export abstract class Scrapper<T> {
   /**
    * Scrap all relevant information from the current page state
    * @param {Page} page - Puppeteer page instance
-   * @return {Promise<T>[]>} - array of relevant
+   * @return {Promise<T>[]} - array of relevant
    * information
    */
   protected abstract scrapPage(page: Page): Promise<T[]>;
@@ -57,9 +57,7 @@ export abstract class Scrapper<T> {
     const page = await this.browser.newPage();
 
     await page.setUserAgent(USER_AGENT);
-
     await page.setBypassCSP(true);
-    await page.goto(this.url, PAGE_OPTIONS);
     await page.setRequestInterception(true);
 
     page.on('request', (request) => {
@@ -70,8 +68,23 @@ export abstract class Scrapper<T> {
       }
     });
 
-    await page.waitForSelector(selector, { timeout: TEN_MINUTES });
+    await page.goto(this.url, PAGE_OPTIONS);
+
+    await page.waitForSelector(selector, { timeout: 3 * ONE_MINUTE });
 
     return page;
+  }
+
+  /**
+   * Pause execution for certain period of time.
+   * 
+   * @param {number} time Duration to stop execution in milleseconds 
+   * @returns {Promise<void>} A promise that is guaranteed to resolve after `time`
+   * milliseconds.
+   */
+  protected delay(time: number): Promise<void> {
+    return new Promise((resolve) => {
+      setTimeout(resolve, time);
+    })
   }
 }

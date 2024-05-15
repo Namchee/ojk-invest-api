@@ -7,16 +7,16 @@ import { AppsScrapper } from './src/services/scrapper/app.js';
 import { ProductsScrapper } from './src/services/scrapper/product.js';
 import { bootstrapOutput } from './src/services/writer.js';
 
-import { ONE_SECOND, TEN_MINUTES } from './src/constant/time.js';
+import { ONE_SECOND, ONE_MINUTE } from './src/constant/time.js';
 
 (async () => {
   bootstrapOutput();
 
   const browser = await puppeteer.launch({
-    headless: true, // 'new' is much slower while bringing no benefits for now
+    headless: false,
     ignoreHTTPSErrors: true,
     protocolTimeout: 0,
-    timeout: TEN_MINUTES,
+    timeout: 3 * ONE_MINUTE,
     args: [
       '--no-sandbox',
       '--disable-setuid-sandbox',
@@ -30,13 +30,19 @@ import { ONE_SECOND, TEN_MINUTES } from './src/constant/time.js';
   });
 
   try {
-    const scrappers = [
-      new IllegalsScrapper(browser),
-      // new AppsScrapper(browser),
-      // new ProductsScrapper(browser),
-    ];
-
     const start = performance.now();
+
+    await new IllegalsScrapper(browser).scrapData();
+    await new ProductsScrapper(browser).scrapData();
+    await new AppsScrapper(browser).scrapData();
+
+    const end = performance.now();
+    const delta = (end - start) / ONE_SECOND;
+
+    console.log(`All process was executed in ${(delta).toFixed(2)} s`);
+
+    /*
+
 
     const scrappingResult = await Promise.allSettled(
       scrappers.map(scrapper => scrapper.scrapData()),
@@ -53,11 +59,10 @@ import { ONE_SECOND, TEN_MINUTES } from './src/constant/time.js';
         }
       },
     );
+    
 
-    const end = performance.now();
-    const delta = (end - start) / ONE_SECOND;
-
-    console.log(`All process was executed in ${(delta).toFixed(2)} s`);
+    
+    */
   } finally {
     await browser.close();
   }

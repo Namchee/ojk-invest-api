@@ -5,6 +5,7 @@ import { Scrapper } from './scrapper.js';
 import { Product } from '../../entity/product.js';
 import { writeResult } from '../writer.js';
 import { TextProcessor } from '../processor.js';
+import { ONE_SECOND } from '../../constant/time.js';
 
 /**
  * Scrapper script to extract legal mutual funds products
@@ -14,8 +15,10 @@ export class ProductsScrapper extends Scrapper<Product> {
   private static readonly rowSelector = '.dxgvDataRow_Youthful';
   // next button selector
   private static readonly nextSelector = '.dxp-button';
-  // disabled button selector
-  private static readonly disabledSelector = 'dxp-disabledButton';
+  // page size selector, mainly used to show all items at once
+  private static readonly pageSizeSelector = 'input#cpContent_grdProdukReksadana_DXPagerBottom_PSI';
+  // `All` items selector
+  private static readonly allItemSelector = '#cpContent_grdProdukReksadana_DXPagerBottom_PSP_DXI3_';
 
   /**
    * Constructor for ProductsScrapper
@@ -69,7 +72,7 @@ export class ProductsScrapper extends Scrapper<Product> {
       product.type = type.capitalize().trim().getResult();
 
       return product;
-    });
+    }).filter(this.filterTestData);
   }
 
   /**
@@ -82,42 +85,29 @@ export class ProductsScrapper extends Scrapper<Product> {
   public async scrapData(): Promise<void> {
     const page = await this.initializePage(ProductsScrapper.nextSelector);
 
-    const products: Product[] = [];
+    const pageSizeSelector = await page.$(ProductsScrapper.pageSizeSelector);
+    await pageSizeSelector?.click();
 
-    while (true) {
-      const pageProducts = await this.scrapPage(page);
+    const allSelector = await page.$(ProductsScrapper.allItemSelector);
+    await allSelector?.click();
+ 
+    // wait for a period of time, for ASP to response
+    await this.delay(ONE_SECOND * 5);
+    await page.waitForNetworkIdle();
 
-      const lastPageProduct = pageProducts[pageProducts.length - 1];
-      const lastProduct = products[products.length - 1];
-
-      if (products.length === 0 || lastPageProduct.id !== lastProduct.id) {
-        products.push(...pageProducts);
-
-        const buttons = await page.$$(ProductsScrapper.nextSelector);
-        const nextBtn = buttons[1];
-
-        const rawClass = await nextBtn.getProperty('className');
-        const classList: string = await rawClass.jsonValue();
-
-        const isDisabled = new RegExp(ProductsScrapper.disabledSelector)
-          .test(classList);
-
-        if (isDisabled) {
-          break;
-        }
-
-        await nextBtn.click();
-        await page.waitForResponse((res) => {
-          return res.url() === this.url && res.request().method() === 'POST';
-        });
-      }
-    }
-
+    const products: Product[] = await this.scrapPage(page);
+    
     const result = {
       data: products,
       version: new Date(),
     };
 
     writeResult(result, 'products');
+  }
+
+  private filterTestData(product: { name: string; management: string; }): boolean {
+    const testDataPattern = /tes/ig;
+
+    return !testDataPattern.test(product.name) && !testDataPattern.test(product.management);
   }
 }
