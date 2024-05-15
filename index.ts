@@ -7,19 +7,19 @@ import { AppsScrapper } from './src/services/scrapper/app.js';
 import { ProductsScrapper } from './src/services/scrapper/product.js';
 import { bootstrapOutput } from './src/services/writer.js';
 
-import { ONE_SECOND, TEN_MINUTES } from './src/constant/time.js';
+import { ONE_SECOND, ONE_MINUTE } from './src/constant/time.js';
 
 (async () => {
   bootstrapOutput();
 
   const browser = await puppeteer.launch({
-    headless: true, // 'new' is much slower while bringing no benefits for now
+    headless: true,
     ignoreHTTPSErrors: true,
     protocolTimeout: 0,
-    timeout: TEN_MINUTES,
+    timeout: 3 * ONE_MINUTE,
     args: [
       '--no-sandbox',
-      '--disable-setuid-sandbox',
+      '--disable-set  uid-sandbox',
       '--disable-dev-shm-usage',
       '--disable-web-security',
       '--disable-site-isolation-trials',
@@ -30,29 +30,25 @@ import { ONE_SECOND, TEN_MINUTES } from './src/constant/time.js';
   });
 
   try {
+    const start = performance.now();
     const scrappers = [
+      new ProductsScrapper(browser),
+      new AppsScrapper(browser),
       new IllegalsScrapper(browser),
-      // new AppsScrapper(browser),
-      // new ProductsScrapper(browser),
     ];
 
-    const start = performance.now();
+    // currently, it's not possible to simulate `click` event at the same time
+    for (const scrapper of scrappers) {
+      try {
+        await scrapper.scrapData();
 
-    const scrappingResult = await Promise.allSettled(
-      scrappers.map(scrapper => scrapper.scrapData()),
-    );
+        console.log(`✔️ ${scrapper.constructor.name} has successfully scrapped`);
+      } catch (err) {
+        const error = err as Error;
 
-    scrappingResult.forEach(
-      (result: PromiseSettledResult<void>, idx: number) => {
-        if (result.status === 'fulfilled') {
-          // eslint-disable-next-line max-len
-          console.log(`✔️ ${scrappers[idx].constructor.name} has successfully scrapped`);
-        } else {
-          // eslint-disable-next-line max-len
-          console.log(`❌ ${scrappers[idx].constructor.name} has failed. Reason: ${result.reason}`);
-        }
-      },
-    );
+        console.log(`❌ ${scrapper.constructor.name} has failed. Reason: ${error.message}`);
+      }
+    }
 
     const end = performance.now();
     const delta = (end - start) / ONE_SECOND;

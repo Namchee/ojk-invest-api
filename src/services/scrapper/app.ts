@@ -7,6 +7,7 @@ import { writeResult } from '../writer.js';
 import { Scrapper } from './scrapper.js';
 import { App } from '../../entity/app.js';
 import { TextProcessor } from '../processor.js';
+import { ONE_SECOND } from '../../constant/time.js';
 
 
 /**
@@ -17,8 +18,10 @@ export class AppsScrapper extends Scrapper<App> {
   private static readonly rowSelector = '.dxgvDataRow_Youthful';
   // next button selector
   private static readonly nextSelector = '.dxp-button';
-  // disabled button selector
-  private static readonly disabledSelector = 'dxp-disabledButton';
+  // page size selector, mainly used to show all items at once
+  private static readonly pageSizeSelector = 'input#cpContent_grdPTO_DXPagerBottom_PSI';
+  // `All` items selector
+  private static readonly allItemSelector = '#cpContent_grdPTO_DXPagerBottom_PSP_DXI3_';
 
   /**
    * Constructor for AppScrapper
@@ -87,37 +90,18 @@ export class AppsScrapper extends Scrapper<App> {
   public async scrapData(): Promise<void> {
     const page = await this.initializePage(AppsScrapper.nextSelector);
 
-    const apps: App[] = [];
+    const pageSizeSelector = await page.$(AppsScrapper.pageSizeSelector);
+    await pageSizeSelector?.click();
 
-    while (true) {
-      const pageApps = await this.scrapPage(page);
+    const allSelector = await page.$(AppsScrapper.allItemSelector);
+    await allSelector?.click();
+ 
+    // wait for a period of time, for ASP to response
+    await this.delay(ONE_SECOND * 5);
+    await page.waitForNetworkIdle();
 
-      const lastPageApp = pageApps[pageApps.length - 1];
-      const lastApp = apps[apps.length - 1];
-
-      if (apps.length === 0 || lastPageApp.id !== lastApp.id) {
-        apps.push(...pageApps);
-
-        const buttons = await page.$$(AppsScrapper.nextSelector);
-        const nextBtn = buttons[1];
-
-        const rawClass = await nextBtn.getProperty('className');
-        const classList: string = await rawClass.jsonValue();
-
-        const isDisabled = new RegExp(AppsScrapper.disabledSelector)
-          .test(classList);
-
-        if (isDisabled) {
-          break;
-        }
-
-        await nextBtn.click();
-        await page.waitForResponse((res) => {
-          return res.url() === this.url && res.request().method() === 'POST';
-        });
-      }
-    }
-
+    const apps: App[] = await this.scrapPage(page);
+   
     const result = {
       data: apps,
       version: new Date(),
