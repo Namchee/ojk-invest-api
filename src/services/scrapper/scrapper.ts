@@ -12,7 +12,7 @@ export interface ScrappingResult<T> {
 
 export const PAGE_OPTIONS: WaitForOptions = {
   waitUntil: 'networkidle0',
-  timeout: 0,
+  timeout: ONE_MINUTE,
 };
 
 // eslint-disable-next-line max-len
@@ -53,7 +53,7 @@ export abstract class Scrapper<T> {
    * @param {string} selector selector to indicate the page has finished loading
    * @return {Promise<Page>} the webpage, ready for scrapping
    */
-  public async initializePage(selector: string): Promise<Page> {
+  protected async initializePage(selector: string): Promise<Page> {
     const page = await this.browser.newPage();
 
     await page.setUserAgent(USER_AGENT);
@@ -61,16 +61,16 @@ export abstract class Scrapper<T> {
     await page.setRequestInterception(true);
 
     page.on('request', (request) => {
-      if (['image', 'stylesheet'].includes(request.resourceType())) {
-        request.abort();
-      } else {
-        request.continue();
+      if (['image', 'stylesheet', 'font'].includes(request.resourceType())) {
+        return request.abort();
       }
+      
+      request.continue();
     });
 
     await page.goto(this.url, PAGE_OPTIONS);
 
-    await page.waitForSelector(selector, { timeout: 3 * ONE_MINUTE });
+    await page.waitForSelector(selector, { timeout: ONE_MINUTE });
 
     return page;
   }
