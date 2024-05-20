@@ -144717,7 +144717,228 @@
       ],
       "input_date": "17/05/2024",
       "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8525,
+      "name": "Pinjaman Online - Kilat Rupiah",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.gou.ung"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "20/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8526,
+      "name": "Uang Saku - Pinjam Uang KTA Online",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.dana.indah"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "20/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8527,
+      "name": "Kredit Kilat Pro - Pinjaman Uang Online Cepat Cair",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.id.pro.kredit.kilat"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "20/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8528,
+      "name": "Danafix - Pinjaman Uang Online",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/id.danafix.mobile"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "20/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8529,
+      "name": "Gina Maria - admin",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/923178229411188/posts/942220284173649/"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "20/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8530,
+      "name": "Kontribusi Uang-Pinjaman aman",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.konuang.kbig"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "20/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8531,
+      "name": "Petir Uang - Pinjaman Uang",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.petir.uang.jiu"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "20/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8532,
+      "name": "Pinjaman Hoki-Uang Online",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.dana.easy.hoki"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "20/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8533,
+      "name": "Milikku uang - Pinjam uang secara online",
+      "alias": [],
+      "address": [
+        "https://apksoscom/app/com.starwin.apimarket"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "20/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8534,
+      "name": "Ewin Morrow",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/1343679686235338/posts/1405670506702922"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "20/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8535,
+      "name": "Aldi LEo",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/1343679686235338/posts/1424422201494419"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "20/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8536,
+      "name": "Khusnul Oktatiani",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/295971404162123/posts/1766862260406356"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "20/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
+    },
+    {
+      "id": 8537,
+      "name": "Arsil Yuanda",
+      "alias": [],
+      "address": [
+        "https://wwwfacebook.com/groups/1465185194346746/posts/1467593444105921"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "20/05/2024",
+      "description": "SP 3/STPASTI/III/2024"
     }
   ],
-  "version": "19/05/2024"
+  "version": "20/05/2024"
 }
