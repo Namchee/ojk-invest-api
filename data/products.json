@@ -12499,7 +12499,7 @@
       "id": 1791,
       "name": "REKSA DANA STAR STABLE INCOME FUND",
       "management": "Surya Timur Alam Raya Asset Management, PT",
-      "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
+      "custodian": "PT. BANK SINARMAS TBK",
       "type": "Fixed Income Fund"
     },
     {
@@ -28449,5 +28449,5 @@
       "type": "Equity Fund"
     }
   ],
-  "version": "05/06/2024"
+  "version": "06/06/2024"
 }
