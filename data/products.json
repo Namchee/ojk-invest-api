@@ -5560,66 +5560,66 @@
     },
     {
       "id": 800,
+      "name": "REKSA DANA HPAM AJAIB MONEY MARKET FUND",
+      "management": "Henan Putihrai Asset Management, PT",
+      "custodian": "BANK BUKOPIN - CUSTODY, Tbk, PT",
+      "type": "Money Market Fund"
+    },
+    {
+      "id": 801,
       "name": "REKSA DANA HPAM BALANCED FUND",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 801,
+      "id": 802,
       "name": "REKSA DANA HPAM BALANCED FUND KELAS A",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 802,
+      "id": 803,
       "name": "REKSA DANA HPAM BALANCED FUND KELAS B",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 803,
+      "id": 804,
       "name": "REKSA DANA HPAM BALANCED FUND KELAS C",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 804,
+      "id": 805,
       "name": "Reksa Dana HPAM Ekuitas Smart 30",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 805,
+      "id": 806,
       "name": "REKSA DANA HPAM FLEXI PLUS",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 806,
+      "id": 807,
       "name": "REKSA DANA HPAM GOVERNMENT BOND",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "BANK MANDIRI (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 807,
+      "id": 808,
       "name": "REKSA DANA HPAM INVESTA EKUITAS STRATEGIS",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
-    },
-    {
-      "id": 808,
-      "name": "REKSA DANA HPAM PASAR UANG DINAMIS",
-      "management": "Henan Putihrai Asset Management, PT",
-      "custodian": "BANK BUKOPIN - CUSTODY, Tbk, PT",
-      "type": "Money Market Fund"
     },
     {
       "id": 809,
@@ -28855,5 +28855,5 @@
       "type": "Equity Fund"
     }
   ],
-  "version": "01/08/2024"
+  "version": "02/08/2024"
 }
