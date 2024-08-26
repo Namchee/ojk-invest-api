@@ -4888,262 +4888,262 @@
     },
     {
       "id": 704,
-      "name": "REKSA DANA CORPUS THEOLOGIA FIXED INCOME FUND",
-      "management": "PT LiF Manajemen Investasi",
-      "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
-      "type": "Fixed Income Fund"
-    },
-    {
-      "id": 705,
       "name": "REKSA DANA DANA OBLIGASI STABIL",
       "management": "Samuel Aset Manajemen, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 706,
+      "id": 705,
       "name": "REKSA DANA DANA PASTI",
       "management": "Equity Sekuritas Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 707,
+      "id": 706,
       "name": "REKSA DANA DANA PRATAMA EKUITAS",
       "management": "Pratama Capital Assets Management, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Equity Fund"
     },
     {
-      "id": 708,
+      "id": 707,
       "name": "REKSA DANA DANA PREMIER",
       "management": "Equity Sekuritas Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 709,
+      "id": 708,
       "name": "REKSA DANA DANAKITA OBLIGASI NEGARA",
       "management": "Danakita Investama, PT",
       "custodian": "PT KEB Hana Bank Indonesia",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 710,
+      "id": 709,
       "name": "Reksa Dana Danakita Stabil Pasar Uang",
       "management": "Danakita Investama, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Money Market Fund"
     },
     {
-      "id": 711,
+      "id": 710,
       "name": "REKSA DANA DANAMAS DOLLAR",
       "management": "Sinarmas Asset Management, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 712,
+      "id": 711,
       "name": "REKSA DANA DANAMAS FLEKSI",
       "management": "Sinarmas Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 713,
+      "id": 712,
       "name": "REKSA DANA DANAREKSA INVESTA OBLIGASI DOLLAR AMERIKA SERIKAT",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 714,
+      "id": 713,
       "name": "REKSA DANA DANAREKSA MAWAR EKUITAS PLUS",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 715,
+      "id": 714,
       "name": "REKSA DANA DANAREKSA MAWAR KONSUMER 10",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Equity Fund"
     },
     {
-      "id": 716,
+      "id": 715,
       "name": "Reksa Dana Danareksa Mawar Rotasi Sektor Strategis",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "BANK PERMATA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 717,
+      "id": 716,
       "name": "REKSA DANA DANAREKSA MELATI DOLAR AMERIKA SERIKAT",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 718,
+      "id": 717,
       "name": "Reksa Dana Danareksa Melati Pendapatan Tetap",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 719,
+      "id": 718,
       "name": "Reksa Dana Danareksa Melati Pendapatan Tetap II",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 720,
+      "id": 719,
       "name": "REKSA DANA DANAREKSA MELATI PENDAPATAN TETAP MULTI PLUS",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 721,
+      "id": 720,
       "name": "REKSA DANA DANAREKSA MELATI PENDAPATAN UTAMA SYARIAH",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 722,
+      "id": 721,
       "name": "REKSA DANA DANAREKSA PENDAPATAN PRIMA PLUS",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 723,
+      "id": 722,
       "name": "REKSA DANA DANAREKSA SERUNI PASAR UANG 10",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 724,
+      "id": 723,
       "name": "Reksa Dana Danareksa Seruni Pasar Uang 11",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 725,
+      "id": 724,
       "name": "REKSA DANA DANAREKSA SERUNI PASAR UANG 9",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 726,
+      "id": 725,
       "name": "REKSA DANA DANAREKSA SERUNI PASAR UANG DOLLAR",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 727,
+      "id": 726,
       "name": "REKSA DANA DANAREKSA SERUNI PASAR UANG DOLLAR IV",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "BANK BUKOPIN - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 728,
+      "id": 727,
       "name": "REKSA DANA DANAREKSA SERUNI PASAR UANG DOLLAR VI",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 729,
+      "id": 728,
       "name": "REKSA DANA DANAREKSA SERUNI PASAR UANG DOLLAR VI",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Money Market Fund"
     },
     {
-      "id": 730,
+      "id": 729,
       "name": "REKSA DANA DANAREKSA SERUNI PASAR UANG II",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Money Market Fund"
     },
     {
-      "id": 731,
+      "id": 730,
       "name": "REKSA DANA DANAREKSA SERUNI PASAR UANG V",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 732,
+      "id": 731,
       "name": "REKSA DANA DANAREKSA SERUNI PASAR UANG VI",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "BANK BUKOPIN - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 733,
+      "id": 732,
       "name": "REKSA DANA DANAREKSA SERUNI PASAR UANG VII",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 734,
+      "id": 733,
       "name": "REKSA DANA DANAREKSA SERUNI PASAR UANG VIII",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 735,
+      "id": 734,
       "name": "REKSA DANA EASTSPRING IDR FIXED INCOME",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 736,
+      "id": 735,
       "name": "REKSA DANA EASTSPRING IDR FIXED INCOME FUND",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 737,
+      "id": 736,
       "name": "REKSA DANA EASTSPRING IDR FIXED INCOME FUND KELAS A",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 738,
+      "id": 737,
       "name": "REKSA DANA EASTSPRING IDR FIXED INCOME FUND KELAS B",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 739,
+      "id": 738,
       "name": "REKSA DANA EASTSPRING IDR FIXED INCOME FUND KELAS C",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 740,
+      "id": 739,
       "name": "REKSA DANA EASTSPRING INVESMENTS YIELD DISCOVERY",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
+    },
+    {
+      "id": 740,
+      "name": "REKSA DANA EASTSPRING INVESTMENTS CASH RESERVE",
+      "management": "Eastspring Investments Indonesia, PT",
+      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
+      "type": "Money Market Fund"
     },
     {
       "id": 741,
@@ -5154,24 +5154,24 @@
     },
     {
       "id": 742,
-      "name": "REKSA DANA EASTSPRING INVESTMENTS CASH RESERVE",
-      "management": "Eastspring Investments Indonesia, PT",
-      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
-      "type": "Money Market Fund"
-    },
-    {
-      "id": 743,
       "name": "REKSA DANA EASTSPRING INVESTMENTS CASH RESERVE KELAS A",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Money Market Fund"
     },
     {
-      "id": 744,
+      "id": 743,
       "name": "REKSA DANA EASTSPRING INVESTMENTS CASH RESERVE KELAS B",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Money Market Fund"
+    },
+    {
+      "id": 744,
+      "name": "REKSA DANA EASTSPRING INVESTMENTS IDR HIGH GRADE",
+      "management": "Eastspring Investments Indonesia, PT",
+      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
+      "type": "Fixed Income Fund"
     },
     {
       "id": 745,
@@ -5182,28 +5182,28 @@
     },
     {
       "id": 746,
-      "name": "REKSA DANA EASTSPRING INVESTMENTS IDR HIGH GRADE",
-      "management": "Eastspring Investments Indonesia, PT",
-      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
-      "type": "Fixed Income Fund"
-    },
-    {
-      "id": 747,
       "name": "REKSA DANA EASTSPRING INVESTMENTS IDR HIGH GRADE KELAS A",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 748,
+      "id": 747,
       "name": "REKSA DANA EASTSPRING INVESTMENTS IDR HIGH GRADE KELAS B",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 749,
+      "id": 748,
       "name": "REKSA DANA EASTSPRING INVESTMENTS VALUE DISCOVERY",
+      "management": "Eastspring Investments Indonesia, PT",
+      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
+      "type": "Equity Fund"
+    },
+    {
+      "id": 749,
+      "name": "REKSA DANA EASTSPRING INVESTMENTS VALUE DISCOVERY KELAS A",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Equity Fund"
@@ -5217,583 +5217,583 @@
     },
     {
       "id": 751,
-      "name": "REKSA DANA EASTSPRING INVESTMENTS VALUE DISCOVERY KELAS A",
-      "management": "Eastspring Investments Indonesia, PT",
-      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
-      "type": "Equity Fund"
-    },
-    {
-      "id": 752,
       "name": "REKSA DANA EASTSPRING INVESTMENTS VALUE DISCOVERY KELAS B",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Equity Fund"
     },
     {
-      "id": 753,
+      "id": 752,
       "name": "REKSA DANA EASTSPRING INVESTMENTS VALUE DISCOVERY KELAS C",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Equity Fund"
     },
     {
-      "id": 754,
+      "id": 753,
       "name": "REKSA DANA EASTSPRING INVESTMENTS YIELD DISCOVERY",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 755,
+      "id": 754,
       "name": "REKSA DANA EASTSPRING INVESTMENTS YIELD DISCOVERY KELAS A",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 756,
+      "id": 755,
       "name": "REKSA DANA EASTSPRING INVESTMENTS YIELD DISCOVERY KELAS B",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 757,
+      "id": 756,
       "name": "REKSA DANA EASTSPRING INVESTMENTS YIELD DISCOVERY KELAS C",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 758,
+      "id": 757,
       "name": "REKSA DANA EKUATOR DANA KAS",
       "management": "Ekuator Swarna Investama, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 759,
+      "id": 758,
       "name": "REKSA DANA EKUATOR MONEY MARKET FUND",
       "management": "Ekuator Swarna Investama, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 760,
+      "id": 759,
       "name": "REKSA DANA EMCO BAROKAH SYARIAH",
       "management": "Emco Asset Management, PT",
       "custodian": "BANK MANDIRI (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 761,
+      "id": 760,
       "name": "REKSA DANA EMCO GROWTH FUND",
       "management": "Emco Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 762,
+      "id": 761,
       "name": "REKSA DANA EMCO MANTAP",
       "management": "Emco Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 763,
+      "id": 762,
       "name": "Reksa Dana Emco Pasar Uang Berkembang",
       "management": "Emco Asset Management, PT",
       "custodian": "BANK MANDIRI (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 764,
+      "id": 763,
       "name": "REKSA DANA ETF MNC36 LIKUID",
       "management": "MNC Asset Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 765,
+      "id": 764,
       "name": "REKSA DANA FIRST STATE INDO SHORT TENOR BOND FUND",
       "management": "FWD Asset Management, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 766,
+      "id": 765,
       "name": "REKSA DANA FOSTER EQUITY FUND",
       "management": "Foster Asset Management, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 767,
+      "id": 766,
       "name": "Reksa Dana Foster Fixed Income",
       "management": "Foster Asset Management, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 768,
+      "id": 767,
       "name": "Reksa Dana Foster Money Market",
       "management": "Foster Asset Management, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 769,
+      "id": 768,
       "name": "REKSA DANA FWD ASSET AGGRESSIVE BALANCED FUND",
       "management": "FWD Asset Management, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 770,
+      "id": 769,
       "name": "REKSA DANA FWD ASSET BALANCED FUND",
       "management": "FWD Asset Management, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 771,
+      "id": 770,
       "name": "REKSA DANA FWD ASSET BOND FUND",
       "management": "FWD Asset Management, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 772,
+      "id": 771,
       "name": "REKSA DANA FWD ASSET DIVIDEND YIELD EQUITY FUND",
       "management": "FWD Asset Management, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Equity Fund"
     },
     {
-      "id": 773,
+      "id": 772,
       "name": "REKSA DANA FWD ASSET HIGH CONVICTION EQUITY FUND",
       "management": "FWD Asset Management, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Equity Fund"
     },
     {
-      "id": 774,
+      "id": 773,
       "name": "REKSA DANA FWD ASSET LONG TENOR BOND FUND",
       "management": "FWD Asset Management, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 775,
+      "id": 774,
       "name": "REKSA DANA FWD ASSET MONEY MARKET FUND",
       "management": "FWD Asset Management, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Money Market Fund"
     },
     {
-      "id": 776,
+      "id": 775,
       "name": "REKSA DANA FWD ASSET PHILANTHROPY EQUITY FUND",
       "management": "FWD Asset Management, PT",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Equity Fund"
     },
     {
-      "id": 777,
+      "id": 776,
       "name": "REKSA DANA FWD ASSET SECTORAL EQUITY FUND",
       "management": "FWD Asset Management, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Equity Fund"
     },
     {
-      "id": 778,
+      "id": 777,
       "name": "REKSA DANA FWD ASSET USD BALANCED PLUS FUND",
       "management": "FWD Asset Management, PT",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 779,
+      "id": 778,
       "name": "REKSA DANA FWD ASSET USD BOND FUND",
       "management": "FWD Asset Management, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 780,
+      "id": 779,
       "name": "REKSA DANA FWD ASSET USD OPPORTUNITIES EQUITY FUND",
       "management": "FWD Asset Management, PT",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Equity Fund"
     },
     {
-      "id": 781,
+      "id": 780,
       "name": "REKSA DANA FWD ASSET VALUE SELECT EQUITY FUND",
       "management": "FWD Asset Management, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Equity Fund"
     },
     {
-      "id": 782,
+      "id": 781,
       "name": "REKSA DANA GANESHA ABADI",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 783,
+      "id": 782,
       "name": "REKSA DANA GAP BALANCE LIFE PENSION FUND",
       "management": "GAP Capital, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 784,
+      "id": 783,
       "name": "Reksa Dana GAP Balance Maxi Fund",
       "management": "GAP Capital, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 785,
+      "id": 784,
       "name": "REKSA DANA GAP DANA KOMBINASI",
       "management": "GAP Capital, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 786,
+      "id": 785,
       "name": "REKSA DANA GAP EQUITY AGGRESSIVE FUND",
       "management": "GAP Capital, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 787,
+      "id": 786,
       "name": "REKSA DANA GAP EQUITY FOCUS FUND",
       "management": "GAP Capital, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Equity Fund"
     },
     {
-      "id": 788,
+      "id": 787,
       "name": "REKSA DANA GAP EQUITY FUND",
       "management": "GAP Capital, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Equity Fund"
     },
     {
-      "id": 789,
+      "id": 788,
       "name": "REKSA DANA GAP FIXED INCOME FUND II",
       "management": "GAP Capital, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 790,
+      "id": 789,
       "name": "REKSA DANA GAP MONEY MARKET FUND",
       "management": "GAP Capital, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 791,
+      "id": 790,
       "name": "REKSA DANA GAP VALUE FUND",
       "management": "GAP Capital, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Equity Fund"
     },
     {
-      "id": 792,
+      "id": 791,
       "name": "REKSA DANA GARUDA SATU",
       "management": "Intru Nusantara, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 793,
+      "id": 792,
       "name": "REKSA DANA GEMILANG DANA PASAR UANG ARUNIKA",
       "management": "Gemilang Indonesia Manajemen Investasi, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 794,
+      "id": 793,
       "name": "REKSA DANA GEMILANG DANA PASAR UANG INDONESIA",
       "management": "Gemilang Indonesia Manajemen Investasi, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 795,
+      "id": 794,
       "name": "REKSA DANA GEMILANG DANA PASAR UANG KIRANA",
       "management": "Gemilang Indonesia Manajemen Investasi, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 796,
+      "id": 795,
       "name": "REKSA DANA GEMILANG DANA SAHAM INDONESIA",
       "management": "Gemilang Indonesia Manajemen Investasi, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 797,
+      "id": 796,
       "name": "REKSA DANA GEMILANG PASAR UANG KANAYA",
       "management": "Gemilang Indonesia Manajemen Investasi, PT",
       "custodian": "PT KEB Hana Bank Indonesia",
       "type": "Money Market Fund"
     },
     {
-      "id": 798,
+      "id": 797,
       "name": "REKSA DANA GEMILANG PENDAPATAN TETAP INDONESIA",
       "management": "Gemilang Indonesia Manajemen Investasi, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 799,
+      "id": 798,
       "name": "REKSA DANA GEMILANG SOLTICE INDONESIA CAMPURAN",
       "management": "Gemilang Indonesia Manajemen Investasi, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 800,
+      "id": 799,
       "name": "REKSA DANA GROW SAHAM INDONESIA PLUS",
       "management": "PT Grow Investments Indonesia",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Equity Fund"
     },
     {
-      "id": 801,
+      "id": 800,
       "name": "REKSA DANA GROW SAHAM INDONESIA PLUS KELAS A",
       "management": "PT Grow Investments Indonesia",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Equity Fund"
     },
     {
-      "id": 802,
+      "id": 801,
       "name": "REKSA DANA GROW SAHAM INDONESIA PLUS KELAS O",
       "management": "PT Grow Investments Indonesia",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Equity Fund"
     },
     {
-      "id": 803,
+      "id": 802,
       "name": "REKSA DANA HPAM AJAIB MONEY MARKET FUND",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "BANK BUKOPIN - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 804,
+      "id": 803,
       "name": "REKSA DANA HPAM BALANCED FUND",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 805,
+      "id": 804,
       "name": "REKSA DANA HPAM BALANCED FUND KELAS A",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 806,
+      "id": 805,
       "name": "REKSA DANA HPAM BALANCED FUND KELAS B",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 807,
+      "id": 806,
       "name": "REKSA DANA HPAM BALANCED FUND KELAS C",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 808,
+      "id": 807,
       "name": "Reksa Dana HPAM Ekuitas Smart 30",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 809,
+      "id": 808,
       "name": "REKSA DANA HPAM FLEXI PLUS",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 810,
+      "id": 809,
       "name": "REKSA DANA HPAM GOVERNMENT BOND",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "BANK MANDIRI (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 811,
+      "id": 810,
       "name": "REKSA DANA HPAM INVESTA EKUITAS STRATEGIS",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 812,
+      "id": 811,
       "name": "REKSA DANA HPAM PENDAPATAN TETAP PRIMA",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 813,
+      "id": 812,
       "name": "REKSA DANA HPAM PREMIUM 1",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 814,
+      "id": 813,
       "name": "REKSA DANA HPAM PREMIUM 2",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 815,
+      "id": 814,
       "name": "REKSA DANA HPAM SAHAM DINAMIS",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 816,
+      "id": 815,
       "name": "REKSA DANA HPAM SMART BETA EKUITAS",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 817,
+      "id": 816,
       "name": "REKSA DANA HPAM SYARIAH EKUITAS",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 818,
+      "id": 817,
       "name": "REKSA DANA HPAM TACTICAL EQUITY",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Equity Fund"
     },
     {
-      "id": 819,
+      "id": 818,
       "name": "REKSA DANA HPAM ULTIMA BALANCE",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 820,
+      "id": 819,
       "name": "REKSA DANA HPAM ULTIMA EKUITAS 1",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 821,
+      "id": 820,
       "name": "REKSA DANA HPAM ULTIMA MONEY MARKET",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 822,
+      "id": 821,
       "name": "REKSA DANA HPAM ULTIMA OBLIGASI PLUS",
       "management": "Henan Putihrai Asset Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 823,
+      "id": 822,
       "name": "REKSA DANA I AM BUMN BALANCED PLUS FUND",
       "management": "Indoasia Aset Manajemen, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 824,
+      "id": 823,
       "name": "REKSA DANA I AM DOLLAR BOND FUND",
       "management": "Indoasia Aset Manajemen, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 825,
+      "id": 824,
       "name": "REKSA DANA I AM EQUITY FUND",
       "management": "Indoasia Aset Manajemen, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 826,
+      "id": 825,
       "name": "REKSA DANA INDEKS ALLIANZ SRI KEHATI INDEX FUND",
       "management": "Allianz Global Investors Asset Management Indonesia, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Index Fund"
     },
     {
-      "id": 827,
+      "id": 826,
       "name": "REKSA DANA INDEKS ASHMORE IDX 30 EQUITY FUND",
       "management": "PT Ashmore Asset Management Indonesia, Tbk",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Index Fund"
     },
     {
-      "id": 828,
+      "id": 827,
       "name": "REKSA DANA INDEKS AURORA ETF FTSE INDONESIA ESG",
       "management": "Aurora Asset Management,PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 829,
+      "id": 828,
       "name": "REKSA DANA INDEKS AVRIST IDX30",
       "management": "Avrist Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 830,
+      "id": 829,
       "name": "REKSA DANA INDEKS AVRIST INDEKS LQ45",
       "management": "Avrist Asset Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Index Fund"
     },
     {
-      "id": 831,
+      "id": 830,
       "name": "Reksa Dana Indeks Ayers Asia Asset Management Equity Index Sri Kehati",
       "management": "PT Grow Investments Indonesia",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Index Fund"
     },
     {
-      "id": 832,
+      "id": 831,
       "name": "REKSA DANA INDEKS BAHANA ETF BISNIS 27",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 833,
+      "id": 832,
       "name": "REKSA DANA INDEKS BAHANA INDEKS IBPA35",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
+      "type": "Index Fund"
+    },
+    {
+      "id": 833,
+      "name": "REKSA DANA INDEKS BAHANA INDEKS IDX30",
+      "management": "Bahana TCW Investment Management, PT",
+      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
@@ -5805,241 +5805,241 @@
     },
     {
       "id": 835,
-      "name": "REKSA DANA INDEKS BAHANA INDEKS IDX30",
-      "management": "Bahana TCW Investment Management, PT",
-      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
-      "type": "Index Fund"
-    },
-    {
-      "id": 836,
       "name": "REKSA DANA INDEKS BAHANA INDEKS IDX30 KELAS G",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 837,
+      "id": 836,
       "name": "REKSA DANA INDEKS BAHANA INDEKS IDX30 KELAS S",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 838,
+      "id": 837,
       "name": "REKSA DANA INDEKS BATAVIA IDX30 ETF",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 839,
+      "id": 838,
       "name": "REKSA DANA INDEKS BATAVIA INDEX PEFINDO I GRADE",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Index Fund"
     },
     {
-      "id": 840,
+      "id": 839,
       "name": "REKSA DANA INDEKS BATAVIA SRI KEHATI ETF",
       "management": "Batavia Prosperindo Aset Manajemen, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 841,
+      "id": 840,
       "name": "REKSA DANA INDEKS BNI AM ETF MSCI ESG LEADERS INDONESIA",
       "management": "BNI Asset Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 842,
+      "id": 841,
       "name": "REKSA DANA INDEKS BNI AM IDX HIGH DIVIDEND 20",
       "management": "BNI Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 843,
+      "id": 842,
       "name": "REKSA DANA INDEKS BNI AM IDX HIGH DIVIDEND 20 KELAS I1",
       "management": "BNI Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 844,
+      "id": 843,
       "name": "REKSA DANA INDEKS BNI AM IDX HIGH DIVIDEND 20 KELAS I2",
       "management": "BNI Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 845,
+      "id": 844,
       "name": "REKSA DANA INDEKS BNI AM IDX HIGH DIVIDEND 20 KELAS R1",
       "management": "BNI Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 846,
+      "id": 845,
       "name": "REKSA DANA INDEKS BNI AM IDX PEFINDO PRIME BANK",
       "management": "BNI Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 847,
+      "id": 846,
       "name": "REKSA DANA INDEKS BNI AM IDX PEFINDO PRIME BANK KELAS I1",
       "management": "BNI Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 848,
+      "id": 847,
       "name": "REKSA DANA INDEKS BNI AM IDX PEFINDO PRIME BANK KELAS I2",
       "management": "BNI Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 849,
+      "id": 848,
       "name": "REKSA DANA INDEKS BNI AM IDX PEFINDO PRIME BANK KELAS R1",
       "management": "BNI Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 850,
+      "id": 849,
       "name": "REKSA DANA INDEKS BNI AM INDEKS IDX GROWTH30",
       "management": "BNI Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 851,
+      "id": 850,
       "name": "REKSA DANA INDEKS BNI AM INDEKS IDX GROWTH30 KELAS I1",
       "management": "BNI Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 852,
+      "id": 851,
       "name": "REKSA DANA INDEKS BNI AM INDEKS IDX GROWTH30 KELAS I2",
       "management": "BNI Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 853,
+      "id": 852,
       "name": "REKSA DANA INDEKS BNI AM INDEKS IDX GROWTH30 KELAS R1",
       "management": "BNI Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 854,
+      "id": 853,
       "name": "REKSA DANA INDEKS BNI AM INDEKS IDX30",
       "management": "BNI Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 855,
+      "id": 854,
       "name": "REKSA DANA INDEKS BNI AM NUSANTARA ETF MSCI INDONESIA EQUITY INDEX",
       "management": "BNI Asset Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 856,
+      "id": 855,
       "name": "REKSA DANA INDEKS BNI AM PEFINDO I GRADE",
       "management": "BNI Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 857,
+      "id": 856,
       "name": "REKSA DANA INDEKS BNI AM PEFINDO I GRADE Kelas I1",
       "management": "BNI Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 858,
+      "id": 857,
       "name": "REKSA DANA INDEKS BNI AM PEFINDO I GRADE Kelas I2",
       "management": "BNI Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 859,
+      "id": 858,
       "name": "REKSA DANA INDEKS BNI AM PEFINDO I GRADE KELAS R1",
       "management": "BNI Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 860,
+      "id": 859,
       "name": "REKSA DANA INDEKS BNI AM SHORT DURATION BONDS INDEX",
       "management": "BNI Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 861,
+      "id": 860,
       "name": "REKSA DANA INDEKS BNI AM SHORT DURATION BONDS INDEX KELAS I1",
       "management": "BNI Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 862,
+      "id": 861,
       "name": "REKSA DANA INDEKS BNI AM SHORT DURATION BONDS INDEX KELAS R1",
       "management": "BNI Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 863,
+      "id": 862,
       "name": "REKSA DANA INDEKS BNI AM SRI KEHATI",
       "management": "BNI Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 864,
+      "id": 863,
       "name": "REKSA DANA INDEKS BNI AM SRI KEHATI KELAS I1",
       "management": "BNI Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 865,
+      "id": 864,
       "name": "REKSA DANA INDEKS BNI AM SRI KEHATI KELAS I2",
       "management": "BNI Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 866,
+      "id": 865,
       "name": "REKSA DANA INDEKS BNI AM SRI KEHATI KELAS R1",
       "management": "BNI Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 867,
+      "id": 866,
       "name": "REKSA DANA INDEKS BNP PARIBAS IDX GROWTH30",
       "management": "BNP Paribas Asset Management, PT",
       "custodian": "BANK MANDIRI (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Index Fund"
     },
     {
-      "id": 868,
+      "id": 867,
       "name": "REKSA DANA INDEKS BNP PARIBAS IDX GROWTH30 ETF",
       "management": "BNP Paribas Asset Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Exchanged Traded Fund"
+    },
+    {
+      "id": 868,
+      "name": "REKSA DANA INDEKS BNP PARIBAS IDX30",
+      "management": "BNP Paribas Asset Management, PT",
+      "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
+      "type": "Index Fund"
     },
     {
       "id": 869,
@@ -6050,308 +6050,308 @@
     },
     {
       "id": 870,
-      "name": "REKSA DANA INDEKS BNP PARIBAS IDX30",
-      "management": "BNP Paribas Asset Management, PT",
-      "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
-      "type": "Index Fund"
-    },
-    {
-      "id": 871,
       "name": "REKSA DANA INDEKS BNP PARIBAS IDX30 FILANTROPI",
       "management": "BNP Paribas Asset Management, PT",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 872,
+      "id": 871,
       "name": "REKSA DANA INDEKS BNP PARIBAS IDX30 KELAS IK1",
       "management": "BNP Paribas Asset Management, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 873,
+      "id": 872,
       "name": "REKSA DANA INDEKS BNP PARIBAS IDX30 KELAS RK1",
       "management": "BNP Paribas Asset Management, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 874,
+      "id": 873,
       "name": "Reksa Dana Indeks BNP Paribas Sri Kehati",
       "management": "BNP Paribas Asset Management, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 875,
+      "id": 874,
       "name": "REKSA DANA INDEKS BRI INDEKS SYARIAH",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 876,
+      "id": 875,
       "name": "REKSA DANA INDEKS BRI MSCI INDONESIA ESG SCREENED",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 877,
+      "id": 876,
       "name": "REKSA DANA INDEKS BRI MSCI INDONESIA ESG SCREENED KELAS A",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 878,
+      "id": 877,
       "name": "REKSA DANA INDEKS BRI MSCI INDONESIA ESG SCREENED KELAS B",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 879,
+      "id": 878,
       "name": "REKSA DANA INDEKS BRI MSCI INDONESIA ESG SCREENED KELAS C",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 880,
+      "id": 879,
       "name": "REKSA DANA INDEKS CAPITAL ETF IDX ESG LEADERS",
       "management": "Capital Asset Management, PT",
       "custodian": "PT KEB Hana Bank Indonesia",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 881,
+      "id": 880,
       "name": "REKSA DANA INDEKS CIPTA ETF INDEX LQ45",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 882,
+      "id": 881,
       "name": "REKSA DANA INDEKS DANAREKSA ETF MSCI INDONESIA ESG SCREENED",
       "management": "PT BRI Manajemen Investasi",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 883,
+      "id": 882,
       "name": "REKSA DANA INDEKS EASTSPRING IDX ESG LEADERS PLUS",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 884,
+      "id": 883,
       "name": "REKSA DANA INDEKS EASTSPRING IDX ESG LEADERS PLUS KELAS A",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 885,
+      "id": 884,
       "name": "REKSA DANA INDEKS EASTSPRING IDX ESG LEADERS PLUS KELAS B",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 886,
+      "id": 885,
       "name": "REKSA DANA INDEKS EASTSPRING IDX ESG LEADERS PLUS KELAS C",
       "management": "Eastspring Investments Indonesia, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 887,
+      "id": 886,
       "name": "REKSA DANA INDEKS EKUATOR IDX HIGH DIVIDEND 20 INDEX",
       "management": "Ekuator Swarna Investama, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Index Fund"
     },
     {
-      "id": 888,
+      "id": 887,
       "name": "REKSA DANA INDEKS ETF PHILLIP MSCI INDONESIA EQUITY INDEX",
       "management": "Phillip Asset Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 889,
+      "id": 888,
       "name": "REKSA DANA INDEKS FWD ASSET IDX ESG LEADERS ETF",
       "management": "FWD Asset Management, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 890,
+      "id": 889,
       "name": "REKSA DANA INDEKS FWD ASSET IDX30 INDEX EQUITY FUND",
       "management": "FWD Asset Management, PT",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Index Fund"
     },
     {
-      "id": 891,
+      "id": 890,
       "name": "REKSA DANA INDEKS GROW SRI KEHATI",
       "management": "PT Grow Investments Indonesia",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Index Fund"
     },
     {
-      "id": 892,
+      "id": 891,
       "name": "REKSA DANA INDEKS GROW SRI KEHATI KELAS A",
       "management": "PT Grow Investments Indonesia",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Index Fund"
     },
     {
-      "id": 893,
+      "id": 892,
       "name": "REKSA DANA INDEKS GROW SRI KEHATI KELAS O",
       "management": "PT Grow Investments Indonesia",
       "custodian": "PT Bank HSBC Indonesia",
       "type": "Index Fund"
     },
     {
-      "id": 894,
+      "id": 893,
       "name": "Reksa Dana Indeks Insight ETF FTSE Indonesia Low Volatility Factor Index",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 895,
+      "id": 894,
       "name": "REKSA DANA INDEKS INSIGHT INDEKS IDX30",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Index Fund"
     },
     {
-      "id": 896,
+      "id": 895,
       "name": "REKSA DANA INDEKS INSIGHT SRI KEHATI LIKUID I SRI LIKUID",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Index Fund"
     },
     {
-      "id": 897,
+      "id": 896,
       "name": "REKSA DANA INDEKS KISI IDX VALUE30 ETF",
       "management": "KISI ASSET MANAGEMENT, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 898,
+      "id": 897,
       "name": "REKSA DANA INDEKS KISI IDX30 ETF",
       "management": "KISI ASSET MANAGEMENT, PT",
       "custodian": "PT KEB Hana Bank Indonesia",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 899,
+      "id": 898,
       "name": "REKSA DANA INDEKS KISI MSCI INDONESIA ETF",
       "management": "KISI ASSET MANAGEMENT, PT",
       "custodian": "PT KEB Hana Bank Indonesia",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 900,
+      "id": 899,
       "name": "Reksa Dana Indeks Kresna Idx 30",
       "management": "Kresna Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Index Fund"
     },
     {
-      "id": 901,
+      "id": 900,
       "name": "Reksa Dana Indeks Kresna IDX30 Tracker",
       "management": "Kresna Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Index Fund"
     },
     {
-      "id": 902,
+      "id": 901,
       "name": "REKSA DANA INDEKS MAJORIS PEFINDO I GRADE ETF INDONESIA",
       "management": "Majoris Asset Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 903,
+      "id": 902,
       "name": "REKSA DANA INDEKS MANDIRI ETF LQ45",
       "management": "Mandiri Manajemen Investasi, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 904,
+      "id": 903,
       "name": "REKSA DANA INDEKS MANDIRI ETF SRI KEHATI",
       "management": "Mandiri Manajemen Investasi, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 905,
+      "id": 904,
       "name": "REKSA DANA INDEKS MANDIRI INDEKS FTSE INDONESIA ESG",
       "management": "Mandiri Manajemen Investasi, PT",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 906,
+      "id": 905,
       "name": "REKSA DANA INDEKS MANDIRI INDEKS FTSE INDONESIA ESG KELAS A",
       "management": "Mandiri Manajemen Investasi, PT",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 907,
+      "id": 906,
       "name": "REKSA DANA INDEKS MANDIRI INDEKS FTSE INDONESIA ESG KELAS B",
       "management": "Mandiri Manajemen Investasi, PT",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 908,
+      "id": 907,
       "name": "REKSA DANA INDEKS MANDIRI INDEKS LQ45",
       "management": "Mandiri Manajemen Investasi, PT",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 909,
+      "id": 908,
       "name": "REKSA DANA INDEKS MAYBANK FINANCIAL INFOBANK15 INDEX FUND",
       "management": "Maybank Asset Management, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 910,
+      "id": 909,
       "name": "REKSA DANA INDEKS MNC36",
       "management": "MNC Asset Management, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Index Fund"
     },
     {
-      "id": 911,
+      "id": 910,
       "name": "REKSA DANA INDEKS NUSADANA ETF IDX VALUE30",
       "management": "Nusadana Investama Indonesia, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 912,
+      "id": 911,
       "name": "REKSA DANA INDEKS PANIN ETF IDX30 DINAMIS",
       "management": "Panin Asset Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 913,
+      "id": 912,
       "name": "REKSA DANA INDEKS PANIN IDX30",
+      "management": "Panin Asset Management, PT",
+      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
+      "type": "Index Fund"
+    },
+    {
+      "id": 913,
+      "name": "REKSA DANA INDEKS PANIN IDX30 KELAS A",
       "management": "Panin Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
@@ -6365,59 +6365,59 @@
     },
     {
       "id": 915,
-      "name": "REKSA DANA INDEKS PANIN IDX30 KELAS A",
-      "management": "Panin Asset Management, PT",
-      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
-      "type": "Index Fund"
-    },
-    {
-      "id": 916,
       "name": "REKSA DANA INDEKS PANIN IDX30 KELAS B",
       "management": "Panin Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 917,
+      "id": 916,
       "name": "REKSA DANA INDEKS PANIN IDX30 KELAS C",
       "management": "Panin Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 918,
+      "id": 917,
       "name": "Reksa Dana Indeks Panin Sri Kehati",
       "management": "Panin Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Index Fund"
     },
     {
-      "id": 919,
+      "id": 918,
       "name": "REKSA DANA INDEKS PANIN SRI KEHATI",
       "management": "Panin Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 920,
+      "id": 919,
       "name": "REKSA DANA INDEKS PANIN SRI KEHATI KELAS A",
       "management": "Panin Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 921,
+      "id": 920,
       "name": "REKSA DANA INDEKS PANIN SRI KEHATI KELAS B",
       "management": "Panin Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 922,
+      "id": 921,
       "name": "REKSA DANA INDEKS PINNACLE FTSE INDONESIA ETF",
       "management": "Pinnacle Persada Investama, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Exchanged Traded Fund"
+    },
+    {
+      "id": 922,
+      "name": "Reksa Dana Indeks Pinnacle FTSE Indonesia Index Fund",
+      "management": "Pinnacle Persada Investama, PT",
+      "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
+      "type": "Index Fund"
     },
     {
       "id": 923,
@@ -6428,86 +6428,86 @@
     },
     {
       "id": 924,
-      "name": "Reksa Dana Indeks Pinnacle FTSE Indonesia Index Fund",
-      "management": "Pinnacle Persada Investama, PT",
-      "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
-      "type": "Index Fund"
-    },
-    {
-      "id": 925,
       "name": "Reksa Dana Indeks Pinnacle FTSE Indonesia Index Fund Kelas I",
       "management": "Pinnacle Persada Investama, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 926,
+      "id": 925,
       "name": "Reksa Dana Indeks Pinnacle FTSE Indonesia Index Fund Kelas R",
       "management": "Pinnacle Persada Investama, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 927,
+      "id": 926,
       "name": "REKSA DANA INDEKS PINNACLE IDX30 ETF",
       "management": "Pinnacle Persada Investama, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 928,
+      "id": 927,
       "name": "REKSA DANA INDEKS PNM INDEKS INFOBANK15",
       "management": "PNM Investment Management, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Index Fund"
     },
     {
-      "id": 929,
+      "id": 928,
       "name": "REKSA DANA INDEKS PREMIER ETF FTSE INDONESIA ESG",
       "management": "Indo Premier Investment Management, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 930,
+      "id": 929,
       "name": "REKSA DANA INDEKS PREMIER ETF IDX HIGH DIVIDEND 20",
       "management": "Indo Premier Investment Management, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 931,
+      "id": 930,
       "name": "REKSA DANA INDEKS PREMIER ETF INDEX IDX30",
       "management": "Indo Premier Investment Management, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 932,
+      "id": 931,
       "name": "REKSA DANA INDEKS PREMIER ETF MSCI INDONESIA LARGE CAP",
       "management": "Indo Premier Investment Management, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 933,
+      "id": 932,
       "name": "REKSA DANA INDEKS PREMIER ETF PEFINDO I GRADE",
       "management": "Indo Premier Investment Management, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 934,
+      "id": 933,
       "name": "Reksa Dana Indeks Premier IDX30",
       "management": "Indo Premier Investment Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 935,
+      "id": 934,
       "name": "Reksa Dana Indeks Premier IDX30",
       "management": "Indo Premier Investment Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
+      "type": "Index Fund"
+    },
+    {
+      "id": 935,
+      "name": "REKSA DANA INDEKS PRINCIPAL INDEX IDX30",
+      "management": "Principal Asset Management",
+      "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Index Fund"
     },
     {
@@ -6519,94 +6519,94 @@
     },
     {
       "id": 937,
-      "name": "REKSA DANA INDEKS PRINCIPAL INDEX IDX30",
-      "management": "Principal Asset Management",
-      "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
-      "type": "Index Fund"
-    },
-    {
-      "id": 938,
       "name": "REKSA DANA INDEKS PRINCIPAL INDEX IDX30 II",
       "management": "Principal Asset Management",
       "custodian": "CITIBANK N. A. - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 939,
+      "id": 938,
       "name": "REKSA DANA INDEKS PRINCIPAL INDEX IDX30 KELAS E",
       "management": "Principal Asset Management",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 940,
+      "id": 939,
       "name": "REKSA DANA INDEKS PRINCIPAL INDEX IDX30 KELAS O",
       "management": "Principal Asset Management",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 941,
+      "id": 940,
       "name": "Reksa Dana Indeks Reliance IDX30 Index Fund",
       "management": "Reliance Manajer Investasi, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Index Fund"
     },
     {
-      "id": 942,
+      "id": 941,
       "name": "REKSA DANA INDEKS RHB LQ45 TRACKER",
       "management": "Allianz Global Investors Asset Management Indonesia, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 943,
+      "id": 942,
       "name": "REKSA DANA INDEKS SAM ETF SRI KEHATI",
       "management": "Samuel Aset Manajemen, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 944,
+      "id": 943,
       "name": "REKSA DANA INDEKS SEQUIS EQUITY IDX30",
       "management": "Sequis Aset Manajemen, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 945,
+      "id": 944,
       "name": "REKSA DANA INDEKS SIMAS ETF IDX30",
       "management": "Sinarmas Asset Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 946,
+      "id": 945,
       "name": "Reksa Dana Indeks Simas IDX30",
       "management": "Sinarmas Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 947,
+      "id": 946,
       "name": "Reksa Dana Indeks Simas IDX30",
       "management": "Sinarmas Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Index Fund"
     },
     {
-      "id": 948,
+      "id": 947,
       "name": "Reksa Dana Indeks Simas Sri Kehati",
       "management": "Sinarmas Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Index Fund"
     },
     {
-      "id": 949,
+      "id": 948,
       "name": "REKSA DANA INDEKS STAR ETF SRI KEHATI",
       "management": "Surya Timur Alam Raya Asset Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Exchanged Traded Fund"
+    },
+    {
+      "id": 949,
+      "name": "REKSA DANA INDEKS STAR INFOBANK 15",
+      "management": "Surya Timur Alam Raya Asset Management, PT",
+      "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
+      "type": "Index Fund"
     },
     {
       "id": 950,
@@ -6617,79 +6617,79 @@
     },
     {
       "id": 951,
-      "name": "REKSA DANA INDEKS STAR INFOBANK 15",
-      "management": "Surya Timur Alam Raya Asset Management, PT",
-      "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
-      "type": "Index Fund"
-    },
-    {
-      "id": 952,
       "name": "REKSA DANA INDEKS STAR INFOBANK 15 KELAS DANA",
       "management": "Surya Timur Alam Raya Asset Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Index Fund"
     },
     {
-      "id": 953,
+      "id": 952,
       "name": "REKSA DANA INDEKS STAR INFOBANK 15 KELAS PRIORITAS",
       "management": "Surya Timur Alam Raya Asset Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Index Fund"
     },
     {
-      "id": 954,
+      "id": 953,
       "name": "REKSA DANA INDEKS STAR INFOBANK 15 KELAS PROFESIONAL",
       "management": "Surya Timur Alam Raya Asset Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Index Fund"
     },
     {
-      "id": 955,
+      "id": 954,
       "name": "REKSA DANA INDEKS STAR INFOBANK 15 KELAS UTAMA",
       "management": "Surya Timur Alam Raya Asset Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Index Fund"
     },
     {
-      "id": 956,
+      "id": 955,
       "name": "REKSA DANA INDEKS SUCORINVEST IDX30",
       "management": "Sucorinvest Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 957,
+      "id": 956,
       "name": "REKSA DANA INDEKS SYAILENDRA ETF MSCI INDONESIA ESG UNIVERSAL INDEX",
       "management": "Syailendra Capital, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Exchanged Traded Fund"
     },
     {
-      "id": 958,
+      "id": 957,
       "name": "REKSA DANA INDEKS SYAILENDRA INDEX IDX30",
       "management": "Syailendra Capital, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Index Fund"
     },
     {
-      "id": 959,
+      "id": 958,
       "name": "REKSA DANA INDEKS SYAILENDRA MSCI INDONESIA ESG UNIVERSAL INDEX",
       "management": "Syailendra Capital, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 960,
+      "id": 959,
       "name": "REKSA DANA INDEKS SYAILENDRA MSCI INDONESIA ESG UNIVERSAL INDEX KELAS A",
       "management": "Syailendra Capital, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 961,
+      "id": 960,
       "name": "REKSA DANA INDEKS SYAILENDRA MSCI INDONESIA ESG UNIVERSAL INDEX KELAS B",
       "management": "Syailendra Capital, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
+      "type": "Index Fund"
+    },
+    {
+      "id": 961,
+      "name": "REKSA DANA INDEKS SYAILENDRA MSCI INDONESIA VALUE INDEX FUND",
+      "management": "Syailendra Capital, PT",
+      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
@@ -6701,388 +6701,388 @@
     },
     {
       "id": 963,
-      "name": "REKSA DANA INDEKS SYAILENDRA MSCI INDONESIA VALUE INDEX FUND",
-      "management": "Syailendra Capital, PT",
-      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
-      "type": "Index Fund"
-    },
-    {
-      "id": 964,
       "name": "REKSA DANA INDEKS SYAILENDRA MSCI INDONESIA VALUE INDEX FUND KELAS A",
       "management": "Syailendra Capital, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 965,
+      "id": 964,
       "name": "REKSA DANA INDEKS SYAILENDRA MSCI INDONESIA VALUE INDEX FUND KELAS B",
       "management": "Syailendra Capital, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 966,
+      "id": 965,
       "name": "REKSA DANA INDEKS SYAILENDRA SRI KEHATI",
       "management": "Syailendra Capital, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Index Fund"
     },
     {
-      "id": 967,
+      "id": 966,
       "name": "REKSA DANA INDEKS SYAILENDRA YO INVES IDX30",
       "management": "Syailendra Capital, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 968,
+      "id": 967,
       "name": "REKSA DANA INDEKS TRIMEGAH FTSE INDONESIA LOW VOLATILITY FACTOR INDEX",
       "management": "Trimegah Asset Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Index Fund"
     },
     {
-      "id": 969,
+      "id": 968,
       "name": "REKSA DANA INDEKS UOBAM INDEKS BISNIS 27",
       "management": "UOB Asset Management Indonesia, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Index Fund"
     },
     {
-      "id": 970,
+      "id": 969,
       "name": "Reksa Dana Indeks Yuanta Sri Kehati Index",
       "management": "PT Sea Aset Manajemen",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Index Fund"
     },
     {
-      "id": 971,
+      "id": 970,
       "name": "REKSA DANA INDO ARTHABUANA INVESTAMA EKUITAS I",
       "management": "Indo Arthabuana Investama,PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 972,
+      "id": 971,
       "name": "REKSA DANA INDO ARTHABUANA INVESTAMA PASAR UANG 1",
       "management": "Indo Arthabuana Investama,PT",
       "custodian": "BANK BUKOPIN - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 973,
+      "id": 972,
       "name": "REKSA DANA INDO ARTHABUANA INVESTAMA PASAR UANG INFRASTRUKTUR 1",
       "management": "Indo Arthabuana Investama,PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 974,
+      "id": 973,
       "name": "Reksa Dana Indosterling Ekuitas Likuid Plus",
       "management": "INDOSTERLING ASET MANAJEMEN, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 975,
+      "id": 974,
       "name": "Reksa Dana Indosterling Pasar Uang",
       "management": "INDOSTERLING ASET MANAJEMEN, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 976,
+      "id": 975,
       "name": "Reksa Dana Indosurya Equity Wealth Fund",
       "management": "Delapan Sembilan Aset Manajemen, PT",
       "custodian": "BANK PERMATA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 977,
+      "id": 976,
       "name": "REKSA DANA INDOSURYA PRIME MONEY MARKET FUND",
       "management": "Delapan Sembilan Aset Manajemen, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 978,
+      "id": 977,
       "name": "REKSA DANA INDOSURYA TREASURE BALANCED FUND",
       "management": "Delapan Sembilan Aset Manajemen, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 979,
+      "id": 978,
       "name": "REKSA DANA INSIGHT ASA LOKA I ASA",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 980,
+      "id": 979,
       "name": "REKSA DANA INSIGHT BENEFIT BALANCED FUND",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 981,
+      "id": 980,
       "name": "REKSA DANA INSIGHT BHINNEKA BALANCED FUND",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 982,
+      "id": 981,
       "name": "REKSA DANA INSIGHT BRAVE BALANCED FUND",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 983,
+      "id": 982,
       "name": "REKSA DANA INSIGHT BRIGHT",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 984,
+      "id": 983,
       "name": "REKSA DANA INSIGHT CASH FUND",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK BUKOPIN - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 985,
+      "id": 984,
       "name": "REKSA DANA INSIGHT COMMUNITY DEVELOPMENT 2",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 986,
+      "id": 985,
       "name": "REKSA DANA INSIGHT CREATE BALANCED FUND",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 987,
+      "id": 986,
       "name": "REKSA DANA INSIGHT DANAKARTA PASAR UANG",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 988,
+      "id": 987,
       "name": "REKSA DANA INSIGHT DEDICATE MIX FUND",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK MANDIRI (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 989,
+      "id": 988,
       "name": "REKSA DANA INSIGHT FELLOWSHIP",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 990,
+      "id": 989,
       "name": "REKSA DANA INSIGHT GENERATE BALANCED FUND",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 991,
+      "id": 990,
       "name": "REKSA DANA INSIGHT GENERATE BALANCED FUND 2",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 992,
+      "id": 991,
       "name": "REKSA DANA INSIGHT GOVERNMENT FUND",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK MANDIRI (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 993,
+      "id": 992,
       "name": "REKSA DANA INSIGHT GREEN",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 994,
+      "id": 993,
       "name": "REKSA DANA INSIGHT GROWTH BALANCED FUND",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 995,
+      "id": 994,
       "name": "REKSA DANA INSIGHT HEALTH FIXED INCOME FUND",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 996,
+      "id": 995,
       "name": "REKSA DANA INSIGHT INDONESIA FIXED INCOME FUND",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 997,
+      "id": 996,
       "name": "REKSA DANA INSIGHT INFRA DEVELOPMENT IINFRA",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 998,
+      "id": 997,
       "name": "REKSA DANA INSIGHT INSPIRASI",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 999,
+      "id": 998,
       "name": "REKSA DANA INSIGHT LIFE",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 1000,
+      "id": 999,
       "name": "REKSA DANA INSIGHT NUSANTARA EQUITY FUND (I-NUSANTARA)",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 1001,
+      "id": 1000,
       "name": "REKSA DANA INSIGHT NUSANTARA EQUITY FUND I NUSANTARA",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 1002,
+      "id": 1001,
       "name": "REKSA DANA INSIGHT PASAR UANG DANA LIKUID",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 1003,
+      "id": 1002,
       "name": "REKSA DANA INSIGHT PEDULI I CARE",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 1004,
+      "id": 1003,
       "name": "REKSA DANA INSIGHT PENDAPATAN TETAP 1",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1005,
+      "id": 1004,
       "name": "REKSA DANA INSIGHT PLAN",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 1006,
+      "id": 1005,
       "name": "Reksa Dana Insight Prime Fixed Income Fund",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1007,
+      "id": 1006,
       "name": "REKSA DANA INSIGHT PRIORITY FIXED INCOME FUND",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1008,
+      "id": 1007,
       "name": "REKSA DANA INSIGHT RENEWABLE ENERGY FUND",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1009,
+      "id": 1008,
       "name": "Reksa Dana Insight Retail Cash Fund",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 1010,
+      "id": 1009,
       "name": "Reksa Dana Insight Sejahtera Bahagia Berimbang",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 1011,
+      "id": 1010,
       "name": "REKSA DANA INSIGHT SMART FIXED INCOME FUND I SMART",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1012,
+      "id": 1011,
       "name": "REKSA DANA INSIGHT SUPPORT",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 1013,
+      "id": 1012,
       "name": "Reksa Dana Insight Syariah Berimbang I SHARE",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK PERMATA - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 1014,
+      "id": 1013,
       "name": "REKSA DANA INSIGHT TERPROTEKSI 1",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK MANDIRI (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Capital Protected Fund"
     },
     {
-      "id": 1015,
+      "id": 1014,
       "name": "REKSA DANA INSIGHT TUNAS BANGSA BALANCED FUND 2 I NEXT G 2",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 1016,
+      "id": 1015,
       "name": "REKSA DANA INSIGHT TUNAS BANGSA I NEXT G",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 1017,
+      "id": 1016,
       "name": "REKSA DANA INSIGHT WEALTH",
       "management": "Insight Investments Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
+    },
+    {
+      "id": 1017,
+      "name": "REKSA DANA INVESTA DANA DOLLAR MANDIRI",
+      "management": "Mandiri Manajemen Investasi, PT",
+      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
+      "type": "Fixed Income Fund"
     },
     {
       "id": 1018,
@@ -7093,387 +7093,387 @@
     },
     {
       "id": 1019,
-      "name": "REKSA DANA INVESTA DANA DOLLAR MANDIRI",
-      "management": "Mandiri Manajemen Investasi, PT",
-      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
-      "type": "Fixed Income Fund"
-    },
-    {
-      "id": 1020,
       "name": "REKSA DANA INVESTA DANA DOLLAR MANDIRI KELAS A",
       "management": "Mandiri Manajemen Investasi, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1021,
+      "id": 1020,
       "name": "REKSA DANA INVESTA DANA DOLLAR MANDIRI KELAS D",
       "management": "Mandiri Manajemen Investasi, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1022,
+      "id": 1021,
       "name": "Reksa Dana Investasi Reksa Premium",
       "management": "PT Simpan Asset Management",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1023,
+      "id": 1022,
       "name": "REKSA DANA JARVIS BALANCED FUND",
       "management": "Jarvis Aset Manajemen, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 1024,
+      "id": 1023,
       "name": "REKSA DANA JARVIS MONEY MARKET FUND",
       "management": "Jarvis Aset Manajemen, PT",
       "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Money Market Fund"
     },
     {
-      "id": 1025,
+      "id": 1024,
       "name": "REKSA DANA JASA CAPITAL CAMPURAN DINAMIS",
       "management": "Jasa Capital Asset Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 1026,
+      "id": 1025,
       "name": "REKSA DANA JASA CAPITAL CAMPURAN HARMONIS",
       "management": "Jasa Capital Asset Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 1027,
+      "id": 1026,
       "name": "REKSA DANA JASA CAPITAL PASAR UANG NUSANTARA",
       "management": "Jasa Capital Asset Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 1028,
+      "id": 1027,
       "name": "REKSA DANA JASA CAPITAL PENDAPATAN STABIL",
       "management": "Jasa Capital Asset Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1029,
+      "id": 1028,
       "name": "REKSA DANA JASA CAPITAL SAHAM BERKEMBANG",
       "management": "Jasa Capital Asset Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 1030,
+      "id": 1029,
       "name": "REKSA DANA JASA CAPITAL SAHAM PROGRESIF",
       "management": "Jasa Capital Asset Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 1031,
+      "id": 1030,
       "name": "REKSA DANA JASA CAPITAL SURAT UTANG NEGARA",
       "management": "Jasa Capital Asset Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1032,
+      "id": 1031,
       "name": "REKSA DANA JUARA EMPOWERMENT BALANCED FUND",
       "management": "Juara Capital Indonesia, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 1033,
+      "id": 1032,
       "name": "REKSA DANA JUARA MONEY MARKET FUND",
       "management": "Juara Capital Indonesia, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 1034,
+      "id": 1033,
       "name": "REKSA DANA JUARA PROVIDENTIA BALANCED FUND",
       "management": "Juara Capital Indonesia, PT",
       "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 1035,
+      "id": 1034,
       "name": "REKSA DANA KEHATI LESTARI",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1036,
+      "id": 1035,
       "name": "REKSA DANA KHARISMA EKUITAS BERSAMA",
       "management": "Pool Advista Aset Manajemen, PT",
       "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 1037,
+      "id": 1036,
       "name": "REKSA DANA KHARISMA KAPITAL PRIMA",
       "management": "Pool Advista Aset Manajemen, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 1038,
+      "id": 1037,
       "name": "REKSA DANA KISI BALANCE FUND",
       "management": "KISI ASSET MANAGEMENT, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 1039,
+      "id": 1038,
       "name": "REKSA DANA KISI BALANCED FUND",
       "management": "KISI ASSET MANAGEMENT, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 1040,
+      "id": 1039,
       "name": "REKSA DANA KISI EQUITY FUND",
       "management": "KISI ASSET MANAGEMENT, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 1041,
+      "id": 1040,
       "name": "REKSA DANA KISI FIXED INCOME FUND",
       "management": "KISI ASSET MANAGEMENT, PT",
       "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1042,
+      "id": 1041,
       "name": "REKSA DANA KISI FIXED INCOME FUND PLUS",
       "management": "KISI ASSET MANAGEMENT, PT",
       "custodian": "PT KEB Hana Bank Indonesia",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1043,
+      "id": 1042,
       "name": "REKSA DANA KISI LIQUID MONEY MARKET FUND",
       "management": "KISI ASSET MANAGEMENT, PT",
       "custodian": "BANK BUKOPIN - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 1044,
+      "id": 1043,
       "name": "REKSA DANA KISI MONEY MARKET FUND",
       "management": "KISI ASSET MANAGEMENT, PT",
       "custodian": "PT KEB Hana Bank Indonesia",
       "type": "Money Market Fund"
     },
     {
-      "id": 1045,
+      "id": 1044,
       "name": "REKSA DANA KISI PREMIER MONEY MARKET FUND",
       "management": "KISI ASSET MANAGEMENT, PT",
       "custodian": "PT KEB Hana Bank Indonesia",
       "type": "Money Market Fund"
     },
     {
-      "id": 1046,
+      "id": 1045,
       "name": "REKSA DANA KISI PRIME BALANCE FUND",
       "management": "KISI ASSET MANAGEMENT, PT",
       "custodian": "PT KEB Hana Bank Indonesia",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 1047,
+      "id": 1046,
       "name": "REKSA DANA KISI PRIORITY MONEY MARKET FUND",
       "management": "KISI ASSET MANAGEMENT, PT",
       "custodian": "PT KEB Hana Bank Indonesia",
       "type": "Money Market Fund"
     },
     {
-      "id": 1048,
+      "id": 1047,
       "name": "REKSA DANA KIWOOM INDONESIA BOND PLUS FUND",
       "management": "Kiwoom Investment Management Indonesia, PT",
       "custodian": "BANK DBS INDONESIA - CUSTODY, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1049,
+      "id": 1048,
       "name": "REKSA DANA KRESNA FLEXIMA",
       "management": "Kresna Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 1050,
+      "id": 1049,
       "name": "REKSA DANA KRESNA INDEKS 45",
       "management": "Kresna Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Index Fund"
     },
     {
-      "id": 1051,
+      "id": 1050,
       "name": "REKSA DANA KRESNA OLYMPUS",
       "management": "Kresna Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1052,
+      "id": 1051,
       "name": "REKSA DANA LANCAR VICTORIA MERKURIUS",
       "management": "Victoria Manajemen Investasi, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 1053,
+      "id": 1052,
       "name": "REKSA DANA LAUTANDHANA BALANCED PROGRESSIVE FUND",
       "management": "Lautandhana Investment Management, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 1054,
+      "id": 1053,
       "name": "REKSA DANA LAUTANDHANA EQUITY",
       "management": "Lautandhana Investment Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 1055,
+      "id": 1054,
       "name": "REKSA DANA LAUTANDHANA EQUITY AGRESIF",
       "management": "Lautandhana Investment Management, PT",
       "custodian": "BANK MANDIRI (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 1056,
+      "id": 1055,
       "name": "REKSA DANA LAUTANDHANA EQUITY PLUS",
       "management": "Lautandhana Investment Management, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Equity Fund"
     },
     {
-      "id": 1057,
+      "id": 1056,
       "name": "REKSA DANA LAUTANDHANA EQUITY PROGRESIF",
       "management": "Lautandhana Investment Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 1058,
+      "id": 1057,
       "name": "REKSA DANA LAUTANDHANA FIXED INCOME",
       "management": "Lautandhana Investment Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1059,
+      "id": 1058,
       "name": "REKSA DANA LAUTANDHANA GROWTH FUND",
       "management": "Lautandhana Investment Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 1060,
+      "id": 1059,
       "name": "Reksa Dana Lautandhana Income Fund",
       "management": "Lautandhana Investment Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1061,
+      "id": 1060,
       "name": "REKSA DANA LAUTANDHANA MAXIMA INCOME FUND",
       "management": "Lautandhana Investment Management, PT",
       "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 1062,
+      "id": 1061,
       "name": "REKSA DANA LAUTANDHANA PASAR UANG",
       "management": "Lautandhana Investment Management, PT",
       "custodian": "BANK MANDIRI (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 1063,
+      "id": 1062,
       "name": "REKSA DANA LAUTANDHANA PASAR UANG LIKUID",
       "management": "Lautandhana Investment Management, PT",
       "custodian": "PT KEB Hana Bank Indonesia",
       "type": "Money Market Fund"
     },
     {
-      "id": 1064,
+      "id": 1063,
       "name": "REKSA DANA LAUTANDHANA PASAR UANG OPTIMA",
       "management": "Lautandhana Investment Management, PT",
       "custodian": "BANK BUKOPIN - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 1065,
+      "id": 1064,
       "name": "REKSA DANA LAUTANDHANA PINACASH",
       "management": "Lautandhana Investment Management, PT",
       "custodian": "PT KEB Hana Bank Indonesia",
       "type": "Money Market Fund"
     },
     {
-      "id": 1066,
+      "id": 1065,
       "name": "REKSA DANA LAUTANDHANA SAHAM INTI",
       "management": "Lautandhana Investment Management, PT",
       "custodian": "BANK MANDIRI (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 1067,
+      "id": 1066,
       "name": "REKSA DANA LAUTANDHANA SAHAM LESTARI",
       "management": "Lautandhana Investment Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 1068,
+      "id": 1067,
       "name": "REKSA DANA LAUTANDHANA SAHAM LIKUID",
       "management": "Lautandhana Investment Management, PT",
       "custodian": "BANK MEGA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 1069,
+      "id": 1068,
       "name": "REKSA DANA LAUTANDHANA SAHAM MAHADI",
       "management": "Lautandhana Investment Management, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Equity Fund"
     },
     {
-      "id": 1070,
+      "id": 1069,
       "name": "REKSA DANA LAUTANDHANA SAHAM PRIMA",
       "management": "Lautandhana Investment Management, PT",
       "custodian": "BANK MANDIRI (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 1071,
+      "id": 1070,
       "name": "REKSA DANA LAUTANDHANA SAHAM SYARIAH",
       "management": "Lautandhana Investment Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 1072,
+      "id": 1071,
       "name": "REKSA DANA LAUTANDHANA VALUE FUND",
       "management": "Lautandhana Investment Management, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Equity Fund"
     },
     {
-      "id": 1073,
+      "id": 1072,
       "name": "REKSA DANA LIF BOND PLUS",
       "management": "PT LiF Manajemen Investasi",
       "custodian": "BANK MANDIRI (PERSERO) - CUSTODY, Tbk, PT",
+      "type": "Fixed Income Fund"
+    },
+    {
+      "id": 1073,
+      "name": "REKSA DANA LIF THEOLOGIA FIXED INCOME",
+      "management": "PT LiF Manajemen Investasi",
+      "custodian": "BANK NEGARA INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
@@ -13694,7 +13694,7 @@
     },
     {
       "id": 1962,
-      "name": "Reksa Dana Syariah Bahana Pendapatan Tetap Syariah Generasi Gemilang",
+      "name": "REKSA DANA SYARIAH BAHANA PENDAPATAN TETAP SYARIAH GENERASI GEMILANG",
       "management": "Bahana TCW Investment Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
@@ -28932,5 +28932,5 @@
       "type": "Equity Fund"
     }
   ],
-  "version": "25/08/2024"
+  "version": "26/08/2024"
 }
