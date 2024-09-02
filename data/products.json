@@ -5702,7 +5702,7 @@
       "id": 820,
       "name": "REKSA DANA HPAM ULTIMA MONEY MARKET",
       "management": "Henan Putihrai Asset Management, PT",
-      "custodian": "BANK RAKYAT INDONESIA (PERSERO) - CUSTODY, Tbk, PT",
+      "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Money Market Fund"
     },
     {
@@ -28974,5 +28974,5 @@
       "type": "Equity Fund"
     }
   ],
-  "version": "01/09/2024"
+  "version": "02/09/2024"
 }
