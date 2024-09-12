@@ -151352,7 +151352,41 @@
       ],
       "input_date": "09/09/2024",
       "description": "SP6/STPASTI/VIII/2024"
+    },
+    {
+      "id": 8915,
+      "name": "Dana Go–Kredit Cepat",
+      "alias": [],
+      "address": [
+        "https://apkxoxocom/app/com.dana.money.kta.danago"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "12/09/2024",
+      "description": "SP6/STPASTI/VIII/2024"
+    },
+    {
+      "id": 8916,
+      "name": "Dana Cepat- Pinjaman Uang Tunai&Online Dana Cepat",
+      "alias": [],
+      "address": [
+        "https://apkxoxocom/app/com.dana.onlinecepat"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "12/09/2024",
+      "description": "SP6/STPASTI/VIII/2024"
     }
   ],
-  "version": "10/09/2024"
+  "version": "12/09/2024"
 }
