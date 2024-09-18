@@ -152015,7 +152015,41 @@
       ],
       "input_date": "13/09/2024",
       "description": "SP6/STPASTI/VIII/2024"
+    },
+    {
+      "id": 8954,
+      "name": "KotakDana",
+      "alias": [],
+      "address": [
+        "https://apkxoxocom/app/com.kotakdana.idr KotakDana\tKotakDana"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "18/09/2024",
+      "description": "SP6/STPASTI/VIII/2024"
+    },
+    {
+      "id": 8955,
+      "name": "Dana Cash - Uang tunai online yang cepat dan mudah",
+      "alias": [],
+      "address": [
+        "https://apkxoxocom/app/com.kmark.pre.cash"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "18/09/2024",
+      "description": "SP6/STPASTI/VIII/2024"
     }
   ],
-  "version": "17/09/2024"
+  "version": "18/09/2024"
 }
