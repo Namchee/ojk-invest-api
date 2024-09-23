@@ -152049,7 +152049,92 @@
       ],
       "input_date": "18/09/2024",
       "description": "SP6/STPASTI/VIII/2024"
+    },
+    {
+      "id": 8956,
+      "name": "KLIK DANA - Pelayanan Dana Daring",
+      "alias": [],
+      "address": [
+        "https://apkxoxocom/app/com.klik.dana.cpt.cair.fbads.ids"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "23/09/2024",
+      "description": "SP6/STPASTI/VIII/2024"
+    },
+    {
+      "id": 8957,
+      "name": "Dana Hidup",
+      "alias": [],
+      "address": [
+        "https://apkxoxocom/app/com.dh24hd.danahidup"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "23/09/2024",
+      "description": "SP6/STPASTI/VIII/2024"
+    },
+    {
+      "id": 8958,
+      "name": "Dana List Pinjaman Terpercaya",
+      "alias": [],
+      "address": [
+        "https://apkxoxocom/app/com.dlt.ist"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "23/09/2024",
+      "description": "SP6/STPASTI/VIII/2024"
+    },
+    {
+      "id": 8959,
+      "name": "Dana Now - Online Loans",
+      "alias": [],
+      "address": [
+        "https://apkxoxocom/app/com.fromdc.todn"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "23/09/2024",
+      "description": "SP6/STPASTI/VIII/2024"
+    },
+    {
+      "id": 8960,
+      "name": "Dana Now Pinjaman Uang Tuinai Kredit Dana Cash",
+      "alias": [],
+      "address": [
+        "https://apkxoxocom/app/com.dn.dananow"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "23/09/2024",
+      "description": "SP6/STPASTI/VIII/2024"
     }
   ],
-  "version": "22/09/2024"
+  "version": "23/09/2024"
 }
