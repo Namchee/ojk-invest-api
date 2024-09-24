@@ -152134,7 +152134,41 @@
       ],
       "input_date": "23/09/2024",
       "description": "SP6/STPASTI/VIII/2024"
+    },
+    {
+      "id": 8961,
+      "name": "Doit Dana-Aplikasi microloan mobile",
+      "alias": [],
+      "address": [
+        "https://apkxoxocom/app/com.doit.dana.wdjrd"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "24/09/2024",
+      "description": "SP6/STPASTI/VIII/2024"
+    },
+    {
+      "id": 8962,
+      "name": "Dompet Kredit - pinjaman dana tunai kredit cepat",
+      "alias": [],
+      "address": [
+        "https://apkxoxocom/app/com.dompetkredit.danarupiah.kredit.uangcepat"
+      ],
+      "web": [],
+      "email": [],
+      "phone": [],
+      "entity_type": "Fintech Ilegal",
+      "activity_type": [
+        "Peer To Peer Lending"
+      ],
+      "input_date": "24/09/2024",
+      "description": "SP6/STPASTI/VIII/2024"
     }
   ],
-  "version": "23/09/2024"
+  "version": "24/09/2024"
 }
