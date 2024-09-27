@@ -6682,7 +6682,7 @@
       "id": 960,
       "name": "REKSA DANA INDEKS PINNACLE FTSE INDONESIA ETF",
       "management": "Pinnacle Persada Investama, PT",
-      "custodian": "BANK CENTRAL ASIA - CUSTODY, Tbk, PT",
+      "custodian": "DEUTSCHE BANK A. G. - CUSTODY",
       "type": "Exchanged Traded Fund"
     },
     {
@@ -29387,5 +29387,5 @@
       "type": "Equity Fund"
     }
   ],
-  "version": "26/09/2024"
+  "version": "27/09/2024"
 }
