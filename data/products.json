@@ -4881,157 +4881,157 @@
     },
     {
       "id": 703,
+      "name": "REKSA DANA CIPTA ANDALAN EKUITAS",
+      "management": "Ciptadana Asset Management, PT",
+      "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
+      "type": "Equity Fund"
+    },
+    {
+      "id": 704,
       "name": "REKSA DANA CIPTA BOND",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 704,
+      "id": 705,
       "name": "REKSA DANA CIPTA DANA CASH",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 705,
+      "id": 706,
       "name": "REKSA DANA CIPTA DANA KAS PRIMA",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK PERMATA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 706,
+      "id": 707,
       "name": "REKSA DANA CIPTA DANA KAS UNGGULAN",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK BUKOPIN - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 707,
+      "id": 708,
       "name": "Reksa Dana Cipta Dana Lancar",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 708,
+      "id": 709,
       "name": "REKSA DANA CIPTA DANA LIKUID",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 709,
+      "id": 710,
       "name": "Reksa Dana Cipta Dana Obligasi",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "PT Bank Maybank Indonesia Tbk",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 710,
+      "id": 711,
       "name": "REKSA DANA CIPTA DANA PRIMA",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK BUKOPIN - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 711,
+      "id": 712,
       "name": "Reksa Dana Cipta Dana Tunai",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 712,
+      "id": 713,
       "name": "REKSA DANA CIPTA DINAMIKA",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "STANDARD CHARTERED BANK - CUSTODY",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 713,
+      "id": 714,
       "name": "REKSA DANA CIPTA EQUITY PLUS",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK BUKOPIN - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 714,
+      "id": 715,
       "name": "REKSA DANA CIPTA GTWS Equity",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Equity Fund"
     },
     {
-      "id": 715,
+      "id": 716,
       "name": "Reksa Dana Cipta Kasih Berimbang",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Mixed Asset Fund"
     },
     {
-      "id": 716,
+      "id": 717,
       "name": "REKSA DANA CIPTA LIKUID FUND",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK BUKOPIN - CUSTODY, Tbk, PT",
       "type": "Money Market Fund"
     },
     {
-      "id": 717,
+      "id": 718,
       "name": "Reksa Dana Cipta Obligasi Dollar",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 718,
+      "id": 719,
       "name": "Reksa Dana Cipta Obligasi Gemilang",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 719,
+      "id": 720,
       "name": "Reksa Dana Cipta Obligasi Optimal",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 720,
+      "id": 721,
       "name": "Reksa Dana Cipta Obligasi Prima",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 721,
+      "id": 722,
       "name": "Reksa Dana Cipta Obligasi Rupiah",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 722,
+      "id": 723,
       "name": "REKSA DANA CIPTA OBLIGASI UNGGULAN",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
     },
     {
-      "id": 723,
+      "id": 724,
       "name": "Reksa Dana Cipta Obligasi USD",
       "management": "Ciptadana Asset Management, PT",
       "custodian": "BANK CIMB NIAGA - CUSTODY, Tbk, PT",
       "type": "Fixed Income Fund"
-    },
-    {
-      "id": 724,
-      "name": "Reksa Dana Cipta Ovo Ekuitas",
-      "management": "Ciptadana Asset Management, PT",
-      "custodian": "BANK DANAMON INDONESIA - CUSTODY, Tbk, PT",
-      "type": "Equity Fund"
     },
     {
       "id": 725,
@@ -29401,5 +29401,5 @@
       "type": "Equity Fund"
     }
   ],
-  "version": "07/10/2024"
+  "version": "08/10/2024"
 }
