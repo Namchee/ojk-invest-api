@@ -1,14 +1,9 @@
-import type { Browser, Page } from 'puppeteer';
-
 import { benchmark } from '@namchee/decora';
-
-import { Scrapper } from './scrapper.js';
-import {
-  IllegalInvestment,
-  parseInvestmentData,
-} from '../../entity/illegal.js';
-import { writeResult } from '../writer.js';
+import type { Browser, Page } from 'puppeteer';
 import { ONE_SECOND } from '../../constant/time.js';
+import { type IllegalInvestment, parseInvestmentData } from '../../entity/illegal.js';
+import { writeResult } from '../writer.js';
+import { Scrapper } from './scrapper.js';
 
 /**
  * Scrapper script to extract illegal investments data
@@ -32,10 +27,7 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
    * @param {Browser} browser Puppeteer browser instance
    */
   public constructor(browser: Browser) {
-    super(
-      browser,
-      'https://emiten.ojk.go.id/Satgas/AlertPortal/IndexAlertPortal',
-    );
+    super(browser, 'https://emiten.ojk.go.id/Satgas/AlertPortal/IndexAlertPortal');
   }
 
   /**
@@ -64,9 +56,7 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
       });
     });
 
-    return rawData.map((illegal: string) =>
-      parseInvestmentData(JSON.parse(illegal)),
-    );
+    return rawData.map((illegal: string) => parseInvestmentData(JSON.parse(illegal)));
   }
 
   /**
@@ -99,9 +89,7 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
       const rawClass = await nextBtn.getProperty('className');
       const classList: string = await rawClass.jsonValue();
 
-      const isDisabled = new RegExp(IllegalsScrapper.disabledSelector).test(
-        classList,
-      );
+      const isDisabled = new RegExp(IllegalsScrapper.disabledSelector).test(classList);
 
       if (isDisabled) {
         break;
