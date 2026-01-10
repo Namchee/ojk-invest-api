@@ -2,25 +2,27 @@
   "name": "ojk-invest-api",
   "version": "0.0.1",
   "description": "Public API for OJK's investment data",
-  "main": "dist/index.js",
-  "type": "module",
-  "scripts": {
-    "scrap": "node dist/index.js",
-    "scrap:dev": "tsx index.ts",
-    "scrap:build": "tsc",
-    "lint": "eslint ./src/**/*.ts ./api/*.ts",
-    "api:dev": "vercel dev -l 3001"
-  },
   "keywords": [
     "api",
-    "ojk",
-    "investasi"
+    "investasi",
+    "ojk"
   ],
+  "license": "MIT",
   "author": {
     "name": "Cristopher Namchee",
     "email": "cristophernamchee12@gmail.com"
   },
-  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "scrap": "node dist/index.js",
+    "scrap:dev": "tsx index.ts",
+    "scrap:build": "tsc",
+    "lint": "oxlint ./src/**/*.ts ./api/*.ts",
+    "format": "oxfmt",
+    "format:check": "oxfmt --check",
+    "api:dev": "vercel dev -l 3001"
+  },
   "dependencies": {
     "@apollo/server": "^4.7.3",
     "@as-integrations/next": "^2.0.0",
@@ -34,12 +36,11 @@
     "puppeteer": "^22.8.1"
   },
   "devDependencies": {
+    "@namchee/eslint-config": "^3.1.5",
     "@sentry/types": "^6.2.3",
     "@types/node": "^22.15.30",
-    "@typescript-eslint/eslint-plugin": "^5.59.9",
-    "@typescript-eslint/parser": "^5.59.9",
-    "eslint": "^7.19.0",
-    "eslint-config-google": "^0.14.0",
+    "oxfmt": "^0.23.0",
+    "oxlint": "^1.38.0",
     "tsx": "^4.19.4",
     "typescript": "^5.8.3",
     "vercel": "^30.2.1"
@@ -51,6 +52,7 @@
       "esbuild",
       "puppeteer",
       "sharp",
+      "unrs-resolver",
       "vercel"
     ]
   }
