@@ -24,6 +24,8 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
   // Most items selector
   private static readonly pageSize = 100;
 
+  private static downloadSelector = '.dt-button.buttons-csv';
+
   /**
    * Constructor for IllegalScrapper
    * @param {Browser} browser Puppeteer browser instance
@@ -40,7 +42,10 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
    * investments data
    */
   protected async scrapPage(page: Page): Promise<IllegalInvestment[]> {
-    await page.waitForSelector(IllegalsScrapper.rowSelector);
+    await page.waitForSelector(IllegalsScrapper.downloadSelector);
+
+    const buttons = await page.$$(IllegalsScrapper.downloadSelector);
+    const downloadButton = buttons;
 
     const rawData = await page.$$eval(IllegalsScrapper.rowSelector, rows => {
       return rows.map(row => {
