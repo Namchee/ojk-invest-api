@@ -2,25 +2,27 @@
   "name": "ojk-invest-api",
   "version": "0.0.1",
   "description": "Public API for OJK's investment data",
-  "main": "dist/index.js",
-  "type": "module",
-  "scripts": {
-    "scrap": "node dist/index.js",
-    "scrap:dev": "tsx index.ts",
-    "scrap:build": "tsc",
-    "lint": "eslint ./src/**/*.ts ./api/*.ts",
-    "api:dev": "vercel dev -l 3001"
-  },
   "keywords": [
     "api",
-    "ojk",
-    "investasi"
+    "investasi",
+    "ojk"
   ],
+  "license": "MIT",
   "author": {
     "name": "Cristopher Namchee",
     "email": "cristophernamchee12@gmail.com"
   },
-  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "scrap": "node dist/index.js",
+    "scrap:dev": "tsx index.ts",
+    "scrap:build": "tsc",
+    "lint": "oxlint ./src/**/*.ts ./api/*.ts",
+    "format": "oxfmt",
+    "format:check": "oxfmt --check",
+    "api:dev": "vercel dev -l 3001"
+  },
   "dependencies": {
     "@apollo/server": "^4.7.3",
     "@as-integrations/next": "^2.0.0",
@@ -50,6 +52,7 @@
       "esbuild",
       "puppeteer",
       "sharp",
+      "unrs-resolver",
       "vercel"
     ]
   }

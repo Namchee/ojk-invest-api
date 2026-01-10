@@ -1,7 +1,7 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
 
-import { getVersion } from '../src/services/api/version.js';
 import { HTTPCodes } from '../src/services/api/const.js';
+import { getVersion } from '../src/services/api/version.js';
 
 /**
  * Get data version from the API
@@ -10,10 +10,7 @@ import { HTTPCodes } from '../src/services/api/const.js';
  * @param {VercelResponse} res - response object
  * @return {Promise<VercelResponse>} - response object, packed with data
  */
-export default async function(
-  req: VercelRequest,
-  res: VercelResponse,
-): Promise<VercelResponse> {
+export default async function (req: VercelRequest, res: VercelResponse): Promise<VercelResponse> {
   if (req.method !== 'GET') {
     return res.status(405).json(undefined);
   }
@@ -21,23 +18,21 @@ export default async function(
   try {
     const version = await getVersion();
 
-    return res.status(200)
-      .json({
-        data: {
-          status: version ? 'ok' : 'not ok',
-          version,
-        },
-        error: null,
-      });
+    return res.status(200).json({
+      data: {
+        status: version ? 'ok' : 'not ok',
+        version,
+      },
+      error: null,
+    });
   } catch (err) {
     const error = err as Error;
 
     console.log(error);
 
-    return res.status(HTTPCodes.SERVER_ERROR)
-      .json({
-        data: null,
-        error: error.message,
-      });
+    return res.status(HTTPCodes.SERVER_ERROR).json({
+      data: null,
+      error: error.message,
+    });
   }
 }

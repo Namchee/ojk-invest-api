@@ -2,13 +2,11 @@ import type { Browser, Page } from 'puppeteer';
 
 import { benchmark } from '@namchee/decora';
 
-import { writeResult } from '../writer.js';
-
-import { Scrapper } from './scrapper.js';
+import { ONE_SECOND } from '../../constant/time.js';
 import { App } from '../../entity/app.js';
 import { TextProcessor } from '../processor.js';
-import { ONE_SECOND } from '../../constant/time.js';
-
+import { writeResult } from '../writer.js';
+import { Scrapper } from './scrapper.js';
 
 /**
  * Scrapping script for legal investment applications
@@ -28,10 +26,7 @@ export class AppsScrapper extends Scrapper<App> {
    * @param {Browser} browser - puppeteer's browser instance
    */
   public constructor(browser: Browser) {
-    super(
-      browser,
-      'https://reksadana.ojk.go.id/Public/PTOPublic.aspx',
-    );
+    super(browser, 'https://reksadana.ojk.go.id/Public/PTOPublic.aspx');
   }
 
   /**
@@ -44,13 +39,12 @@ export class AppsScrapper extends Scrapper<App> {
   protected async scrapPage(page: Page): Promise<App[]> {
     await page.waitForSelector(AppsScrapper.rowSelector);
 
-    const rawApps = await page.$$eval(AppsScrapper.rowSelector, (rows) => {
+    const rawApps = await page.$$eval(AppsScrapper.rowSelector, rows => {
       const dataRows = rows.filter(row => row.childElementCount > 1);
 
-      const rowData = dataRows.map((row) => {
+      const rowData = dataRows.map(row => {
         const children = Array.from(row.children);
-        let cleanUrl = (children[2].textContent as string)
-          .replace(/\s+/g, '');
+        let cleanUrl = (children[2].textContent as string).replace(/\s+/g, '');
 
         if (!cleanUrl.startsWith('http')) {
           cleanUrl = `https://${cleanUrl}`;
@@ -95,13 +89,13 @@ export class AppsScrapper extends Scrapper<App> {
 
     const allSelector = await page.$(AppsScrapper.allItemSelector);
     await allSelector?.click();
- 
+
     // wait for a period of time, for ASP to response
     await this.delay(ONE_SECOND * 5);
     await page.waitForNetworkIdle();
 
     const apps: App[] = await this.scrapPage(page);
-   
+
     const result = {
       data: apps,
       version: new Date(),

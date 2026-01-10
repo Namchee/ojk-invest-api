@@ -1,13 +1,12 @@
 import puppeteer from 'puppeteer';
 
-import { performance } from 'perf_hooks';
-
-import { IllegalsScrapper } from './src/services/scrapper/illegal.js';
+import { ONE_SECOND, ONE_MINUTE } from './src/constant/time.js';
 import { AppsScrapper } from './src/services/scrapper/app.js';
+import { IllegalsScrapper } from './src/services/scrapper/illegal.js';
 import { ProductsScrapper } from './src/services/scrapper/product.js';
 import { bootstrapOutput } from './src/services/writer.js';
 
-import { ONE_SECOND, ONE_MINUTE } from './src/constant/time.js';
+import { performance } from 'perf_hooks';
 
 (async () => {
   bootstrapOutput();
@@ -31,11 +30,7 @@ import { ONE_SECOND, ONE_MINUTE } from './src/constant/time.js';
 
   try {
     const start = performance.now();
-    const scrappers = [
-      new ProductsScrapper(browser),
-      new AppsScrapper(browser),
-      new IllegalsScrapper(browser),
-    ];
+    const scrappers = [new ProductsScrapper(browser), new AppsScrapper(browser), new IllegalsScrapper(browser)];
 
     // currently, it's not possible to simulate `click` event at the same time
     for (const scrapper of scrappers) {
@@ -53,7 +48,7 @@ import { ONE_SECOND, ONE_MINUTE } from './src/constant/time.js';
     const end = performance.now();
     const delta = (end - start) / ONE_SECOND;
 
-    console.log(`All process was executed in ${(delta).toFixed(2)} s`);
+    console.log(`All process was executed in ${delta.toFixed(2)} s`);
   } finally {
     await browser.close();
   }

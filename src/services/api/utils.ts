@@ -1,9 +1,9 @@
-import { resolve } from 'path';
-import { existsSync, readFileSync } from 'fs';
-
 import { ValidationError } from '../../exceptions/validation.js';
-import { Query, Params } from './const.js';
 import { Logger } from '../logger.js';
+import { Query, Params } from './const.js';
+
+import { existsSync, readFileSync } from 'fs';
+import { resolve } from 'path';
 
 /**
  * Validate user inputs and transform them into Query
@@ -44,21 +44,15 @@ export function validateParam(param: any): Params {
   const convertedValue = Number(id);
 
   if (Number.isNaN(convertedValue)) {
-    throw new ValidationError(
-      'Parameter `id` harus merupakan sebuah bilangan',
-    );
+    throw new ValidationError('Parameter `id` harus merupakan sebuah bilangan');
   }
 
   if (convertedValue < 1) {
-    throw new ValidationError(
-      'Parameter `id` harus merupakan sebuah bilangan positif',
-    );
+    throw new ValidationError('Parameter `id` harus merupakan sebuah bilangan positif');
   }
 
   if (!Number.isInteger(convertedValue)) {
-    throw new ValidationError(
-      'Parameter `id` harus merupakan sebuah bilangan bulat',
-    );
+    throw new ValidationError('Parameter `id` harus merupakan sebuah bilangan bulat');
   }
 
   return {
@@ -88,9 +82,7 @@ export function importData<T>(name: string): T {
   const isDataFetched = existsSync(dataPath);
 
   if (!isDataFetched) {
-    Logger.getInstance().logError(
-      new Error(`JSON data for '${name}' endpoint does not exist`),
-    );
+    Logger.getInstance().logError(new Error(`JSON data for '${name}' endpoint does not exist`));
 
     throw new Error('Terdapat kesalahan pada sistem');
   }

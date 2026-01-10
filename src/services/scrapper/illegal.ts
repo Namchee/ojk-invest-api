@@ -1,5 +1,7 @@
-import { benchmark } from '@namchee/decora';
 import type { Browser, Page } from 'puppeteer';
+
+import { benchmark } from '@namchee/decora';
+
 import { ONE_SECOND } from '../../constant/time.js';
 import { type IllegalInvestment, parseInvestmentData } from '../../entity/illegal.js';
 import { writeResult } from '../writer.js';
@@ -40,8 +42,8 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
   protected async scrapPage(page: Page): Promise<IllegalInvestment[]> {
     await page.waitForSelector(IllegalsScrapper.rowSelector);
 
-    const rawData = await page.$$eval(IllegalsScrapper.rowSelector, (rows) => {
-      return rows.map((row) => {
+    const rawData = await page.$$eval(IllegalsScrapper.rowSelector, rows => {
+      return rows.map(row => {
         return JSON.stringify({
           id: 0,
           name: row.childNodes[3].textContent,
