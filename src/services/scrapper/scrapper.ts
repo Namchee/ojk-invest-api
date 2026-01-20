@@ -16,7 +16,8 @@ export const PAGE_OPTIONS: WaitForOptions = {
 };
 
 // eslint-disable-next-line max-len
-const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36';
+const USER_AGENT =
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36';
 
 /**
  * Base scrapping script
@@ -60,11 +61,11 @@ export abstract class Scrapper<T> {
     await page.setBypassCSP(true);
     await page.setRequestInterception(true);
 
-    page.on('request', (request) => {
+    page.on('request', request => {
       if (['image', 'stylesheet', 'font'].includes(request.resourceType())) {
         return request.abort();
       }
-      
+
       request.continue();
     });
 
@@ -77,14 +78,14 @@ export abstract class Scrapper<T> {
 
   /**
    * Pause execution for certain period of time.
-   * 
-   * @param {number} time Duration to stop execution in milleseconds 
+   *
+   * @param {number} time Duration to stop execution in milleseconds
    * @returns {Promise<void>} A promise that is guaranteed to resolve after `time`
    * milliseconds.
    */
   protected delay(time: number): Promise<void> {
-    return new Promise((resolve) => {
+    return new Promise(resolve => {
       setTimeout(resolve, time);
-    })
+    });
   }
 }

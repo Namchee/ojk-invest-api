@@ -38,5 +38,4 @@ export enum HTTPCodes {
   METHOD_NOT_ALLOWED = 405,
   // HTTP status code when request has been successfully handled
   SUCCESS = 200,
-};
-
+}
