@@ -45,7 +45,6 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
     await page.waitForSelector(IllegalsScrapper.downloadSelector);
 
     const buttons = await page.$$(IllegalsScrapper.downloadSelector);
-    const downloadButton = buttons;
 
     const rawData = await page.$$eval(IllegalsScrapper.rowSelector, rows => {
       return rows.map(row => {
