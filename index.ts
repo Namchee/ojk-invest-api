@@ -1,12 +1,12 @@
 import puppeteer from 'puppeteer';
 
-import { ONE_SECOND, ONE_MINUTE } from './src/constant/time.js';
+import { ONE_MINUTE, ONE_SECOND } from './src/constant/time.js';
 import { AppsScrapper } from './src/services/scrapper/app.js';
 import { IllegalsScrapper } from './src/services/scrapper/illegal.js';
 import { ProductsScrapper } from './src/services/scrapper/product.js';
 import { bootstrapOutput } from './src/services/writer.js';
 
-import { performance } from 'perf_hooks';
+import { performance } from 'node:perf_hooks';
 
 (async () => {
   bootstrapOutput();
