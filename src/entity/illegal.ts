@@ -1,7 +1,7 @@
 import { Standard, tryFormat } from '@namchee/telepon';
 
-import { TextProcessor } from '../services/processor.js';
 import { EMAIL_PATTERN, URL_PATTERN } from '../constant/regex.js';
+import { TextProcessor } from '../services/processor.js';
 
 /* eslint-disable camelcase */
 export interface IllegalInvestment {
@@ -24,9 +24,7 @@ export interface IllegalInvestment {
  * @param {Record<string, string>} data raw data
  * @return {IllegalInvestment} investment object
  */
-export function parseInvestmentData(
-  data: Record<string, string>,
-): IllegalInvestment {
+export function parseInvestmentData(data: Record<string, string>): IllegalInvestment {
   const nameProps = scanDataFromName(data.name);
   const addressProps = scanDataFromAddress(data.address);
   const phoneProps = scanDataFromPhone(data.phone);
@@ -37,9 +35,7 @@ export function parseInvestmentData(
 
   const activityType = data.activityType
     .split('/')
-    .map(val =>
-      new TextProcessor(val).sanitize().capitalize().trim().getResult(),
-    );
+    .map(val => new TextProcessor(val).sanitize().capitalize().trim().getResult());
 
   return {
     id: 0, // will be set on the main function instead
@@ -47,13 +43,7 @@ export function parseInvestmentData(
     alias: nameProps.alias,
     address: addressProps.address,
     web: [...new Set([...nameProps.web, ...emailProps.web])],
-    email: [
-      ...new Set([
-        ...addressProps.email,
-        ...phoneProps.email,
-        ...emailProps.email,
-      ]),
-    ],
+    email: [...new Set([...addressProps.email, ...phoneProps.email, ...emailProps.email])],
     phone: [...phoneProps.phone],
     entity_type: entityType.sanitize().capitalize().trim().getResult(),
     activity_type: activityType,
@@ -131,7 +121,7 @@ function scanDataFromAddress(address: string): {
 
   const addresses = address
     .split(/\d\./)
-    .map((address) => {
+    .map(address => {
       const cleanAddress = address.replace(/[;\.]/, '').trim();
 
       if (cleanAddress.startsWith('m')) {

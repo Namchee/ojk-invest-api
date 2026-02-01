@@ -1,8 +1,8 @@
+import { Logger } from '../logger.js';
+
 import { readFile, existsSync } from 'fs';
 import { resolve } from 'path';
 import { promisify } from 'util';
-
-import { Logger } from '../logger.js';
 
 const readFileAsync = promisify(readFile);
 
@@ -40,9 +40,7 @@ export async function getVersion(): Promise<string> {
   const versions = [...new Set(dataFiles)];
 
   if (versions.length > 1) {
-    Logger.getInstance().logError(
-      new Error('Inconsistent data version'),
-    );
+    Logger.getInstance().logError(new Error('Inconsistent data version'));
 
     return '';
   }
