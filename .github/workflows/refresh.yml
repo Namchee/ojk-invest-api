@@ -1,4 +1,4 @@
-name: Refresh fintech data and re-deploy on daily basis
+name: Refresh fintech data on daily basis
 
 on:
   push:
