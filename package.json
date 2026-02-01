@@ -1,7 +1,7 @@
 {
 	"name": "tefin-api",
 	"version": "0.0.1",
-	"description": "API that serves financial technologies data in Indonesia",
+	"description": "Indonesian fintech API",
 	"keywords": [
 		"api",
 		"financial-technology",
