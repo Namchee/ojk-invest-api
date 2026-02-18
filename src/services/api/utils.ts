@@ -1,6 +1,7 @@
+import type { Params, Query } from './const.js';
+
 import { ValidationError } from '../../exceptions/validation.js';
 import { Logger } from '../logger.js';
-import { Query, Params } from './const.js';
 
 import { existsSync, readFileSync } from 'fs';
 import { resolve } from 'path';
@@ -15,11 +16,11 @@ export function validateQuery(query: any): Query {
   let limit: number | undefined = Number(query.limit);
   let offset = Number(query.offset);
 
-  if (!isNaN(limit) && limit < 1) {
+  if (!Number.isNaN(limit) && limit < 1) {
     throw new ValidationError('Nilai `limit` tidak boleh lebih kecil dari 1');
   }
 
-  if (!isNaN(offset) && offset < 0) {
+  if (!Number.isNaN(offset) && offset < 0) {
     throw new ValidationError('Nilai `offset` tidak boleh negatif');
   }
 

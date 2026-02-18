@@ -1,5 +1,6 @@
-import { App } from '../../entity/app.js';
-import { GetManyResult, GetResult, Params, Query } from './const.js';
+import type { App } from '../../entity/app.js';
+import type { GetManyResult, GetResult, Params, Query } from './const.js';
+
 import { escapeName, importData } from './utils.js';
 
 interface AppsData {
