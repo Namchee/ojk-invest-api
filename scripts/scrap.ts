@@ -1,10 +1,10 @@
 import puppeteer from 'puppeteer';
 
-import { ONE_MINUTE, ONE_SECOND } from './src/constant/time.js';
-import { AppsScrapper } from './src/services/scrapper/app.js';
-import { IllegalsScrapper } from './src/services/scrapper/illegal.js';
-import { ProductsScrapper } from './src/services/scrapper/product.js';
-import { bootstrapOutput } from './src/services/writer.js';
+import { ONE_MINUTE, ONE_SECOND } from '@/constant/time';
+import { AppsScrapper } from '@/services/scrapper/app';
+import { IllegalsScrapper } from '@/services/scrapper/illegal';
+import { ProductsScrapper } from '@/services/scrapper/product';
+import { bootstrapOutput } from '@/services/writer';
 
 import { performance } from 'node:perf_hooks';
 
