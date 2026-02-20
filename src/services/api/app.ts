@@ -14,16 +14,16 @@ interface AppsData {
  *
  * @param {Query} query User queries
  * @param {KVNamespace} repository Data source
- * @return {GetManyResult<App>} - list of all authorized shared funds
+ * @return {Promise<GetManyResult<App> >} - list of all authorized shared funds
  * application.
  */
-export function getMany(query: Query, repository: KVNamespace): GetManyResult<App> {
+export async function getMany(query: Query, repository: KVNamespace): Promise<GetManyResult<App>> {
   const { name, limit, offset } = query;
 
-  const source = importData<AppsData>('apps', repository);
+  const source = await importData<AppsData>('apps', repository);
 
-  let apps: App[] = repository.data;
-  const version = repository.version;
+  let apps: App[] = source.data;
+  const version = source.version;
 
   if (name) {
     const pattern = new RegExp(escapeName(name), 'ig');

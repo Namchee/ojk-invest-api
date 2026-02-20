@@ -2,30 +2,19 @@ import type { Context } from 'hono';
 
 import type { Env } from '@/types';
 
+import { withErrorHandling } from '@/lib/decorators';
 import { getMany } from '@/services/api/app';
 import { HTTPCodes } from '@/services/api/const';
 import { validateQuery } from '@/services/api/utils';
 
-import { withErrorHandling } from '../utils';
-
-export async function list(c: Context<{ Bindings: Env }>) {
-  const nameQuery = c.req.queries('name');
-  if (nameQuery && nameQuery.length > 1) {
-    return c.json(
-      {
-        data: null,
-        error: 'Nilai `name` hanya boleh ada satu',
-      },
-      HTTPCodes.INVALID_PARAMS,
-    );
-  }
-
+async function _list(c: Context<{ Bindings: Env }>) {
   const query = validateQuery({
+    name: c.req.queries('name'),
     limit: c.req.query('limit'),
     offset: c.req.query('offset'),
   });
 
-  const { data, version, count } = getMany(query);
+  const { data, version, count } = await getMany(query, c.env.TEFIN_DATA);
 
   return c.json({
     data: {
@@ -37,9 +26,10 @@ export async function list(c: Context<{ Bindings: Env }>) {
   });
 }
 
-const a = (ctx: Context<{ Bindings: Env }>) => withErrorHandling(ctx, list);
-
-export async function get(c: Context<{ Bindings: Env }>) {
+async function _get(c: Context<{ Bindings: Env }>) {
   try {
   } catch (err) {}
 }
+
+export const list = (c: Context<{ Bindings: Env }>) => withErrorHandling(c, _list);
+export const get = (c: Context<{ Bindings: Env }>) => withErrorHandling(c, _get);

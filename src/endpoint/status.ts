@@ -2,6 +2,9 @@ import type { Context } from 'hono';
 
 import type { Env } from '@/types';
 
+import { importData } from '@/services/api/utils';
+import { Logger } from '@/services/logger';
+
 /**
  * Healthcheck endpoint for TeFin API.
  *
@@ -13,14 +16,13 @@ import type { Env } from '@/types';
  * @returns {Promise<Response>} Response object
  */
 export default async function (c: Context<{ Bindings: Env }>): Promise<Response> {
-  const rawData = await Promise.all([c.env.TEFIN_DATA.get('BLOCKED'), c.env.TEFIN_DATA.get('LENDINGS')]);
-  const data = rawData.map(raw => JSON.parse(raw ?? '{}') as { version: string });
+  const data = await Promise.all([importData('blocked', c.env.TEFIN_DATA), importData('lendings', c.env.TEFIN_DATA)]);
 
   if (data.some(d => Object.keys(d).length === 0)) {
     return c.json({
       data: {
         status: 'not ok',
-        version: '',
+        version: null,
       },
       error: null,
     });
@@ -32,7 +34,7 @@ export default async function (c: Context<{ Bindings: Env }>): Promise<Response>
   return c.json({
     data: {
       status: ok ? 'ok' : 'not ok',
-      version: ok ? dates[0] : '',
+      version: ok ? dates[0] : null,
     },
     error: null,
   });
