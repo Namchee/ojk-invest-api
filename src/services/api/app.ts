@@ -12,17 +12,18 @@ interface AppsData {
  * Get all authorized shared funds application from OJK data that
  * satisfies the provided query
  *
- * @param {Query} query - query
+ * @param {Query} query User queries
+ * @param {KVNamespace} repository Data source
  * @return {GetManyResult<App>} - list of all authorized shared funds
  * application.
  */
-export function getMany(query: Query): GetManyResult<App> {
+export function getMany(query: Query, repository: KVNamespace): GetManyResult<App> {
   const { name, limit, offset } = query;
 
-  const source = importData<AppsData>('apps');
+  const source = importData<AppsData>('apps', repository);
 
-  let apps: App[] = source.data;
-  const version = source.version;
+  let apps: App[] = repository.data;
+  const version = repository.version;
 
   if (name) {
     const pattern = new RegExp(escapeName(name), 'ig');

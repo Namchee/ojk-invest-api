@@ -3,18 +3,32 @@ import type { Params, Query } from './const.js';
 import { ValidationError } from '../../exceptions/validation.js';
 import { Logger } from '../logger.js';
 
-import { existsSync, readFileSync } from 'fs';
-import { resolve } from 'path';
+import { existsSync, readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+
+const DataKeys = {
+  // legacy data
+  apps: 'TEFIN_OLD_APPS',
+  illegals: 'TEFIN_OLD_ILLEGALS',
+  products: 'TEFIN_OLD_PRODUCTS',
+
+  blocked: 'TEFIN_BLOCKED',
+  lendings: 'TEFIN_LENDINGS',
+};
 
 /**
  * Validate user inputs and transform them into Query
  *
- * @param {any} query - user input object
+ * @param {Record<string, unknown>} query - user input object
  * @return {Query} validated and formatted user input
  */
-export function validateQuery(query: any): Query {
+export function validateQuery(query: Record<string, unknown>): Query {
   let limit: number | undefined = Number(query.limit);
   let offset = Number(query.offset);
+
+  if (typeof query.name !== 'string') {
+    throw new ValidationError('`name` harus merupakan sebuah string');
+  }
 
   if (!Number.isNaN(limit) && limit < 1) {
     throw new ValidationError('Nilai `limit` tidak boleh lebih kecil dari 1');
@@ -37,10 +51,10 @@ export function validateQuery(query: any): Query {
 /**
  * Validate param input and transform it into a Params object
  *
- * @param {string} param ID param
+ * @param {Record<string, unknown>} param ID param
  * @return {Params} validated and formatted param
  */
-export function validateParam(param: any): Params {
+export function validateParam(param: Record<string, unknown>): Params {
   const { id } = param;
   const convertedValue = Number(id);
 
@@ -74,20 +88,25 @@ export function escapeName(query: string): string {
 /**
  * Import investment data from JSON files.
  *
- * @param {string} name filename
+ * @param {string} key Data key
+ * @param {KVNamespace} repository Any valid data source that can be queried
  * @return {T} requested data in JSON format
  */
-export function importData<T>(name: string): T {
-  const dataPath = resolve(process.cwd(), 'data', `${name}.json`);
-
-  const isDataFetched = existsSync(dataPath);
-
-  if (!isDataFetched) {
+export async function importData<T>(key: keyof typeof DataKeys, repository: KVNamespace): T {
+  const rawData = await repository.get(DataKeys[key]);
+  if (!rawData) {
     Logger.getInstance().logError(new Error(`JSON data for '${name}' endpoint does not exist`));
 
     throw new Error('Terdapat kesalahan pada sistem');
   }
 
+  try {
+    return JSON.parse(rawData);
+  } catch (err) {}
+
+  const dataPath = resolve(process.cwd(), 'data', `${name}.json`);
+
+  const isDataFetched = existsSync(dataPath);
+
   const rawData = readFileSync(dataPath);
-  return JSON.parse(rawData.toString('utf-8'));
 }

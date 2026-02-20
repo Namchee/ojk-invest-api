@@ -45,5 +45,11 @@
 				}
 			}
 		}
-	}
+	},
+	"language_servers": [
+	  "oxlint",
+		"oxfmt",
+		"vtsls",
+		"json-language-server"
+	]
 }
