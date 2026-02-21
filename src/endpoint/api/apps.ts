@@ -3,8 +3,8 @@ import type { Context } from 'hono';
 import type { Env } from '@/types';
 
 import { withErrorHandling } from '@/lib/decorator';
-import { validateQuery } from '@/lib/validator';
-import { getMany } from '@/services/api/app';
+import { validateParam, validateQuery } from '@/lib/validator';
+import { getMany, getOne } from '@/services/api/app';
 import { HTTPCodes } from '@/services/api/const';
 
 async function _list(c: Context<{ Bindings: Env }>) {
@@ -27,8 +27,28 @@ async function _list(c: Context<{ Bindings: Env }>) {
 }
 
 async function _get(c: Context<{ Bindings: Env }>) {
-  try {
-  } catch (err) {}
+  const params = validateParam({
+    id: c.req.param('id'),
+  });
+  const { data, version } = getOne(params);
+
+  if (data == null) {
+    return c.json(
+      {
+        data: null,
+        error: 'Aplikasi tidak ditemukan',
+      },
+      HTTPCodes.NOT_FOUND,
+    );
+  }
+
+  return c.json({
+    data: {
+      apps: data,
+      version,
+    },
+    error: null,
+  });
 }
 
 export const list = (c: Context<{ Bindings: Env }>) => withErrorHandling(c, _list);

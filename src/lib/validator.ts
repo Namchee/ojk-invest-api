@@ -1,3 +1,5 @@
+import type { Params } from '@/services/api/const';
+
 import { ValidationError } from '@/exceptions/validation';
 
 /**
