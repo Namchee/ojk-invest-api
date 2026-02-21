@@ -1,6 +1,6 @@
-import { gql } from 'graphql-tag';
+import { buildSchema } from 'graphql';
 
-export const typeDefs = gql`
+export const schema = buildSchema(`
   # Illegal investment product
   type IllegalInvestment {
     id: ID!
@@ -15,7 +15,7 @@ export const typeDefs = gql`
     input_date: String!
     description: String!
   }
-  
+
   # Legal and authorized shared fund products
   type Product {
     id: ID!
@@ -24,7 +24,7 @@ export const typeDefs = gql`
     custodian: String!
     type: String!
   }
-  
+
   # Legal and authorized shared funds manager application
   type App {
     id: ID!
@@ -32,40 +32,40 @@ export const typeDefs = gql`
     url: String!
     owner: String!
   }
-  
+
   type IllegalsQueryResult {
     data: [IllegalInvestment!]!
     count: Int!
     version: String!
   }
-  
+
   type AppsQueryResult {
     data: [App!]!
     count: Int!
     version: String!
   }
-  
+
   type ProductsQueryResult {
     data: [Product!]!
     count: Int!
     version: String!
   }
-  
+
   type IllegalQueryResult {
     data: IllegalInvestment
     version: String!
   }
-  
+
   type AppQueryResult {
     data: App
     version: String!
   }
-  
+
   type ProductQueryResult {
     data: Product
     version: String!
   }
-  
+
   type Query {
     illegalInvestments(name: String, limit: Int, offset: Int): IllegalsQueryResult!
     illegalInvestment(id: ID): IllegalQueryResult!
@@ -74,4 +74,4 @@ export const typeDefs = gql`
     apps(name: String, limit: Int, offset: Int): AppsQueryResult!
     app(id: ID): AppQueryResult!
   }
-`;
+`);

@@ -1,9 +1,11 @@
 import type { Env } from './types';
 
-import { type RootResolver, graphqlServer } from '@hono/graphql-server';
+import { graphqlServer } from '@hono/graphql-server';
 import { Hono } from 'hono';
 
 import status from './endpoint/status';
+import { resolvers } from './graphql/resolver';
+import { schema } from './graphql/schema';
 import { Logger } from './services/logger';
 
 const app = new Hono<{ Bindings: Env }>();
@@ -21,7 +23,13 @@ app.onError((e, c) => {
   );
 });
 
-app.use('/graphql', graphql);
+app.use(
+  '/graphql',
+  graphqlServer({
+    rootResolver: resolvers,
+    schema,
+  }),
+);
 
 app.get('/api/apps', () => {});
 app.get('/api/illegals', () => {});

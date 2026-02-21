@@ -1,3 +1,4 @@
+import { RootResolver } from '@hono/graphql-server';
 import { App } from '../entity/app.js';
 import { IllegalInvestment } from '../entity/illegal.js';
 import { Product } from '../entity/product.js';
@@ -5,7 +6,8 @@ import { getMany as getManyApps, getOne as getOneApp } from '../services/api/app
 import { GetManyResult, GetResult, Params, Query } from '../services/api/const.js';
 import { getMany as getManyIllegals, getOne as getOneIllegal } from '../services/api/illegal.js';
 import { getMany as getManyProducts, getOne as getOneProduct } from '../services/api/product.js';
-import { validateQuery, validateParam } from './../services/api/utils.js';
+import { Context } from 'hono';
+import { Env } from '@/types.js';
 
 /**
  * Wrapping function for resolver.
@@ -18,29 +20,35 @@ import { validateQuery, validateParam } from './../services/api/utils.js';
 function wrapResolver<T, U>(
   service: (args: U) => T,
   args: Record<string, any>,
-  validator: (obj: Record<string, any>) => U,
+  validator: (obj: Record<string, unknown>) => U,
 ): T {
   const obj = validator(args);
 
   return service(obj);
 }
 
+export const rootResolvers: RootResolver = (c: Context<{ Bindings: Env }>) => {
+  return {
+    illegalInvestments: ()
+  }
+}
+
 export const resolvers = {
   Query: {
     illegalInvestments: (_: any, args: any) => {
-      return wrapResolver<GetManyResult<IllegalInvestment>, Query>(getManyIllegals, args, validateQuery);
+      return wrapResolver<GetManyResult<IllegalInvestment[]>, Query>(getManyIllegals, args, validateQuery);
     },
     illegalInvestment: (_: any, args: any) => {
       return wrapResolver<GetResult<IllegalInvestment>, Params>(getOneIllegal, args, validateParam);
     },
     products: (_: any, args: any) => {
-      return wrapResolver<GetManyResult<Product>, Query>(getManyProducts, args, validateQuery);
+      return wrapResolver<GetManyResult<Product[]>, Query>(getManyProducts, args, validateQuery);
     },
     product: (_: any, args: any) => {
       return wrapResolver<GetResult<Product>, Params>(getOneProduct, args, validateParam);
     },
     apps: (_: any, args: any) => {
-      return wrapResolver<GetManyResult<App>, Query>(getManyApps, args, validateQuery);
+      return wrapResolver<GetManyResult<App[]>, Query>(getManyApps, args, validateQuery);
     },
     app: (_: any, args: any) => {
       return wrapResolver<GetResult<App>, Params>(getOneApp, args, validateParam);
