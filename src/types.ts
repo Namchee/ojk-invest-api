@@ -6,3 +6,8 @@ export interface Env {
 export interface DataSource {
   get: (key: string) => Promise<unknown>;
 }
+
+export interface VersionedData<T> {
+  data: T;
+  version: string;
+}
