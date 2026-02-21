@@ -8,19 +8,21 @@ export interface Entity {
 }
 
 export interface EntityAlias {
-  // legacy data
-  app: App;
-  product: Product;
+  // legacy keys
+  apps: App;
+  products: Product;
+  illegals: IllegalInvestment;
 
-  illegal: IllegalInvestment;
+  blocked: IllegalInvestment;
+  lending: object;
 }
 
 export const EntityDataKey: Record<keyof EntityAlias, string> = {
   // legacy data
-  app: 'TEFIN_OLD_APPS',
-  illegal: 'TEFIN_OLD_ILLEGALS',
-  product: 'TEFIN_OLD_PRODUCTS',
+  apps: 'TEFIN_OLD_APPS',
+  illegals: 'TEFIN_OLD_ILLEGALS',
+  products: 'TEFIN_OLD_PRODUCTS',
 
-  // blocked: 'TEFIN_BLOCKED',
-  // lending: 'TEFIN_LENDINGS',
+  blocked: 'TEFIN_BLOCKED',
+  lending: 'TEFIN_LENDINGS',
 };

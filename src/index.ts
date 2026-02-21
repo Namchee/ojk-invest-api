@@ -1,5 +1,6 @@
 import type { Env } from './types';
 
+import { type RootResolver, graphqlServer } from '@hono/graphql-server';
 import { Hono } from 'hono';
 
 import status from './endpoint/status';
@@ -19,6 +20,8 @@ app.onError((e, c) => {
     500,
   );
 });
+
+app.use('/graphql', graphql);
 
 app.get('/api/apps', () => {});
 app.get('/api/illegals', () => {});
