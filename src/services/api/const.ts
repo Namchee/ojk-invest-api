@@ -18,8 +18,8 @@ export interface APIResponse {
   version: string;
 }
 
-export interface GetManyResult<T> extends APIResponse {
-  data: T[];
+export interface GetManyResult<T extends unknown[]> extends APIResponse {
+  data: T;
   count: number;
 }
 
@@ -38,5 +38,4 @@ export enum HTTPCodes {
   METHOD_NOT_ALLOWED = 405,
   // HTTP status code when request has been successfully handled
   SUCCESS = 200,
-};
-
+}

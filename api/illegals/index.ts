@@ -1,9 +1,9 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
-import { ValidationError } from '../../src/exceptions/validation.js';
 
+import { ValidationError } from '../../src/exceptions/validation.js';
 import { HTTPCodes } from '../../src/services/api/const.js';
-import { validateQuery } from '../../src/services/api/utils.js';
 import { getMany } from '../../src/services/api/illegal.js';
+import { validateQuery } from '../../src/services/api/utils.js';
 
 /**
  * Search for ilegal investments from OJK's data
@@ -12,10 +12,7 @@ import { getMany } from '../../src/services/api/illegal.js';
  * @param {VercelResponse} res - response object
  * @return {VercelResponse} - response object, packed with data
  */
-export default function(
-  req: VercelRequest,
-  res: VercelResponse,
-): VercelResponse {
+export default function (req: VercelRequest, res: VercelResponse): VercelResponse {
   if (req.method !== 'GET') {
     return res.status(405).json(undefined);
   }

@@ -1,6 +1,5 @@
-import { GetManyResult, GetResult, Params, Query } from './const.js';
-
 import { Product } from '../../entity/product.js';
+import { GetManyResult, GetResult, Params, Query } from './const.js';
 import { escapeName, importData } from './utils.js';
 
 interface ProductData {
@@ -16,9 +15,7 @@ interface ProductData {
  * @return {Promise<GetManyResult<Product> >} - list of authorized
  * mutual funds that satisfies the provided query
  */
-export function getMany(
-  query: Query,
-): GetManyResult<Product> {
+export function getMany(query: Query): GetManyResult<Product> {
   const { name, limit, offset } = query;
 
   const source = importData<ProductData>('products');

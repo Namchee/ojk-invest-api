@@ -1,11 +1,12 @@
 import type { Browser, Page } from 'puppeteer';
+
 import { benchmark } from '@namchee/decora';
 
-import { Scrapper } from './scrapper.js';
-import { Product } from '../../entity/product.js';
-import { writeResult } from '../writer.js';
-import { TextProcessor } from '../processor.js';
 import { ONE_SECOND } from '../../constant/time.js';
+import { Product } from '../../entity/product.js';
+import { TextProcessor } from '../processor.js';
+import { writeResult } from '../writer.js';
+import { Scrapper } from './scrapper.js';
 
 /**
  * Scrapper script to extract legal mutual funds products
@@ -25,10 +26,7 @@ export class ProductsScrapper extends Scrapper<Product> {
    * @param {Browser} browser - puppeteer browser instance
    */
   public constructor(browser: Browser) {
-    super(
-      browser,
-      'https://reksadana.ojk.go.id/Public/ProdukReksadanaPublic.aspx',
-    );
+    super(browser, 'https://reksadana.ojk.go.id/Public/ProdukReksadanaPublic.aspx');
   }
 
   /**
@@ -41,38 +39,38 @@ export class ProductsScrapper extends Scrapper<Product> {
   protected async scrapPage(page: Page): Promise<Product[]> {
     await page.waitForSelector(ProductsScrapper.rowSelector);
 
-    const rawProducts = await page.$$eval(
-      ProductsScrapper.rowSelector,
-      (rows) => {
-        const dataRows = rows.filter(row => row.childElementCount > 1);
+    const rawProducts = await page.$$eval(ProductsScrapper.rowSelector, rows => {
+      const dataRows = rows.filter(row => row.childElementCount > 1);
 
-        const rowData = dataRows.map((row) => {
-          const children = Array.from(row.children);
+      const rowData = dataRows.map(row => {
+        const children = Array.from(row.children);
 
-          return JSON.stringify({
-            id: children[0].textContent?.trim(),
-            name: children[1].textContent?.trim(),
-            management: children[2].textContent?.trim(),
-            custodian: children[3].textContent?.trim(),
-            type: children[4].textContent?.trim(),
-          });
+        return JSON.stringify({
+          id: children[0].textContent?.trim(),
+          name: children[1].textContent?.trim(),
+          management: children[2].textContent?.trim(),
+          custodian: children[3].textContent?.trim(),
+          type: children[4].textContent?.trim(),
         });
-
-        return rowData;
       });
 
-    return rawProducts.map((rawProduct: string) => {
-      const product = JSON.parse(rawProduct);
+      return rowData;
+    });
 
-      const name = new TextProcessor(product.name);
-      const type = new TextProcessor(product.type);
+    return rawProducts
+      .map((rawProduct: string) => {
+        const product = JSON.parse(rawProduct);
 
-      product.id = Number(product.id);
-      product.name = name.capitalize().trim().getResult();
-      product.type = type.capitalize().trim().getResult();
+        const name = new TextProcessor(product.name);
+        const type = new TextProcessor(product.type);
 
-      return product;
-    }).filter(this.filterTestData);
+        product.id = Number(product.id);
+        product.name = name.capitalize().trim().getResult();
+        product.type = type.capitalize().trim().getResult();
+
+        return product;
+      })
+      .filter(this.filterTestData);
   }
 
   /**
@@ -90,13 +88,13 @@ export class ProductsScrapper extends Scrapper<Product> {
 
     const allSelector = await page.$(ProductsScrapper.allItemSelector);
     await allSelector?.click();
- 
+
     // wait for a period of time, for ASP to response
     await this.delay(ONE_SECOND * 5);
     await page.waitForNetworkIdle();
 
     const products: Product[] = await this.scrapPage(page);
-    
+
     const result = {
       data: products,
       version: new Date(),
@@ -105,8 +103,8 @@ export class ProductsScrapper extends Scrapper<Product> {
     writeResult(result, 'products');
   }
 
-  private filterTestData(product: { name: string; management: string; }): boolean {
-    const testDataPattern = /tes/ig;
+  private filterTestData(product: { name: string; management: string }): boolean {
+    const testDataPattern = /tes/gi;
 
     return !testDataPattern.test(product.name) && !testDataPattern.test(product.management);
   }
