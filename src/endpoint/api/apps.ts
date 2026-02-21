@@ -2,10 +2,10 @@ import type { Context } from 'hono';
 
 import type { Env } from '@/types';
 
-import { withErrorHandling } from '@/lib/decorators';
+import { withErrorHandling } from '@/lib/decorator';
+import { validateQuery } from '@/lib/validator';
 import { getMany } from '@/services/api/app';
 import { HTTPCodes } from '@/services/api/const';
-import { validateQuery } from '@/services/api/utils';
 
 async function _list(c: Context<{ Bindings: Env }>) {
   const query = validateQuery({

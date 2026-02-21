@@ -5,7 +5,7 @@ import { DataSource } from '@/types';
 import { ValidationError } from '../../exceptions/validation.js';
 import { Logger } from '../logger.js';
 
-const DataKeys = {
+const EntityMap = {
   // legacy data
   apps: 'TEFIN_OLD_APPS',
   illegals: 'TEFIN_OLD_ILLEGALS',
@@ -16,75 +16,6 @@ const DataKeys = {
 };
 
 /**
- * Validate user inputs and transform them into Query
- *
- * @param {Record<string, unknown>} query - user input object
- * @return {Query} validated and formatted user input
- */
-export function validateQuery(query: Record<string, unknown>): Query {
-  let limit: number | undefined = Number(query.limit);
-  let offset = Number(query.offset);
-
-  if (query.name && Array.isArray(query.name) && query.name.length > 1) {
-    throw new ValidationError('Nilai `name` hanya boleh ada 1');
-  }
-
-  if (!Number.isNaN(limit) && limit < 1) {
-    throw new ValidationError('Nilai `limit` tidak boleh lebih kecil dari 1');
-  }
-
-  if (!Number.isNaN(offset) && offset < 0) {
-    throw new ValidationError('Nilai `offset` tidak boleh negatif');
-  }
-
-  limit = limit || undefined;
-  offset = offset || 0;
-
-  return {
-    name: (query.name as string[])[0],
-    limit,
-    offset,
-  };
-}
-
-/**
- * Validate param input and transform it into a Params object
- *
- * @param {Record<string, unknown>} param ID param
- * @return {Params} validated and formatted param
- */
-export function validateParam(param: Record<string, unknown>): Params {
-  const { id } = param;
-  const convertedValue = Number(id);
-
-  if (Number.isNaN(convertedValue)) {
-    throw new ValidationError('Parameter `id` harus merupakan sebuah bilangan');
-  }
-
-  if (convertedValue < 1) {
-    throw new ValidationError('Parameter `id` harus merupakan sebuah bilangan positif');
-  }
-
-  if (!Number.isInteger(convertedValue)) {
-    throw new ValidationError('Parameter `id` harus merupakan sebuah bilangan bulat');
-  }
-
-  return {
-    id: convertedValue,
-  };
-}
-
-/**
- * Escape name query to avoid regex pattern failures
- *
- * @param {string} query name query
- * @return {string} escaped name query
- */
-export function escapeName(query: string): string {
-  return query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-}
-
-/**
  * Import fintech data from a data source in form of a valid JSON.
  *
  * @param {string} key Data key
@@ -92,8 +23,8 @@ export function escapeName(query: string): string {
  * @return {T} Requested data in JSON format. Will return `null` if the data
  * is somewhat invalid.
  */
-export async function importData<T>(key: keyof typeof DataKeys, repository: DataSource): Promise<T> {
-  const rawData = (await repository.get(DataKeys[key])) as string;
+export async function importData<T>(key: keyof typeof EntityMap, repository: DataSource): Promise<T> {
+  const rawData = (await repository.get(EntityMap[key])) as string;
   if (!rawData) {
     Logger.getInstance().logError(new Error(`JSON data for '${key}' endpoint does not exist`));
 

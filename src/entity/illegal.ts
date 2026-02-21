@@ -2,11 +2,9 @@ import { Standard, tryFormat } from '@namchee/telepon';
 
 import { EMAIL_PATTERN, URL_PATTERN } from '../constant/regex.js';
 import { TextProcessor } from '../services/processor.js';
+import { Entity } from './base.js';
 
-/* eslint-disable camelcase */
-export interface IllegalInvestment {
-  id: number;
-  name: string;
+export interface IllegalInvestment extends Entity {
   alias: string[];
   address: string[];
   phone: string[];
@@ -82,7 +80,7 @@ function scanDataFromName(name: string): {
 
   const names = name
     .split(/[;/]/)
-    .map(name => name.replace(/[\(\)\\]+/g, '').trim())
+    .map(name => name.replace(/[()\\]+/g, '').trim())
     .filter(Boolean);
 
   if (!names.length && alias.length) {
@@ -93,7 +91,7 @@ function scanDataFromName(name: string): {
     names.push(web.shift() as string);
   }
 
-  const cleanedWeb = web.map(w => w.replace(/[\(\)]+/g, ''));
+  const cleanedWeb = web.map(w => w.replace(/[()]+/g, ''));
 
   return {
     name: names[0]?.trim(),
@@ -122,7 +120,7 @@ function scanDataFromAddress(address: string): {
   const addresses = address
     .split(/\d\./)
     .map(address => {
-      const cleanAddress = address.replace(/[;\.]/, '').trim();
+      const cleanAddress = address.replace(/[;.]/, '').trim();
 
       if (cleanAddress.startsWith('m')) {
         return cleanAddress.slice(1).trim();

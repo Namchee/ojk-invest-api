@@ -18,8 +18,8 @@ export interface APIResponse {
   version: string;
 }
 
-export interface GetManyResult<T> extends APIResponse {
-  data: T[];
+export interface GetManyResult<T extends unknown[]> extends APIResponse {
+  data: T;
   count: number;
 }
 
