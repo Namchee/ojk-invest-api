@@ -1,12 +1,11 @@
 import { Context } from 'hono';
 
+import { HTTPCodes } from '@/constant/http';
 import { EntityAlias } from '@/entity/base';
-import { HTTPCodes } from '@/services/api/const';
+import { withErrorHandling } from '@/lib/decorator';
+import { getMany, getOne } from '@/lib/service';
+import { validateParam, validateQuery } from '@/lib/validator';
 import { Env } from '@/types';
-
-import { withErrorHandling } from './decorator';
-import { getMany, getOne } from './service';
-import { validateParam, validateQuery } from './validator';
 
 const NotFoundMessage: Record<keyof EntityAlias, string> = {
   apps: 'Aplikasi tidak ditemukan',
@@ -24,7 +23,7 @@ const NotFoundMessage: Record<keyof EntityAlias, string> = {
  * @param {string} key Entity key
  * @returns A route handler that fetches entity represented by `key`
  */
-export async function createListRouteHandler(c: Context<{ Bindings: Env }>, key: keyof EntityAlias) {
+export async function handleListRoute(c: Context<{ Bindings: Env }>, key: keyof EntityAlias) {
   return withErrorHandling(c, async (c: Context<{ Bindings: Env }>) => {
     const query = validateQuery({
       name: c.req.queries('name'),
@@ -52,7 +51,7 @@ export async function createListRouteHandler(c: Context<{ Bindings: Env }>, key:
  * @param {string} key Entity key
  * @returns A route handler that fetches entity represented by `key`
  */
-export async function createGetRouteHandler(c: Context<{ Bindings: Env }>, key: keyof EntityAlias) {
+export async function handleGetRoute(c: Context<{ Bindings: Env }>, key: keyof EntityAlias) {
   return withErrorHandling(c, async (c: Context<{ Bindings: Env }>) => {
     const params = validateParam({
       id: c.req.param('id'),

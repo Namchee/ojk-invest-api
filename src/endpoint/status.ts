@@ -1,8 +1,7 @@
-import type { Context } from 'hono';
-
-import type { Env } from '@/types';
+import { Context } from 'hono';
 
 import { importData } from '@/lib/service';
+import { Env } from '@/types';
 
 /**
  * Healthcheck endpoint for TeFin API.
@@ -14,7 +13,7 @@ import { importData } from '@/lib/service';
  * @param {Context} c Hono context
  * @returns {Promise<Response>} Response object
  */
-export default async function (c: Context<{ Bindings: Env }>): Promise<Response> {
+export async function status(c: Context<{ Bindings: Env }>): Promise<Response> {
   const data = await Promise.all([importData('blocked', c.env.TEFIN_DATA), importData('lending', c.env.TEFIN_DATA)]);
 
   if (data.some(d => Object.keys(d).length === 0)) {

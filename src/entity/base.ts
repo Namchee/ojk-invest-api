@@ -1,5 +1,6 @@
 import { App } from './app';
 import { IllegalInvestment } from './illegal';
+import { Lending } from './lending';
 import { Product } from './product';
 
 export interface Entity {
@@ -14,7 +15,7 @@ export interface EntityAlias {
   illegals: IllegalInvestment;
 
   blocked: IllegalInvestment;
-  lending: object;
+  lending: Lending;
 }
 
 export const EntityDataKey: Record<keyof EntityAlias, string> = {

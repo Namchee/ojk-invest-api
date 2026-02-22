@@ -1,7 +1,6 @@
 import { EntityAlias, EntityDataKey } from '@/entity/base';
-import { GetManyResult, GetResult, Query, Params } from '@/services/api/const';
 import { Logger } from '@/services/logger';
-import { DataSource, VersionedData } from '@/types';
+import { GetManyResult, GetResult, Query, Params, DataSource, VersionedData } from '@/types';
 
 /**
  * Import fintech data from a data source in form of a valid JSON.

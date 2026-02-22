@@ -3,14 +3,13 @@ import type { Env } from './types';
 import { graphqlServer } from '@hono/graphql-server';
 import { Hono } from 'hono';
 
-import status from './endpoint/status';
+import { handleGetRoute, handleListRoute } from './endpoint/base';
+import { status } from './endpoint/status';
 import { rootResolver } from './graphql/resolver';
 import { schema } from './graphql/schema';
 import { Logger } from './services/logger';
 
 const app = new Hono<{ Bindings: Env }>();
-
-app.get('/status', status);
 
 app.onError((e, c) => {
   Logger.getInstance().logError(e);
@@ -23,6 +22,16 @@ app.onError((e, c) => {
   );
 });
 
+app.get('/status', status);
+
+app.get('/api/apps', c => handleListRoute(c, 'apps'));
+app.get('/api/illegals', c => handleListRoute(c, 'illegals'));
+app.get('/api/products', c => handleListRoute(c, 'products'));
+
+app.get('/api/apps/:id', c => handleGetRoute(c, 'apps'));
+app.get('/api/products/:id', c => handleGetRoute(c, 'products'));
+app.get('/api/illegals/:id', c => handleGetRoute(c, 'illegals'));
+
 app.use(
   '/graphql',
   graphqlServer({
@@ -31,7 +40,3 @@ app.use(
     graphiql: true,
   }),
 );
-
-app.get('/api/apps', () => {});
-app.get('/api/illegals', () => {});
-app.get('/api/products', () => {});
