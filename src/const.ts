@@ -1,32 +1,3 @@
-/**
- * GET query definition
- */
-export interface Query {
-  name?: string;
-  limit?: number;
-  offset?: number;
-}
-
-/**
- * GET param definition
- */
-export interface Params {
-  id: number;
-}
-
-export interface APIResponse {
-  version: string;
-}
-
-export interface GetManyResult<T extends unknown[]> extends APIResponse {
-  data: T;
-  count: number;
-}
-
-export interface GetResult<T> extends APIResponse {
-  data: T | null;
-}
-
 export enum HTTPCodes {
   // HTTP status code when input is invalid
   INVALID_PARAMS = 400,

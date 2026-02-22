@@ -1,57 +1,41 @@
 import { RootResolver } from '@hono/graphql-server';
-import { App } from '../entity/app.js';
-import { IllegalInvestment } from '../entity/illegal.js';
-import { Product } from '../entity/product.js';
-import { getMany as getManyApps, getOne as getOneApp } from '../services/api/app.js';
-import { GetManyResult, GetResult, Params, Query } from '../services/api/const.js';
-import { getMany as getManyIllegals, getOne as getOneIllegal } from '../services/api/illegal.js';
-import { getMany as getManyProducts, getOne as getOneProduct } from '../services/api/product.js';
 import { Context } from 'hono';
+
+import { getMany, getOne } from '@/lib/service.js';
+import { validateParam, validateQuery } from '@/lib/validator.js';
 import { Env } from '@/types.js';
 
-/**
- * Wrapping function for resolver.
- *
- * @param {Function} service service method
- * @param {Record<string, any>} args service arguments
- * @param {Function} validator validation function
- * @return {Promise<T>} requested data
- */
-function wrapResolver<T, U>(
-  service: (args: U) => T,
-  args: Record<string, any>,
-  validator: (obj: Record<string, unknown>) => U,
-): T {
-  const obj = validator(args);
-
-  return service(obj);
-}
-
-export const rootResolvers: RootResolver = (c: Context<{ Bindings: Env }>) => {
+export const rootResolver: RootResolver = (c: Context<{ Bindings: Env }>) => {
   return {
-    illegalInvestments: ()
-  }
-}
+    illegalInvestments: (args: Record<string, unknown>) => {
+      const query = validateQuery(args);
 
-export const resolvers = {
-  Query: {
-    illegalInvestments: (_: any, args: any) => {
-      return wrapResolver<GetManyResult<IllegalInvestment[]>, Query>(getManyIllegals, args, validateQuery);
+      return getMany('illegals', c.env.TEFIN_DATA, query);
     },
-    illegalInvestment: (_: any, args: any) => {
-      return wrapResolver<GetResult<IllegalInvestment>, Params>(getOneIllegal, args, validateParam);
+    illegalInvestment: (args: Record<string, unknown>) => {
+      const params = validateParam(args);
+
+      return getOne('illegals', c.env.TEFIN_DATA, params);
     },
-    products: (_: any, args: any) => {
-      return wrapResolver<GetManyResult<Product[]>, Query>(getManyProducts, args, validateQuery);
+    products: (args: Record<string, unknown>) => {
+      const query = validateQuery(args);
+
+      return getMany('products', c.env.TEFIN_DATA, query);
     },
-    product: (_: any, args: any) => {
-      return wrapResolver<GetResult<Product>, Params>(getOneProduct, args, validateParam);
+    product: (args: Record<string, unknown>) => {
+      const params = validateParam(args);
+
+      return getOne('products', c.env.TEFIN_DATA, params);
     },
-    apps: (_: any, args: any) => {
-      return wrapResolver<GetManyResult<App[]>, Query>(getManyApps, args, validateQuery);
+    apps: (args: Record<string, unknown>) => {
+      const query = validateQuery(args);
+
+      return getMany('apps', c.env.TEFIN_DATA, query);
     },
-    app: (_: any, args: any) => {
-      return wrapResolver<GetResult<App>, Params>(getOneApp, args, validateParam);
+    app: (args: Record<string, unknown>) => {
+      const params = validateParam(args);
+
+      return getOne('apps', c.env.TEFIN_DATA, params);
     },
-  },
+  };
 };

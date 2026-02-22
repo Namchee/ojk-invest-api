@@ -4,7 +4,7 @@ import { graphqlServer } from '@hono/graphql-server';
 import { Hono } from 'hono';
 
 import status from './endpoint/status';
-import { resolvers } from './graphql/resolver';
+import { rootResolver } from './graphql/resolver';
 import { schema } from './graphql/schema';
 import { Logger } from './services/logger';
 
@@ -26,8 +26,9 @@ app.onError((e, c) => {
 app.use(
   '/graphql',
   graphqlServer({
-    rootResolver: resolvers,
+    rootResolver,
     schema,
+    graphiql: true,
   }),
 );
 
