@@ -36,6 +36,7 @@
 		"hono": "^4.11.7"
 	},
 	"devDependencies": {
+		"@cloudflare/puppeteer": "^1.0.6",
 		"@sentry/types": "^6.2.3",
 		"@types/node": "^22.15.30",
 		"oxfmt": "^0.23.0",

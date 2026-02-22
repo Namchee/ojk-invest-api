@@ -3,11 +3,13 @@ import type { Env } from './types';
 import { graphqlServer } from '@hono/graphql-server';
 import { Hono } from 'hono';
 
+import { HTTPCodes } from './constant/http';
 import { handleGetRoute, handleListRoute } from './endpoint/base';
 import { status } from './endpoint/status';
 import { rootResolver } from './graphql/resolver';
 import { schema } from './graphql/schema';
 import { Logger } from './services/logger';
+import { refreshData } from './services/scrap';
 
 const app = new Hono<{ Bindings: Env }>();
 
@@ -18,7 +20,7 @@ app.onError((e, c) => {
     {
       message: 'Internal server error',
     },
-    500,
+    HTTPCodes.SERVER_ERROR,
   );
 });
 
@@ -40,3 +42,10 @@ app.use(
     graphiql: true,
   }),
 );
+
+export default {
+  fetch: app.fetch,
+  scheduled: async (_: ScheduledController, env: Env, ctx: ExecutionContext) => {
+    ctx.waitUntil(refreshData(env.TEFIN_DATA));
+  },
+};

@@ -5,8 +5,11 @@ import { AppsScrapper } from '@/services/scrapper/app';
 import { IllegalsScrapper } from '@/services/scrapper/illegal';
 import { ProductsScrapper } from '@/services/scrapper/product';
 import { bootstrapOutput } from '@/services/writer';
+import { DataSource } from '@/types';
 
 import { performance } from 'node:perf_hooks';
+
+export async function refreshData(source: DataSource): Promise<void> {}
 
 (async () => {
   bootstrapOutput();
