@@ -11,6 +11,9 @@ importers:
       '@hono/graphql-server':
         specifier: ^0.7.0
         version: 0.7.0(hono@4.11.7)
+      '@huggingface/inference':
+        specifier: ^4.13.13
+        version: 4.13.13
       '@namchee/decora':
         specifier: ^1.0.5
         version: 1.0.5
@@ -433,6 +436,17 @@ packages:
     engines: {node: '>=16.0.0'}
     peerDependencies:
       hono: '>=3.0.0'
+
+  '@huggingface/inference@4.13.13':
+    resolution: {integrity: sha512-kxa3hkQEgD/B2x6QTZQBnu4Wx/Uc7pOAqmLS8T3VkTM4weshJzaeYH/nEDKGuChUKJza0IglytRViSCiT8KLjg==}
+    engines: {node: '>=18'}
+
+  '@huggingface/jinja@0.5.5':
+    resolution: {integrity: sha512-xRlzazC+QZwr6z4ixEqYHo9fgwhTZ3xNSdljlKfUFGZSdlvt166DljRELFUfFytlYOYvo3vTisA/AFOuOAzFQQ==}
+    engines: {node: '>=18'}
+
+  '@huggingface/tasks@0.19.85':
+    resolution: {integrity: sha512-4s5+GV257GRmT7Hrt190KlGsuq53IwFtCBj+J+bvoeIpn119589wY7WY/LS5VJMLwu7pUQnouLmMKeEOKO4BSQ==}
 
   '@img/colour@1.0.0':
     resolution: {integrity: sha512-A5P/LfWGFSl6nsckYtjw9da+19jB8hkJ6ACTGcDfEJ0aE+l2n2El7dsVM7UVHZQ9s2lmYMWlrS21YLy2IR1LUw==}
@@ -1501,6 +1515,15 @@ snapshots:
     dependencies:
       graphql: 16.12.0
       hono: 4.11.7
+
+  '@huggingface/inference@4.13.13':
+    dependencies:
+      '@huggingface/jinja': 0.5.5
+      '@huggingface/tasks': 0.19.85
+
+  '@huggingface/jinja@0.5.5': {}
+
+  '@huggingface/tasks@0.19.85': {}
 
   '@img/colour@1.0.0': {}
 

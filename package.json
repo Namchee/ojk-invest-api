@@ -28,6 +28,7 @@
 	},
 	"dependencies": {
 		"@hono/graphql-server": "^0.7.0",
+		"@huggingface/inference": "^4.13.13",
 		"@namchee/decora": "^1.0.5",
 		"@namchee/telepon": "1.0.5",
 		"@sentry/node": "^6.1.0",
