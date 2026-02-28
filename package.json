@@ -1,57 +1,58 @@
 {
-  "name": "ojk-invest-api",
-  "version": "0.0.1",
-  "description": "Public API for OJK's investment data",
-  "main": "dist/index.js",
-  "type": "module",
-  "scripts": {
-    "scrap": "node dist/index.js",
-    "scrap:dev": "tsx index.ts",
-    "scrap:build": "tsc",
-    "lint": "eslint ./src/**/*.ts ./api/*.ts",
-    "api:dev": "vercel dev -l 3001"
-  },
-  "keywords": [
-    "api",
-    "ojk",
-    "investasi"
-  ],
-  "author": {
-    "name": "Cristopher Namchee",
-    "email": "cristophernamchee12@gmail.com"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "@apollo/server": "^4.7.3",
-    "@as-integrations/next": "^2.0.0",
-    "@namchee/decora": "^1.0.5",
-    "@namchee/telepon": "1.0.5",
-    "@sentry/node": "^6.1.0",
-    "@sentry/tracing": "^6.1.0",
-    "@vercel/node": "^1.13.0",
-    "graphql": "^16.6.0",
-    "graphql-tag": "^2.12.6",
-    "puppeteer": "^22.8.1"
-  },
-  "devDependencies": {
-    "@sentry/types": "^6.2.3",
-    "@types/node": "^22.15.30",
-    "@typescript-eslint/eslint-plugin": "^5.59.9",
-    "@typescript-eslint/parser": "^5.59.9",
-    "eslint": "^7.19.0",
-    "eslint-config-google": "^0.14.0",
-    "tsx": "^4.19.4",
-    "typescript": "^5.8.3",
-    "vercel": "^30.2.1"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "@apollo/protobufjs",
-      "deasync",
-      "esbuild",
-      "puppeteer",
-      "sharp",
-      "vercel"
-    ]
-  }
+	"name": "tefin-api",
+	"version": "0.0.1",
+	"description": "Indonesian fintech API",
+	"keywords": [
+		"api",
+		"financial-technology",
+		"fintech",
+		"ojk"
+	],
+	"license": "MIT",
+	"author": {
+		"name": "Cristopher Namchee",
+		"email": "cristophernamchee12@gmail.com"
+	},
+	"type": "module",
+	"main": "dist/index.js",
+	"scripts": {
+		"dev": "wrangler dev",
+		"scrap": "node dist/index.js",
+		"scrap:dev": "tsx index.ts",
+		"scrap:build": "tsc",
+		"deploy": "wrangler deploy --minify",
+		"cf-typegen": "wrangler types --env-interface CloudflareBindings",
+		"lint": "oxlint ./src/**/*.ts ./api/*.ts",
+		"format": "oxfmt",
+		"format:check": "oxfmt --check"
+	},
+	"dependencies": {
+		"@hono/graphql-server": "^0.7.0",
+		"@huggingface/inference": "^4.13.13",
+		"@namchee/decora": "^1.0.5",
+		"@namchee/telepon": "1.0.5",
+		"@sentry/node": "^6.1.0",
+		"@sentry/tracing": "^6.1.0",
+		"graphql": "^16.12.0",
+		"hono": "^4.11.7",
+		"ollama": "^0.6.3"
+	},
+	"devDependencies": {
+		"@cloudflare/puppeteer": "^1.0.6",
+		"@sentry/types": "^6.2.3",
+		"@types/node": "^22.15.30",
+		"oxfmt": "^0.23.0",
+		"oxlint": "^1.38.0",
+		"puppeteer": "^24.36.1",
+		"tsx": "^4.19.4",
+		"typescript": "^5.8.3",
+		"wrangler": "^4.61.1"
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"esbuild",
+			"puppeteer",
+			"unrs-resolver"
+		]
+	}
 }
