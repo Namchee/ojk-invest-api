@@ -34,7 +34,8 @@
 		"@sentry/node": "^6.1.0",
 		"@sentry/tracing": "^6.1.0",
 		"graphql": "^16.12.0",
-		"hono": "^4.11.7"
+		"hono": "^4.11.7",
+		"ollama": "^0.6.3"
 	},
 	"devDependencies": {
 		"@cloudflare/puppeteer": "^1.0.6",
