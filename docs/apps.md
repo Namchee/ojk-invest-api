@@ -8,28 +8,28 @@ Cari seluruh aplikasi manajemen investasi atau portal transaksi investasi yang t
 
 ### Parameter
 
-**Nama** | **Tipe Data** | **Deskripsi**
----- | ---- | ---------
-`name` | `string` | Pola _string_ yang ingin dicari dari nama aplikasi
-`limit` | `int` | Jumlah data yang diminta
-`offset` | `int` | Indeks pertama dari data yang diminta.
+| **Nama** | **Tipe Data** | **Deskripsi**                                      |
+| -------- | ------------- | -------------------------------------------------- |
+| `name`   | `string`      | Pola _string_ yang ingin dicari dari nama aplikasi |
+| `limit`  | `int`         | Jumlah data yang diminta                           |
+| `offset` | `int`         | Indeks pertama dari data yang diminta.             |
 
 ### Status HTTP
 
-**Status** | **Deskripsi**
------- | ---------
-`200` | Permintaan berhasil diproses
-`400` | Terdapat parameter yang salah atau memiliki nilai yang ilegal
-`500` | Data tidak tersedia
+| **Status** | **Deskripsi**                                                 |
+| ---------- | ------------------------------------------------------------- |
+| `200`      | Permintaan berhasil diproses                                  |
+| `400`      | Terdapat parameter yang salah atau memiliki nilai yang ilegal |
+| `500`      | Data tidak tersedia                                           |
 
 ### Struktur Data
 
-**Nama** | **Tipe Data** | **Deskripsi**
----- | ---- | ---------
-`id` | `number` | Nomor ID aplikasi
-`name` | `string` | Nama aplikasi
-`url` | `string` | Halaman web pihak penyedia aplikasi
-`owner` | `string` | Perusahaan pemilik aplikasi
+| **Nama** | **Tipe Data** | **Deskripsi**                       |
+| -------- | ------------- | ----------------------------------- |
+| `id`     | `number`      | Nomor ID aplikasi                   |
+| `name`   | `string`      | Nama aplikasi                       |
+| `url`    | `string`      | Halaman web pihak penyedia aplikasi |
+| `owner`  | `string`      | Perusahaan pemilik aplikasi         |
 
 ## GET - `api/apps/:id`
 
@@ -37,23 +37,23 @@ Cari sebuah aplikasi manajemen reksa dana legal yang diizinkan oleh OJK yang mem
 
 ### Parameter
 
-**Nama** | **Tipe Data** | **Deskripsi**
----- | --------- | --------
-`id` | `number` | ID dari aplikasi
+| **Nama** | **Tipe Data** | **Deskripsi**    |
+| -------- | ------------- | ---------------- |
+| `id`     | `number`      | ID dari aplikasi |
 
 ### Status HTTP
 
-**Status** | **Deskripsi**
------- | ---------
-`200` | Permintaan berhasil diproses
-`400` | Terdapat parameter yang salah atau memiliki nilai yang ilegal
-`500` | Data tidak tersedia
+| **Status** | **Deskripsi**                                                 |
+| ---------- | ------------------------------------------------------------- |
+| `200`      | Permintaan berhasil diproses                                  |
+| `400`      | Terdapat parameter yang salah atau memiliki nilai yang ilegal |
+| `500`      | Data tidak tersedia                                           |
 
 ### Struktur Data
 
-**Nama** | **Tipe Data** | **Deskripsi**
----- | ---- | ---------
-`id` | `number` | Nomor ID aplikasi
-`name` | `string` | Nama aplikasi
-`url` | `string` | Halaman web pihak penyedia aplikasi
-`owner` | `string` | Perusahaan pemilik aplikasi
+| **Nama** | **Tipe Data** | **Deskripsi**                       |
+| -------- | ------------- | ----------------------------------- |
+| `id`     | `number`      | Nomor ID aplikasi                   |
+| `name`   | `string`      | Nama aplikasi                       |
+| `url`    | `string`      | Halaman web pihak penyedia aplikasi |
+| `owner`  | `string`      | Perusahaan pemilik aplikasi         |
