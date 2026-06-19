@@ -3,6 +3,7 @@
 API publik yang menyediakan data-data mengenai investasi yang dikelola oleh [Otoritas Jasa Keuangan Republik Indonesia](https://www.ojk.go.id/Default.aspx)
 
 > Catatan: Proyek ini **BUKAN** merupakan API resmi dari Otoritas Jasa Keuangan. Proyek ini sama sekali tidak didukung atau disponsori oleh Otoritas Jasa Keuangan.
+
 ## Daftar Isi
 
 1. [_Endpoint_](#endpoint)

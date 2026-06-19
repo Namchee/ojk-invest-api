@@ -4,21 +4,10 @@
  */
 export class TextProcessor {
   // List of words similar to `unknown`
-  private static readonly UNKNOWN_WORDS = [
-    'tidak',
-    'ketahui',
-    'diketahui',
-    'email not found',
-    '-',
-    '\\',
-    '"',
-  ];
+  private static readonly UNKNOWN_WORDS = ['tidak', 'ketahui', 'diketahui', 'email not found', '-', '\\', '"'];
 
   // List of stop words that should be ignore on capitalization
-  private static readonly STOP_WORDS = [
-    'dan',
-    'atau',
-  ];
+  private static readonly STOP_WORDS = ['dan', 'atau'];
 
   /**
    * Constructor for text processor.
@@ -38,7 +27,8 @@ export class TextProcessor {
    * @return {TextProcessor} processor instance
    */
   public capitalize(): TextProcessor {
-    const processed = this.text.split(/\s+/)
+    const processed = this.text
+      .split(/\s+/)
       .map((word: string) => {
         if (TextProcessor.STOP_WORDS.includes(word)) {
           return word;
@@ -60,10 +50,7 @@ export class TextProcessor {
    * @return {TextProcessor} processor instance
    */
   public sanitize(): TextProcessor {
-    const regex = new RegExp(
-      `\\b(${TextProcessor.UNKNOWN_WORDS.join('|')})\\b`,
-      'ig',
-    );
+    const regex = new RegExp(`\\b(${TextProcessor.UNKNOWN_WORDS.join('|')})\\b`, 'ig');
 
     this.text = this.text.replaceAll(regex, '');
 

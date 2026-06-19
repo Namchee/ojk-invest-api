@@ -1,0 +1,25 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "arrowParens": "avoid",
+  "bracketSameLine": true,
+  "experimentalSortImports": {
+    "groups": [
+      ["type"],
+      ["parent-type", "sibling-type", "index-type", "internal-type"],
+      ["built-in"],
+      ["external"],
+      ["internal"],
+      ["parent", "sibling", "index"],
+      ["side-effect"],
+      ["object"],
+      ["unknown"],
+    ],
+    "newlinesBetween": true,
+    "order": "asc",
+    "sortSideEffects": true,
+  },
+  "experimentalSortPackageJson": true,
+  "insertFinalNewline": true,
+  "printWidth": 120,
+  "singleQuote": true,
+}
