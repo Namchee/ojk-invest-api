@@ -10,35 +10,35 @@ Cari seluruh produk investasi yang telah dinyatakan illegal oleh OJK.
 
 ### Parameter
 
-**Nama** | **Tipe Data** | **Deskripsi**
----- | ---- | ---------
-`name` | `string` | Pola _string_ yang ingin dicari dari nama produk investasi
-`limit` | `int` | Jumlah data yang diminta
-`offset` | `int` | Indeks pertama dari data yang diminta.
+| **Nama** | **Tipe Data** | **Deskripsi**                                              |
+| -------- | ------------- | ---------------------------------------------------------- |
+| `name`   | `string`      | Pola _string_ yang ingin dicari dari nama produk investasi |
+| `limit`  | `int`         | Jumlah data yang diminta                                   |
+| `offset` | `int`         | Indeks pertama dari data yang diminta.                     |
 
 ### Status HTTP
 
-**Status** | **Deskripsi**
------- | ---------
-`200` | Permintaan berhasil diproses
-`400` | Terdapat parameter yang salah atau memiliki nilai yang ilegal
-`500` | Data tidak tersedia
+| **Status** | **Deskripsi**                                                 |
+| ---------- | ------------------------------------------------------------- |
+| `200`      | Permintaan berhasil diproses                                  |
+| `400`      | Terdapat parameter yang salah atau memiliki nilai yang ilegal |
+| `500`      | Data tidak tersedia                                           |
 
 ### Struktur Data
 
-**Nama** | **Tipe Data** | **Deskripsi**
----- | ---- | ---------
-`id` | `number` | Nomor ID produk investasi illegal
-`name` | `string` | Nama produk investasi illegal
-`alias` | `string[]` | Nama alternatif dari produk investasi illegal
-`address` | `string[]` | Alamat pihak penyedia produk investasi illegal
-`phone` | `string[]` | Daftar nomor telepon pihak penyedia produk investasi illegal
-`email` | `string[]` | Daftar alamat _email_ pihak penyedia produk investasi illegal
-`web` | `string[]` | Daftar halaman web pihak penyedia produk investasi illegal
-`entity_type` | `string` | Jenis produk investasi
-`activity_type` | `string[]` | Jenis layanan yang ditawarkan oleh produk investasi
-`input_date` | `string` | Tanggal _input_ produk investasi, ditulis dalam format `DD/MM/YYYY`
-`description` | `string` | Surat putusan OJK tentang legalitas dari produk investasi yang bersangkutan
+| **Nama**        | **Tipe Data** | **Deskripsi**                                                               |
+| --------------- | ------------- | --------------------------------------------------------------------------- |
+| `id`            | `number`      | Nomor ID produk investasi illegal                                           |
+| `name`          | `string`      | Nama produk investasi illegal                                               |
+| `alias`         | `string[]`    | Nama alternatif dari produk investasi illegal                               |
+| `address`       | `string[]`    | Alamat pihak penyedia produk investasi illegal                              |
+| `phone`         | `string[]`    | Daftar nomor telepon pihak penyedia produk investasi illegal                |
+| `email`         | `string[]`    | Daftar alamat _email_ pihak penyedia produk investasi illegal               |
+| `web`           | `string[]`    | Daftar halaman web pihak penyedia produk investasi illegal                  |
+| `entity_type`   | `string`      | Jenis produk investasi                                                      |
+| `activity_type` | `string[]`    | Jenis layanan yang ditawarkan oleh produk investasi                         |
+| `input_date`    | `string`      | Tanggal _input_ produk investasi, ditulis dalam format `DD/MM/YYYY`         |
+| `description`   | `string`      | Surat putusan OJK tentang legalitas dari produk investasi yang bersangkutan |
 
 ## GET - `/api/illegals/:id`
 
@@ -46,30 +46,30 @@ Cari sebuah produk investasi yang telah dinyatakan ilegal oleh OJK yang memiliki
 
 ### Parameter
 
-**Nama** | **Tipe Data** | **Deskripsi**
----- | ---- | ---------
-`id` | `number` | ID produk investasi ilegal
+| **Nama** | **Tipe Data** | **Deskripsi**              |
+| -------- | ------------- | -------------------------- |
+| `id`     | `number`      | ID produk investasi ilegal |
 
 ### Status HTTP
 
-**Status** | **Deskripsi**
------- | ---------
-`200` | Permintaan berhasil diproses
-`400` | Terdapat parameter yang salah atau memiliki nilai yang ilegal
-`500` | Data tidak tersedia
+| **Status** | **Deskripsi**                                                 |
+| ---------- | ------------------------------------------------------------- |
+| `200`      | Permintaan berhasil diproses                                  |
+| `400`      | Terdapat parameter yang salah atau memiliki nilai yang ilegal |
+| `500`      | Data tidak tersedia                                           |
 
 ### Struktur Data
 
-**Nama** | **Tipe Data** | **Deskripsi**
----- | ---- | ---------
-`id` | `number` | Nomor ID produk investasi illegal
-`name` | `string` | Nama produk investasi illegal
-`alias` | `string[]` | Nama alternatif dari produk investasi illegal
-`address` | `string[]` | Alamat pihak penyedia produk investasi illegal
-`phone` | `string[]` | Daftar nomor telepon pihak penyedia produk investasi illegal
-`email` | `string[]` | Daftar alamat _email_ pihak penyedia produk investasi illegal
-`web` | `string[]` | Daftar halaman web pihak penyedia produk investasi illegal
-`entity_type` | `string` | Jenis produk investasi
-`activity_type` | `string[]` | Jenis layanan yang ditawarkan oleh produk investasi
-`input_date` | `string` | Tanggal _input_ produk investasi, ditulis dalam format `DD/MM/YYYY`
-`description` | `string` | Surat putusan OJK tentang legalitas dari produk investasi yang bersangkutan
+| **Nama**        | **Tipe Data** | **Deskripsi**                                                               |
+| --------------- | ------------- | --------------------------------------------------------------------------- |
+| `id`            | `number`      | Nomor ID produk investasi illegal                                           |
+| `name`          | `string`      | Nama produk investasi illegal                                               |
+| `alias`         | `string[]`    | Nama alternatif dari produk investasi illegal                               |
+| `address`       | `string[]`    | Alamat pihak penyedia produk investasi illegal                              |
+| `phone`         | `string[]`    | Daftar nomor telepon pihak penyedia produk investasi illegal                |
+| `email`         | `string[]`    | Daftar alamat _email_ pihak penyedia produk investasi illegal               |
+| `web`           | `string[]`    | Daftar halaman web pihak penyedia produk investasi illegal                  |
+| `entity_type`   | `string`      | Jenis produk investasi                                                      |
+| `activity_type` | `string[]`    | Jenis layanan yang ditawarkan oleh produk investasi                         |
+| `input_date`    | `string`      | Tanggal _input_ produk investasi, ditulis dalam format `DD/MM/YYYY`         |
+| `description`   | `string`      | Surat putusan OJK tentang legalitas dari produk investasi yang bersangkutan |
