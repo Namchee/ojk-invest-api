@@ -1,7 +1,7 @@
-import { resolve } from 'path';
-import { existsSync, mkdirSync, writeFileSync } from 'fs';
-
 import { ScrappingResult } from './scrapper/scrapper.js';
+
+import { existsSync, mkdirSync, writeFileSync } from 'fs';
+import { resolve } from 'path';
 
 /**
  * Write scrapper output to a JSON file
@@ -9,10 +9,7 @@ import { ScrappingResult } from './scrapper/scrapper.js';
  * @param {Record<string, any>} result - scrapper's output
  * @param {string} filename - filename
  */
-export function writeResult(
-  result: ScrappingResult<Record<string, any> >,
-  filename: string,
-): void {
+export function writeResult(result: ScrappingResult<Record<string, any>>, filename: string): void {
   const target = resolve(process.cwd(), 'data', `${filename}.json`);
   // preserve immutability to the data
   const copy = JSON.parse(JSON.stringify(result));
@@ -24,11 +21,7 @@ export function writeResult(
     day: '2-digit',
   });
 
-  writeFileSync(
-    target,
-    JSON.stringify(copy, null, 2),
-    { encoding: 'utf-8' },
-  );
+  writeFileSync(target, JSON.stringify(copy, null, 2), { encoding: 'utf-8' });
 }
 
 /**

@@ -10,14 +10,14 @@ Periksa kondisi dari API secara keseluruhan, baik _uptime_ dari API maupun kemuk
 
 ### Status HTTP
 
-**Status** | **Deskripsi**
------- | ---------
-`200` | API dapat memproses permintaan
-`500` | Terdapat data yang tidak tersedia
+| **Status** | **Deskripsi**                     |
+| ---------- | --------------------------------- |
+| `200`      | API dapat memproses permintaan    |
+| `500`      | Terdapat data yang tidak tersedia |
 
 ### Struktur Data
 
-**Nama** | **Tipe Data** | **Deskripsi**
----- | ---- | ---------
-`status` | `string` | Mengembalikan nilai `ok` apabila seluruh data mutakhir dalam waktu yang sama dan mengembalikan nilai `not ok` apabila terdapat minimal 1 data yang lebih lawas dibandingkan data-data lainnya.
-`version` | `string` | Tanggal terakhir pemuktahiran data dalam format `DD/MM/YYYY`
+| **Nama**  | **Tipe Data** | **Deskripsi**                                                                                                                                                                                  |
+| --------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `status`  | `string`      | Mengembalikan nilai `ok` apabila seluruh data mutakhir dalam waktu yang sama dan mengembalikan nilai `not ok` apabila terdapat minimal 1 data yang lebih lawas dibandingkan data-data lainnya. |
+| `version` | `string`      | Tanggal terakhir pemuktahiran data dalam format `DD/MM/YYYY`                                                                                                                                   |

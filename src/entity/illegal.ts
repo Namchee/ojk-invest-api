@@ -1,12 +1,10 @@
 import { Standard, tryFormat } from '@namchee/telepon';
 
-import { TextProcessor } from '../services/processor.js';
 import { EMAIL_PATTERN, URL_PATTERN } from '../constant/regex.js';
+import { TextProcessor } from '../services/processor.js';
+import { Entity } from './base.js';
 
-/* eslint-disable camelcase */
-export interface IllegalInvestment {
-  id: number;
-  name: string;
+export interface IllegalInvestment extends Entity {
   alias: string[];
   address: string[];
   phone: string[];
@@ -24,9 +22,7 @@ export interface IllegalInvestment {
  * @param {Record<string, string>} data raw data
  * @return {IllegalInvestment} investment object
  */
-export function parseInvestmentData(
-  data: Record<string, string>,
-): IllegalInvestment {
+export function parseInvestmentData(data: Record<string, string>): IllegalInvestment {
   const nameProps = scanDataFromName(data.name);
   const addressProps = scanDataFromAddress(data.address);
   const phoneProps = scanDataFromPhone(data.phone);
@@ -37,9 +33,7 @@ export function parseInvestmentData(
 
   const activityType = data.activityType
     .split('/')
-    .map(val =>
-      new TextProcessor(val).sanitize().capitalize().trim().getResult(),
-    );
+    .map(val => new TextProcessor(val).sanitize().capitalize().trim().getResult());
 
   return {
     id: 0, // will be set on the main function instead
@@ -47,13 +41,7 @@ export function parseInvestmentData(
     alias: nameProps.alias,
     address: addressProps.address,
     web: [...new Set([...nameProps.web, ...emailProps.web])],
-    email: [
-      ...new Set([
-        ...addressProps.email,
-        ...phoneProps.email,
-        ...emailProps.email,
-      ]),
-    ],
+    email: [...new Set([...addressProps.email, ...phoneProps.email, ...emailProps.email])],
     phone: [...phoneProps.phone],
     entity_type: entityType.sanitize().capitalize().trim().getResult(),
     activity_type: activityType,
@@ -92,7 +80,7 @@ function scanDataFromName(name: string): {
 
   const names = name
     .split(/[;/]/)
-    .map(name => name.replace(/[\(\)\\]+/g, '').trim())
+    .map(name => name.replace(/[()\\]+/g, '').trim())
     .filter(Boolean);
 
   if (!names.length && alias.length) {
@@ -103,7 +91,7 @@ function scanDataFromName(name: string): {
     names.push(web.shift() as string);
   }
 
-  const cleanedWeb = web.map(w => w.replace(/[\(\)]+/g, ''));
+  const cleanedWeb = web.map(w => w.replace(/[()]+/g, ''));
 
   return {
     name: names[0]?.trim(),
@@ -131,8 +119,8 @@ function scanDataFromAddress(address: string): {
 
   const addresses = address
     .split(/\d\./)
-    .map((address) => {
-      const cleanAddress = address.replace(/[;\.]/, '').trim();
+    .map(address => {
+      const cleanAddress = address.replace(/[;.]/, '').trim();
 
       if (cleanAddress.startsWith('m')) {
         return cleanAddress.slice(1).trim();

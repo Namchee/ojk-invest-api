@@ -2,13 +2,10 @@ import type { Browser, Page } from 'puppeteer';
 
 import { benchmark } from '@namchee/decora';
 
-import { Scrapper } from './scrapper.js';
-import {
-  IllegalInvestment,
-  parseInvestmentData,
-} from '../../entity/illegal.js';
-import { writeResult } from '../writer.js';
 import { ONE_SECOND } from '../../constant/time.js';
+import { type IllegalInvestment, parseInvestmentData } from '../../entity/illegal.js';
+import { writeResult } from '../writer.js';
+import { Scrapper } from './scrapper.js';
 
 /**
  * Scrapper script to extract illegal investments data
@@ -27,15 +24,14 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
   // Most items selector
   private static readonly pageSize = 100;
 
+  private static downloadSelector = '.dt-button.buttons-csv';
+
   /**
    * Constructor for IllegalScrapper
    * @param {Browser} browser Puppeteer browser instance
    */
   public constructor(browser: Browser) {
-    super(
-      browser,
-      'https://emiten.ojk.go.id/Satgas/AlertPortal/IndexAlertPortal',
-    );
+    super(browser, 'https://emiten.ojk.go.id/Satgas/AlertPortal/IndexAlertPortal');
   }
 
   /**
@@ -46,10 +42,12 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
    * investments data
    */
   protected async scrapPage(page: Page): Promise<IllegalInvestment[]> {
-    await page.waitForSelector(IllegalsScrapper.rowSelector);
+    await page.waitForSelector(IllegalsScrapper.downloadSelector);
 
-    const rawData = await page.$$eval(IllegalsScrapper.rowSelector, (rows) => {
-      return rows.map((row) => {
+    const buttons = await page.$$(IllegalsScrapper.downloadSelector);
+
+    const rawData = await page.$$eval(IllegalsScrapper.rowSelector, rows => {
+      return rows.map(row => {
         return JSON.stringify({
           id: 0,
           name: row.childNodes[3].textContent,
@@ -64,9 +62,7 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
       });
     });
 
-    return rawData.map((illegal: string) =>
-      parseInvestmentData(JSON.parse(illegal)),
-    );
+    return rawData.map((illegal: string) => parseInvestmentData(JSON.parse(illegal)));
   }
 
   /**
@@ -99,9 +95,7 @@ export class IllegalsScrapper extends Scrapper<IllegalInvestment> {
       const rawClass = await nextBtn.getProperty('className');
       const classList: string = await rawClass.jsonValue();
 
-      const isDisabled = new RegExp(IllegalsScrapper.disabledSelector).test(
-        classList,
-      );
+      const isDisabled = new RegExp(IllegalsScrapper.disabledSelector).test(classList);
 
       if (isDisabled) {
         break;
