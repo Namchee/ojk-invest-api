@@ -1,6 +1,6 @@
-export interface App {
-  id: number;
-  name: string;
+import { Entity } from './base';
+
+export interface App extends Entity {
   url: string;
   owner: string;
 }

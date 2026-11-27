@@ -4,17 +4,17 @@
 
 Seluruh _endpoint_ yang dapat dipanggil pada API ini memiliki format _data_ berikut:
 
-**Nama** | **Deskripsi**
----- | ---------
-`data` | Data yang dikembalikan. Akan bernilai `null` apabila `error` tidak bernilai `null`
-`error` | Pesan kesalahan yang terjadi. Akan bernilai `null` apabila `data` tidak bernilai `null`.
+| **Nama** | **Deskripsi**                                                                            |
+| -------- | ---------------------------------------------------------------------------------------- |
+| `data`   | Data yang dikembalikan. Akan bernilai `null` apabila `error` tidak bernilai `null`       |
+| `error`  | Pesan kesalahan yang terjadi. Akan bernilai `null` apabila `data` tidak bernilai `null`. |
 
 Nilai `data` akan selalu memiliki dua _key_ (kunci) berikut
 
-**Nama** | **Deskripsi**
----- | ---------
-`<nama_entitas>` | Entitas yang dicari
-`version` | Tanggal pembaruan data. Memiliki format `DD/MM/YYYY`
+| **Nama**         | **Deskripsi**                                        |
+| ---------------- | ---------------------------------------------------- |
+| `<nama_entitas>` | Entitas yang dicari                                  |
+| `version`        | Tanggal pembaruan data. Memiliki format `DD/MM/YYYY` |
 
 Setiap berkas _markdown_ yang ada pada _folder_ ini merupakan sebuah _endpoint_ yang dapat dipanggil melalui `/api/<nama_berkas>`. Dokumentasi untuk masing-masing _endpoint_ dapat dilihat melalui berkas _markdown_ dengan nama yang sama.
 
@@ -26,7 +26,7 @@ Deskripsi singkat dari _endpoint_ tersebut.
 
 ### Parameter
 
-Daftar parameter yang dapat disematkan pada *endpoint*, beserta tipe data dan penjelasan mengenai parameter tersebut.
+Daftar parameter yang dapat disematkan pada _endpoint_, beserta tipe data dan penjelasan mengenai parameter tersebut.
 
 Parameter dapat disematkan dalam bentuk _querystring_ atau disematkan dalam URL apabila _endpoint_ memiliki parameter (contoh: `xxx/:id` mengharuskan `:id` diteruskan melalui URL)
 
@@ -40,6 +40,6 @@ Bentuk objek dari `data` yang dikembalikan, beserta tipe data dan deskripsi untu
 
 ### Versioning
 
-Karena adanya perubahan bentuk sumber data untuk beberapa API, *endpoint-endpoint* yang mengalami perubahan daa akan memiliki parameter tambahan bernama `version`. Secara bawaan, *endpoint* akan menyajikan data versi lama untuk menjamin kompatibilitas dengan konsumen API. 
+Karena adanya perubahan bentuk sumber data untuk beberapa API, _endpoint-endpoint_ yang mengalami perubahan daa akan memiliki parameter tambahan bernama `version`. Secara bawaan, _endpoint_ akan menyajikan data versi lama untuk menjamin kompatibilitas dengan konsumen API.
 
 Data versi lama akan dihapus secara permanen dalam waktu 6 bulan sejak versi data terbaru dirilis.

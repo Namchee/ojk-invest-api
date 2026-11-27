@@ -1,6 +1,6 @@
-export interface Product {
-  id: number;
-  name: string;
+import { Entity } from './base';
+
+export interface Product extends Entity {
   management: string;
   custodian: string;
   type: string;
